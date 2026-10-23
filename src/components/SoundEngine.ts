@@ -25,7 +25,7 @@ export interface TrackInfo {
   src: string;
 }
 
-export const AUDIO_CACHE_VERSION = "20261023_v3";
+export const AUDIO_CACHE_VERSION = "20261023_v4";
 
 export const TRACK_REGISTRY: Record<TrackId, TrackInfo> = {
   "bgm-cover": {
@@ -115,8 +115,8 @@ export const TRACK_REGISTRY: Record<TrackId, TrackInfo> = {
   "bgm-ch10": {
     id: "bgm-ch10",
     title: "Pulang Tanpa Bayangan",
-    theme: "Pelepasan Cinta Sejati & Outro Abadi",
-    artistNote: "Novo Amor - Carry You (Outro)",
+    theme: "Dawai Melankolis & Bisikan Haru",
+    artistNote: "Cigarettes After Sex - Cry",
     src: `/audio/bgm-ch10.mp3?v=${AUDIO_CACHE_VERSION}`,
   },
 };
