@@ -18,7 +18,7 @@ export const BUKET_BUNGA_DAN_TOGA_DATA: NovelData = {
   tagline: "Menempuh ratusan kilometer aspal malam demi lima belas menit senyuman di hari wisuda",
   author: "Bachtiar Aryansyah Putra",
   genre: "Romansa Realis / Perjuangan LDR & Kejutan Wisuda",
-  seriesName: "Pentalogi Semesta Tiket Pulang",
+  seriesName: "Semesta Tiket Pulang",
   seriesPart: "Buku Kedua: Sidoarjo, Jember & Surprise Wisuda",
   status: "Tamat",
   publishDate: "Oktober 2026",

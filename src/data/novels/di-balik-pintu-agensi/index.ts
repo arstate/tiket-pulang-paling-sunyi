@@ -18,7 +18,7 @@ export const DI_BALIK_PINTU_AGENSI_DATA: NovelData = {
   tagline: "Begadang demi revisi klien ke-14, lembur demi tabungan masa depan bersama",
   author: "Bachtiar Aryansyah Putra",
   genre: "Romansa Realis / Realitas Agensi & Kuliah DKV",
-  seriesName: "Pentalogi Semesta Tiket Pulang",
+  seriesName: "Semesta Tiket Pulang",
   seriesPart: "Buku Ketiga: Dunia Agensi & Kuliah DKV",
   status: "Tamat",
   publishDate: "Oktober 2026",

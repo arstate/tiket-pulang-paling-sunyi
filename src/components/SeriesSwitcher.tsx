@@ -7,12 +7,14 @@ interface SeriesSwitcherProps {
   currentSlug: string;
   className?: string;
   compact?: boolean;
+  onSelect?: () => void;
 }
 
 export default function SeriesSwitcher({
   currentSlug,
   className = "",
   compact = false,
+  onSelect,
 }: SeriesSwitcherProps) {
   return (
     <div className={`w-full ${className}`}>
@@ -38,6 +40,8 @@ export default function SeriesSwitcher({
               <Link
                 key={novel.slug}
                 href={`/${novel.slug}/`}
+                scroll={true}
+                onClick={onSelect}
                 className={`p-2.5 rounded-xl border text-center transition-all ${
                   isActive
                     ? "bg-accent text-white border-accent shadow-sm font-semibold"
@@ -58,6 +62,8 @@ export default function SeriesSwitcher({
             <Link
               key={novel.slug}
               href={`/${novel.slug}/`}
+              scroll={true}
+              onClick={onSelect}
               className={`p-3 rounded-xl border transition-all flex flex-col justify-between group ${
                 isActive
                   ? "bg-accent/10 border-accent text-accent shadow-sm ring-1 ring-accent"

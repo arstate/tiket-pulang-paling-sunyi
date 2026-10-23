@@ -18,7 +18,7 @@ export const CINCIN_DAN_JERATAN_42_JUTA_DATA: NovelData = {
   tagline: "Ketika cinta harus bertarung melawan jeratan tagihan vendor dan sebuah janji cincin safir",
   author: "Bachtiar Aryansyah Putra",
   genre: "Romansa Realis / Drama Finansial & Ujian Pranikah",
-  seriesName: "Pentalogi Semesta Tiket Pulang",
+  seriesName: "Semesta Tiket Pulang",
   seriesPart: "Buku Keempat: Semester Akhir & Utang Vendor",
   status: "Tamat",
   publishDate: "Oktober 2026",

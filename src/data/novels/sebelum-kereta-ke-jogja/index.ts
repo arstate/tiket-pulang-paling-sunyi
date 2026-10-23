@@ -18,7 +18,7 @@ export const SEBELUM_KERETA_KE_JOGJA_DATA: NovelData = {
   tagline: "Tentang gerbong kelas ekonomi, tugas studio magang, dan rasa yang tak pernah selesai diucap",
   author: "Bachtiar Aryansyah Putra",
   genre: "Romansa Realis / Awal Magang & Ujian Cinta",
-  seriesName: "Pentalogi Semesta Tiket Pulang",
+  seriesName: "Semesta Tiket Pulang",
   seriesPart: "Buku Kesatu: Awal Magang & Ujian Jogja",
   status: "Tamat",
   publishDate: "Oktober 2026",

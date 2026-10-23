@@ -1,5 +1,5 @@
-// Service Worker PWA Cache-First: Zero Bandwidth Consumption (v5 Full Music & Equal-Power Dissolve)
-const CACHE_NAME = 'novel-reader-bandwidth-v5';
+// Service Worker PWA Cache-First: Zero Bandwidth Consumption (v6 Full 6 Episodes & Instant Route Isolation)
+const CACHE_NAME = 'novel-reader-bandwidth-v6';
 
 const PRECACHE_ASSETS = [
   '/',

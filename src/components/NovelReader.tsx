@@ -73,17 +73,22 @@ export default function NovelReader({ novel, soundscape }: NovelReaderProps) {
       console.warn("Could not load settings:", e);
     }
 
-    // Load Last Read Chapter
+    // Load Last Read Chapter (per novel without inheriting other books)
     try {
-      const savedChapter = localStorage.getItem(`${storagePrefix}_last_chapter`) || localStorage.getItem("tiket_pulang_last_chapter");
+      const savedChapter = localStorage.getItem(`${storagePrefix}_last_chapter`);
       if (savedChapter) {
         const id = parseInt(savedChapter, 10);
         if (id >= 1 && id <= novel.chapters.length) {
           setLastReadChapterId(id);
+        } else {
+          setLastReadChapterId(1);
         }
+      } else {
+        setLastReadChapterId(1);
       }
     } catch (e) {
       console.warn("Could not load last chapter:", e);
+      setLastReadChapterId(1);
     }
 
     // Mark audio prompted in localStorage without modal popup to keep reading flow unobstructed
@@ -105,9 +110,7 @@ export default function NovelReader({ novel, soundscape }: NovelReaderProps) {
           return;
         }
       }
-      if (hash === "" || hash === "#" || hash === "#cover") {
-        setActiveChapterId(0);
-      }
+      setActiveChapterId(0);
     };
 
     applyHash();

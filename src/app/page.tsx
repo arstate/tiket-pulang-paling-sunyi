@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 import Link from "next/link";
 import { getAllNovels, getFeaturedNovel } from "@/data/novelRegistry";
 import { NovelMetadata } from "@/types/novel";
+import SeriesSwitcher from "@/components/SeriesSwitcher";
 
 interface ResumeSession {
   slug: string;
@@ -84,6 +85,9 @@ export default function CatalogHomePage() {
       </header>
 
       <main className="max-w-5xl mx-auto px-4 py-8 sm:py-12">
+        {/* 1.5 Quick Episode Selector */}
+        <SeriesSwitcher currentSlug="" className="mb-8" />
+
         {/* 2. Resume Reading Card (if reader has previous session) */}
         {resumeSession && (
           <div className="mb-8 p-4 sm:p-5 rounded-2xl bg-[var(--bg-surface)] border border-accent/30 shadow-card flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 animate-fadeIn">
@@ -197,8 +201,9 @@ export default function CatalogHomePage() {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
-            {novels.map((novel) => {
+            {novels.map((novel, index) => {
               const isAvailable = novel.status === "Tamat" || novel.status === "Ongoing";
+              const episodeNumber = index + 1;
 
               return (
                 <div
@@ -208,9 +213,14 @@ export default function CatalogHomePage() {
                   <div>
                     {/* Badge & Status */}
                     <div className="flex items-center justify-between gap-2 mb-2.5">
-                      <span className="text-[11px] uppercase tracking-wider font-semibold px-2.5 py-0.5 rounded-full bg-[var(--bg-surface)] text-[var(--text-muted)] border border-[var(--border-subtle)]">
-                        {novel.genre.split("/")[0]}
-                      </span>
+                      <div className="flex items-center gap-1.5">
+                        <span className="text-[11px] font-extrabold uppercase px-2 py-0.5 rounded bg-accent text-white tracking-wider">
+                          Ep {episodeNumber}
+                        </span>
+                        <span className="text-[11px] uppercase tracking-wider font-semibold px-2.5 py-0.5 rounded-full bg-[var(--bg-surface)] text-[var(--text-muted)] border border-[var(--border-subtle)]">
+                          {novel.genre.split("/")[0]}
+                        </span>
+                      </div>
                       <span
                         className={`text-[11px] font-semibold px-2 py-0.5 rounded-full ${
                           novel.status === "Tamat"
@@ -255,7 +265,7 @@ export default function CatalogHomePage() {
                         href={`/${novel.slug}/`}
                         className="w-full inline-flex items-center justify-center gap-2 py-2 rounded-xl bg-[var(--bg-surface)] hover:bg-accent hover:text-white text-[var(--text-primary)] border border-[var(--border-medium)] font-semibold text-xs transition-colors shadow-sm"
                       >
-                        <span>Buka Ruang Baca</span>
+                        <span>Buka Ruang Baca Ep {episodeNumber}</span>
                         <svg className="w-3.5 h-3.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                           <path d="M5 12h14"></path>
                           <path d="m12 5 7 7-7 7"></path>

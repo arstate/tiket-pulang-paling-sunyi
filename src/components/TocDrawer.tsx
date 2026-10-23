@@ -93,7 +93,7 @@ export default function TocDrawer({
         <div className="flex-1 overflow-y-auto p-4 space-y-2.5">
           {/* Episode Switcher in Drawer */}
           <div className="pb-3 border-b border-[var(--border-subtle)]">
-            <SeriesSwitcher currentSlug={novelSlug} compact={true} />
+            <SeriesSwitcher currentSlug={novelSlug} compact={true} onSelect={onClose} />
           </div>
 
           {/* Catalog Link */}
@@ -109,10 +109,10 @@ export default function TocDrawer({
               </div>
               <div>
                 <span className="text-xs uppercase tracking-wider block text-[var(--text-muted)]">Perpustakaan</span>
-                <span className="text-sm font-medium text-[var(--text-primary)] group-hover:text-accent">Katalog Pentalogi Semesta</span>
+                <span className="text-sm font-medium text-[var(--text-primary)] group-hover:text-accent">Katalog Semesta Tiket Pulang</span>
               </div>
             </div>
-            <span className="text-[11px] text-[var(--text-muted)] font-medium">5 Buku</span>
+            <span className="text-[11px] text-[var(--text-muted)] font-medium">6 Buku</span>
           </a>
 
           {/* Cover / Home option */}

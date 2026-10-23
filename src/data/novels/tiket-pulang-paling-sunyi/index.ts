@@ -8,7 +8,7 @@ export const TIKET_PULANG_DATA: NovelData = {
   "tagline": "Diadaptasi dari fragmen mimpi tujuh hari yang tertinggal di ingatan",
   "author": "Bachtiar Aryansyah Putra",
   "genre": "Drama / Emosional / Romansa Realis",
-  "seriesName": "Pentalogi Semesta Tiket Pulang",
+  "seriesName": "Semesta Tiket Pulang",
   "seriesPart": "Buku Kelima: Puncak Tragedi (Master Piece)",
   "status": "Tamat",
   "publishDate": "Oktober 2026",

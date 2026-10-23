@@ -27,7 +27,7 @@ export function generateMetadata({ params }: NovelPageProps): Metadata {
 
   const pageTitle = `${novel.title} — Baca Online Lengkap | Karya ${novel.author}`;
   const pageDesc = novel.synopsis.slice(0, 160);
-  const pageUrl = `https://tiket-pulang-paling-sunyi.vercel.app/${novel.slug}/`;
+  const pageUrl = `https://novel-by-aryansyah.vercel.app/${novel.slug}/`;
 
   return {
     title: pageTitle,
@@ -67,5 +67,5 @@ export default function NovelPage({ params }: NovelPageProps) {
     notFound();
   }
 
-  return <NovelReader novel={novel} />;
+  return <NovelReader key={novel.slug} novel={novel} />;
 }
