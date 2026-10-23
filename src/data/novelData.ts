@@ -741,7 +741,7 @@ export const NOVEL_DATA: NovelData = {
         },
         {
           "type": "dialogue",
-          "html": "\"BEB DANU! BEB DANUUU!\""
+          "html": "\"BEB ARGA! BEB ARGAAA!\""
         },
         {
           "type": "paragraph",
@@ -1137,7 +1137,7 @@ export const NOVEL_DATA: NovelData = {
         },
         {
           "type": "dialogue",
-          "html": "\"Beb! BEB DANU!\" jerit Fira histeris, tubuhnya gemetar hebat laksana daun kering yang diterpa badai topan. Kedua tangannya mencengkeram kerah jaketku dengan kekuatan keputusasaan yang luar biasa. Air matanya membanjiri pipinya, matanya menatap mataku dengan tatapan ketakutan yang meremukkan seluruh jiwaku."
+          "html": "\"Beb! BEB ARGA!\" jerit Fira histeris, tubuhnya gemetar hebat laksana daun kering yang diterpa badai topan. Kedua tangannya mencengkeram kerah jaketku dengan kekuatan keputusasaan yang luar biasa. Air matanya membanjiri pipinya, matanya menatap mataku dengan tatapan ketakutan yang meremukkan seluruh jiwaku."
         },
         {
           "type": "dialogue",
@@ -1393,7 +1393,7 @@ export const NOVEL_DATA: NovelData = {
         },
         {
           "type": "dialogue",
-          "html": "\"Beb... lihat ke belakangmu... LIHAT KE BAWAH SANA, BEB DANU!\" jeritnya dengan sisa tenaga terakhirnya, sebuah jeritan pilu yang membelah kesunyian dasar lembah."
+          "html": "\"Beb... lihat ke belakangmu... LIHAT KE BAWAH SANA, BEB ARGA!\" jeritnya dengan sisa tenaga terakhirnya, sebuah jeritan pilu yang membelah kesunyian dasar lembah."
         },
         {
           "type": "paragraph",
@@ -1585,7 +1585,7 @@ export const NOVEL_DATA: NovelData = {
         },
         {
           "type": "dialogue",
-          "html": "\"LEPASIN! JANGAN BAWA SUAMI SAYA!\" jerit Fira histeris, suaranya tercekat dan menyayat hati, membuat para relawan yang memegang tandunya tertegun menahan air mata. \"MAS DANU MASIH DI SINI TADI! DIA TADI NGOBROL SAMA SAYA! BEB DANUUUU! JANGAN TINGGALIN AKU, BEB!\""
+          "html": "\"LEPASIN! JANGAN BAWA SUAMI SAYA!\" jerit Fira histeris, suaranya tercekat dan menyayat hati, membuat para relawan yang memegang tandunya tertegun menahan air mata. \"MAS ARGA MASIH DI SINI TADI! DIA TADI NGOBROL SAMA SAYA! BEB ARGAAAA! JANGAN TINGGALIN AKU, BEB!\""
         },
         {
           "type": "paragraph",

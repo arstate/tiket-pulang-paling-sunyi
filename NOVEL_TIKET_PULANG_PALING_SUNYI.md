@@ -349,7 +349,7 @@ Bis mulai bergerak maju perlahan, merayap keluar dari lajur peron menuju jalur p
 
 Aku menyandarkan kepalaku ke dinding bis yang bergetar, memejamkan mata dengan dada yang remuk oleh rindu yang belum apa-apa sudah menggerogoti jiwaku.
 
-"BEB DANU! BEB DANUUU!"
+"BEB ARGA! BEB ARGAAA!"
 
 Sebuah teriakan melengking menembus deru mesin diesel dan riuh pikuk terminal. Suara itu begitu akrab, begitu tajam menusuk gendang telingaku hingga mataku langsung terbuka lebar.
 
@@ -539,7 +539,7 @@ Dalam sekejap mata, keheningan malam hancur berkeping-keping. Jeritan histeris p
 
 Bis terlempar ke kanan dan ke kiri saat roda-rodanya menghantam pembatas tikungan. Suara gesekan logam bodi bis dengan tebing batu cadas memercikkan bunga api terang yang menerangi kaca jendela dengan warna merah membara: *SREEEEKKK!*
 
-"Beb! BEB DANU!" jerit Fira histeris, tubuhnya gemetar hebat laksana daun kering yang diterpa badai topan. Kedua tangannya mencengkeram kerah jaketku dengan kekuatan keputusasaan yang luar biasa. Air matanya membanjiri pipinya, matanya menatap mataku dengan tatapan ketakutan yang meremukkan seluruh jiwaku.
+"Beb! BEB ARGA!" jerit Fira histeris, tubuhnya gemetar hebat laksana daun kering yang diterpa badai topan. Kedua tangannya mencengkeram kerah jaketku dengan kekuatan keputusasaan yang luar biasa. Air matanya membanjiri pipinya, matanya menatap mataku dengan tatapan ketakutan yang meremukkan seluruh jiwaku.
 
 "Beb! Peluk aku, Beb! Peluk erat-erat!" teriakku sekuat tenaga di tengah raungan mesin yang meraung gila.
 
@@ -659,7 +659,7 @@ Aku mengerutkan dahi, bingung menatapnya. "Maksudmu apa, Beb? Aku kan nemenin ka
 
 Bibirnya bergetar begitu hebat hingga giginya bergemeletuk saling beradu:
 
-"Beb... lihat ke belakangmu... LIHAT KE BAWAH SANA, BEB DANU!" jeritnya dengan sisa tenaga terakhirnya, sebuah jeritan pilu yang membelah kesunyian dasar lembah.
+"Beb... lihat ke belakangmu... LIHAT KE BAWAH SANA, BEB ARGA!" jeritnya dengan sisa tenaga terakhirnya, sebuah jeritan pilu yang membelah kesunyian dasar lembah.
 
 Rasa dingin yang ganjil tiba-tiba merayap naik dari ujung tumitku menuju ke ubun-ubun kepala.
 
@@ -751,7 +751,7 @@ Mendengar kata-kata petugas itu dan melihat sebuah kantung kain terpal hitam dib
 
 Dengan sisa-sisa tenaga terakhirnya, tubuhnya yang penuh luka memelintir, mencoba melepaskan diri dari ikatan sabuk pengaman tandu medis. Air matanya memancar deras membasahi masker oksigennya hingga berembun pekat.
 
-"LEPASIN! JANGAN BAWA SUAMI SAYA!" jerit Fira histeris, suaranya tercekat dan menyayat hati, membuat para relawan yang memegang tandunya tertegun menahan air mata. "MAS DANU MASIH DI SINI TADI! DIA TADI NGOBROL SAMA SAYA! BEB DANUUUU! JANGAN TINGGALIN AKU, BEB!"
+"LEPASIN! JANGAN BAWA SUAMI SAYA!" jerit Fira histeris, suaranya tercekat dan menyayat hati, membuat para relawan yang memegang tandunya tertegun menahan air mata. "MAS ARGA MASIH DI SINI TADI! DIA TADI NGOBROL SAMA SAYA! BEB ARGAAAA! JANGAN TINGGALIN AKU, BEB!"
 
 Tangannya yang berdarah menggapai-gapai liar ke arah jasad fisikku yang mulai ditutup ritsleting terpal hitam. Tangisan dan raungannya begitu pilu, begitu sarat akan kehancuran jiwa yang tak tertahankan, hingga beberapa warga desa yang ikut membantu evakuasi tertunduk meneteskan air mata di bawah guyuran gerimis.
 
