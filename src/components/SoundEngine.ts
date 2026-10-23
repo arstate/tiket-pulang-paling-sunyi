@@ -36,8 +36,8 @@ export const TRACK_REGISTRY: Record<TrackId, TrackInfo> = {
   "bgm-ch1a": {
     id: "bgm-ch1a",
     title: "Aroma Dapur & Bawang",
-    theme: "Vokal Hangat & Akustik Rumah",
-    artistNote: "Hindia - Rumah Ke Rumah",
+    theme: "Vokal Hangat & Petikan Akustik Rumah",
+    artistNote: "Dere - Berisik (@TigaDuaSatu)",
     src: "/audio/bgm-ch1a.mp3",
   },
   "bgm-ch1b": {
@@ -106,8 +106,8 @@ export const TRACK_REGISTRY: Record<TrackId, TrackInfo> = {
   "bgm-ch9": {
     id: "bgm-ch9",
     title: "Di Ambang Bawah Sadar",
-    theme: "Arwah Pulang ke Pelukan Fira",
-    artistNote: "Hindia - Secukupnya",
+    theme: "Bisikan Batin & Falsetto Sunyi",
+    artistNote: "Novo Amor - Utican",
     src: "/audio/bgm-ch9.mp3",
   },
   "bgm-ch10": {

@@ -418,13 +418,13 @@ export default function Home() {
       />
 
       {/* Footer */}
-      <footer className={`mt-auto border-t border-[var(--border-subtle)] py-8 px-4 text-center text-xs text-[var(--text-muted)] bg-[var(--bg-card)]/50 ${activeChapterId > 0 ? "mb-14 sm:mb-0" : ""}`}>
-        <div className="max-w-4xl mx-auto space-y-2">
-          <p className="font-medium text-[var(--text-secondary)]">
-            Tiket Pulang Paling Sunyi © 2026 Bachtiar Aryansyah Putra. Seluruh hak cipta dilindungi.
+      <footer className={`mt-auto border-t border-[var(--border-subtle)] py-10 px-4 text-center text-xs text-[var(--text-muted)] bg-[var(--bg-card)]/40 ${activeChapterId > 0 ? "mb-14 sm:mb-0" : ""}`}>
+        <div className="max-w-xl mx-auto space-y-2.5 font-serif">
+          <p className="italic text-sm text-[var(--text-secondary)] leading-relaxed">
+            &ldquo;Perjalanan mencari nafkah telah usai. Namun di atas segalanya, janji suci seorang suami telah tertunaikan.&rdquo;
           </p>
-          <p>
-            Dibuat dengan Next.js App Router & Tailwind CSS • Tema Krem Hangat & Tipografi Book Serif
+          <p className="font-ui text-[11px] text-[var(--text-muted)] tracking-wider uppercase">
+            Tiket Pulang Paling Sunyi &bull; 2026 &bull; Seluruh Hak Cipta Dilindungi
           </p>
         </div>
       </footer>
