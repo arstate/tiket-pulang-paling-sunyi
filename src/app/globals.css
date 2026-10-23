@@ -1,0 +1,175 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Font Families */
+  --font-sans: "Plus Jakarta Sans", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-merriweather: "Merriweather", "Charter", "Bitstream Charter", Cambria, Georgia, serif;
+  --font-lora: "Lora", "Garamond", "Times New Roman", serif;
+
+  /* Default: Krem Hangat (Warm Paper Aesthetic) */
+  --bg-primary: #FAF6EE;
+  --bg-surface: #F3ECE0;
+  --bg-card: #FFFDF9;
+  --bg-hover: #ECE2D2;
+  --bg-overlay: rgba(44, 38, 33, 0.45);
+  --border-subtle: #E8DDCF;
+  --border-medium: #D8C9B4;
+  --text-primary: #2C2621;
+  --text-secondary: #63584E;
+  --text-muted: #8F8376;
+  --accent: #9A5828;
+  --accent-hover: #7F451B;
+  --accent-light: #F0E3D3;
+  --accent-contrast: #FFFFFF;
+  --highlight: #F7E5C3;
+  --shadow-sm: 0 1px 3px rgba(44, 38, 33, 0.05);
+  --shadow-md: 0 4px 14px rgba(44, 38, 33, 0.08);
+  --shadow-lg: 0 12px 32px rgba(44, 38, 33, 0.12);
+}
+
+[data-theme="sepia"] {
+  --bg-primary: #F3EBD8;
+  --bg-surface: #E9E0C9;
+  --bg-card: #FAF4E5;
+  --bg-hover: #DFD4B9;
+  --bg-overlay: rgba(56, 45, 34, 0.5);
+  --border-subtle: #DBCBB0;
+  --border-medium: #C7B596;
+  --text-primary: #382D22;
+  --text-secondary: #6A5844;
+  --text-muted: #8E7A63;
+  --accent: #8E4C19;
+  --accent-hover: #733B10;
+  --accent-light: #E7D4BC;
+  --accent-contrast: #FFFFFF;
+  --highlight: #EED7B0;
+  --shadow-sm: 0 1px 3px rgba(56, 45, 34, 0.06);
+  --shadow-md: 0 4px 14px rgba(56, 45, 34, 0.1);
+  --shadow-lg: 0 12px 32px rgba(56, 45, 34, 0.15);
+}
+
+[data-theme="twilight"] {
+  --bg-primary: #1C2128;
+  --bg-surface: #242B35;
+  --bg-card: #2B333F;
+  --bg-hover: #343E4C;
+  --bg-overlay: rgba(10, 14, 18, 0.7);
+  --border-subtle: #333C4A;
+  --border-medium: #445062;
+  --text-primary: #E6EDF3;
+  --text-secondary: #9DA7B3;
+  --text-muted: #6E7681;
+  --accent: #E08938;
+  --accent-hover: #F09848;
+  --accent-light: #3A2F22;
+  --accent-contrast: #1C2128;
+  --highlight: #463622;
+  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.2);
+  --shadow-md: 0 4px 14px rgba(0, 0, 0, 0.3);
+  --shadow-lg: 0 12px 32px rgba(0, 0, 0, 0.4);
+}
+
+[data-theme="dark"] {
+  --bg-primary: #121314;
+  --bg-surface: #1A1C1E;
+  --bg-card: #222528;
+  --bg-hover: #2B2F33;
+  --bg-overlay: rgba(0, 0, 0, 0.8);
+  --border-subtle: #272A2E;
+  --border-medium: #3A3F45;
+  --text-primary: #D8D2C8;
+  --text-secondary: #979085;
+  --text-muted: #666158;
+  --accent: #D2803D;
+  --accent-hover: #E89552;
+  --accent-light: #2C2117;
+  --accent-contrast: #121314;
+  --highlight: #3D2D1B;
+  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.3);
+  --shadow-md: 0 4px 14px rgba(0, 0, 0, 0.45);
+  --shadow-lg: 0 12px 32px rgba(0, 0, 0, 0.6);
+}
+
+[data-theme="white"] {
+  --bg-primary: #FFFFFF;
+  --bg-surface: #F8FAFC;
+  --bg-card: #FFFFFF;
+  --bg-hover: #F1F5F9;
+  --bg-overlay: rgba(15, 23, 42, 0.45);
+  --border-subtle: #E2E8F0;
+  --border-medium: #CBD5E1;
+  --text-primary: #0F172A;
+  --text-secondary: #475569;
+  --text-muted: #94A3B8;
+  --accent: #0284C7;
+  --accent-hover: #0369A1;
+  --accent-light: #E0F2FE;
+  --accent-contrast: #FFFFFF;
+  --highlight: #BAE6FD;
+  --shadow-sm: 0 1px 3px rgba(15, 23, 42, 0.05);
+  --shadow-md: 0 4px 14px rgba(15, 23, 42, 0.07);
+  --shadow-lg: 0 12px 32px rgba(15, 23, 42, 0.1);
+}
+
+body {
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  transition: background-color 0.25s ease, color 0.25s ease;
+  min-height: 100vh;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--bg-surface);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--border-medium);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--accent);
+}
+
+/* Reading Prose Typography */
+.novel-reading-body p {
+  margin-bottom: 1.45rem;
+  text-indent: 0;
+  hyphens: auto;
+  -webkit-hyphens: auto;
+}
+
+.novel-reading-body p.dialogue-para {
+  text-indent: 0;
+  position: relative;
+}
+
+.drop-cap::first-letter {
+  float: left;
+  font-size: 3.4em;
+  line-height: 0.8;
+  font-weight: 700;
+  padding-right: 0.15em;
+  padding-top: 0.05em;
+  color: var(--accent);
+  font-family: var(--font-merriweather);
+}
+
+.novel-reading-body .scene-break {
+  text-align: center;
+  margin: 2.5rem 0;
+  color: var(--accent);
+  letter-spacing: 0.5rem;
+  font-size: 1.15rem;
+  user-select: none;
+}
