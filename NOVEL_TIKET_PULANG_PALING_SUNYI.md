@@ -1,6 +1,7 @@
 # TIKET PULANG PALING SUNYI
 
 ### Sebuah Novel Karya Bachtiar Aryansyah Putra
+**Pentalogi Semesta Tiket Pulang — Buku Kelima: Puncak Tragedi (Master Piece)**
 *Diadaptasi dari fragmen mimpi tujuh hari yang tertinggal di ingatan*
 
 ---
@@ -771,17 +772,59 @@ Pintu belakang ambulans dibanting menutup: *BUM!*
 
 Suara sirine meraung panjang, membelah keheningan malam perbukitan yang dingin, meluncur kencang membawa separuh jiwaku kembali ke peradaban manusia untuk melanjutkan hidupnya yang berharga.
 
+Di dalam ruang kabin ambulans yang sempit dan berbau tajam alkohol medis, suasana berubah menjadi medan pertempuran antara hidup dan mati. Dua orang perawat gawat darurat bergerak sigap di sisi brankar Fira, memasang selang infus ringer laktat dan menempelkan bantalan elektroda EKG ke dadanya yang dipenuhi memar.
+
+Di atas selimut perak darurat yang membungkus tubuh Fira, tersampir jaket denim biru pudar milikku—jaket yang diselamatkan tim SAR dari bawah tumpukan pilar besi sebelum jasad fisikku dievakuasi. Jaket itu masih lembap oleh air hujan pegunungan, bernoda jelaga aspal, dan menguarkan aroma sisa parfum kopi murah yang selalu kuingat.
+
+Jemari Fira yang gemetar hebat, dengan kuku-kuku yang berdarah dan patah, meraba permukaan kasar kain denim itu. Dengan sisa-sisa kesadarannya yang rapuh di balik sungkup masker oksigen, ia menyusupkan tangannya ke saku dada sebelah kiri.
+
+Jemarinya menyentuh selembar kertas tipis yang terlipat empat. Ketika ia menariknya keluar perlahan, air matanya tumpah menderas. Itu adalah tiket kereta api malam Banyuwangi-Surabaya—tiket perjalanan pulang kami yang basah kuyup, robek di bagian kode batang, dan lusuh oleh air resapan lembah. Saksi bisu kepulanganku yang tak pernah sampai ke stasiun tujuan.
+
+Belum reda guncangan di dadanya, jemari Fira meraba saku kecil di dekat jahitan kelim. Ada sebuah benda pipih berukuran kecil berbahan plastik merah: kartu memori SD card dari event akbar di Jatim Expo. Di permukaannya yang lecet tertempel lakban kertas dengan coretan spidol putih permanen bertuliskan tanganku: *BACKUP MASTER EVENT JATIM EXPO (FINAL)*. Benda keramat yang telah kupertaruhkan dengan nyawa dan keringat siang-malam agar kami berdua terbebas dari jeratan utang empat puluh dua juta vendor.
+
+Dan di bagian saku paling dalam jaket denim itu—saku rahasia di balik dada kiri yang selama ini menempel persis di atas denyut jantungku—ujung jari Fira membentur sebuah kotak bersegi kokoh berbalut kain beludru hitam pekat.
+
+Napas Fira tercekat hebat. Dengan tangan yang menggigil tak terkendali, ia mengangkat kotak kecil itu setinggi dada. Jempolnya membuka pengait kuningan kecil di sisi kotak.
+
+*KLIK.*
+
+Di bawah kilatan lampu rotator darurat ambulans yang berputar merah darah, sebuah cincin perak berpendar syahdu memantulkan kilau batu safir biru laut di tengahnya. Dan di lingkar terdalam cincin itu, terukir sebaris gravir halus buatan tangan pengrajin perak yang selama ini kusembunyikan rapat-rapat demi hari kelulusannya:
+
+*"Tunggu wisudaku, Fira."*
+
+Runtuh sudah seluruh pertahanan jiwa perempuan itu. Tangisan histeris yang teramat pedih meledak dari balik sungkup oksigennya, tersengal-sengal menembus raungan mesin diesel mobil ambulans: *"Beb... kamu selalu nepati janjimu... kamu simpan ini buat aku, Beb...? Kenapa kamu tinggalin aku sendiri?! BEB ARGAAAA!"*
+
+Fira mendekap kotak beludru hitam, kartu memori merah, dan sobekan tiket basah itu erat-erat ke dadanya, seolah-olah ingin menarik kembali nyawaku ke dalam raganya melalui benda-benda peninggalan tersebut.
+
+Namun di detik berikutnya, ritme suara monitor elektrokardiogram di samping kepalanya yang semula berbunyi bip beraturan tiba-tiba tersendat liar. Gelombang detak jantung di layar monitor berkedut tak beraturan, melonjak tajam, lalu mendadak ambruk menjadi satu tarikan garis lurus mendatar yang membekukan darah:
+
+*"TIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIT————!"*
+
+Alarm henti jantung melolong memekakkan seisi kabin ambulans.
+
+*"DOKTER! PASIEN ASISTOL! VENTRICULAR FIBRILLATION KE FLATLINE! NADI KAROTIS HILANG!"* jerit perawat wanita seraya melompat naik ke sisi brankar dan memulai kompresi dada secara membabi buta.
+
+*"SIAPKAN DEFIBRILLATOR SEKARANG!"* teriak sang dokter dengan urat leher menegang panik seraya meraih dua pedal kejut jantung. *"CHARGE DUA RATUS JOULE! SEMUA MENJAUH DARI BRANKAR... STAND CLEAR... SHOCK!"*
+
+*DUBBB!* Tubuh Fira tersentak melenting ke atas akibat sengatan arus listrik berkekuatan tinggi, lalu terbanting lemas kembali ke atas kasur busa brankar.
+
+*"IRAMA BELUM KEMBALI! MASIH FLATLINE! CHARGE TIGA RATUS JOULE! SUNTIKKAN SATU AMPUL EPINEFRIN, SEKARANG! CEPAT, JANGAN SAMPAI KITA KEHILANGAN DIA!"*
+
+Di tengah jeritan instruksi medis darurat, dentuman kompresi jantung beruntun, dan raungan sirine yang melesat kencang membelah kabut malam pegunungan, pandangan mata Fira perlahan meredup. Suara hiruk-pikuk di dalam kabin ambulans melarut menjadi sunyi yang hampa, sebelum akhirnya seluruh dunia menggelap gulita menjadi satu titik hitam tanpa dasar.
+
+---
+
 Aku berdiri mematung di tepi aspal jalan raya yang basah, di samping pagar pembatas besi yang telah patah tergilas roda takdir.
 
 Rintik-rintik hujan terakhir menetes lembut di atas kepalaku, menembus tubuh spiritualku tanpa membasahi sehelai benang pun. Di kejauhan, lampu merah ambulans itu perlahan-lahan mengecil, berkedip samar di antara gulungan kabut pegunungan, sebelum akhirnya hilang sepenuhnya di balik kelokan bukit.
 
 Perjalananku mencari nafkah telah usai. Agensiku, utang-utangku, dan segala ambisi duniawiku telah lunas tertinggal di dasar jurang yang kelam.
 
-Namun di atas segalanya, aku tahu aku telah menunaikan sumpah suciku sebagai seorang suami. Aku telah menjaganya sampai helaan napas terakhirku. Dan di suatu tempat di masa depan, ketika saatnya telah tiba bagi Fira untuk melintasi jembatan takdir ini, aku akan tetap berdiri di sini—menunggunya dengan cinta yang sama, cinta yang tak akan pernah mampu dibinasakan oleh maut.
+Namun di atas segalanya, aku tahu aku telah menunaikan sumpah suciku sebagai seorang suami. Aku telah menjaganya sampai helaan napas terakhirku. Dan di suatu tempat di masa depan, ketika saatnya telah tiba bagi Fira untuk melintasi jembatan takdir ini—atau entah apakah malam ini detak jantungnya yang terhenti akan segera menyusulku ke alam keabadian—aku akan tetap berdiri di sini. Menunggunya dengan cinta yang sama, cinta yang tak akan pernah mampu dibinasakan oleh maut.
 
 Angin malam berhembus lembut menyapu lereng bukit, membawa serta keabadian sebutir nama yang berbisik sunyi di dalam rintik gerimis:
 
-*Selamat jalan, Beb. Hiduplah dengan bahagia.*
+*Selamat jalan, Beb. Bertahanlah... hiduplah... atau bila takdir memanggilmu menyusulku malam ini, jemari ini masih setia menunggumu di gerbang kepulangan paling sunyi.*
 
 ---
-**TAMAT**
+**[BERSAMBUNG KE PENTALOGI SEMESTA TIKET PULANG]**
