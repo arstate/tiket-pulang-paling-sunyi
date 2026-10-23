@@ -25,97 +25,99 @@ export interface TrackInfo {
   src: string;
 }
 
+export const AUDIO_CACHE_VERSION = "20261023_v3";
+
 export const TRACK_REGISTRY: Record<TrackId, TrackInfo> = {
   "bgm-cover": {
     id: "bgm-cover",
     title: "Nostalgia Senja Sidoarjo",
     theme: "Petikan Gitar & Vokal Akustik Hangat",
     artistNote: "Dere - Kota",
-    src: "/audio/bgm-cover.mp3",
+    src: `/audio/bgm-cover.mp3?v=${AUDIO_CACHE_VERSION}`,
   },
   "bgm-ch1a": {
     id: "bgm-ch1a",
     title: "Aroma Dapur & Bawang",
     theme: "Vokal Hangat & Petikan Akustik Rumah",
     artistNote: "Dere - Berisik (@TigaDuaSatu)",
-    src: "/audio/bgm-ch1a.mp3",
+    src: `/audio/bgm-ch1a.mp3?v=${AUDIO_CACHE_VERSION}`,
   },
   "bgm-ch1b": {
     id: "bgm-ch1b",
     title: "Piring Retak & Utang 42 Jt",
     theme: "Piano Lambat & Vokal Melankolis",
     artistNote: "Novo Amor - Carry You",
-    src: "/audio/bgm-ch1b.mp3",
+    src: `/audio/bgm-ch1b.mp3?v=${AUDIO_CACHE_VERSION}`,
   },
   "bgm-ch2a": {
     id: "bgm-ch2a",
     title: "Malam Dingin di Laptop",
     theme: "Ambient Piano & Whisper Vocals",
     artistNote: "Novo Amor - State Lines",
-    src: "/audio/bgm-ch2a.mp3",
+    src: `/audio/bgm-ch2a.mp3?v=${AUDIO_CACHE_VERSION}`,
   },
   "bgm-ch2b": {
     id: "bgm-ch2b",
     title: "Pelukan di Lantai Ubin",
     theme: "Senar Haru & Vokal Pasrah",
     artistNote: "WE ARE CHPTRS - Let the New Begin",
-    src: "/audio/bgm-ch2b.mp3",
+    src: `/audio/bgm-ch2b.mp3?v=${AUDIO_CACHE_VERSION}`,
   },
   "bgm-ch3": {
     id: "bgm-ch3",
     title: "Dua Tangan Menolak Lepas",
     theme: "Cello Lirih, Senar & Vokal Setia",
     artistNote: "WE ARE CHPTRS - All of Our Tomorrows",
-    src: "/audio/bgm-ch3.mp3",
+    src: `/audio/bgm-ch3.mp3?v=${AUDIO_CACHE_VERSION}`,
   },
   "bgm-ch4": {
     id: "bgm-ch4",
     title: "Fajar Harapan Banyuwangi",
     theme: "Dawai Akustik & Vokal Harapan Baru",
     artistNote: "Novo Amor - Anchor",
-    src: "/audio/bgm-ch4.mp3",
+    src: `/audio/bgm-ch4.mp3?v=${AUDIO_CACHE_VERSION}`,
   },
   "bgm-ch5": {
     id: "bgm-ch5",
     title: "Lari Menembus Peluit Kondektur",
     theme: "Indie Folk Ritmik & Vokal Stasiun",
     artistNote: "Seafret - Atlantis",
-    src: "/audio/bgm-ch5.mp3",
+    src: `/audio/bgm-ch5.mp3?v=${AUDIO_CACHE_VERSION}`,
   },
   "bgm-ch6": {
     id: "bgm-ch6",
     title: "Secangkir Teh di Jember",
     theme: "Fingerstyle Lembut & Vokal Nostalgia",
     artistNote: "Novo Amor - Opaline",
-    src: "/audio/bgm-ch6.mp3",
+    src: `/audio/bgm-ch6.mp3?v=${AUDIO_CACHE_VERSION}`,
   },
   "bgm-ch7": {
     id: "bgm-ch7",
     title: "Derit Besi di Jalur Turunan",
     theme: "Strings Dramatis & Klimaks Vokal Tragedi",
     artistNote: "Seafret - Atlantis (Climax)",
-    src: "/audio/bgm-ch7.mp3",
+    src: `/audio/bgm-ch7.mp3?v=${AUDIO_CACHE_VERSION}`,
   },
   "bgm-ch8": {
     id: "bgm-ch8",
     title: "Hening di Dasar Lembah",
     theme: "Kesunyian Jiwa & Solo Piano Falsetto",
     artistNote: "Novo Amor - Repeat Until Death",
-    src: "/audio/bgm-ch8.mp3",
+    src: `/audio/bgm-ch8.mp3?v=${AUDIO_CACHE_VERSION}`,
   },
   "bgm-ch9": {
     id: "bgm-ch9",
     title: "Di Ambang Bawah Sadar",
     theme: "Bisikan Batin & Falsetto Sunyi",
     artistNote: "Novo Amor - Utican",
-    src: "/audio/bgm-ch9.mp3",
+    src: `/audio/bgm-ch9.mp3?v=${AUDIO_CACHE_VERSION}`,
   },
   "bgm-ch10": {
     id: "bgm-ch10",
     title: "Pulang Tanpa Bayangan",
     theme: "Pelepasan Cinta Sejati & Outro Abadi",
     artistNote: "Novo Amor - Carry You (Outro)",
-    src: "/audio/bgm-ch10.mp3",
+    src: `/audio/bgm-ch10.mp3?v=${AUDIO_CACHE_VERSION}`,
   },
 };
 

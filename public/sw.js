@@ -1,5 +1,5 @@
-// Service Worker PWA Cache-First: Zero Bandwidth Consumption
-const CACHE_NAME = 'novel-reader-bandwidth-v2';
+// Service Worker PWA Cache-First: Zero Bandwidth Consumption (v3 Audio Update)
+const CACHE_NAME = 'novel-reader-bandwidth-v3';
 
 const PRECACHE_ASSETS = [
   '/',
