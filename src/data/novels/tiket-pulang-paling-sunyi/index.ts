@@ -1737,6 +1737,14 @@ export const TIKET_PULANG_DATA: NovelData = {
         {
           "type": "paragraph",
           "html": "<em>Selamat jalan, Beb. Bertahanlah... hiduplah... atau bila takdir memanggilmu menyusulku malam ini, jemari ini masih setia menunggumu di gerbang kepulangan paling sunyi.</em>"
+        },
+        {
+          "type": "divider",
+          "content": "✦ ✦ ✦"
+        },
+        {
+          "type": "paragraph",
+          "html": "<strong>[BERSAMBUNG KE PENTALOGI SEMESTA TIKET PULANG]</strong>"
         }
       ]
     }

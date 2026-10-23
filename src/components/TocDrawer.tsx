@@ -43,6 +43,8 @@ export default function TocDrawer({
     };
   }, [isOpen]);
 
+  const totalWords = chapters.reduce((sum, ch) => sum + ch.wordCount, 0);
+
   if (!isOpen) return null;
 
   return (
@@ -68,7 +70,7 @@ export default function TocDrawer({
               Daftar Isi
             </h2>
             <p className="text-xs text-[var(--text-muted)]">
-              10 Bab Lengkap • 11.082 Kata
+              {chapters.length} Bab Lengkap • {totalWords.toLocaleString("id-ID")} Kata
             </p>
           </div>
 
@@ -86,6 +88,25 @@ export default function TocDrawer({
 
         {/* Chapter List */}
         <div className="flex-1 overflow-y-auto p-4 space-y-2.5">
+          {/* Catalog Link */}
+          <a
+            href="/"
+            className="w-full text-left p-3 rounded-xl border border-[var(--border-subtle)] bg-[var(--bg-surface)] hover:bg-[var(--bg-hover)] text-[var(--text-muted)] hover:text-accent transition-all flex items-center justify-between group"
+          >
+            <div className="flex items-center gap-2.5">
+              <div className="w-7 h-7 rounded-lg bg-[var(--bg-card)] border border-[var(--border-medium)] flex items-center justify-center text-[var(--text-muted)] group-hover:text-accent">
+                <svg className="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                  <path d="m15 18-6-6 6-6"/>
+                </svg>
+              </div>
+              <div>
+                <span className="text-xs uppercase tracking-wider block text-[var(--text-muted)]">Perpustakaan</span>
+                <span className="text-sm font-medium text-[var(--text-primary)] group-hover:text-accent">Katalog Pentalogi Semesta</span>
+              </div>
+            </div>
+            <span className="text-[11px] text-[var(--text-muted)] font-medium">5 Buku</span>
+          </a>
+
           {/* Cover / Home option */}
           <button
             onClick={() => {

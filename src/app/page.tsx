@@ -264,7 +264,7 @@ export default function CatalogHomePage() {
                     ) : (
                       <div className="w-full flex items-center justify-center gap-2 py-2 rounded-xl bg-[var(--bg-surface)]/60 text-[var(--text-muted)] border border-dashed border-[var(--border-subtle)] text-xs font-medium">
                         <span className="w-1.5 h-1.5 rounded-full bg-amber-500 animate-pulse"></span>
-                        <span>{novel.publishDate} • Naskah Segera Hadir</span>
+                        <span>Naskah Segera Hadir</span>
                       </div>
                     )}
                   </div>

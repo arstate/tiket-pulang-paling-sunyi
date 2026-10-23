@@ -250,20 +250,21 @@ export default function ChapterContent({
               </span>
             </button>
           ) : (
-            <button
-              onClick={onGoHome}
-              className="group flex flex-col items-end p-4 rounded-xl border border-accent/40 bg-accent-light/30 hover:border-accent hover:shadow-card transition-all text-right sm:col-start-2"
+            <a
+              href="/"
+              className="group flex flex-col items-end p-4 rounded-xl border border-accent/40 bg-accent/10 hover:bg-accent hover:text-white transition-all text-right sm:col-start-2"
             >
-              <span className="text-[11px] uppercase tracking-wider text-accent flex items-center gap-1">
-                Selesai Membaca
+              <span className="text-[11px] uppercase tracking-wider text-accent group-hover:text-white flex items-center gap-1">
+                Pentalogi Semesta
                 <svg className="w-3.5 h-3.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                  <polyline points="20 6 9 17 4 12"></polyline>
+                  <path d="M5 12h14"></path>
+                  <path d="m12 5 7 7-7 7"></path>
                 </svg>
               </span>
-              <span className="font-semibold text-sm text-[var(--text-primary)] mt-1">
-                Kembali ke Halaman Sampul
+              <span className="font-semibold text-sm text-[var(--text-primary)] group-hover:text-white mt-1">
+                Jelajahi 4 Prekuel di Katalog
               </span>
-            </button>
+            </a>
           )}
         </div>
       </nav>
