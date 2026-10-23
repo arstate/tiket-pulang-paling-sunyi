@@ -477,7 +477,7 @@ export const NOVEL_DATA: NovelData = {
         },
         {
           "type": "dialogue",
-          "html": "\"Bagus. Begini, Nu. Klien lamaku yang punya perkebunan kopi dan resor ekowisata di daerah ujung timur Jawa—kawasan Lereng Ijen perbatasan Banyuwangi—butuh tim dokumentasi visual dan video profil kilat. Fotografer utamaku mendadak tipus, masuk rumah sakit semalam. Mereka butuh foto katalog panen, arsitektur vila kayu, sama video pendek suasana senja buat materi promosi akhir pekan besok lusa. Agensimu masih bisa handle, kan?\""
+          "html": "\"Bagus. Begini, Arga. Klien lamaku yang punya perkebunan kopi dan resor ekowisata di daerah ujung timur Jawa—kawasan Lereng Ijen perbatasan Banyuwangi—butuh tim dokumentasi visual dan video profil kilat. Fotografer utamaku mendadak tipus, masuk rumah sakit semalam. Mereka butuh foto katalog panen, arsitektur vila kayu, sama video pendek suasana senja buat materi promosi akhir pekan besok lusa. Agensimu masih bisa handle, kan?\""
         },
         {
           "type": "paragraph",
@@ -501,7 +501,7 @@ export const NOVEL_DATA: NovelData = {
         },
         {
           "type": "dialogue",
-          "html": "\"Oke, berkas brief dan kontak manajer resornya sudah kukirim ke email dan WhatsApp. Ingat ya, Nu, jangan sampai telat. Besok subuh mereka sudah mulai panen kopi pertama di blok perkebunan timur. Kamu harus sudah ada di sana malam ini.\""
+          "html": "\"Oke, berkas brief dan kontak manajer resornya sudah kukirim ke email dan WhatsApp. Ingat ya, Arga, jangan sampai telat. Besok subuh mereka sudah mulai panen kopi pertama di blok perkebunan timur. Kamu harus sudah ada di sana malam ini.\""
         },
         {
           "type": "paragraph",

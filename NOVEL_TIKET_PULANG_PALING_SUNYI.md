@@ -221,7 +221,7 @@ Nama yang tertera di layar adalah Mas Hendra—seorang produser agensi dan fotog
 
 "Kosong, Mas. Kosong melompong," jawabku jujur, tanpa gengsi.
 
-"Bagus. Begini, Nu. Klien lamaku yang punya perkebunan kopi dan resor ekowisata di daerah ujung timur Jawa—kawasan Lereng Ijen perbatasan Banyuwangi—butuh tim dokumentasi visual dan video profil kilat. Fotografer utamaku mendadak tipus, masuk rumah sakit semalam. Mereka butuh foto katalog panen, arsitektur vila kayu, sama video pendek suasana senja buat materi promosi akhir pekan besok lusa. Agensimu masih bisa handle, kan?"
+"Bagus. Begini, Arga. Klien lamaku yang punya perkebunan kopi dan resor ekowisata di daerah ujung timur Jawa—kawasan Lereng Ijen perbatasan Banyuwangi—butuh tim dokumentasi visual dan video profil kilat. Fotografer utamaku mendadak tipus, masuk rumah sakit semalam. Mereka butuh foto katalog panen, arsitektur vila kayu, sama video pendek suasana senja buat materi promosi akhir pekan besok lusa. Agensimu masih bisa handle, kan?"
 
 Jantungku berdegup kencang seperti genderang perang. "Bisa, Mas! Peralatan inti masih ready. Honornya bagaimana, Mas?"
 
@@ -233,7 +233,7 @@ Di saat saldo tabunganku hanya menyisakan beberapa puluh ribu, angka itu laksana
 
 "Sanggup, Mas! Jam satu siang ini saya langsung jalan ke terminal," seruku mantap, tangan kiriku terkepal kuat hingga buku-buku jariku memutih.
 
-"Oke, berkas brief dan kontak manajer resornya sudah kukirim ke email dan WhatsApp. Ingat ya, Nu, jangan sampai telat. Besok subuh mereka sudah mulai panen kopi pertama di blok perkebunan timur. Kamu harus sudah ada di sana malam ini."
+"Oke, berkas brief dan kontak manajer resornya sudah kukirim ke email dan WhatsApp. Ingat ya, Arga, jangan sampai telat. Besok subuh mereka sudah mulai panen kopi pertama di blok perkebunan timur. Kamu harus sudah ada di sana malam ini."
 
 Panggilan telepon terputus. Aku menatap layar ponselku dengan mata nanar. Rasanya seperti ada tangan gaib yang baru saja menarik tubuhku keluar dari lubang kubur.
 
