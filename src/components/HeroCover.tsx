@@ -22,11 +22,16 @@ export default function HeroCover({
       {/* Cover Card */}
       <article className="bg-[var(--bg-card)] border border-[var(--border-subtle)] rounded-2xl p-6 sm:p-10 shadow-card transition-colors duration-200">
         <div className="flex flex-wrap items-center gap-2 mb-4">
-          <span className="text-xs uppercase tracking-wider font-semibold px-3 py-1 rounded-full bg-[var(--bg-surface)] text-accent border border-[var(--border-subtle)]">
+          {novel.seriesPart && (
+            <span className="text-xs uppercase tracking-wider font-semibold px-3 py-1 rounded-full bg-accent/15 text-accent border border-accent/20">
+              {novel.seriesPart}
+            </span>
+          )}
+          <span className="text-xs uppercase tracking-wider font-semibold px-3 py-1 rounded-full bg-[var(--bg-surface)] text-[var(--text-muted)] border border-[var(--border-subtle)]">
             {novel.genre}
           </span>
           <span className="text-xs text-[var(--text-muted)]">
-            Karya Resmi • {novel.author}
+            {novel.seriesName ? `${novel.seriesName} • ` : ""}Karya Resmi • {novel.author}
           </span>
         </div>
 
@@ -47,15 +52,15 @@ export default function HeroCover({
             <span className="text-xs text-[var(--text-muted)]">Bab Lengkap</span>
           </div>
           <div className="p-3 rounded-xl bg-[var(--bg-surface)] text-center">
-            <span className="block text-xl font-bold text-[var(--text-primary)]">11.082</span>
+            <span className="block text-xl font-bold text-[var(--text-primary)]">{novel.totalWords.toLocaleString()}</span>
             <span className="text-xs text-[var(--text-muted)]">Total Kata</span>
           </div>
           <div className="p-3 rounded-xl bg-[var(--bg-surface)] text-center">
-            <span className="block text-xl font-bold text-[var(--text-primary)]">~55 Min</span>
+            <span className="block text-xl font-bold text-[var(--text-primary)]">~{novel.totalReadTimeMinutes} Min</span>
             <span className="text-xs text-[var(--text-muted)]">Waktu Baca</span>
           </div>
           <div className="p-3 rounded-xl bg-[var(--bg-surface)] text-center">
-            <span className="block text-xl font-bold text-accent">Tamat</span>
+            <span className="block text-xl font-bold text-accent">{novel.status}</span>
             <span className="text-xs text-[var(--text-muted)]">Status Cerita</span>
           </div>
         </div>

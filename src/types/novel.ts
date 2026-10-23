@@ -27,6 +27,8 @@ export interface NovelMetadata {
   tagline: string;
   author: string;
   genre: string;
+  seriesName?: string;
+  seriesPart?: string;
   totalChapters: number;
   totalWords: number;
   totalReadTimeMinutes: number;

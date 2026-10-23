@@ -121,10 +121,10 @@ export default function CatalogHomePage() {
         <section className="mb-12 rounded-3xl bg-[var(--bg-card)] border border-[var(--border-subtle)] p-6 sm:p-10 shadow-card transition-colors duration-200">
           <div className="flex flex-wrap items-center gap-2 mb-4">
             <span className="text-xs uppercase tracking-wider font-semibold px-3 py-1 rounded-full bg-accent/15 text-accent border border-accent/20">
-              Novel Utama • {featured.genre}
+              {featured.seriesPart || `Novel Utama • ${featured.genre}`}
             </span>
             <span className="text-xs px-2.5 py-1 rounded-full bg-[var(--bg-surface)] text-[var(--text-muted)] border border-[var(--border-subtle)] font-medium">
-              Status: {featured.status}
+              Status: {featured.status === "Tamat" ? "Lengkap 10 Bab" : featured.status}
             </span>
           </div>
 
@@ -185,14 +185,14 @@ export default function CatalogHomePage() {
           <div className="flex items-center justify-between mb-6">
             <div>
               <h2 className="text-2xl font-bold tracking-tight text-[var(--text-primary)]">
-                Koleksi Novel Lengkap
+                Pentalogi Semesta Tiket Pulang
               </h2>
               <p className="text-xs sm:text-sm text-[var(--text-muted)] mt-0.5">
-                Pilih judul karya untuk langsung membuka ruang baca interaktif
+                Koleksi kronologi 5 buku perjalanan cinta, agensi kreatif, hingga puncak kepulangan paling sunyi
               </p>
             </div>
-            <span className="text-xs text-[var(--text-muted)] px-3 py-1 rounded-full bg-[var(--bg-surface)] border border-[var(--border-subtle)]">
-              {novels.length} Judul Terdaftar
+            <span className="text-xs text-[var(--text-muted)] px-3 py-1 rounded-full bg-[var(--bg-surface)] border border-[var(--border-subtle)] font-medium">
+              5 Buku Terdaftar
             </span>
           </div>
 
@@ -207,7 +207,7 @@ export default function CatalogHomePage() {
                 >
                   <div>
                     {/* Badge & Status */}
-                    <div className="flex items-center justify-between gap-2 mb-3">
+                    <div className="flex items-center justify-between gap-2 mb-2.5">
                       <span className="text-[11px] uppercase tracking-wider font-semibold px-2.5 py-0.5 rounded-full bg-[var(--bg-surface)] text-[var(--text-muted)] border border-[var(--border-subtle)]">
                         {novel.genre.split("/")[0]}
                       </span>
@@ -218,9 +218,15 @@ export default function CatalogHomePage() {
                             : "bg-amber-500/10 text-amber-600 border border-amber-500/20"
                         }`}
                       >
-                        {novel.status}
+                        {novel.status === "Tamat" ? "Lengkap 10 Bab" : novel.status}
                       </span>
                     </div>
+
+                    {novel.seriesPart && (
+                      <span className="text-[11px] font-semibold text-accent block mb-1 tracking-tight">
+                        {novel.seriesPart}
+                      </span>
+                    )}
 
                     <h3 className="text-lg font-bold text-[var(--text-primary)] group-hover:text-accent transition-colors mb-1.5 leading-snug">
                       {novel.title}
@@ -256,8 +262,9 @@ export default function CatalogHomePage() {
                         </svg>
                       </Link>
                     ) : (
-                      <div className="w-full text-center py-2 rounded-xl bg-[var(--bg-surface)]/60 text-[var(--text-muted)] border border-dashed border-[var(--border-subtle)] text-xs italic">
-                        {novel.publishDate}
+                      <div className="w-full flex items-center justify-center gap-2 py-2 rounded-xl bg-[var(--bg-surface)]/60 text-[var(--text-muted)] border border-dashed border-[var(--border-subtle)] text-xs font-medium">
+                        <span className="w-1.5 h-1.5 rounded-full bg-amber-500 animate-pulse"></span>
+                        <span>{novel.publishDate} • Naskah Segera Hadir</span>
                       </div>
                     )}
                   </div>

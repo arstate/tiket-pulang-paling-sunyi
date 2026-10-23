@@ -6,23 +6,29 @@
 - [x] Buat rencana implementasi teknis `plan_multi_novel_platform.md`.
 
 ## Fase 2: Data Layer & Novel Registry
-- [ ] Buat registri novel pusat di `src/data/novelRegistry.ts`.
-- [ ] Pindahkan data novel *Tiket Pulang Paling Sunyi* ke modul terisolasi `src/data/novels/tiket-pulang-paling-sunyi/index.ts`.
-- [ ] Sediakan helper `getAllNovels()`, `getNovelBySlug()`, dan `getAllNovelSlugs()`.
+- [x] Buat registri novel pusat di `src/data/novelRegistry.ts`.
+- [x] Pindahkan data novel *Tiket Pulang Paling Sunyi* ke modul terisolasi `src/data/novels/tiket-pulang-paling-sunyi/index.ts`.
+- [x] Sediakan helper `getAllNovels()`, `getNovelBySlug()`, dan `getAllNovelSlugs()`.
 
 ## Fase 3: Komponen Modular & Decoupled Sound Engine
-- [ ] Ekstrak logika pembaca interaktif ke `src/components/NovelReader.tsx`.
-- [ ] Sesuaikan `SoundEngine.ts` agar dapat memuat soundscape audio per novel secara dinamis tanpa hardcode.
-- [ ] Perbarui tombol navigasi `Header.tsx` untuk mendukung kembali ke Katalog Beranda (`/`).
+- [x] Ekstrak logika pembaca interaktif ke `src/components/NovelReader.tsx`.
+- [x] Sesuaikan `SoundEngine.ts` agar dapat memuat soundscape audio per novel secara dinamis tanpa hardcode.
+- [x] Perbarui tombol navigasi `Header.tsx` untuk mendukung kembali ke Katalog Beranda (`/`).
 
 ## Fase 4: Routing App Router & Beranda Katalog
-- [ ] Bangun halaman dinamis `src/app/[novelSlug]/page.tsx` dengan `generateStaticParams()` dan dynamic SEO metadata.
-- [ ] Bangun halaman utama `src/app/page.tsx` sebagai Katalog Perpustakaan Novel (Hero, Resume Reading, Grid Koleksi, Highlight Fitur).
-- [ ] Tambahkan generator sitemap otomatis di `src/app/sitemap.ts`.
+- [x] Bangun halaman dinamis `src/app/[novelSlug]/page.tsx` dengan `generateStaticParams()` dan dynamic SEO metadata.
+- [x] Bangun halaman utama `src/app/page.tsx` sebagai Katalog Perpustakaan Novel (Hero, Resume Reading, Grid Koleksi, Highlight Fitur).
+- [x] Tambahkan generator sitemap otomatis di `src/app/sitemap.ts`.
 
 ## Fase 5: Verifikasi & Deploy Production
-- [ ] Jalankan typecheck TypeScript: `npx tsc --noEmit`.
-- [ ] Jalankan static build: `npm run build` (pastikan halaman `/` dan `/[novelSlug]` ter-export statis sempurna).
-- [ ] Uji responsivitas 7-viewport (Mobile, Tablet, Desktop).
-- [ ] Git commit & push ke GitHub main branch.
-- [ ] Deploy ke Vercel production dan verifikasi domain live.
+- [x] Jalankan typecheck TypeScript: `npx tsc --noEmit`.
+- [x] Jalankan static build: `npm run build` (pastikan halaman `/` dan `/[novelSlug]` ter-export statis sempurna).
+- [x] Uji responsivitas 7-viewport (Mobile, Tablet, Desktop).
+- [x] Git commit & push ke GitHub main branch.
+- [x] Deploy ke Vercel production dan verifikasi domain live.
+
+## Fase 6: Ekspansi Pentalogi Semesta Tiket Pulang & Epilog Cliffhanger
+- [x] Integrasi metadata 5 buku Pentalogi di `src/data/novelRegistry.ts` (Buku 1-4 Segera Terbit, Buku 5 Lengkap 10 Bab).
+- [x] Update antarmuka katalog `src/app/page.tsx` dengan badge `seriesPart` dan status "Segera Hadir".
+- [x] Polish Bab 10 (Epilog Cliffhanger di ambulans: tiket basah Banyuwangi, SD card Jatim Expo, cincin safir "Tunggu wisudaku, Fira", dan alarm asistol EKG "TIIIIIIIIIT!") di `index.ts` dan markdown source.
+- [x] Verifikasi zero build error via `npm run build` static export.
