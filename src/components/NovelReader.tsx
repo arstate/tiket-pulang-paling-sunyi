@@ -40,11 +40,13 @@ export default function NovelReader({ novel, soundscape }: NovelReaderProps) {
   const [settings, setSettings] = useState<ReaderSettings>(DEFAULT_SETTINGS);
   const [isMounted, setIsMounted] = useState<boolean>(false);
   const userMutedRef = useRef<boolean>(false);
+  const prevChapterIdRef = useRef<number>(activeChapterId);
 
-  // Clean up any pending unlock listeners on unmount
+  // Clean up audio & pending unlock listeners on unmount
   useEffect(() => {
     return () => {
       soundEngine.removeUnlockListeners();
+      soundEngine.stop();
     };
   }, []);
 
@@ -185,6 +187,13 @@ export default function NovelReader({ novel, soundscape }: NovelReaderProps) {
   // 5. Track Contextual BGM & Chapter Transition (Seamless Autoplay + Equal-Power Dissolve)
   useEffect(() => {
     if (!isMounted) return;
+
+    // Reset mute state when chapter changes so BGM automatically starts for the new chapter
+    if (prevChapterIdRef.current !== activeChapterId && activeChapterId > 0) {
+      userMutedRef.current = false;
+    }
+    prevChapterIdRef.current = activeChapterId;
+
     const defaultTrack = soundEngine.getDefaultTrack(activeChapterId);
     setBgmTitle(soundEngine.getTrack(defaultTrack).title);
 

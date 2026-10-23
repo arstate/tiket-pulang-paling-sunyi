@@ -372,11 +372,20 @@ class SoundEngine {
   }
 
   // Autoplay Unlock Gesture Listeners for mobile & desktop browser policies
-  private pendingUnlockHandler: (() => void) | null = null;
+  private pendingUnlockHandler: ((e?: Event) => void) | null = null;
+  private pendingUnlockTrackId: TrackId | null = null;
+  private isUnlocking: boolean = false;
+  private startPromise: Promise<boolean> | null = null;
+  private startEpoch: number = 0;
+
   private readonly unlockEvents = [
     "pointerdown",
+    "pointerup",
     "touchstart",
+    "touchend",
     "mousedown",
+    "mouseup",
+    "click",
     "keydown",
     "scroll",
     "wheel",
@@ -387,15 +396,17 @@ class SoundEngine {
     const handler = this.pendingUnlockHandler;
     this.unlockEvents.forEach((evt) => {
       try {
-        window.removeEventListener(evt, handler, { capture: true } as any);
-        window.removeEventListener(evt, handler);
-        document.removeEventListener(evt, handler, { capture: true } as any);
-        document.removeEventListener(evt, handler);
+        window.removeEventListener(evt, handler, true);
+        window.removeEventListener(evt, handler, false);
+        document.removeEventListener(evt, handler, true);
+        document.removeEventListener(evt, handler, false);
       } catch {
         // ignore
       }
     });
     this.pendingUnlockHandler = null;
+    this.pendingUnlockTrackId = null;
+    this.isUnlocking = false;
   }
 
   public async playWithAutoplayFallback(
@@ -404,32 +415,63 @@ class SoundEngine {
   ): Promise<boolean> {
     const targetTrackId = trackId || this.currentTrackId;
 
-    // Attempt direct unmuted .play()
-    const started = await this.start(targetTrackId);
-    if (started) {
+    // 1. If already playing this track, trigger success and exit
+    if (this.isRunning && targetTrackId === this.currentTrackId) {
+      this.removeUnlockListeners();
       if (onSuccess) onSuccess(this.getCurrentTrackInfo());
       return true;
     }
 
-    // Direct play was blocked by browser policy (NotAllowedError)
-    // Attach one-time interaction listeners to immediately start as soon as user touches/scrolls/taps
+    // 2. Attempt direct unmuted .play()
+    const started = await this.start(targetTrackId);
+    if (started) {
+      this.removeUnlockListeners();
+      if (onSuccess) onSuccess(this.getCurrentTrackInfo());
+      return true;
+    }
+
+    // 3. Direct play blocked by browser policy (NotAllowedError / suspended context)
+    // Attach gesture listeners without premature removal so that non-activating scrolls do not destroy touch/click listeners
     if (typeof window === "undefined") return false;
 
-    this.removeUnlockListeners();
+    this.pendingUnlockTrackId = targetTrackId;
 
-    const unlockHandler = async () => {
-      this.removeUnlockListeners();
-      const ok = await this.start(targetTrackId);
-      if (ok && onSuccess) {
-        onSuccess(this.getCurrentTrackInfo());
+    if (this.pendingUnlockHandler) {
+      // Listeners already active, just updated target track
+      return false;
+    }
+
+    const unlockHandler = async (e?: Event) => {
+      if (this.isRunning) {
+        this.removeUnlockListeners();
+        return;
+      }
+      if (this.isUnlocking) return;
+      this.isUnlocking = true;
+
+      try {
+        const trackToPlay = this.pendingUnlockTrackId || targetTrackId;
+        const ok = await this.start(trackToPlay);
+        if (ok) {
+          this.removeUnlockListeners();
+          if (onSuccess) {
+            onSuccess(this.getCurrentTrackInfo());
+          }
+        }
+      } catch (err) {
+        console.warn("Unlock gesture retry note:", err);
+      } finally {
+        this.isUnlocking = false;
       }
     };
 
     this.pendingUnlockHandler = unlockHandler;
     this.unlockEvents.forEach((evt) => {
       try {
-        window.addEventListener(evt, unlockHandler, { once: true, passive: true, capture: true });
-        document.addEventListener(evt, unlockHandler, { once: true, passive: true, capture: true });
+        // Note: do NOT pass { once: true } because if scroll/wheel fires first without activating,
+        // we must retain pointer/touch/click listeners until start() genuinely succeeds!
+        window.addEventListener(evt, unlockHandler, { passive: true, capture: true });
+        document.addEventListener(evt, unlockHandler, { passive: true, capture: true });
       } catch {
         // ignore
       }
@@ -439,6 +481,19 @@ class SoundEngine {
   }
 
   public async start(initialTrackId?: TrackId): Promise<boolean> {
+    if (this.startPromise) {
+      return this.startPromise;
+    }
+    this.startPromise = this.startInternal(initialTrackId);
+    try {
+      return await this.startPromise;
+    } finally {
+      this.startPromise = null;
+    }
+  }
+
+  private async startInternal(initialTrackId?: TrackId): Promise<boolean> {
+    const currentEpoch = ++this.startEpoch;
     try {
       this.init();
       if (!this.audioCtx) return false;
@@ -457,7 +512,11 @@ class SoundEngine {
       }
 
       if (this.audioCtx.state === "suspended") {
-        await this.audioCtx.resume();
+        try {
+          await this.audioCtx.resume();
+        } catch {
+          // If browser rejected resume without gesture, continue to attempt play or exit
+        }
       }
 
       this.currentTrackId = targetId;
@@ -485,6 +544,32 @@ class SoundEngine {
         await activeAudio.play();
       }
 
+      // If stop() was called during asynchronous audio load, abort immediately
+      if (this.startEpoch !== currentEpoch) {
+        if (activeAudio) {
+          try {
+            activeAudio.pause();
+          } catch {}
+        }
+        return false;
+      }
+
+      // AudioContext state check: if context is still suspended, output is muted by browser policy
+      if (this.audioCtx && this.audioCtx.state === "suspended") {
+        try {
+          await this.audioCtx.resume();
+        } catch {}
+        if (this.audioCtx.state === "suspended") {
+          if (activeAudio) {
+            try {
+              activeAudio.pause();
+            } catch {}
+          }
+          this.isRunning = false;
+          return false;
+        }
+      }
+
       this.isRunning = true;
       this.startLoopMonitor();
       return true;
@@ -496,6 +581,7 @@ class SoundEngine {
   }
 
   public stop() {
+    this.startEpoch++;
     this.removeUnlockListeners();
     this.stopLoopMonitor();
     try {

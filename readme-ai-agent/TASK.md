@@ -59,6 +59,6 @@
 ## Fase 10: Seamless Chapter Autoplay, Kompresi BGM 5.8MB & Standardisasi Karakter Arya & Fifa
 - [x] Standardisasi seluruh nama tokoh Arga -> Arya dan Fira -> Fifa (termasuk panggilan dialog vokal) di seluruh 5 buku naskah dan file komponen TS/TSX.
 - [x] Kompresi seluruh 13 track audio BGM ke 64kbps CBR (~400KB-600KB/file, total 5.8MB) untuk performa loading kilat.
-- [x] Implementasi seamless autoplay background soundscape saat pembaca mulai membaca bab (`activeChapterId > 0`, tombol "Mulai Membaca", switcher bab) dengan fallback one-time user gesture listeners (`pointerdown`, `touchstart`, `scroll`, `keydown`, `wheel`) untuk membypass browser autoplay policy.
+- [x] Implementasi seamless autoplay background soundscape saat pembaca mulai membaca bab (`activeChapterId > 0`, tombol "Mulai Membaca", switcher bab) dengan fallback gesture listeners (`pointerdown`, `pointerup`, `touchstart`, `touchend`, `click`, `keydown`, `scroll`, `wheel`), in-flight start deduplication mutex, dan audio context state guard.
 - [x] Verifikasi build statis Next.js (10/10 routes lolos tanpa error).
 - [x] Git commit dan push ke remote repository.
