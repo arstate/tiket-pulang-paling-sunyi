@@ -3,7 +3,7 @@ import { NovelData } from "../types/novel";
 
 export const NOVEL_DATA: NovelData = {
   "title": "Tiket Pulang Paling Sunyi",
-  "subtitle": "Sebuah Novel Karya Danu Prasetya",
+  "subtitle": "Sebuah Novel Karya Bachtiar Aryansyah Putra",
   "tagline": "Diadaptasi dari fragmen mimpi tujuh hari yang tertinggal di ingatan",
   "author": "Danu Prasetya",
   "genre": "Drama / Emosional / Romansa Realis",

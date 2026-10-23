@@ -1,6 +1,6 @@
 # TIKET PULANG PALING SUNYI
 
-### Sebuah Novel Karya Danu Prasetya
+### Sebuah Novel Karya Bachtiar Aryansyah Putra
 *Diadaptasi dari fragmen mimpi tujuh hari yang tertinggal di ingatan*
 
 ---

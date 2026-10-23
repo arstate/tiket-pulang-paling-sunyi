@@ -2,8 +2,8 @@ import type { Metadata, Viewport } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Tiket Pulang Paling Sunyi — Novel Karya Danu Prasetya",
-  description: "Web Reader interaktif novel 'Tiket Pulang Paling Sunyi' karya Danu Prasetya. 10 Bab lengkap, tema krem hangat, ramah mata, responsif di HP & PC.",
+  title: "Tiket Pulang Paling Sunyi — Novel Karya Bachtiar Aryansyah Putra",
+  description: "Web Reader interaktif novel 'Tiket Pulang Paling Sunyi' karya Bachtiar Aryansyah Putra. 10 Bab lengkap, tema krem hangat, ramah mata, responsif di HP & PC.",
   icons: {
     icon: "/favicon.svg",
   },
