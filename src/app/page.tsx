@@ -1,440 +1,344 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { NOVEL_DATA } from "@/data/novelData";
-import { ReaderSettings } from "@/types/novel";
-import Header from "@/components/Header";
-import ReadingProgressBar from "@/components/ReadingProgressBar";
-import HeroCover from "@/components/HeroCover";
-import ChapterContent from "@/components/ChapterContent";
-import TocDrawer from "@/components/TocDrawer";
-import SettingsDrawer from "@/components/SettingsDrawer";
-import MobileBottomNav from "@/components/MobileBottomNav";
-import AudioPermissionModal from "@/components/AudioPermissionModal";
-import { soundEngine, TrackId, TRACK_REGISTRY, getDefaultTrackForChapter } from "@/components/SoundEngine";
+import Link from "next/link";
+import { getAllNovels, getFeaturedNovel } from "@/data/novelRegistry";
+import { NovelMetadata } from "@/types/novel";
 
-const DEFAULT_SETTINGS: ReaderSettings = {
-  theme: "cream",
-  fontSize: 18.5,
-  fontFamily: "merriweather",
-  lineHeight: "comfortable",
-  pageWidth: "standard",
-  textAlign: "left",
-  audioEnabled: false,
-  audioVolume: 0.35,
-};
+interface ResumeSession {
+  slug: string;
+  chapterId: number;
+  title: string;
+  chapterTitle: string;
+  timestamp: number;
+}
 
-export default function Home() {
-  const [activeChapterId, setActiveChapterId] = useState<number>(0);
-  const [lastReadChapterId, setLastReadChapterId] = useState<number>(1);
-  const [scrollProgress, setScrollProgress] = useState<number>(0);
-  const [isTocOpen, setIsTocOpen] = useState<boolean>(false);
-  const [isSettingsOpen, setIsSettingsOpen] = useState<boolean>(false);
-  const [isAudioModalOpen, setIsAudioModalOpen] = useState<boolean>(false);
-  const [audioPlaying, setAudioPlaying] = useState<boolean>(false);
-  const [bgmTitle, setBgmTitle] = useState<string>("Nostalgia Senja Sidoarjo");
-  const [settings, setSettings] = useState<ReaderSettings>(DEFAULT_SETTINGS);
-  const [isMounted, setIsMounted] = useState<boolean>(false);
+export default function CatalogHomePage() {
+  const [novels] = useState<NovelMetadata[]>(getAllNovels());
+  const featured = getFeaturedNovel();
+  const [resumeSession, setResumeSession] = useState<ResumeSession | null>(null);
 
-  // 1. Initialize from localStorage and URL Hash
   useEffect(() => {
-    setIsMounted(true);
-
-    // Load Settings
+    // 1. Check universal resume state or legacy Tiket Pulang state
     try {
-      const savedSettings = localStorage.getItem("tiket_pulang_settings");
-      if (savedSettings) {
-        setSettings((prev) => ({ ...prev, ...JSON.parse(savedSettings) }));
+      const savedUniversal = localStorage.getItem("novel_platform_last_read");
+      if (savedUniversal) {
+        setResumeSession(JSON.parse(savedUniversal));
+        return;
       }
-    } catch (e) {
-      console.warn("Could not load settings:", e);
-    }
 
-    // Load Last Read Chapter
-    try {
-      const savedChapter = localStorage.getItem("tiket_pulang_last_chapter");
-      if (savedChapter) {
-        const id = parseInt(savedChapter, 10);
-        if (id >= 1 && id <= NOVEL_DATA.chapters.length) {
-          setLastReadChapterId(id);
+      const legacyChapter = localStorage.getItem("tiket_pulang_last_chapter");
+      if (legacyChapter) {
+        const chapId = parseInt(legacyChapter, 10);
+        if (chapId >= 1) {
+          setResumeSession({
+            slug: "tiket-pulang-paling-sunyi",
+            chapterId: chapId,
+            title: "Tiket Pulang Paling Sunyi",
+            chapterTitle: `Bab ${chapId}`,
+            timestamp: Date.now(),
+          });
         }
       }
-    } catch (e) {
-      console.warn("Could not load last chapter:", e);
-    }
-
-    // Check First-Visit Audio Prompt
-    try {
-      const audioPrompted = localStorage.getItem("tiket_pulang_audio_prompted");
-      if (!audioPrompted) {
-        setIsAudioModalOpen(true);
-      }
     } catch {
       // ignore
     }
-
-    // Check URL Hash
-    const applyHash = () => {
-      const hash = window.location.hash;
-      const match = hash.match(/^#bab-(\d+)$/i);
-      if (match) {
-        const chapterNum = parseInt(match[1], 10);
-        if (chapterNum >= 1 && chapterNum <= NOVEL_DATA.chapters.length) {
-          setActiveChapterId(chapterNum);
-          return;
-        }
-      }
-      if (hash === "" || hash === "#" || hash === "#cover") {
-        setActiveChapterId(0);
-      }
-    };
-
-    applyHash();
-    window.addEventListener("hashchange", applyHash);
-    return () => window.removeEventListener("hashchange", applyHash);
   }, []);
-
-  // 2. Apply Theme to Body / Document
-  useEffect(() => {
-    if (!isMounted) return;
-    document.documentElement.setAttribute("data-theme", settings.theme);
-    document.body.setAttribute("data-theme", settings.theme);
-  }, [settings.theme, isMounted]);
-
-  // 3. Update Document Title
-  useEffect(() => {
-    if (!isMounted) return;
-    const currentChapter = NOVEL_DATA.chapters.find((c) => c.id === activeChapterId);
-    if (activeChapterId > 0 && currentChapter) {
-      document.title = `${currentChapter.number}: ${currentChapter.title} — ${NOVEL_DATA.title}`;
-    } else {
-      document.title = `${NOVEL_DATA.title} — Novel Karya ${NOVEL_DATA.author}`;
-    }
-  }, [activeChapterId, isMounted]);
-
-  // 4. Cleanup sound on unmount
-  useEffect(() => {
-    return () => {
-      soundEngine.stop();
-    };
-  }, []);
-
-  // 5. Save Settings to localStorage
-  useEffect(() => {
-    if (!isMounted) return;
-    try {
-      localStorage.setItem("tiket_pulang_settings", JSON.stringify(settings));
-    } catch (e) {
-      console.warn("Could not save settings:", e);
-    }
-  }, [settings, isMounted]);
-
-  // 6. Track Contextual BGM & Chapter Transition
-  useEffect(() => {
-    if (!isMounted) return;
-    const defaultTrack = getDefaultTrackForChapter(activeChapterId);
-    setBgmTitle(TRACK_REGISTRY[defaultTrack].title);
-    if (audioPlaying) {
-      soundEngine.transitionToTrack(defaultTrack, 5.0);
-    }
-  }, [activeChapterId, audioPlaying, isMounted]);
-
-  // 7. Track Scroll Progress
-  useEffect(() => {
-    const handleScroll = () => {
-      if (activeChapterId === 0) {
-        setScrollProgress(0);
-        return;
-      }
-
-      const totalHeight = document.documentElement.scrollHeight - window.innerHeight;
-      if (totalHeight <= 0) {
-        setScrollProgress(0);
-        return;
-      }
-
-      const currentScroll = window.scrollY;
-      const pct = (currentScroll / totalHeight) * 100;
-      setScrollProgress(Math.min(100, Math.max(0, pct)));
-    };
-
-    window.addEventListener("scroll", handleScroll, { passive: true });
-    return () => window.removeEventListener("scroll", handleScroll);
-  }, [activeChapterId]);
-
-  // 7. Select Chapter Handler
-  const handleSelectChapter = (id: number) => {
-    setActiveChapterId(id);
-    setScrollProgress(0);
-    if (id > 0) {
-      setLastReadChapterId(id);
-      try {
-        localStorage.setItem("tiket_pulang_last_chapter", id.toString());
-      } catch (e) {
-        console.warn("Could not save last chapter:", e);
-      }
-      window.location.hash = `#bab-${id}`;
-    } else {
-      window.location.hash = "";
-    }
-    window.scrollTo(0, 0);
-  };
-
-  const handleNextChapter = () => {
-    if (activeChapterId < NOVEL_DATA.chapters.length) {
-      handleSelectChapter(activeChapterId + 1);
-    }
-  };
-
-  const handlePrevChapter = () => {
-    if (activeChapterId > 1) {
-      handleSelectChapter(activeChapterId - 1);
-    }
-  };
-
-  const handleGoHome = () => {
-    handleSelectChapter(0);
-  };
-
-  // 8. Update Settings Handler
-  const handleUpdateSettings = (newSettings: Partial<ReaderSettings>) => {
-    setSettings((prev) => {
-      const updated = { ...prev, ...newSettings };
-      if (newSettings.audioVolume !== undefined) {
-        soundEngine.setVolume(newSettings.audioVolume);
-      }
-      return updated;
-    });
-  };
-
-  const handleIncreaseFontSize = () => {
-    handleUpdateSettings({ fontSize: Math.min(26, Number((settings.fontSize + 1).toFixed(1))) });
-  };
-
-  const handleDecreaseFontSize = () => {
-    handleUpdateSettings({ fontSize: Math.max(14, Number((settings.fontSize - 1).toFixed(1))) });
-  };
-
-  const handleResetSettings = () => {
-    setSettings(DEFAULT_SETTINGS);
-    soundEngine.setVolume(DEFAULT_SETTINGS.audioVolume);
-  };
-
-  // 9. In-Chapter Scene Waypoint Change
-  const handleSceneChange = (trackId: TrackId) => {
-    if (audioPlaying) {
-      soundEngine.transitionToTrack(trackId, 5.0);
-    }
-    setBgmTitle(TRACK_REGISTRY[trackId].title);
-  };
-
-  // 10. Audio Toggle with Contextual Track
-  const handleToggleAudio = async () => {
-    const defaultTrack = getDefaultTrackForChapter(activeChapterId);
-    const isPlaying = await soundEngine.toggle(activeChapterId, defaultTrack);
-    setAudioPlaying(isPlaying);
-    setBgmTitle(soundEngine.getCurrentTrackInfo().title);
-  };
-
-  // 11. Modal Audio Handlers (Autoplay unlock)
-  const handleEnableAudioFromModal = async () => {
-    try {
-      localStorage.setItem("tiket_pulang_audio_prompted", "true");
-    } catch {
-      // ignore
-    }
-    setIsAudioModalOpen(false);
-    const defaultTrack = getDefaultTrackForChapter(activeChapterId);
-    const isPlaying = await soundEngine.start(defaultTrack);
-    setAudioPlaying(isPlaying);
-    if (isPlaying) {
-      setBgmTitle(TRACK_REGISTRY[defaultTrack].title);
-    }
-  };
-
-  const handleDismissAudioModal = () => {
-    try {
-      localStorage.setItem("tiket_pulang_audio_prompted", "true");
-    } catch {
-      // ignore
-    }
-    setIsAudioModalOpen(false);
-  };
-
-  // 10. Drawer Toggles with mutual exclusion
-  const handleOpenToc = () => {
-    setIsTocOpen(true);
-    setIsSettingsOpen(false);
-  };
-
-  const handleOpenSettings = () => {
-    setIsSettingsOpen(true);
-    setIsTocOpen(false);
-  };
-
-  // 11. Keyboard Shortcuts
-  useEffect(() => {
-    const handleKeyDown = (e: KeyboardEvent) => {
-      // Don't trigger if user is interacting with form elements or drawers are open
-      if (["INPUT", "TEXTAREA", "SELECT"].includes((e.target as HTMLElement)?.tagName)) {
-        return;
-      }
-      if (isTocOpen || isSettingsOpen) {
-        return;
-      }
-
-      // Next Chapter (ArrowRight or n or ])
-      if ((e.key === "ArrowRight" || e.key === "n" || e.key === "]") && activeChapterId > 0 && activeChapterId < NOVEL_DATA.chapters.length) {
-        e.preventDefault();
-        handleNextChapter();
-      }
-
-      // Prev Chapter (ArrowLeft or p or [)
-      if ((e.key === "ArrowLeft" || e.key === "p" || e.key === "[") && activeChapterId > 1) {
-        e.preventDefault();
-        handlePrevChapter();
-      }
-
-      // Font Size Increase (+ or =)
-      if (e.key === "+" || e.key === "=") {
-        e.preventDefault();
-        handleIncreaseFontSize();
-      }
-
-      // Font Size Decrease (- or _)
-      if (e.key === "-" || e.key === "_") {
-        e.preventDefault();
-        handleDecreaseFontSize();
-      }
-
-      // Toggle Table of Contents (m)
-      if (e.key === "m" || e.key === "M") {
-        e.preventDefault();
-        handleOpenToc();
-      }
-
-      // Toggle Settings (a or t)
-      if (e.key === "a" || e.key === "A" || e.key === "t" || e.key === "T") {
-        e.preventDefault();
-        handleOpenSettings();
-      }
-
-      // Go Home (h)
-      if (e.key === "h" || e.key === "H") {
-        e.preventDefault();
-        handleGoHome();
-      }
-    };
-
-    window.addEventListener("keydown", handleKeyDown);
-    return () => window.removeEventListener("keydown", handleKeyDown);
-  }, [activeChapterId, settings.fontSize, isTocOpen, isSettingsOpen]);
-
-  const activeChapter = NOVEL_DATA.chapters.find((c) => c.id === activeChapterId);
 
   return (
-    <div className="min-h-screen flex flex-col font-sans transition-colors duration-200">
-      {/* Top Reading Progress Bar */}
-      <ReadingProgressBar progress={scrollProgress} />
+    <div className="min-h-screen bg-[var(--bg-primary)] text-[var(--text-primary)] transition-colors duration-200">
+      {/* 1. Header Bar */}
+      <header className="sticky top-0 z-40 w-full backdrop-blur-md bg-[var(--bg-primary)]/90 border-b border-[var(--border-subtle)]">
+        <div className="max-w-5xl mx-auto px-4 h-16 flex items-center justify-between">
+          <div className="flex items-center gap-3">
+            <div className="w-9 h-9 rounded-xl bg-[var(--bg-surface)] border border-[var(--border-medium)] flex items-center justify-center text-accent shadow-sm">
+              <svg className="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                <path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1-2.5-2.5Z"></path>
+                <path d="M6 6h10"></path>
+                <path d="M6 10h10"></path>
+              </svg>
+            </div>
+            <div>
+              <span className="font-bold text-base tracking-tight text-[var(--text-primary)] block">
+                Perpustakaan Novel
+              </span>
+              <span className="text-[11px] text-[var(--text-muted)] block -mt-0.5">
+                Karya Sastra Resmi • Bachtiar Aryansyah Putra
+              </span>
+            </div>
+          </div>
 
-      {/* Main Header */}
-      <Header
-        activeChapterId={activeChapterId}
-        activeChapterTitle={activeChapter ? `${activeChapter.number}: ${activeChapter.title}` : "Sinopsis"}
-        totalChapters={NOVEL_DATA.chapters.length}
-        onOpenToc={handleOpenToc}
-        onOpenSettings={handleOpenSettings}
-        onGoHome={handleGoHome}
-        audioPlaying={audioPlaying}
-        onToggleAudio={handleToggleAudio}
-        bgmTitle={bgmTitle}
-        fontSize={settings.fontSize}
-        onIncreaseFontSize={handleIncreaseFontSize}
-        onDecreaseFontSize={handleDecreaseFontSize}
-        onPrevChapter={handlePrevChapter}
-        onNextChapter={handleNextChapter}
-      />
+          <div className="flex items-center gap-2">
+            <Link
+              href={`/${featured.slug}/`}
+              className="hidden sm:inline-flex items-center gap-1.5 px-3.5 py-1.5 text-xs font-semibold rounded-lg bg-accent text-white hover:bg-accent/90 transition-colors shadow-sm"
+            >
+              <span>Baca Tiket Pulang</span>
+              <svg className="w-3.5 h-3.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                <path d="M5 12h14"></path>
+                <path d="m12 5 7 7-7 7"></path>
+              </svg>
+            </Link>
+          </div>
+        </div>
+      </header>
 
-      {/* Main View Area */}
-      <div className="flex-1 pb-16 sm:pb-8">
-        {activeChapterId === 0 || !activeChapter ? (
-          <HeroCover
-            novel={NOVEL_DATA}
-            lastReadChapterId={lastReadChapterId}
-            onSelectChapter={handleSelectChapter}
-            onOpenToc={handleOpenToc}
-          />
-        ) : (
-          <ChapterContent
-            chapter={activeChapter}
-            totalChapters={NOVEL_DATA.chapters.length}
-            settings={settings}
-            progress={scrollProgress}
-            onPrevChapter={handlePrevChapter}
-            onNextChapter={handleNextChapter}
-            onOpenToc={handleOpenToc}
-            onGoHome={handleGoHome}
-            onSceneChange={handleSceneChange}
-          />
+      <main className="max-w-5xl mx-auto px-4 py-8 sm:py-12">
+        {/* 2. Resume Reading Card (if reader has previous session) */}
+        {resumeSession && (
+          <div className="mb-8 p-4 sm:p-5 rounded-2xl bg-[var(--bg-surface)] border border-accent/30 shadow-card flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 animate-fadeIn">
+            <div className="flex items-center gap-3.5">
+              <div className="w-10 h-10 rounded-xl bg-accent/10 border border-accent/20 flex items-center justify-center text-accent flex-shrink-0">
+                <svg className="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                  <circle cx="12" cy="12" r="10"></circle>
+                  <polyline points="12 6 12 12 16 14"></polyline>
+                </svg>
+              </div>
+              <div>
+                <span className="text-xs uppercase font-semibold text-accent tracking-wider block">
+                  Lanjutkan Membaca
+                </span>
+                <span className="text-sm sm:text-base font-bold text-[var(--text-primary)] block">
+                  {resumeSession.title} — {resumeSession.chapterTitle}
+                </span>
+              </div>
+            </div>
+
+            <Link
+              href={`/${resumeSession.slug}/#bab-${resumeSession.chapterId}`}
+              className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-5 py-2 text-xs font-semibold rounded-xl bg-accent text-white hover:bg-accent/90 transition-colors shadow-sm"
+            >
+              <span>Lanjut Baca Bab {resumeSession.chapterId}</span>
+              <svg className="w-3.5 h-3.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                <path d="M5 12h14"></path>
+                <path d="m12 5 7 7-7 7"></path>
+              </svg>
+            </Link>
+          </div>
         )}
-        {/* Audio Autoplay Permission Modal */}
-      <AudioPermissionModal
-        isOpen={isAudioModalOpen}
-        onEnableAudio={handleEnableAudioFromModal}
-        onDismiss={handleDismissAudioModal}
-      />
-    </div>
 
-      {/* Table of Contents Drawer */}
-      <TocDrawer
-        isOpen={isTocOpen}
-        onClose={() => setIsTocOpen(false)}
-        chapters={NOVEL_DATA.chapters}
-        activeChapterId={activeChapterId}
-        onSelectChapter={handleSelectChapter}
-        onSelectHome={handleGoHome}
-      />
+        {/* 3. Hero Spotlight Novel (Featured) */}
+        <section className="mb-12 rounded-3xl bg-[var(--bg-card)] border border-[var(--border-subtle)] p-6 sm:p-10 shadow-card transition-colors duration-200">
+          <div className="flex flex-wrap items-center gap-2 mb-4">
+            <span className="text-xs uppercase tracking-wider font-semibold px-3 py-1 rounded-full bg-accent/15 text-accent border border-accent/20">
+              Novel Utama • {featured.genre}
+            </span>
+            <span className="text-xs px-2.5 py-1 rounded-full bg-[var(--bg-surface)] text-[var(--text-muted)] border border-[var(--border-subtle)] font-medium">
+              Status: {featured.status}
+            </span>
+          </div>
 
-      {/* Settings Drawer */}
-      <SettingsDrawer
-        isOpen={isSettingsOpen}
-        onClose={() => setIsSettingsOpen(false)}
-        settings={settings}
-        onUpdateSettings={handleUpdateSettings}
-        onResetSettings={handleResetSettings}
-        audioPlaying={audioPlaying}
-        onToggleAudio={handleToggleAudio}
-      />
+          <h1 className="text-3xl sm:text-5xl font-extrabold tracking-tight text-[var(--text-primary)] leading-tight mb-3">
+            {featured.title}
+          </h1>
+          <p className="text-base sm:text-lg text-[var(--text-secondary)] font-medium mb-4">
+            {featured.subtitle}
+          </p>
+          <p className="text-sm sm:text-base text-[var(--text-secondary)] leading-relaxed max-w-3xl mb-6">
+            {featured.synopsis}
+          </p>
 
-      {/* Mobile Sticky Bottom Navigation */}
-      <MobileBottomNav
-        activeChapterId={activeChapterId}
-        totalChapters={NOVEL_DATA.chapters.length}
-        progress={scrollProgress}
-        onPrevChapter={handlePrevChapter}
-        onNextChapter={handleNextChapter}
-        onOpenToc={handleOpenToc}
-        onOpenSettings={handleOpenSettings}
-      />
+          <blockquote className="border-l-2 border-accent pl-4 my-6 italic text-sm text-[var(--text-muted)] max-w-2xl">
+            &ldquo;{featured.quote}&rdquo;
+          </blockquote>
 
-      {/* Footer */}
-      <footer className={`mt-auto border-t border-[var(--border-subtle)] py-10 px-4 text-center text-xs text-[var(--text-muted)] bg-[var(--bg-card)]/40 ${activeChapterId > 0 ? "mb-14 sm:mb-0" : ""}`}>
-        <div className="max-w-xl mx-auto space-y-2.5 font-serif">
-          <p className="italic text-sm text-[var(--text-secondary)] leading-relaxed">
+          {/* Quick Metrics */}
+          <div className="grid grid-cols-3 gap-3 py-4 border-y border-[var(--border-subtle)] my-6 max-w-xl">
+            <div className="text-center sm:text-left">
+              <span className="block text-xl font-bold text-[var(--text-primary)]">{featured.totalChapters} Bab</span>
+              <span className="text-xs text-[var(--text-muted)]">Lengkap Tamat</span>
+            </div>
+            <div className="text-center sm:text-left">
+              <span className="block text-xl font-bold text-[var(--text-primary)]">{featured.totalWords.toLocaleString()}</span>
+              <span className="text-xs text-[var(--text-muted)]">Kata Kisah</span>
+            </div>
+            <div className="text-center sm:text-left">
+              <span className="block text-xl font-bold text-[var(--text-primary)]">± {featured.totalReadTimeMinutes} Mnt</span>
+              <span className="text-xs text-[var(--text-muted)]">Waktu Baca</span>
+            </div>
+          </div>
+
+          {/* Action CTAs */}
+          <div className="flex flex-wrap items-center gap-3 mt-8">
+            <Link
+              href={`/${featured.slug}/`}
+              className="inline-flex items-center justify-center gap-2.5 px-6 py-3 rounded-xl bg-accent text-white font-semibold text-sm hover:bg-accent/90 transition-colors shadow-sm focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-accent"
+            >
+              <span>Mulai Baca dari Awal</span>
+              <svg className="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                <path d="M5 12h14"></path>
+                <path d="m12 5 7 7-7 7"></path>
+              </svg>
+            </Link>
+
+            <Link
+              href={`/${featured.slug}/#bab-1`}
+              className="inline-flex items-center justify-center gap-2 px-5 py-3 rounded-xl bg-[var(--bg-surface)] text-[var(--text-primary)] border border-[var(--border-medium)] font-semibold text-sm hover:bg-[var(--bg-hover)] transition-colors"
+            >
+              Langsung ke Bab 1
+            </Link>
+          </div>
+        </section>
+
+        {/* 4. All Novels Catalog Grid */}
+        <section className="mb-14">
+          <div className="flex items-center justify-between mb-6">
+            <div>
+              <h2 className="text-2xl font-bold tracking-tight text-[var(--text-primary)]">
+                Koleksi Novel Lengkap
+              </h2>
+              <p className="text-xs sm:text-sm text-[var(--text-muted)] mt-0.5">
+                Pilih judul karya untuk langsung membuka ruang baca interaktif
+              </p>
+            </div>
+            <span className="text-xs text-[var(--text-muted)] px-3 py-1 rounded-full bg-[var(--bg-surface)] border border-[var(--border-subtle)]">
+              {novels.length} Judul Terdaftar
+            </span>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+            {novels.map((novel) => {
+              const isAvailable = novel.status === "Tamat" || novel.status === "Ongoing";
+
+              return (
+                <div
+                  key={novel.slug}
+                  className="rounded-2xl bg-[var(--bg-card)] border border-[var(--border-subtle)] p-5 shadow-card flex flex-col justify-between transition-all hover:border-[var(--border-medium)] group"
+                >
+                  <div>
+                    {/* Badge & Status */}
+                    <div className="flex items-center justify-between gap-2 mb-3">
+                      <span className="text-[11px] uppercase tracking-wider font-semibold px-2.5 py-0.5 rounded-full bg-[var(--bg-surface)] text-[var(--text-muted)] border border-[var(--border-subtle)]">
+                        {novel.genre.split("/")[0]}
+                      </span>
+                      <span
+                        className={`text-[11px] font-semibold px-2 py-0.5 rounded-full ${
+                          novel.status === "Tamat"
+                            ? "bg-emerald-500/10 text-emerald-600 border border-emerald-500/20"
+                            : "bg-amber-500/10 text-amber-600 border border-amber-500/20"
+                        }`}
+                      >
+                        {novel.status}
+                      </span>
+                    </div>
+
+                    <h3 className="text-lg font-bold text-[var(--text-primary)] group-hover:text-accent transition-colors mb-1.5 leading-snug">
+                      {novel.title}
+                    </h3>
+
+                    <p className="text-xs text-[var(--text-muted)] italic mb-3 line-clamp-2">
+                      &ldquo;{novel.tagline}&rdquo;
+                    </p>
+
+                    <p className="text-xs text-[var(--text-secondary)] leading-relaxed mb-4 line-clamp-3">
+                      {novel.synopsis}
+                    </p>
+                  </div>
+
+                  <div>
+                    <div className="pt-3 border-t border-[var(--border-subtle)] flex items-center justify-between text-xs text-[var(--text-muted)] mb-4">
+                      <span>{novel.totalChapters} Bab</span>
+                      <span>•</span>
+                      <span>{novel.totalWords.toLocaleString()} Kata</span>
+                      <span>•</span>
+                      <span>± {novel.totalReadTimeMinutes} Mnt</span>
+                    </div>
+
+                    {isAvailable ? (
+                      <Link
+                        href={`/${novel.slug}/`}
+                        className="w-full inline-flex items-center justify-center gap-2 py-2 rounded-xl bg-[var(--bg-surface)] hover:bg-accent hover:text-white text-[var(--text-primary)] border border-[var(--border-medium)] font-semibold text-xs transition-colors shadow-sm"
+                      >
+                        <span>Buka Ruang Baca</span>
+                        <svg className="w-3.5 h-3.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                          <path d="M5 12h14"></path>
+                          <path d="m12 5 7 7-7 7"></path>
+                        </svg>
+                      </Link>
+                    ) : (
+                      <div className="w-full text-center py-2 rounded-xl bg-[var(--bg-surface)]/60 text-[var(--text-muted)] border border-dashed border-[var(--border-subtle)] text-xs italic">
+                        {novel.publishDate}
+                      </div>
+                    )}
+                  </div>
+                </div>
+              );
+            })}
+          </div>
+        </section>
+
+        {/* 5. Reading Comfort Feature Pillars */}
+        <section className="mb-14 p-6 sm:p-8 rounded-3xl bg-[var(--bg-surface)] border border-[var(--border-subtle)]">
+          <div className="text-center max-w-xl mx-auto mb-8">
+            <span className="text-xs uppercase tracking-wider font-semibold text-accent block mb-1">
+              Standar Kenyamanan Membaca
+            </span>
+            <h2 className="text-xl sm:text-2xl font-bold text-[var(--text-primary)]">
+              Dirancang Khusus untuk Membaca Khusyuk
+            </h2>
+          </div>
+
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
+            <div className="p-4 rounded-2xl bg-[var(--bg-card)] border border-[var(--border-subtle)] text-center">
+              <div className="w-10 h-10 rounded-xl bg-accent/10 border border-accent/20 flex items-center justify-center text-accent mx-auto mb-3">
+                <svg className="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                  <path d="M9 18V5l12-2v13"></path>
+                  <circle cx="6" cy="18" r="3"></circle>
+                  <circle cx="18" cy="16" r="3"></circle>
+                </svg>
+              </div>
+              <h3 className="font-bold text-sm text-[var(--text-primary)] mb-1">Audio Dissolve Studio</h3>
+              <p className="text-xs text-[var(--text-muted)] leading-relaxed">
+                Iringan instrumen dan vokal syahdu berganti melarut halus tanpa jeda hening atau lompatan nada yang mengagetkan.
+              </p>
+            </div>
+
+            <div className="p-4 rounded-2xl bg-[var(--bg-card)] border border-[var(--border-subtle)] text-center">
+              <div className="w-10 h-10 rounded-xl bg-accent/10 border border-accent/20 flex items-center justify-center text-accent mx-auto mb-3">
+                <svg className="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                  <circle cx="12" cy="12" r="10"></circle>
+                  <path d="m4.93 4.93 4.24 4.24"></path>
+                  <path d="m14.83 9.17 4.24-4.24"></path>
+                  <path d="m14.83 14.83 4.24 4.24"></path>
+                  <path d="m9.17 14.83-4.24 4.24"></path>
+                </svg>
+              </div>
+              <h3 className="font-bold text-sm text-[var(--text-primary)] mb-1">3 Tema Kertas Sastra</h3>
+              <p className="text-xs text-[var(--text-muted)] leading-relaxed">
+                Pilihan nuansa Krem Kertas, Sepia Klasik, dan Malam OLED ramah retina untuk menjaga mata tetap segar berjam-jam.
+              </p>
+            </div>
+
+            <div className="p-4 rounded-2xl bg-[var(--bg-card)] border border-[var(--border-subtle)] text-center">
+              <div className="w-10 h-10 rounded-xl bg-accent/10 border border-accent/20 flex items-center justify-center text-accent mx-auto mb-3">
+                <svg className="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                  <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10"></path>
+                </svg>
+              </div>
+              <h3 className="font-bold text-sm text-[var(--text-primary)] mb-1">100% Bebas Iklan</h3>
+              <p className="text-xs text-[var(--text-muted)] leading-relaxed">
+                Murni bacaan sastra tanpa popup menjengkelkan, tanpa banner judi atau iklan mengambang yang merusak imajinasi.
+              </p>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      {/* 6. Literary Footer */}
+      <footer className="border-t border-[var(--border-subtle)] bg-[var(--bg-surface)] py-10">
+        <div className="max-w-5xl mx-auto px-4 text-center">
+          <p className="font-serif italic text-sm sm:text-base text-[var(--text-secondary)] max-w-xl mx-auto mb-3 leading-relaxed">
             &ldquo;Perjalanan mencari nafkah telah usai. Namun di atas segalanya, janji suci seorang suami telah tertunaikan.&rdquo;
           </p>
-          <p className="font-ui text-[11px] text-[var(--text-muted)] tracking-wider uppercase">
-            Tiket Pulang Paling Sunyi &bull; 2026 &bull; Seluruh Hak Cipta Dilindungi
-          </p>
+          <div className="flex flex-wrap items-center justify-center gap-2 text-xs text-[var(--text-muted)]">
+            <span>Perpustakaan Novel Digital</span>
+            <span>•</span>
+            <span>Karya Resmi Bachtiar Aryansyah Putra</span>
+            <span>•</span>
+            <span>© 2026 Hak Cipta Dilindungi</span>
+          </div>
         </div>
       </footer>
-
-      {/* Audio Autoplay Permission Modal */}
-      <AudioPermissionModal
-        isOpen={isAudioModalOpen}
-        onEnableAudio={handleEnableAudioFromModal}
-        onDismiss={handleDismissAudioModal}
-      />
     </div>
   );
 }

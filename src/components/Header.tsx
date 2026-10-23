@@ -1,6 +1,7 @@
 "use client";
 
 interface HeaderProps {
+  novelTitle?: string;
   activeChapterId: number;
   activeChapterTitle: string;
   totalChapters: number;
@@ -18,6 +19,7 @@ interface HeaderProps {
 }
 
 export default function Header({
+  novelTitle = "Tiket Pulang Paling Sunyi",
   activeChapterId,
   activeChapterTitle,
   totalChapters,
@@ -35,23 +37,36 @@ export default function Header({
     <header className="sticky top-0 z-40 w-full backdrop-blur-md bg-[var(--bg-primary)]/90 border-b border-[var(--border-subtle)] transition-colors duration-200">
       <div className="max-w-4xl mx-auto px-4 h-14 flex items-center justify-between gap-3">
         {/* Left: Brand / Home */}
-        <button
-          onClick={onGoHome}
-          className="flex items-center gap-2.5 group text-left focus:outline-none focus-visible:ring-2 focus-visible:ring-accent rounded-lg px-2 py-1 -ml-2 transition-colors hover:bg-[var(--bg-hover)]"
-          title="Kembali ke Sinopsis / Sampul (H)"
-          aria-label="Kembali ke Sinopsis"
-        >
-          <div className="w-8 h-8 rounded-lg bg-[var(--bg-surface)] border border-[var(--border-medium)] flex items-center justify-center text-accent group-hover:border-accent transition-colors flex-shrink-0">
-            <svg className="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-              <path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1-2.5-2.5Z"></path>
-              <path d="M6 6h10"></path>
-              <path d="M6 10h10"></path>
+        <div className="flex items-center gap-1.5 -ml-2">
+          <a
+            href="/"
+            className="hidden sm:flex items-center gap-1.5 px-2 py-1 text-xs text-[var(--text-muted)] hover:text-accent rounded-lg transition-colors hover:bg-[var(--bg-hover)]"
+            title="Kembali ke Katalog Perpustakaan"
+          >
+            <svg className="w-3.5 h-3.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+              <path d="m15 18-6-6 6-6"/>
             </svg>
-          </div>
-          <span className="font-semibold text-sm tracking-tight text-[var(--text-primary)]">
-            Tiket Pulang Paling Sunyi
-          </span>
-        </button>
+            <span>Katalog</span>
+          </a>
+          <span className="hidden sm:inline text-[var(--border-medium)]">•</span>
+          <button
+            onClick={onGoHome}
+            className="flex items-center gap-2 group text-left focus:outline-none focus-visible:ring-2 focus-visible:ring-accent rounded-lg px-2 py-1 transition-colors hover:bg-[var(--bg-hover)]"
+            title="Kembali ke Sinopsis / Sampul Novel"
+            aria-label="Kembali ke Sinopsis"
+          >
+            <div className="w-7 h-7 rounded-lg bg-[var(--bg-surface)] border border-[var(--border-medium)] flex items-center justify-center text-accent group-hover:border-accent transition-colors flex-shrink-0">
+              <svg className="w-3.5 h-3.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                <path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1-2.5-2.5Z"></path>
+                <path d="M6 6h10"></path>
+                <path d="M6 10h10"></path>
+              </svg>
+            </div>
+            <span className="font-semibold text-xs sm:text-sm tracking-tight text-[var(--text-primary)] truncate max-w-[140px] sm:max-w-none">
+              {novelTitle}
+            </span>
+          </button>
+        </div>
 
         {/* Right Actions: 3 Clean, Non-Duplicated Controls */}
         <div className="flex items-center gap-1 sm:gap-1.5 flex-shrink-0">

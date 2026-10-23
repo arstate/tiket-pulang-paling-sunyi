@@ -149,11 +149,36 @@ export function getDefaultTrackForChapter(chapterId: number): TrackId {
   }
 }
 
+export interface SoundscapeConfig {
+  trackRegistry: Record<string, TrackInfo>;
+  getDefaultTrackForChapter: (chapterId: number) => TrackId;
+}
+
 class SoundEngine {
   private audioCtx: AudioContext | null = null;
   private masterGain: GainNode | null = null;
   private isRunning: boolean = false;
   private volume: number = 0.55;
+
+  private activeRegistry: Record<string, TrackInfo> = TRACK_REGISTRY;
+  private activeTrackGetter: (chapterId: number) => TrackId = getDefaultTrackForChapter;
+
+  public setSoundscape(config: Partial<SoundscapeConfig>) {
+    if (config.trackRegistry) {
+      this.activeRegistry = config.trackRegistry;
+    }
+    if (config.getDefaultTrackForChapter) {
+      this.activeTrackGetter = config.getDefaultTrackForChapter;
+    }
+  }
+
+  public getTrack(id: string): TrackInfo {
+    return this.activeRegistry[id] || TRACK_REGISTRY[id as TrackId] || TRACK_REGISTRY["bgm-cover"];
+  }
+
+  public getDefaultTrack(chapterId: number): TrackId {
+    return this.activeTrackGetter(chapterId);
+  }
 
   // Deck A & Deck B for Gapless Pre-End Self-Looping & Inter-Track Crossfading
   private audioA: HTMLAudioElement | null = null;
@@ -188,7 +213,7 @@ class SoundEngine {
       this.masterGain.gain.setValueAtTime(this.volume, this.audioCtx.currentTime);
       this.masterGain.connect(this.audioCtx.destination);
 
-      const track = TRACK_REGISTRY[this.currentTrackId];
+      const track = this.getTrack(this.currentTrackId);
 
       // Deck A - loop false because we handle seamless dual-deck pre-end loop
       this.audioA = new Audio(track.src);
@@ -305,7 +330,7 @@ class SoundEngine {
         return;
       }
 
-      const track = TRACK_REGISTRY[this.currentTrackId];
+      const track = this.getTrack(this.currentTrackId);
       if (!targetAudio.src.endsWith(track.src)) {
         targetAudio.src = track.src;
       }
@@ -358,7 +383,7 @@ class SoundEngine {
       const targetId = initialTrackId || this.currentTrackId;
       this.currentTrackId = targetId;
 
-      const track = TRACK_REGISTRY[targetId];
+      const track = this.getTrack(targetId);
       const activeAudio = this.activeDeck === "A" ? this.audioA : this.audioB;
       const activeGain = this.activeDeck === "A" ? this.gainA : this.gainB;
 
@@ -422,7 +447,7 @@ class SoundEngine {
       if (explicitTrackId) {
         target = explicitTrackId;
       } else if (chapterId !== undefined) {
-        target = getDefaultTrackForChapter(chapterId);
+        target = this.getDefaultTrack(chapterId);
       }
       return await this.start(target);
     }
@@ -457,7 +482,7 @@ class SoundEngine {
         return;
       }
 
-      const nextTrack = TRACK_REGISTRY[targetTrackId];
+      const nextTrack = this.getTrack(targetTrackId);
 
       // Prepare Next Deck
       nextAudio.src = nextTrack.src;
@@ -498,7 +523,7 @@ class SoundEngine {
   }
 
   public getCurrentTrackInfo(): TrackInfo {
-    return TRACK_REGISTRY[this.currentTrackId] || TRACK_REGISTRY["bgm-cover"];
+    return this.getTrack(this.currentTrackId);
   }
 
   public setVolume(vol: number) {

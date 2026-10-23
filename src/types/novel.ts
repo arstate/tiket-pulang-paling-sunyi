@@ -18,17 +18,27 @@ export interface Chapter {
   paragraphs: ParagraphItem[];
 }
 
-export interface NovelData {
+export type NovelStatus = 'Tamat' | 'Ongoing' | 'Segera Terbit';
+
+export interface NovelMetadata {
+  slug: string;
   title: string;
   subtitle: string;
   tagline: string;
   author: string;
   genre: string;
   totalChapters: number;
-  synopsis: string;
-  quote: string;
   totalWords: number;
   totalReadTimeMinutes: number;
+  synopsis: string;
+  quote: string;
+  status: NovelStatus;
+  publishDate: string;
+  coverAccent?: string;
+  featured?: boolean;
+}
+
+export interface NovelData extends NovelMetadata {
   chapters: Chapter[];
 }
 
