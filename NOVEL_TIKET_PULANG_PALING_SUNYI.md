@@ -35,11 +35,11 @@ Aku duduk di kursi kayu berkaki pendek sambil memandangi punggung Fira yang kemb
 
 Malam itu, Ibu menatapku dengan mata yang memerah bukan karena haru, melainkan amarah yang ditahan di tenggorokan.
 
-"Kamu itu mikir pakai apa to, Danu?" suara Ibu saat itu masih terngiang jelas di telingaku, tajam seperti sembilu yang membelah bambu. "Kerjamu cuma bangun agensi kreatif gak jelas, ngaku-ngaku founder agensi foto video event, kadang dapat proyek, kadang sebulan cuma makan kerupuk sama kecap. Mau kamu kasih makan apa anak orang? Fira itu sarjana, kerja di kantor agensi mentereng di ruko ber-AC. Keluarganya di Jember sana orang terpandang, bapaknya pensiunan guru madrasah. Kamu mau bikin Ibu malu kalau nanti kamu gak bisa bayar kontrakan?"
+"Kamu itu mikir pakai apa to, Arga?" suara Ibu saat itu masih terngiang jelas di telingaku, tajam seperti sembilu yang membelah bambu. "Kerjamu cuma bangun agensi kreatif gak jelas, ngaku-ngaku founder agensi foto video event, kadang dapat proyek, kadang sebulan cuma makan kerupuk sama kecap. Mau kamu kasih makan apa anak orang? Fira itu sarjana, kerja di kantor agensi mentereng di ruko ber-AC. Keluarganya di Jember sana orang terpandang, bapaknya pensiunan guru madrasah. Kamu mau bikin Ibu malu kalau nanti kamu gak bisa bayar kontrakan?"
 
-"Danu punya tabungan, Bu," jawabku waktu itu, menatap lantai semen rumah Ibu tanpa berani mengangkat dagu. Urat-urat di tanganku menegang saat menggenggam buku tabungan bank daerah yang saldonya sudah kukumpulkan mati-matian dari hasil membanting tulang membangun agensi kreatif mandiri—mulai dari bikin foto komersial brand UMKM, syuting video profil korporat, sampai begadang garap dokumentasi pameran event. "Dua puluh tiga juta, Bu. Ini hasil keringat Danu siang malam demi bisa halalin Fira. Cukup buat sewa tempat setahun dan biaya akad di KUA. Danu gak minta bantuan pesta sepeser pun sama Ibu atau keluarga Fira."
+"Arga punya tabungan, Bu," jawabku waktu itu, menatap lantai semen rumah Ibu tanpa berani mengangkat dagu. Urat-urat di tanganku menegang saat menggenggam buku tabungan bank daerah yang saldonya sudah kukumpulkan mati-matian dari hasil membanting tulang membangun agensi kreatif mandiri—mulai dari bikin foto komersial brand UMKM, syuting video profil korporat, sampai begadang garap dokumentasi pameran event. "Dua puluh tiga juta, Bu. Ini hasil keringat Arga siang malam demi bisa halalin Fira. Cukup buat sewa tempat setahun dan biaya akad di KUA. Arga gak minta bantuan pesta sepeser pun sama Ibu atau keluarga Fira."
 
-"Pernikahan itu bukan cuma urusan akad di depan penghulu, Danu Prasetya!" bentak Ibu, suaranya bergetar hebat. "Setelah akad itu ada beras, ada listrik, ada kebutuhan rumah tangga! Jangan mentang-mentang kamu ngerasa tabunganmu cukup terus kamu sepelekan nasihat orang tua!"
+"Pernikahan itu bukan cuma urusan akad di depan penghulu, Arga Prasetya!" bentak Ibu, suaranya bergetar hebat. "Setelah akad itu ada beras, ada listrik, ada kebutuhan rumah tangga! Jangan mentang-mentang kamu ngerasa tabunganmu cukup terus kamu sepelekan nasihat orang tua!"
 
 Hari itu, Ibu menolak memberi restu secara terang-terangan. Beliau bahkan sempat mengancam tidak akan hadir di KUA jika aku tetap bersikeras melamar Fira di bulan Maulid. Tapi aku adalah pemuda keras kepala yang dibutakan oleh cinta dan tekad baja untuk membuktikan bahwa agensi kreatif yang kusiasati dari kamar kosan mampu menjadi tiang penyangga masa depan kami berdua.
 
@@ -75,7 +75,7 @@ Aku sama sekali tidak tahu bahwa kebahagiaan kami malam itu hanyalah secuil kete
 
 Keberuntungan adalah pelacur yang suka berpura-pura setia sebelum mencuri dompetmu di tengah malam.
 
-Bulan kelima setelah akad nikah, nama agensi kreatif yang kurintis dengan susah payah—*Danu Lensa Kreatif*, agensi brand visual yang melayani jasa fotografi, videografi komersial, dan produksi dokumentasi event—sempat mencicipi manisnya lonjakan order. Pintu rezeki seperti dibuka lebar-lebar tanpa peringatan. Lewat kenalan lama di kampus dan koneksi pameran, agensiku memenangkan kontrak dokumentasi visual untuk pameran properti akbar, festival musik kampus, dan kampanye pembukaan tiga cabang toko swalayan lokal di sepanjang jalan protokol Sidoarjo.
+Bulan kelima setelah akad nikah, nama agensi kreatif yang kurintis dengan susah payah—*Arga Lensa Kreatif*, agensi brand visual yang melayani jasa fotografi, videografi komersial, dan produksi dokumentasi event—sempat mencicipi manisnya lonjakan order. Pintu rezeki seperti dibuka lebar-lebar tanpa peringatan. Lewat kenalan lama di kampus dan koneksi pameran, agensiku memenangkan kontrak dokumentasi visual untuk pameran properti akbar, festival musik kampus, dan kampanye pembukaan tiga cabang toko swalayan lokal di sepanjang jalan protokol Sidoarjo.
 
 Uang puluhan juta masuk ke rekening operasional agensiku bertahap. Untuk pertama kalinya dalam hidupku, aku memegang uang sebanyak itu dengan keringatku sendiri. Aku merasa telah berhasil menampar keraguan ibuku bolak-balik tanpa perlu mengeluarkan sepatah kata bantahan pun. 
 
@@ -105,7 +105,7 @@ Kedua tanganku memegangi kepala yang terasa mau meledak. Jemariku menjambak ramb
 
 Di luar kamar mandi, di atas meja bundar yang reot, tergeletak tiga lembar surat peringatan utang dan tagihan vendor yang bunganya kian membengkak seperti tumor ganas. Saldo tabunganku di aplikasi ponsel pintar hanya menyisakan angka tujuh puluh tiga ribu lima ratus rupiah. Sementara besok lusa, pemilik kontrakan petak ini sudah memperingatkan lewat pesan singkat bahwa masa sewa tiga bulanan kami sudah jatuh tempo.
 
-"Dasar bodoh... Danu goblok..." umpatku pada diri sendiri, suaraku tercekat di antara tarikan napas yang patah-patah. "Ibumu benar. Kamu itu cuma bocah kemarin sore yang sok jagoan bikin agensi. Kamu cuma fotografer jalanan yang gak tahu diri."
+"Dasar bodoh... Arga goblok..." umpatku pada diri sendiri, suaraku tercekat di antara tarikan napas yang patah-patah. "Ibumu benar. Kamu itu cuma bocah kemarin sore yang sok jagoan bikin agensi. Kamu cuma fotografer jalanan yang gak tahu diri."
 
 Kalimat-kalimat Ibu di masa lalu berputar di kepalaku seperti kaset rusak yang diputar berulang-ulang dengan pengeras suara: *Mau kamu kasih makan apa anak orang? Fira itu sarjana... kamu mau bikin malu keluarga?*
 
@@ -217,7 +217,7 @@ Nama yang tertera di layar adalah Mas Hendra—seorang produser agensi dan fotog
 
 "Halo, Mas Hendra. Selamat pagi," sapaku secepat mungkin, berusaha menekan nada cemas yang selalu muncul tiap kali ada panggilan masuk di masa-masa krisis agensiku.
 
-"Danu! Syukurlah kamu langsung angkat," suara Mas Hendra terdengar terburu-buru di seberang sana, diiringi bunyi gesekan kertas dan ketukan tuts kibor komputer. "Kamu lagi di mana sekarang? Lagi kosong jadwal gak sampai tiga hari ke depan?"
+"Arga! Syukurlah kamu langsung angkat," suara Mas Hendra terdengar terburu-buru di seberang sana, diiringi bunyi gesekan kertas dan ketukan tuts kibor komputer. "Kamu lagi di mana sekarang? Lagi kosong jadwal gak sampai tiga hari ke depan?"
 
 "Kosong, Mas. Kosong melompong," jawabku jujur, tanpa gengsi.
 
@@ -277,7 +277,7 @@ Ibu sedang duduk di teras samping, sibuk memotong kacang panjang di atas tampah 
 
 Aku melangkah mendekat, lalu berjongkok di samping kursi plastik tempat Ibu duduk.
 
-"Danu mau pamit, Bu. Danu dapat panggilan garap dokumentasi brand di perkebunan daerah timur. Berangkat siang ini naik bis, pulangnya hari Minggu."
+"Arga mau pamit, Bu. Arga dapat panggilan garap dokumentasi brand di perkebunan daerah timur. Berangkat siang ini naik bis, pulangnya hari Minggu."
 
 Gerakan pisau di tangan Ibu sempat terhenti sepersekian detik, namun beliau segera melanjutkan pekerjaannya seolah-olah kabar yang kubawa hanyalah hembusan angin lalu.
 
@@ -285,7 +285,7 @@ Gerakan pisau di tangan Ibu sempat terhenti sepersekian detik, namun beliau sege
 
 Dadaku perih mendengar sindiran itu, namun aku menolak untuk tersulut amarah. Aku tahu, luka di hati Ibu akibat kenekatan pernikahanku belum sepenuhnya kering.
 
-"Danu tetap anak Ibu," ucapku pelan, meraih tangan kanan Ibu yang berbau getah sayuran, lalu mencium punggung tangannya yang kasar dengan takzim. "Danu minta doa restu Ibu biar kerjaan Danu lancar, selamat di jalan, dan bawa rezeki berkah buat bayar utang-utang agensi Danu."
+"Arga tetap anak Ibu," ucapku pelan, meraih tangan kanan Ibu yang berbau getah sayuran, lalu mencium punggung tangannya yang kasar dengan takzim. "Arga minta doa restu Ibu biar kerjaan Arga lancar, selamat di jalan, dan bawa rezeki berkah buat bayar utang-utang agensi Arga."
 
 Ibu menarik tangannya perlahan dari genggamanku. Beliau menarik napas panjang, pandangannya beralih menatap rumpun pohon pisang di pojok pekarangan. Untuk beberapa saat, hanya suara deru truk di jalan raya kejauhan yang terdengar.
 
@@ -451,7 +451,7 @@ Ketika ketukan pintu kami bersambut, sosok pria tua berpeci hitam dengan kemeja 
 
 "Assalamu’alaikum, Bapak..." suara Fira bergetar haru.
 
-"Wa’alaikumsalam... Ya Allah, Fira? Danu?" mata Bapak yang sudah rabun menyipit kaget, lalu senyum keriput merekah tulus di wajah sepuhnya. "Ibu! Ibune! Iki loh anakmu muleh!"
+"Wa’alaikumsalam... Ya Allah, Fira? Arga?" mata Bapak yang sudah rabun menyipit kaget, lalu senyum keriput merekah tulus di wajah sepuhnya. "Ibu! Ibune! Iki loh anakmu muleh!"
 
 Ibu mertuaku tergopoh-gopoh keluar dari dapur dengan tangan yang masih berlumur tepung terigu. Detik berikutnya, Fira sudah menubrukkan badannya ke pelukan ibunya, menangis tersedu-sedu meluapkan kerinduan seorang anak perempuan yang lama terpisah dari sarangnya.
 
@@ -469,15 +469,15 @@ Tenggorokanku sempat tercekat. Lidahku kelu untuk mengakui bahwa agensi yang kub
 
 Namun sebelum aku sempat membuka mulut untuk berbohong atau mengaku kalah, Fira yang duduk di sampingku langsung memotong seraya menggenggam jemariku erat-erat.
 
-"Lagi banyak proyek luar kota, Pak," kata Fira dengan senyum bangga yang begitu tulus, tidak membiarkan harga diri suaminya tercoreng sedikit pun di depan orang tuanya. "Ini Danu lagi dipercaya pegang dokumentasi katalog sama video resor besar di perbatasan timur. Agensinya Danu lagi garap proyek penting di sana, makanya kami harus berangkat bareng sekarang."
+"Lagi banyak proyek luar kota, Pak," kata Fira dengan senyum bangga yang begitu tulus, tidak membiarkan harga diri suaminya tercoreng sedikit pun di depan orang tuanya. "Ini Arga lagi dipercaya pegang dokumentasi katalog sama video resor besar di perbatasan timur. Agensinya Arga lagi garap proyek penting di sana, makanya kami harus berangkat bareng sekarang."
 
 Bapak mengangguk-angguk pelan, menghembuskan asap rokoknya ke udara. Beliau menatap wajahku lekat-lekat, lalu meletakkan tangannya yang kasar dan hangat ke atas pundak kananku.
 
-"Alhamdulillah kalau begitu, Danu," ucap Bapak lirih, sarat akan petuah hidup seorang tua yang kenyang makan asam garam. "Merintis usaha sendiri itu memang jalan yang terjal, Le. Tirakatnya berat. Kadang di atas, kadang di bawah sampai kepala jadi kaki, kaki jadi kepala. Tapi yang paling penting dalam hidup berumah tangga itu cuma satu: kamu jaga Fira baik-baik. Jangan pernah sakiti hatinya. Dan jangan pernah tinggalkan sholat lima waktu di mana pun kamu berada."
+"Alhamdulillah kalau begitu, Arga," ucap Bapak lirih, sarat akan petuah hidup seorang tua yang kenyang makan asam garam. "Merintis usaha sendiri itu memang jalan yang terjal, Le. Tirakatnya berat. Kadang di atas, kadang di bawah sampai kepala jadi kaki, kaki jadi kepala. Tapi yang paling penting dalam hidup berumah tangga itu cuma satu: kamu jaga Fira baik-baik. Jangan pernah sakiti hatinya. Dan jangan pernah tinggalkan sholat lima waktu di mana pun kamu berada."
 
 Kata-kata Bapak menembus ulu hatiku seperti semilir angin surga. Dadaku bergetar menahan tangis haru. Di saat keluargaku sendiri meragukanku, ayah mertuaku memberiku sepasang doa yang menguatkan sendi-sendi kehidupanku.
 
-"Inggih, Bapak. Matur nuwun sanget petuahe. Danu janji bakal selalu jaga Fira sampai akhir hayat Danu," jawabku dengan suara bergetar mantap.
+"Inggih, Bapak. Matur nuwun sanget petuahe. Arga janji bakal selalu jaga Fira sampai akhir hayat Arga," jawabku dengan suara bergetar mantap.
 
 Satu jam berlalu begitu cepat di rumah teduh itu. Jam dinding menunjukkan pukul tujuh malam lewat sedikit. Kami harus segera kembali ke jalan raya untuk menyegat bis malam terakhir yang melintasi jalur perbukitan menuju timur.
 
@@ -641,7 +641,7 @@ Pandangan mata Fira mula-mula kosong dan berkabut, menatap lurus ke arah dedauna
 
 Ketika tatapannya akhirnya tertumbuk tepat pada wajahku yang sedang menunduk di atasnya, sebuah hembusan napas tipis lolos dari sela bibirnya yang membiru.
 
-"Beb... Danu...?" bisiknya teramat lirih, suaranya seperti desau angin malam yang rapuh menyentuh ranting kering.
+"Beb... Arga...?" bisiknya teramat lirih, suaranya seperti desau angin malam yang rapuh menyentuh ranting kering.
 
 "Iya, Beb! Ini aku! Aku di sini!" seruku dengan tawa tangis yang meledak lega di tenggorokan. Kurasakan sebuah batu raksasa seberat satu ton terangkat dari dadaku. Istriku sadar! Dia masih hidup! Otaknya masih mengingatku! "Kamu dengar aku, kan? Bertahan ya, Sayang? Jangan tutup matamu lagi. Sebentar lagi pasti ada warga atau tim SAR yang turun nolongin kita!"
 
@@ -679,7 +679,7 @@ Tubuh laki-laki itu... posisinya tepat melengkung di atas tempat di mana Fira ta
 
 Laki-laki itu adalah diriku sendiri.
 
-Danu Prasetya.
+Arga Prasetya.
 
 Jantungku yang sedari tadi kurasa berdetak mendadak lenyap. Rongga dadaku hampa.
 

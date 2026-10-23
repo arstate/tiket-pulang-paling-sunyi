@@ -5,10 +5,10 @@ export const NOVEL_DATA: NovelData = {
   "title": "Tiket Pulang Paling Sunyi",
   "subtitle": "Sebuah Novel Karya Bachtiar Aryansyah Putra",
   "tagline": "Diadaptasi dari fragmen mimpi tujuh hari yang tertinggal di ingatan",
-  "author": "Danu Prasetya",
+  "author": "Arga Prasetya",
   "genre": "Drama / Emosional / Romansa Realis",
   "totalChapters": 10,
-  "synopsis": "Sebuah kisah tentang Danu dan Fira. Di tengah impian membangun agensi kreatif dan himpitan utang empat puluh dua juta yang meremukkan, cinta mereka diuji oleh takdir di jalur kereta malam menuju timur. Kisah pengorbanan sunyi seorang suami yang melintasi batas dua alam demi menyelamatkan separuh jiwanya.",
+  "synopsis": "Sebuah kisah tentang Arga dan Fira. Di tengah impian membangun agensi kreatif dan himpitan utang empat puluh dua juta yang meremukkan, cinta mereka diuji oleh takdir di jalur kereta malam menuju timur. Kisah pengorbanan sunyi seorang suami yang melintasi batas dua alam demi menyelamatkan separuh jiwanya.",
   "quote": "Perjalananku mencari nafkah telah usai. Agensiku, utang-utangku, dan segala ambisi duniawiku telah lunas tertinggal di dasar jurang yang kelam. Namun di atas segalanya, aku tahu aku telah menunaikan sumpah suciku sebagai seorang suami.",
   "totalWords": 11082,
   "totalReadTimeMinutes": 55,
@@ -81,15 +81,15 @@ export const NOVEL_DATA: NovelData = {
         },
         {
           "type": "dialogue",
-          "html": "\"Kamu itu mikir pakai apa to, Danu?\" suara Ibu saat itu masih terngiang jelas di telingaku, tajam seperti sembilu yang membelah bambu. \"Kerjamu cuma bangun agensi kreatif gak jelas, ngaku-ngaku founder agensi foto video event, kadang dapat proyek, kadang sebulan cuma makan kerupuk sama kecap. Mau kamu kasih makan apa anak orang? Fira itu sarjana, kerja di kantor agensi mentereng di ruko ber-AC. Keluarganya di Jember sana orang terpandang, bapaknya pensiunan guru madrasah. Kamu mau bikin Ibu malu kalau nanti kamu gak bisa bayar kontrakan?\""
+          "html": "\"Kamu itu mikir pakai apa to, Arga?\" suara Ibu saat itu masih terngiang jelas di telingaku, tajam seperti sembilu yang membelah bambu. \"Kerjamu cuma bangun agensi kreatif gak jelas, ngaku-ngaku founder agensi foto video event, kadang dapat proyek, kadang sebulan cuma makan kerupuk sama kecap. Mau kamu kasih makan apa anak orang? Fira itu sarjana, kerja di kantor agensi mentereng di ruko ber-AC. Keluarganya di Jember sana orang terpandang, bapaknya pensiunan guru madrasah. Kamu mau bikin Ibu malu kalau nanti kamu gak bisa bayar kontrakan?\""
         },
         {
           "type": "dialogue",
-          "html": "\"Danu punya tabungan, Bu,\" jawabku waktu itu, menatap lantai semen rumah Ibu tanpa berani mengangkat dagu. Urat-urat di tanganku menegang saat menggenggam buku tabungan bank daerah yang saldonya sudah kukumpulkan mati-matian dari hasil membanting tulang membangun agensi kreatif mandiri—mulai dari bikin foto komersial brand UMKM, syuting video profil korporat, sampai begadang garap dokumentasi pameran event. \"Dua puluh tiga juta, Bu. Ini hasil keringat Danu siang malam demi bisa halalin Fira. Cukup buat sewa tempat setahun dan biaya akad di KUA. Danu gak minta bantuan pesta sepeser pun sama Ibu atau keluarga Fira.\""
+          "html": "\"Arga punya tabungan, Bu,\" jawabku waktu itu, menatap lantai semen rumah Ibu tanpa berani mengangkat dagu. Urat-urat di tanganku menegang saat menggenggam buku tabungan bank daerah yang saldonya sudah kukumpulkan mati-matian dari hasil membanting tulang membangun agensi kreatif mandiri—mulai dari bikin foto komersial brand UMKM, syuting video profil korporat, sampai begadang garap dokumentasi pameran event. \"Dua puluh tiga juta, Bu. Ini hasil keringat Arga siang malam demi bisa halalin Fira. Cukup buat sewa tempat setahun dan biaya akad di KUA. Arga gak minta bantuan pesta sepeser pun sama Ibu atau keluarga Fira.\""
         },
         {
           "type": "dialogue",
-          "html": "\"Pernikahan itu bukan cuma urusan akad di depan penghulu, Danu Prasetya!\" bentak Ibu, suaranya bergetar hebat. \"Setelah akad itu ada beras, ada listrik, ada kebutuhan rumah tangga! Jangan mentang-mentang kamu ngerasa tabunganmu cukup terus kamu sepelekan nasihat orang tua!\""
+          "html": "\"Pernikahan itu bukan cuma urusan akad di depan penghulu, Arga Prasetya!\" bentak Ibu, suaranya bergetar hebat. \"Setelah akad itu ada beras, ada listrik, ada kebutuhan rumah tangga! Jangan mentang-mentang kamu ngerasa tabunganmu cukup terus kamu sepelekan nasihat orang tua!\""
         },
         {
           "type": "paragraph",
@@ -169,7 +169,7 @@ export const NOVEL_DATA: NovelData = {
         },
         {
           "type": "paragraph",
-          "html": "Bulan kelima setelah akad nikah, nama agensi kreatif yang kurintis dengan susah payah—<em>Danu Lensa Kreatif</em>, agensi brand visual yang melayani jasa fotografi, videografi komersial, dan produksi dokumentasi event—sempat mencicipi manisnya lonjakan order. Pintu rezeki seperti dibuka lebar-lebar tanpa peringatan. Lewat kenalan lama di kampus dan koneksi pameran, agensiku memenangkan kontrak dokumentasi visual untuk pameran properti akbar, festival musik kampus, dan kampanye pembukaan tiga cabang toko swalayan lokal di sepanjang jalan protokol Sidoarjo."
+          "html": "Bulan kelima setelah akad nikah, nama agensi kreatif yang kurintis dengan susah payah—<em>Arga Lensa Kreatif</em>, agensi brand visual yang melayani jasa fotografi, videografi komersial, dan produksi dokumentasi event—sempat mencicipi manisnya lonjakan order. Pintu rezeki seperti dibuka lebar-lebar tanpa peringatan. Lewat kenalan lama di kampus dan koneksi pameran, agensiku memenangkan kontrak dokumentasi visual untuk pameran properti akbar, festival musik kampus, dan kampanye pembukaan tiga cabang toko swalayan lokal di sepanjang jalan protokol Sidoarjo."
         },
         {
           "type": "paragraph",
@@ -229,7 +229,7 @@ export const NOVEL_DATA: NovelData = {
         },
         {
           "type": "dialogue",
-          "html": "\"Dasar bodoh... Danu goblok...\" umpatku pada diri sendiri, suaraku tercekat di antara tarikan napas yang patah-patah. \"Ibumu benar. Kamu itu cuma bocah kemarin sore yang sok jagoan bikin agensi. Kamu cuma fotografer jalanan yang gak tahu diri.\""
+          "html": "\"Dasar bodoh... Arga goblok...\" umpatku pada diri sendiri, suaraku tercekat di antara tarikan napas yang patah-patah. \"Ibumu benar. Kamu itu cuma bocah kemarin sore yang sok jagoan bikin agensi. Kamu cuma fotografer jalanan yang gak tahu diri.\""
         },
         {
           "type": "paragraph",
@@ -469,7 +469,7 @@ export const NOVEL_DATA: NovelData = {
         },
         {
           "type": "dialogue",
-          "html": "\"Danu! Syukurlah kamu langsung angkat,\" suara Mas Hendra terdengar terburu-buru di seberang sana, diiringi bunyi gesekan kertas dan ketukan tuts kibor komputer. \"Kamu lagi di mana sekarang? Lagi kosong jadwal gak sampai tiga hari ke depan?\""
+          "html": "\"Arga! Syukurlah kamu langsung angkat,\" suara Mas Hendra terdengar terburu-buru di seberang sana, diiringi bunyi gesekan kertas dan ketukan tuts kibor komputer. \"Kamu lagi di mana sekarang? Lagi kosong jadwal gak sampai tiga hari ke depan?\""
         },
         {
           "type": "dialogue",
@@ -589,7 +589,7 @@ export const NOVEL_DATA: NovelData = {
         },
         {
           "type": "dialogue",
-          "html": "\"Danu mau pamit, Bu. Danu dapat panggilan garap dokumentasi brand di perkebunan daerah timur. Berangkat siang ini naik bis, pulangnya hari Minggu.\""
+          "html": "\"Arga mau pamit, Bu. Arga dapat panggilan garap dokumentasi brand di perkebunan daerah timur. Berangkat siang ini naik bis, pulangnya hari Minggu.\""
         },
         {
           "type": "paragraph",
@@ -605,7 +605,7 @@ export const NOVEL_DATA: NovelData = {
         },
         {
           "type": "dialogue",
-          "html": "\"Danu tetap anak Ibu,\" ucapku pelan, meraih tangan kanan Ibu yang berbau getah sayuran, lalu mencium punggung tangannya yang kasar dengan takzim. \"Danu minta doa restu Ibu biar kerjaan Danu lancar, selamat di jalan, dan bawa rezeki berkah buat bayar utang-utang agensi Danu.\""
+          "html": "\"Arga tetap anak Ibu,\" ucapku pelan, meraih tangan kanan Ibu yang berbau getah sayuran, lalu mencium punggung tangannya yang kasar dengan takzim. \"Arga minta doa restu Ibu biar kerjaan Arga lancar, selamat di jalan, dan bawa rezeki berkah buat bayar utang-utang agensi Arga.\""
         },
         {
           "type": "paragraph",
@@ -953,7 +953,7 @@ export const NOVEL_DATA: NovelData = {
         },
         {
           "type": "dialogue",
-          "html": "\"Wa’alaikumsalam... Ya Allah, Fira? Danu?\" mata Bapak yang sudah rabun menyipit kaget, lalu senyum keriput merekah tulus di wajah sepuhnya. \"Ibu! Ibune! Iki loh anakmu muleh!\""
+          "html": "\"Wa’alaikumsalam... Ya Allah, Fira? Arga?\" mata Bapak yang sudah rabun menyipit kaget, lalu senyum keriput merekah tulus di wajah sepuhnya. \"Ibu! Ibune! Iki loh anakmu muleh!\""
         },
         {
           "type": "paragraph",
@@ -989,7 +989,7 @@ export const NOVEL_DATA: NovelData = {
         },
         {
           "type": "dialogue",
-          "html": "\"Lagi banyak proyek luar kota, Pak,\" kata Fira dengan senyum bangga yang begitu tulus, tidak membiarkan harga diri suaminya tercoreng sedikit pun di depan orang tuanya. \"Ini Danu lagi dipercaya pegang dokumentasi katalog sama video resor besar di perbatasan timur. Agensinya Danu lagi garap proyek penting di sana, makanya kami harus berangkat bareng sekarang.\""
+          "html": "\"Lagi banyak proyek luar kota, Pak,\" kata Fira dengan senyum bangga yang begitu tulus, tidak membiarkan harga diri suaminya tercoreng sedikit pun di depan orang tuanya. \"Ini Arga lagi dipercaya pegang dokumentasi katalog sama video resor besar di perbatasan timur. Agensinya Arga lagi garap proyek penting di sana, makanya kami harus berangkat bareng sekarang.\""
         },
         {
           "type": "paragraph",
@@ -997,7 +997,7 @@ export const NOVEL_DATA: NovelData = {
         },
         {
           "type": "dialogue",
-          "html": "\"Alhamdulillah kalau begitu, Danu,\" ucap Bapak lirih, sarat akan petuah hidup seorang tua yang kenyang makan asam garam. \"Merintis usaha sendiri itu memang jalan yang terjal, Le. Tirakatnya berat. Kadang di atas, kadang di bawah sampai kepala jadi kaki, kaki jadi kepala. Tapi yang paling penting dalam hidup berumah tangga itu cuma satu: kamu jaga Fira baik-baik. Jangan pernah sakiti hatinya. Dan jangan pernah tinggalkan sholat lima waktu di mana pun kamu berada.\""
+          "html": "\"Alhamdulillah kalau begitu, Arga,\" ucap Bapak lirih, sarat akan petuah hidup seorang tua yang kenyang makan asam garam. \"Merintis usaha sendiri itu memang jalan yang terjal, Le. Tirakatnya berat. Kadang di atas, kadang di bawah sampai kepala jadi kaki, kaki jadi kepala. Tapi yang paling penting dalam hidup berumah tangga itu cuma satu: kamu jaga Fira baik-baik. Jangan pernah sakiti hatinya. Dan jangan pernah tinggalkan sholat lima waktu di mana pun kamu berada.\""
         },
         {
           "type": "paragraph",
@@ -1005,7 +1005,7 @@ export const NOVEL_DATA: NovelData = {
         },
         {
           "type": "dialogue",
-          "html": "\"Inggih, Bapak. Matur nuwun sanget petuahe. Danu janji bakal selalu jaga Fira sampai akhir hayat Danu,\" jawabku dengan suara bergetar mantap."
+          "html": "\"Inggih, Bapak. Matur nuwun sanget petuahe. Arga janji bakal selalu jaga Fira sampai akhir hayat Arga,\" jawabku dengan suara bergetar mantap."
         },
         {
           "type": "paragraph",
@@ -1357,7 +1357,7 @@ export const NOVEL_DATA: NovelData = {
         },
         {
           "type": "dialogue",
-          "html": "\"Beb... Danu...?\" bisiknya teramat lirih, suaranya seperti desau angin malam yang rapuh menyentuh ranting kering."
+          "html": "\"Beb... Arga...?\" bisiknya teramat lirih, suaranya seperti desau angin malam yang rapuh menyentuh ranting kering."
         },
         {
           "type": "dialogue",
@@ -1433,7 +1433,7 @@ export const NOVEL_DATA: NovelData = {
         },
         {
           "type": "paragraph",
-          "html": "Danu Prasetya."
+          "html": "Arga Prasetya."
         },
         {
           "type": "paragraph",

@@ -35,13 +35,15 @@ self.addEventListener('fetch', (event) => {
     return;
   }
 
-  // Cache-first for static assets (_next/static, fonts, icons)
+  // Cache-first for static assets (_next/static, fonts, icons, audio)
   if (
     url.pathname.startsWith('/_next/static/') ||
+    url.pathname.startsWith('/audio/') ||
     url.hostname.includes('fonts.gstatic.com') ||
     url.pathname.endsWith('.svg') ||
     url.pathname.endsWith('.json') ||
-    url.pathname.endsWith('.woff2')
+    url.pathname.endsWith('.woff2') ||
+    url.pathname.endsWith('.mp3')
   ) {
     event.respondWith(
       caches.match(request).then((cached) => {

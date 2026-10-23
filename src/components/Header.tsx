@@ -9,6 +9,7 @@ interface HeaderProps {
   onGoHome: () => void;
   audioPlaying: boolean;
   onToggleAudio: () => void;
+  bgmTitle?: string;
   fontSize: number;
   onIncreaseFontSize: () => void;
   onDecreaseFontSize: () => void;
@@ -25,6 +26,7 @@ export default function Header({
   onGoHome,
   audioPlaying,
   onToggleAudio,
+  bgmTitle = "BGM Novel",
   fontSize,
   onIncreaseFontSize,
   onDecreaseFontSize,
@@ -81,24 +83,33 @@ export default function Header({
             </button>
           </div>
 
-          {/* Ambient Audio */}
+          {/* Adaptive BGM Soundtrack Button */}
           <button
             onClick={onToggleAudio}
             className={`flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg text-xs font-medium border transition-colors ${
               audioPlaying
-                ? "bg-accent/15 border-accent text-accent"
+                ? "bg-accent/15 border-accent text-accent shadow-sm"
                 : "bg-[var(--bg-surface)] border-[var(--border-subtle)] text-[var(--text-secondary)] hover:bg-[var(--bg-hover)]"
             }`}
-            title={audioPlaying ? "Hentikan Suara Hujan & Kereta" : "Putar Suara Hujan & Kereta Malam"}
-            aria-label="Suara Hujan & Kereta"
+            title={audioPlaying ? `BGM Aktif: ${bgmTitle} (Klik untuk Jeda)` : "Putar Soundtrack BGM Emosional"}
+            aria-label="Soundtrack BGM Novel"
           >
-            <svg className={`w-4 h-4 ${audioPlaying ? "animate-pulse" : ""}`} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-              <path d="M4 14.899A7 7 0 1 1 15.71 8h1.79a4.5 4.5 0 0 1 2.5 8.242"></path>
-              <path d="M16 14v6"></path>
-              <path d="M8 14v6"></path>
-              <path d="M12 16v6"></path>
-            </svg>
-            <span className="hidden lg:inline">{audioPlaying ? "Hujan Aktif" : "Suara Hujan"}</span>
+            {audioPlaying ? (
+              <div className="flex items-end gap-0.5 h-3.5 w-3.5 justify-center py-0.5">
+                <span className="w-1 bg-accent rounded-full animate-[bounce_0.8s_ease-in-out_infinite] h-3"></span>
+                <span className="w-1 bg-accent rounded-full animate-[bounce_0.6s_ease-in-out_infinite_0.2s] h-2"></span>
+                <span className="w-1 bg-accent rounded-full animate-[bounce_0.9s_ease-in-out_infinite_0.4s] h-3.5"></span>
+              </div>
+            ) : (
+              <svg className="w-4 h-4 text-[var(--text-secondary)]" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                <path d="M9 18V5l12-2v13"></path>
+                <circle cx="6" cy="18" r="3"></circle>
+                <circle cx="18" cy="16" r="3"></circle>
+              </svg>
+            )}
+            <span className="hidden sm:inline font-ui text-[11px] truncate max-w-[120px]">
+              {audioPlaying ? bgmTitle : "BGM Musik"}
+            </span>
           </button>
 
           {/* Settings Drawer Trigger (Single Source of Settings) */}

@@ -10,7 +10,7 @@ import ChapterContent from "@/components/ChapterContent";
 import TocDrawer from "@/components/TocDrawer";
 import SettingsDrawer from "@/components/SettingsDrawer";
 import MobileBottomNav from "@/components/MobileBottomNav";
-import { soundEngine } from "@/components/SoundEngine";
+import { soundEngine, getZoneForChapter, BGM_ZONES } from "@/components/SoundEngine";
 
 const DEFAULT_SETTINGS: ReaderSettings = {
   theme: "cream",
@@ -30,6 +30,7 @@ export default function Home() {
   const [isTocOpen, setIsTocOpen] = useState<boolean>(false);
   const [isSettingsOpen, setIsSettingsOpen] = useState<boolean>(false);
   const [audioPlaying, setAudioPlaying] = useState<boolean>(false);
+  const [bgmTitle, setBgmTitle] = useState<string>("Awal & Nostalgia");
   const [settings, setSettings] = useState<ReaderSettings>(DEFAULT_SETTINGS);
   const [isMounted, setIsMounted] = useState<boolean>(false);
 
@@ -116,7 +117,18 @@ export default function Home() {
     }
   }, [settings, isMounted]);
 
-  // 6. Track Scroll Progress
+  // 6. Track Contextual BGM Zone & Dynamic Crossfade
+  useEffect(() => {
+    if (!isMounted) return;
+    const targetZone = getZoneForChapter(activeChapterId);
+    const info = BGM_ZONES[targetZone];
+    setBgmTitle(info.title);
+    if (audioPlaying) {
+      soundEngine.transitionToZone(targetZone, 5.0);
+    }
+  }, [activeChapterId, audioPlaying, isMounted]);
+
+  // 7. Track Scroll Progress
   useEffect(() => {
     const handleScroll = () => {
       if (activeChapterId === 0) {
@@ -197,10 +209,12 @@ export default function Home() {
     soundEngine.setVolume(DEFAULT_SETTINGS.audioVolume);
   };
 
-  // 9. Audio Toggle
+  // 10. Audio Toggle with Contextual Zone
   const handleToggleAudio = async () => {
-    const isPlaying = await soundEngine.toggle();
+    const targetZone = getZoneForChapter(activeChapterId);
+    const isPlaying = await soundEngine.toggle(activeChapterId);
     setAudioPlaying(isPlaying);
+    setBgmTitle(BGM_ZONES[targetZone].title);
   };
 
   // 10. Drawer Toggles with mutual exclusion
@@ -289,6 +303,7 @@ export default function Home() {
         onGoHome={handleGoHome}
         audioPlaying={audioPlaying}
         onToggleAudio={handleToggleAudio}
+        bgmTitle={bgmTitle}
         fontSize={settings.fontSize}
         onIncreaseFontSize={handleIncreaseFontSize}
         onDecreaseFontSize={handleDecreaseFontSize}
