@@ -1,43 +1,150 @@
 // Dual-Deck Contextual BGM Engine for 'Tiket Pulang Paling Sunyi'
-// Supports 3 Emotional Zones with 5-Second Equal-Power Crossfade
+// Supports Adaptive Multi-Track Chapters & In-Chapter Scene Transitions
+// Features Ultra-Smooth 5-Second Equal-Power Crossfade via Web Audio API
 
-export type BGMZone = 1 | 2 | 3;
+export type TrackId =
+  | "bgm-cover"
+  | "bgm-ch1a"
+  | "bgm-ch1b"
+  | "bgm-ch2a"
+  | "bgm-ch2b"
+  | "bgm-ch3"
+  | "bgm-ch4"
+  | "bgm-ch5"
+  | "bgm-ch6"
+  | "bgm-ch7"
+  | "bgm-ch8"
+  | "bgm-ch9"
+  | "bgm-ch10";
 
-export interface BGMInfo {
-  zone: BGMZone;
+export interface TrackInfo {
+  id: TrackId;
   title: string;
   theme: string;
   artistNote: string;
+  src: string;
 }
 
-export const BGM_ZONES: Record<BGMZone, BGMInfo> = {
-  1: {
-    zone: 1,
-    title: "Awal & Nostalgia",
-    theme: "Akustik Hangat & Piano Nostalgia",
-    artistNote: "Vibe @TigaDuaSatu / Hindia Akustik",
+export const TRACK_REGISTRY: Record<TrackId, TrackInfo> = {
+  "bgm-cover": {
+    id: "bgm-cover",
+    title: "Nostalgia Senja Sidoarjo",
+    theme: "Petikan Gitar Akustik Hangat",
+    artistNote: "@TigaDuaSatu",
+    src: "/audio/bgm-cover.mp3",
   },
-  2: {
-    zone: 2,
-    title: "Runtuh & Janji",
-    theme: "Piano Melankolis & Senar Cello Lirih",
-    artistNote: "Vibe Novo Amor / WE ARE CHPTRS",
+  "bgm-ch1a": {
+    id: "bgm-ch1a",
+    title: "Aroma Dapur & Bawang",
+    theme: "Akustik Sore & Kehangatan Rumah",
+    artistNote: "@TigaDuaSatu / Hindia",
+    src: "/audio/bgm-ch1a.mp3",
   },
-  3: {
-    zone: 3,
-    title: "Tragedi & Keabadian",
-    theme: "Cinematic Strings & Piano Perpisahan",
-    artistNote: "Vibe Seafret - Atlantis Instrumental",
+  "bgm-ch1b": {
+    id: "bgm-ch1b",
+    title: "Piring Retak & Utang 42 Jt",
+    theme: "Piano Lambat Melankolis",
+    artistNote: "Novo Amor",
+    src: "/audio/bgm-ch1b.mp3",
+  },
+  "bgm-ch2a": {
+    id: "bgm-ch2a",
+    title: "Malam Dingin di Laptop",
+    theme: "Ambient Piano Hening",
+    artistNote: "Novo Amor - State Lines",
+    src: "/audio/bgm-ch2a.mp3",
+  },
+  "bgm-ch2b": {
+    id: "bgm-ch2b",
+    title: "Pelukan di Lantai Ubin",
+    theme: "Senar Haru & Pasrah",
+    artistNote: "WE ARE CHPTRS",
+    src: "/audio/bgm-ch2b.mp3",
+  },
+  "bgm-ch3": {
+    id: "bgm-ch3",
+    title: "Dua Tangan Menolak Lepas",
+    theme: "Cello Lirih & Janji Setia",
+    artistNote: "WE ARE CHPTRS",
+    src: "/audio/bgm-ch3.mp3",
+  },
+  "bgm-ch4": {
+    id: "bgm-ch4",
+    title: "Fajar Harapan Banyuwangi",
+    theme: "Dawai Akustik Harapan Baru",
+    artistNote: "Novo Amor - Anchor",
+    src: "/audio/bgm-ch4.mp3",
+  },
+  "bgm-ch5": {
+    id: "bgm-ch5",
+    title: "Lari Menembus Peluit Kondektur",
+    theme: "Indie Folk & Tensi Kereta Malam",
+    artistNote: "Seafret - Atlantis",
+    src: "/audio/bgm-ch5.mp3",
+  },
+  "bgm-ch6": {
+    id: "bgm-ch6",
+    title: "Secangkir Teh di Jember",
+    theme: "Mellow Fingerstyle Nostalgia",
+    artistNote: "Novo Amor / Fingerstyle",
+    src: "/audio/bgm-ch6.mp3",
+  },
+  "bgm-ch7": {
+    id: "bgm-ch7",
+    title: "Derit Besi di Jalur Turunan",
+    theme: "Dramatic Strings & Tragedi Jurang",
+    artistNote: "Seafret - Atlantis Climax",
+    src: "/audio/bgm-ch7.mp3",
+  },
+  "bgm-ch8": {
+    id: "bgm-ch8",
+    title: "Hening di Dasar Lembah",
+    theme: "Kesunyian Jiwa & Solo Piano Dingin",
+    artistNote: "Novo Amor - Repeat Until Death",
+    src: "/audio/bgm-ch8.mp3",
+  },
+  "bgm-ch9": {
+    id: "bgm-ch9",
+    title: "Di Ambang Bawah Sadar",
+    theme: "Arwah Pulang ke Pelukan Fira",
+    artistNote: "Hindia Slow Piano",
+    src: "/audio/bgm-ch9.mp3",
+  },
+  "bgm-ch10": {
+    id: "bgm-ch10",
+    title: "Pulang Tanpa Bayangan",
+    theme: "Pelepasan Cinta Sejati & Outro Abadi",
+    artistNote: "Novo Amor / Farewell",
+    src: "/audio/bgm-ch10.mp3",
   },
 };
 
-export function getZoneForChapter(chapterId: number): BGMZone {
-  // Bab 2 & 3: Runtuh / Pailit & Pelukan Fira
-  if (chapterId === 2 || chapterId === 3) return 2;
-  // Bab 7, 8, 9, 10: Rem blong, jurang, realisasi arwah, ambulans
-  if (chapterId >= 7 && chapterId <= 10) return 3;
-  // Bab 1, 4, 5, 6 & Sinopsis (0): Awal pernikahan, terminal, mampir Jember
-  return 1;
+export function getDefaultTrackForChapter(chapterId: number): TrackId {
+  switch (chapterId) {
+    case 1:
+      return "bgm-ch1a";
+    case 2:
+      return "bgm-ch2a";
+    case 3:
+      return "bgm-ch3";
+    case 4:
+      return "bgm-ch4";
+    case 5:
+      return "bgm-ch5";
+    case 6:
+      return "bgm-ch6";
+    case 7:
+      return "bgm-ch7";
+    case 8:
+      return "bgm-ch8";
+    case 9:
+      return "bgm-ch9";
+    case 10:
+      return "bgm-ch10";
+    case 0:
+    default:
+      return "bgm-cover";
+  }
 }
 
 class SoundEngine {
@@ -46,7 +153,7 @@ class SoundEngine {
   private isRunning: boolean = false;
   private volume: number = 0.55;
 
-  // Deck A & Deck B for Seamless Cross-Fade
+  // Deck A & Deck B for Seamless Equal-Power Crossfade
   private audioA: HTMLAudioElement | null = null;
   private audioB: HTMLAudioElement | null = null;
   private sourceA: MediaElementAudioSourceNode | null = null;
@@ -55,12 +162,8 @@ class SoundEngine {
   private gainB: GainNode | null = null;
 
   private activeDeck: "A" | "B" = "A";
-  private currentZone: BGMZone = 1;
+  private currentTrackId: TrackId = "bgm-cover";
   private isTransitioning: boolean = false;
-
-  private getAudioSrc(zone: BGMZone): string {
-    return `/audio/bgm-zone${zone}.mp3`;
-  }
 
   private init() {
     if (this.audioCtx) return;
@@ -77,8 +180,10 @@ class SoundEngine {
       this.masterGain.gain.setValueAtTime(this.volume, this.audioCtx.currentTime);
       this.masterGain.connect(this.audioCtx.destination);
 
+      const track = TRACK_REGISTRY[this.currentTrackId];
+
       // Deck A
-      this.audioA = new Audio(this.getAudioSrc(this.currentZone));
+      this.audioA = new Audio(track.src);
       this.audioA.loop = true;
       this.audioA.preload = "auto";
       this.sourceA = this.audioCtx.createMediaElementSource(this.audioA);
@@ -87,8 +192,8 @@ class SoundEngine {
       this.sourceA.connect(this.gainA);
       this.gainA.connect(this.masterGain);
 
-      // Deck B
-      this.audioB = new Audio(this.getAudioSrc(2));
+      // Deck B (Standby)
+      this.audioB = new Audio(TRACK_REGISTRY["bgm-ch1a"].src);
       this.audioB.loop = true;
       this.audioB.preload = "auto";
       this.sourceB = this.audioCtx.createMediaElementSource(this.audioB);
@@ -101,7 +206,7 @@ class SoundEngine {
     }
   }
 
-  public async start(initialZone?: BGMZone): Promise<boolean> {
+  public async start(initialTrackId?: TrackId): Promise<boolean> {
     try {
       this.init();
       if (!this.audioCtx) return false;
@@ -110,17 +215,22 @@ class SoundEngine {
         await this.audioCtx.resume();
       }
 
-      if (initialZone && initialZone !== this.currentZone) {
-        this.currentZone = initialZone;
-        if (this.audioA) this.audioA.src = this.getAudioSrc(this.currentZone);
+      const targetId = initialTrackId || this.currentTrackId;
+      this.currentTrackId = targetId;
+
+      const track = TRACK_REGISTRY[targetId];
+      const activeAudio = this.activeDeck === "A" ? this.audioA : this.audioB;
+      const activeGain = this.activeDeck === "A" ? this.gainA : this.gainB;
+
+      if (activeAudio) {
+        if (!activeAudio.src.endsWith(track.src)) {
+          activeAudio.src = track.src;
+        }
       }
 
       if (this.masterGain) {
         this.masterGain.gain.setValueAtTime(this.volume, this.audioCtx.currentTime);
       }
-
-      const activeAudio = this.activeDeck === "A" ? this.audioA : this.audioB;
-      const activeGain = this.activeDeck === "A" ? this.gainA : this.gainB;
 
       if (activeGain) {
         activeGain.gain.setValueAtTime(1.0, this.audioCtx.currentTime);
@@ -153,20 +263,29 @@ class SoundEngine {
     this.isTransitioning = false;
   }
 
-  public async toggle(chapterId?: number): Promise<boolean> {
+  public async toggle(chapterId?: number, explicitTrackId?: TrackId): Promise<boolean> {
     if (this.isRunning) {
       this.stop();
       return false;
     } else {
-      const zone = chapterId !== undefined ? getZoneForChapter(chapterId) : this.currentZone;
-      return await this.start(zone);
+      let target: TrackId = this.currentTrackId;
+      if (explicitTrackId) {
+        target = explicitTrackId;
+      } else if (chapterId !== undefined) {
+        target = getDefaultTrackForChapter(chapterId);
+      }
+      return await this.start(target);
     }
   }
 
   // Ultra-Smooth 5-Second Equal-Power Crossfade Transition
-  public async transitionToZone(targetZone: BGMZone, durationSec: number = 5.0): Promise<void> {
-    if (targetZone === this.currentZone || !this.isRunning || !this.audioCtx) {
-      this.currentZone = targetZone;
+  public async transitionToTrack(targetTrackId: TrackId, durationSec: number = 5.0): Promise<void> {
+    if (targetTrackId === this.currentTrackId) {
+      return;
+    }
+
+    if (!this.isRunning || !this.audioCtx) {
+      this.currentTrackId = targetTrackId;
       return;
     }
 
@@ -182,13 +301,15 @@ class SoundEngine {
       const nextGain = nextDeck === "A" ? this.gainA : this.gainB;
 
       if (!currentGain || !nextGain || !currentAudio || !nextAudio) {
-        this.currentZone = targetZone;
+        this.currentTrackId = targetTrackId;
         this.isTransitioning = false;
         return;
       }
 
+      const nextTrack = TRACK_REGISTRY[targetTrackId];
+
       // Prepare Next Deck
-      nextAudio.src = this.getAudioSrc(targetZone);
+      nextAudio.src = nextTrack.src;
       nextAudio.currentTime = 0;
       await nextAudio.play();
 
@@ -207,12 +328,12 @@ class SoundEngine {
           // ignore
         }
         this.activeDeck = nextDeck;
-        this.currentZone = targetZone;
+        this.currentTrackId = targetTrackId;
         this.isTransitioning = false;
       }, durationSec * 1000 + 50);
     } catch (e) {
       console.warn("Crossfade transition error:", e);
-      this.currentZone = targetZone;
+      this.currentTrackId = targetTrackId;
       this.isTransitioning = false;
     }
   }
@@ -221,12 +342,12 @@ class SoundEngine {
     return this.isRunning;
   }
 
-  public getCurrentZone(): BGMZone {
-    return this.currentZone;
+  public getCurrentTrackId(): TrackId {
+    return this.currentTrackId;
   }
 
-  public getCurrentZoneInfo(): BGMInfo {
-    return BGM_ZONES[this.currentZone];
+  public getCurrentTrackInfo(): TrackInfo {
+    return TRACK_REGISTRY[this.currentTrackId] || TRACK_REGISTRY["bgm-cover"];
   }
 
   public setVolume(vol: number) {

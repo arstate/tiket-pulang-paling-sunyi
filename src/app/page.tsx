@@ -10,7 +10,8 @@ import ChapterContent from "@/components/ChapterContent";
 import TocDrawer from "@/components/TocDrawer";
 import SettingsDrawer from "@/components/SettingsDrawer";
 import MobileBottomNav from "@/components/MobileBottomNav";
-import { soundEngine, getZoneForChapter, BGM_ZONES } from "@/components/SoundEngine";
+import AudioPermissionModal from "@/components/AudioPermissionModal";
+import { soundEngine, TrackId, TRACK_REGISTRY, getDefaultTrackForChapter } from "@/components/SoundEngine";
 
 const DEFAULT_SETTINGS: ReaderSettings = {
   theme: "cream",
@@ -29,8 +30,9 @@ export default function Home() {
   const [scrollProgress, setScrollProgress] = useState<number>(0);
   const [isTocOpen, setIsTocOpen] = useState<boolean>(false);
   const [isSettingsOpen, setIsSettingsOpen] = useState<boolean>(false);
+  const [isAudioModalOpen, setIsAudioModalOpen] = useState<boolean>(false);
   const [audioPlaying, setAudioPlaying] = useState<boolean>(false);
-  const [bgmTitle, setBgmTitle] = useState<string>("Awal & Nostalgia");
+  const [bgmTitle, setBgmTitle] = useState<string>("Nostalgia Senja Sidoarjo");
   const [settings, setSettings] = useState<ReaderSettings>(DEFAULT_SETTINGS);
   const [isMounted, setIsMounted] = useState<boolean>(false);
 
@@ -59,6 +61,16 @@ export default function Home() {
       }
     } catch (e) {
       console.warn("Could not load last chapter:", e);
+    }
+
+    // Check First-Visit Audio Prompt
+    try {
+      const audioPrompted = localStorage.getItem("tiket_pulang_audio_prompted");
+      if (!audioPrompted) {
+        setIsAudioModalOpen(true);
+      }
+    } catch {
+      // ignore
     }
 
     // Check URL Hash
@@ -117,14 +129,13 @@ export default function Home() {
     }
   }, [settings, isMounted]);
 
-  // 6. Track Contextual BGM Zone & Dynamic Crossfade
+  // 6. Track Contextual BGM & Chapter Transition
   useEffect(() => {
     if (!isMounted) return;
-    const targetZone = getZoneForChapter(activeChapterId);
-    const info = BGM_ZONES[targetZone];
-    setBgmTitle(info.title);
+    const defaultTrack = getDefaultTrackForChapter(activeChapterId);
+    setBgmTitle(TRACK_REGISTRY[defaultTrack].title);
     if (audioPlaying) {
-      soundEngine.transitionToZone(targetZone, 5.0);
+      soundEngine.transitionToTrack(defaultTrack, 5.0);
     }
   }, [activeChapterId, audioPlaying, isMounted]);
 
@@ -209,12 +220,45 @@ export default function Home() {
     soundEngine.setVolume(DEFAULT_SETTINGS.audioVolume);
   };
 
-  // 10. Audio Toggle with Contextual Zone
+  // 9. In-Chapter Scene Waypoint Change
+  const handleSceneChange = (trackId: TrackId) => {
+    if (audioPlaying) {
+      soundEngine.transitionToTrack(trackId, 5.0);
+    }
+    setBgmTitle(TRACK_REGISTRY[trackId].title);
+  };
+
+  // 10. Audio Toggle with Contextual Track
   const handleToggleAudio = async () => {
-    const targetZone = getZoneForChapter(activeChapterId);
-    const isPlaying = await soundEngine.toggle(activeChapterId);
+    const defaultTrack = getDefaultTrackForChapter(activeChapterId);
+    const isPlaying = await soundEngine.toggle(activeChapterId, defaultTrack);
     setAudioPlaying(isPlaying);
-    setBgmTitle(BGM_ZONES[targetZone].title);
+    setBgmTitle(soundEngine.getCurrentTrackInfo().title);
+  };
+
+  // 11. Modal Audio Handlers (Autoplay unlock)
+  const handleEnableAudioFromModal = async () => {
+    try {
+      localStorage.setItem("tiket_pulang_audio_prompted", "true");
+    } catch {
+      // ignore
+    }
+    setIsAudioModalOpen(false);
+    const defaultTrack = getDefaultTrackForChapter(activeChapterId);
+    const isPlaying = await soundEngine.start(defaultTrack);
+    setAudioPlaying(isPlaying);
+    if (isPlaying) {
+      setBgmTitle(TRACK_REGISTRY[defaultTrack].title);
+    }
+  };
+
+  const handleDismissAudioModal = () => {
+    try {
+      localStorage.setItem("tiket_pulang_audio_prompted", "true");
+    } catch {
+      // ignore
+    }
+    setIsAudioModalOpen(false);
   };
 
   // 10. Drawer Toggles with mutual exclusion
@@ -330,9 +374,16 @@ export default function Home() {
             onNextChapter={handleNextChapter}
             onOpenToc={handleOpenToc}
             onGoHome={handleGoHome}
+            onSceneChange={handleSceneChange}
           />
         )}
-      </div>
+        {/* Audio Autoplay Permission Modal */}
+      <AudioPermissionModal
+        isOpen={isAudioModalOpen}
+        onEnableAudio={handleEnableAudioFromModal}
+        onDismiss={handleDismissAudioModal}
+      />
+    </div>
 
       {/* Table of Contents Drawer */}
       <TocDrawer
@@ -377,6 +428,13 @@ export default function Home() {
           </p>
         </div>
       </footer>
+
+      {/* Audio Autoplay Permission Modal */}
+      <AudioPermissionModal
+        isOpen={isAudioModalOpen}
+        onEnableAudio={handleEnableAudioFromModal}
+        onDismiss={handleDismissAudioModal}
+      />
     </div>
   );
 }

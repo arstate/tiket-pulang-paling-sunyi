@@ -1,7 +1,9 @@
 "use client";
 
 import { Chapter, ParagraphItem, ReaderSettings } from "@/types/novel";
-import { useRef } from "react";
+import { TrackId, getDefaultTrackForChapter } from "./SoundEngine";
+import { useRef, useEffect } from "react";
+import React from "react";
 
 interface ChapterContentProps {
   chapter: Chapter;
@@ -12,6 +14,7 @@ interface ChapterContentProps {
   onNextChapter: () => void;
   onOpenToc: () => void;
   onGoHome: () => void;
+  onSceneChange?: (trackId: TrackId) => void;
 }
 
 export default function ChapterContent({
@@ -23,8 +26,39 @@ export default function ChapterContent({
   onNextChapter,
   onOpenToc,
   onGoHome,
+  onSceneChange,
 }: ChapterContentProps) {
   const containerRef = useRef<HTMLDivElement>(null);
+
+  // In-Chapter Scene Waypoint Observer for Adaptive BGM
+  useEffect(() => {
+    if (!onSceneChange) return;
+
+    // Immediately sync to default track for chapter on mount / chapter change
+    onSceneChange(getDefaultTrackForChapter(chapter.id));
+
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            const trackId = entry.target.getAttribute("data-track-id") as TrackId | null;
+            if (trackId) {
+              onSceneChange(trackId);
+            }
+          }
+        });
+      },
+      {
+        rootMargin: "-15% 0px -65% 0px",
+        threshold: 0,
+      }
+    );
+
+    const waypoints = containerRef.current?.querySelectorAll(".scene-waypoint");
+    waypoints?.forEach((el) => observer.observe(el));
+
+    return () => observer.disconnect();
+  }, [chapter.id, onSceneChange]);
 
   // Map settings to font styles
   const getFontFamilyClass = () => {
@@ -96,38 +130,71 @@ export default function ChapterContent({
           fontSize: `${settings.fontSize}px`,
         }}
       >
+        {/* Initial Chapter Waypoint */}
+        <div
+          className="scene-waypoint h-0 w-full pointer-events-none opacity-0"
+          data-track-id={getDefaultTrackForChapter(chapter.id)}
+        />
+
         {chapter.paragraphs.map((item: ParagraphItem, index: number) => {
           // Bab 10 drop-cap handling: only first narrative prose paragraph
           const isDropCap = index === firstNarrativeIndex && item.type === "paragraph";
 
+          // Dynamic Intra-Chapter Scene Break Waypoints
+          let midSceneWaypoint = null;
+          if (chapter.id === 1 && index === 15) {
+            midSceneWaypoint = (
+              <div
+                key="wp-ch1b"
+                className="scene-waypoint h-0 w-full pointer-events-none opacity-0 my-0"
+                data-track-id="bgm-ch1b"
+              />
+            );
+          } else if (chapter.id === 2 && index === 15) {
+            midSceneWaypoint = (
+              <div
+                key="wp-ch2b"
+                className="scene-waypoint h-0 w-full pointer-events-none opacity-0 my-0"
+                data-track-id="bgm-ch2b"
+              />
+            );
+          }
+
           if (item.type === "dialogue") {
             return (
-              <p
-                key={index}
-                className="dialogue-para text-[var(--text-primary)] transition-colors"
-                dangerouslySetInnerHTML={{ __html: item.html || item.content || "" }}
-              />
+              <React.Fragment key={index}>
+                {midSceneWaypoint}
+                <p
+                  className="dialogue-para text-[var(--text-primary)] transition-colors"
+                  dangerouslySetInnerHTML={{ __html: item.html || item.content || "" }}
+                />
+              </React.Fragment>
             );
           }
 
           if (item.type === "break" || item.type === "divider") {
             return (
-              <div key={index} className="py-6 flex items-center justify-center gap-2 text-[var(--text-muted)] opacity-60">
-                <span className="w-1.5 h-1.5 rounded-full bg-current"></span>
-                <span className="w-1.5 h-1.5 rounded-full bg-current"></span>
-                <span className="w-1.5 h-1.5 rounded-full bg-current"></span>
-              </div>
+              <React.Fragment key={index}>
+                {midSceneWaypoint}
+                <div className="py-6 flex items-center justify-center gap-2 text-[var(--text-muted)] opacity-60">
+                  <span className="w-1.5 h-1.5 rounded-full bg-current"></span>
+                  <span className="w-1.5 h-1.5 rounded-full bg-current"></span>
+                  <span className="w-1.5 h-1.5 rounded-full bg-current"></span>
+                </div>
+              </React.Fragment>
             );
           }
 
           return (
-            <p
-              key={index}
-              className={`prose-para text-[var(--text-primary)] transition-colors ${
-                isDropCap ? "drop-cap" : ""
-              }`}
-              dangerouslySetInnerHTML={{ __html: item.html || item.content || "" }}
-            />
+            <React.Fragment key={index}>
+              {midSceneWaypoint}
+              <p
+                className={`prose-para text-[var(--text-primary)] transition-colors ${
+                  isDropCap ? "drop-cap" : ""
+                }`}
+                dangerouslySetInnerHTML={{ __html: item.html || item.content || "" }}
+              />
+            </React.Fragment>
           );
         })}
       </div>
