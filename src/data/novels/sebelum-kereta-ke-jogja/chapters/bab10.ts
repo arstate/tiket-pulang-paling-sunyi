@@ -16,7 +16,7 @@ export const BAB_10: Chapter = {
     },
     {
       type: "paragraph",
-      html: "Dalam perjalanan pulangnya dari Yogyakarta menuju kampung halamannya di Jember, Fifa harus transit selama empat puluh menit di Stasiun Gubeng untuk berpindah ke rangkaian kereta api lanjutan. Mengetahui jeda waktu yang amat sempit itu dari pesan singkatnya subuh tadi, aku langsung tancap gas motor bebek tuaku dari kawasan Sidoarjo, menembus kemacetan jalur protokol Surabaya dengan kecepatan gila-gilaan hanya demi sebuah temu yang tak lebih dari setengah jam."
+      html: "Dalam perjalanan pulangnya dari Yogyakarta menuju kampung halamannya di Jember, Fira harus transit selama empat puluh menit di Stasiun Gubeng untuk berpindah ke rangkaian kereta api lanjutan. Mengetahui jeda waktu yang amat sempit itu dari pesan singkatnya subuh tadi, aku langsung tancap gas motor bebek tuaku dari kawasan Sidoarjo, menembus kemacetan jalur protokol Surabaya dengan kecepatan gila-gilaan hanya demi sebuah temu yang tak lebih dari setengah jam."
     },
     {
       type: "paragraph",
@@ -28,23 +28,23 @@ export const BAB_10: Chapter = {
     },
     {
       type: "paragraph",
-      html: "Fifa sedang berdiri sendirian menjaga sebuah koper kain hitam dan tas ransel berisi buku-buku sketsanya. Ia mengenakan kemeja katun krem favoritnya dan pashmina cokelat karamel yang berayun pelan tertiup angin peron. Wajahnya tampak sedikit lelah setelah menempuh perjalanan ratusan kilometer dari Yogyakarta, namun saat pandangan matanya menangkap sosokku yang berlari mendekat, seluruh keletihan di paras ayunya seketika menguap tanpa sisa."
+      html: "Fira sedang berdiri sendirian menjaga sebuah koper kain hitam dan tas ransel berisi buku-buku sketsanya. Ia mengenakan kemeja katun krem favoritnya dan pashmina cokelat karamel yang berayun pelan tertiup angin peron. Wajahnya tampak sedikit lelah setelah menempuh perjalanan ratusan kilometer dari Yogyakarta, namun saat pandangan matanya menangkap sosokku yang berlari mendekat, seluruh keletihan di paras ayunya seketika menguap tanpa sisa."
     },
     {
       type: "dialogue",
-      html: "\"Arya!\" pekiknya lirih seraya melangkah menyongsongku."
+      html: "\"Arga!\" pekiknya lirih seraya melangkah menyongsongku."
     },
     {
       type: "paragraph",
-      html: "Tanpa peduli lagi pada lalu-lalang para penumpang lain yang berdesakan menenteng kardus oleh-oleh, atau tatapan heran para petugas peron berseragam biru tua, Fifa menubrukkan tubuhnya ke dadaku. Kedua lengannya melingkar erat di leherku, mendekapku dengan kekuatan yang menyiratkan betapa dalamnya rindu dan ketakutan yang ia pendam selama berada di Yogyakarta."
+      html: "Tanpa peduli lagi pada lalu-lalang para penumpang lain yang berdesakan menenteng kardus oleh-oleh, atau tatapan heran para petugas peron berseragam biru tua, Fira menubrukkan tubuhnya ke dadaku. Kedua lengannya melingkar erat di leherku, mendekapku dengan kekuatan yang menyiratkan betapa dalamnya rindu dan ketakutan yang ia pendam selama berada di Yogyakarta."
     },
     {
       type: "paragraph",
-      html: "Aku menjatuhkan helm motorku ke lantai peron. Kedua tanganku merengkuh pinggangnya rapat-rapat, membenamkan wajahku ke ceruk bahunya yang menguarkan aroma vanila yang amat kurindukan. Tubuh Fifa sedikit gemetar, ia menangis haru di pundak jaket denimku."
+      html: "Aku menjatuhkan helm motorku ke lantai peron. Kedua tanganku merengkuh pinggangnya rapat-rapat, membenamkan wajahku ke ceruk bahunya yang menguarkan aroma vanila yang amat kurindukan. Tubuh Fira sedikit gemetar, ia menangis haru di pundak jaket denimku."
     },
     {
       type: "dialogue",
-      html: "\"Kamu beneran nekat ke sini, Arya...\" bisiknya dengan bibir menempel di telingaku. \"Kan aku udah bilang gak usah dipaksain kalau lagi repot tugas magang...\""
+      html: "\"Kamu beneran nekat ke sini, Arga...\" bisiknya dengan bibir menempel di telingaku. \"Kan aku udah bilang gak usah dipaksain kalau lagi repot tugas magang...\""
     },
     {
       type: "dialogue",
@@ -52,15 +52,15 @@ export const BAB_10: Chapter = {
     },
     {
       type: "paragraph",
-      html: "Fifa tersenyum lebar, senyuman paling mempesona yang pernah ada di dunia. Tangannya beralih menangkup kedua pipiku yang kasar dan berkeringat."
+      html: "Fira tersenyum lebar, senyuman paling mempesona yang pernah ada di dunia. Tangannya beralih menangkup kedua pipiku yang kasar dan berkeringat."
     },
     {
       type: "dialogue",
-      html: "\"Satria kemarin nemuin aku di Jogja, Arya,\" ucapnya jujur, tanpa ada satu rahasia pun yang ia tutupi dariku."
+      html: "\"Satria kemarin nemuin aku di Jogja, Arga,\" ucapnya jujur, tanpa ada satu rahasia pun yang ia tutupi dariku."
     },
     {
       type: "paragraph",
-      html: "Dadaku sempat berdesir dingin sesaat, namun ketenangan di mata Fifa seketika melenyapkan segala kecurigaan."
+      html: "Dadaku sempat berdesir dingin sesaat, namun ketenangan di mata Fira seketika melenyapkan segala kecurigaan."
     },
     {
       type: "dialogue",
@@ -68,7 +68,7 @@ export const BAB_10: Chapter = {
     },
     {
       type: "dialogue",
-      html: "\"Aku usir dia, Ga. Aku bilang ke mukanya kalau hatiku udah seutuhnya milik kamu, dan gak akan pernah ada tempat lagi buat orang lain seumur hidupku. Aku milih kamu, Arya. Aku gak peduli apa kata dunia, aku cuma mau kamu.\""
+      html: "\"Aku usir dia, Ga. Aku bilang ke mukanya kalau hatiku udah seutuhnya milik kamu, dan gak akan pernah ada tempat lagi buat orang lain seumur hidupku. Aku milih kamu, Arga. Aku gak peduli apa kata dunia, aku cuma mau kamu.\""
     },
     {
       type: "paragraph",
@@ -88,15 +88,15 @@ export const BAB_10: Chapter = {
     },
     {
       type: "paragraph",
-      html: "Aku membantu mengangkat koper dan tas ransel Fifa menaiki tangga bordes gerbong empat. Di ambang pintu bordes besi yang sempit, Fifa memegang kedua tanganku erat-erat untuk terakhir kalinya."
+      html: "Aku membantu mengangkat koper dan tas ransel Fira menaiki tangga bordes gerbong empat. Di ambang pintu bordes besi yang sempit, Fira memegang kedua tanganku erat-erat untuk terakhir kalinya."
     },
     {
       type: "dialogue",
-      html: "\"Tunggu aku beres skripsi di Jember ya, Beb Arya...\" bisiknya dengan mata yang kembali berkaca-kaca. \"Jangan nakal di Surabaya. Jangan lirik cewek lain di kantor magang. Kalau kangen langsung telepon aku, janji?\""
+      html: "\"Tunggu aku beres skripsi di Jember ya, Beb Arga...\" bisiknya dengan mata yang kembali berkaca-kaca. \"Jangan nakal di Surabaya. Jangan lirik cewek lain di kantor magang. Kalau kangen langsung telepon aku, janji?\""
     },
     {
       type: "dialogue",
-      html: "\"Janji, Fifa. Kamu fokus selesaikan kuliahmu. Aku bakal selalu nungguin kamu di sini.\""
+      html: "\"Janji, Fira. Kamu fokus selesaikan kuliahmu. Aku bakal selalu nungguin kamu di sini.\""
     },
     {
       type: "paragraph",
@@ -108,7 +108,7 @@ export const BAB_10: Chapter = {
     },
     {
       type: "paragraph",
-      html: "Rangkaian gerbong besi itu mulai berderak perlahan, meluncur meninggalkan peron Stasiun Gubeng. Dari balik kaca jendela kursi nomor 12-A, Fifa menempelkan telapak tangan kirinya ke permukaan kaca yang dingin, melambaikan tangan kanannya seraya menatapku dengan tatapan cinta yang tak terbatas."
+      html: "Rangkaian gerbong besi itu mulai berderak perlahan, meluncur meninggalkan peron Stasiun Gubeng. Dari balik kaca jendela kursi nomor 12-A, Fira menempelkan telapak tangan kirinya ke permukaan kaca yang dingin, melambaikan tangan kanannya seraya menatapku dengan tatapan cinta yang tak terbatas."
     },
     {
       type: "paragraph",
@@ -116,7 +116,7 @@ export const BAB_10: Chapter = {
     },
     {
       type: "paragraph",
-      html: "Aku berdiri mematung di peron stasiun yang perlahan kembali lengang. Angin siang meniup ujung jaket denimku yang masih menyimpan sisa kehangatan tubuh Fifa."
+      html: "Aku berdiri mematung di peron stasiun yang perlahan kembali lengang. Angin siang meniup ujung jaket denimku yang masih menyimpan sisa kehangatan tubuh Fira."
     },
     {
       type: "paragraph",
@@ -128,7 +128,7 @@ export const BAB_10: Chapter = {
     },
     {
       type: "paragraph",
-      html: "Sebuah janji rahasia kupatrikan di dalam hatiku yang terdalam: *Tunggu aku di Sidoarjo dan Jember, Fifa. Suatu hari nanti, di hari wisudamu, aku akan datang membawa buket bunga paling indah untuk membuktikan bahwa cinta bocah SMK ini tak pernah main-main kepadamu.*"
+      html: "Sebuah janji rahasia kupatrikan di dalam hatiku yang terdalam: *Tunggu aku di Sidoarjo dan Jember, Fira. Suatu hari nanti, di hari wisudamu, aku akan datang membawa buket bunga paling indah untuk membuktikan bahwa cinta bocah SMK ini tak pernah main-main kepadamu.*"
     },
     {
       type: "divider"

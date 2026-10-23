@@ -16,15 +16,15 @@ export const BAB_5: Chapter = {
     },
     {
       type: "paragraph",
-      html: "Sore itu, tepat ketika jam dinding kantor menunjukkan pukul lima lewat sepuluh, aku memberanikan diri melangkah ke meja Fifa. Setelah berminggu-minggu bertukar ratusan pesan teks hingga larut malam, ada dorongan kuat dalam dadaku untuk melihat tawanya secara langsung di luar kungkungan dinding kantor."
+      html: "Sore itu, tepat ketika jam dinding kantor menunjukkan pukul lima lewat sepuluh, aku memberanikan diri melangkah ke meja Fira. Setelah berminggu-minggu bertukar ratusan pesan teks hingga larut malam, ada dorongan kuat dalam dadaku untuk melihat tawanya secara langsung di luar kungkungan dinding kantor."
     },
     {
       type: "dialogue",
-      html: "\"Fifa, laper gak?\" tanyaku pelan, berusaha bersikap seringan mungkin agar tidak terdengar gugup."
+      html: "\"Fira, laper gak?\" tanyaku pelan, berusaha bersikap seringan mungkin agar tidak terdengar gugup."
     },
     {
       type: "paragraph",
-      html: "Fifa yang sedang merapikan binder catatannya mendongak. Matanya berbinar seketika, mengulas senyum manis yang membuat kedua lesung pipit tipisnya tampak jelas."
+      html: "Fira yang sedang merapikan binder catatannya mendongak. Matanya berbinar seketika, mengulas senyum manis yang membuat kedua lesung pipit tipisnya tampak jelas."
     },
     {
       type: "dialogue",
@@ -36,15 +36,15 @@ export const BAB_5: Chapter = {
     },
     {
       type: "paragraph",
-      html: "Fifa tertawa renyah seraya menyampirkan tas selempangnya ke bahu. \"Astaga Arya, dikira aku putri keraton apa! Hayuk berangkat sekarang, keburu antreannya panjang!\""
+      html: "Fira tertawa renyah seraya menyampirkan tas selempangnya ke bahu. \"Astaga Arga, dikira aku putri keraton apa! Hayuk berangkat sekarang, keburu antreannya panjang!\""
     },
     {
       type: "paragraph",
-      html: "Di atas jok motor bebek tuaku, untuk pertama kalinya aku membonceng Fifa menyusuri Jalan Mayjen Sungkono. Di antara deru angin sore dan laju kendaraan yang padat, aroma vanila dari ujung kerudungnya sesekali terhempas menyentuh jaketku. Di Kodam, kami berdua seperti dua anak kecil yang baru dilepas ke taman bermain. Fifa memesan seporsi pentol kuah ekstra sambal, sempol ayam goreng telur, dan segelas es teh manis ukuran satu liter. Saat sudut bibirnya belepotan saus merah pedas, aku menyodorkan selembar tisu seraya menertawakan wajahnya yang kepedasan."
+      html: "Di atas jok motor bebek tuaku, untuk pertama kalinya aku membonceng Fira menyusuri Jalan Mayjen Sungkono. Di antara deru angin sore dan laju kendaraan yang padat, aroma vanila dari ujung kerudungnya sesekali terhempas menyentuh jaketku. Di Kodam, kami berdua seperti dua anak kecil yang baru dilepas ke taman bermain. Fira memesan seporsi pentol kuah ekstra sambal, sempol ayam goreng telur, dan segelas es teh manis ukuran satu liter. Saat sudut bibirnya belepotan saus merah pedas, aku menyodorkan selembar tisu seraya menertawakan wajahnya yang kepedasan."
     },
     {
       type: "dialogue",
-      html: "\"Kamu mah bukannya kasihan malah ngetawain! Pedes banget tahu, tapi enak parah!\" gerutu Fifa manja seraya mengipasi mulutnya dengan telapak tangan."
+      html: "\"Kamu mah bukannya kasihan malah ngetawain! Pedes banget tahu, tapi enak parah!\" gerutu Fira manja seraya mengipasi mulutnya dengan telapak tangan."
     },
     {
       type: "paragraph",
@@ -52,15 +52,15 @@ export const BAB_5: Chapter = {
     },
     {
       type: "paragraph",
-      html: "Di dalam studio bioskop yang temaram, deretan kursi berundak perlahan terisi penuh. Udara pendingin ruangan bioskop terasa membekukan tulang, berembus langsung dari kisi-kisi AC di atas kepala kami. Fifa yang hanya mengenakan kardigan rajut tipis mulai merapatkan kedua lengannya ke dada, bibirnya bergetar kedinginan saat lampu utama studio mulai dipadamkan."
+      html: "Di dalam studio bioskop yang temaram, deretan kursi berundak perlahan terisi penuh. Udara pendingin ruangan bioskop terasa membekukan tulang, berembus langsung dari kisi-kisi AC di atas kepala kami. Fira yang hanya mengenakan kardigan rajut tipis mulai merapatkan kedua lengannya ke dada, bibirnya bergetar kedinginan saat lampu utama studio mulai dipadamkan."
     },
     {
       type: "paragraph",
-      html: "Layar raksasa di depan mulai memancarkan pembuka film, memantulkan kilatan cahaya lembut ke wajah Fifa yang duduk di sebelah kananku."
+      html: "Layar raksasa di depan mulai memancarkan pembuka film, memantulkan kilatan cahaya lembut ke wajah Fira yang duduk di sebelah kananku."
     },
     {
       type: "paragraph",
-      html: "Di pertengahan cerita film, ketika alur cerita mulai melambat dan suara dialog karakter berbisik pelan, aku merasakan sebuah gerakan ragu di sisi bahu kananku. Kepala Fifa yang berbalut pashmina cokelat perlahan rebah miring, menyandarkan keningnya ke pundak jaketku."
+      html: "Di pertengahan cerita film, ketika alur cerita mulai melambat dan suara dialog karakter berbisik pelan, aku merasakan sebuah gerakan ragu di sisi bahu kananku. Kepala Fira yang berbalut pashmina cokelat perlahan rebah miring, menyandarkan keningnya ke pundak jaketku."
     },
     {
       type: "paragraph",
@@ -68,11 +68,11 @@ export const BAB_5: Chapter = {
     },
     {
       type: "paragraph",
-      html: "Namun kejutan terbesarnya belum usai. Di atas pembatas lengan kursi bioskop yang dingin, jemari tangan kiri Fifa yang mungil perlahan bergerak menyentuh punggung tanganku. Sentuhannya hangat dan lembut. Sedetik kemudian, jemarinya menyusup masuk di antara sela-sela jariku, lalu menggenggam erat telapak tanganku dengan tarikan yang mantap dan pasrah."
+      html: "Namun kejutan terbesarnya belum usai. Di atas pembatas lengan kursi bioskop yang dingin, jemari tangan kiri Fira yang mungil perlahan bergerak menyentuh punggung tanganku. Sentuhannya hangat dan lembut. Sedetik kemudian, jemarinya menyusup masuk di antara sela-sela jariku, lalu menggenggam erat telapak tanganku dengan tarikan yang mantap dan pasrah."
     },
     {
       type: "paragraph",
-      html: "Fifa menggeser kepalanya lebih dalam ke ceruk leher jaketku, lalu berbisik dengan suara yang teramat lirih, nyaris teredam oleh efek suara tata suara bioskop:"
+      html: "Fira menggeser kepalanya lebih dalam ke ceruk leher jaketku, lalu berbisik dengan suara yang teramat lirih, nyaris teredam oleh efek suara tata suara bioskop:"
     },
     {
       type: "quote",

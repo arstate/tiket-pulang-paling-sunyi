@@ -28,7 +28,7 @@ export const BAB_4: Chapter = {
     },
     {
       type: "dialogue",
-      html: "\"ARYA PRASETYA! KELUAR KAMU BANGSAT! JANGAN SOK NIKMATIN UANG UTANG EMPAT PULUH DUA JUTA KABUR DI DALEM!\" suara berat dan parau seorang pria berjaket kulit menggelegar dari balik pintu, memicu lolongan anjing tetangga di ujung gang."
+      html: "\"ARGA PRASETYA! KELUAR KAMU BANGSAT! JANGAN SOK NIKMATIN UANG UTANG EMPAT PULUH DUA JUTA KABUR DI DALEM!\" suara berat dan parau seorang pria berjaket kulit menggelegar dari balik pintu, memicu lolongan anjing tetangga di ujung gang."
     },
     {
       type: "paragraph",
@@ -52,7 +52,7 @@ export const BAB_4: Chapter = {
     },
     {
       type: "paragraph",
-      html: "Di atas kertas itu, coretan spidol merah pekat tertera dengan ancaman yang membuat nafasku seketika tercekik di tenggorokan: *'Bayar 42 Juta atau nyawamu gantinya! Alamat kos Fifa di Gayungan dan kantor agensinya di Darmo udah di tangan kami!'*"
+      html: "Di atas kertas itu, coretan spidol merah pekat tertera dengan ancaman yang membuat nafasku seketika tercekik di tenggorokan: *'Bayar 42 Juta atau nyawamu gantinya! Alamat kos Fira di Gayungan dan kantor agensinya di Darmo udah di tangan kami!'*"
     }
   ]
 };

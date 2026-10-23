@@ -15,7 +15,7 @@ export const TIKET_PULANG_DATA: NovelData = {
   "coverAccent": "#C85A32",
   "featured": true,
   "totalChapters": 10,
-  "synopsis": "Sebuah kisah tentang Arya dan Fifa. Di tengah impian membangun agensi kreatif dan himpitan utang empat puluh dua juta yang meremukkan, cinta mereka diuji oleh takdir di jalur kereta malam menuju timur. Kisah pengorbanan sunyi seorang suami yang melintasi batas dua alam demi menyelamatkan separuh jiwanya.",
+  "synopsis": "Sebuah kisah tentang Arga dan Fira. Di tengah impian membangun agensi kreatif dan himpitan utang empat puluh dua juta yang meremukkan, cinta mereka diuji oleh takdir di jalur kereta malam menuju timur. Kisah pengorbanan sunyi seorang suami yang melintasi batas dua alam demi menyelamatkan separuh jiwanya.",
   "quote": "Perjalananku mencari nafkah telah usai. Agensiku, utang-utangku, dan segala ambisi duniawiku telah lunas tertinggal di dasar jurang yang kelam. Namun di atas segalanya, aku tahu aku telah menunaikan sumpah suciku sebagai seorang suami.",
   "totalWords": 11680,
   "totalReadTimeMinutes": 58,
@@ -44,7 +44,7 @@ export const TIKET_PULANG_DATA: NovelData = {
         },
         {
           "type": "paragraph",
-          "html": "Fifa sedang berdiri di dapur kecil yang lebarnya tak lebih dari dua langkah orang dewasa. Dia masih mengenakan kemeja kerja krem favoritnya—kemeja berbahan katun jatuh yang sudah kusut di bagian siku karena dipakai seharian mengetik di depan layar monitor kantor agensi. Rambut hitamnya dicepol asal-asalan dengan jepit gurita plastik hitam, menyisakan anak-anak rambut yang basah menempel di pelipisnya karena hawa pengap kompor minyak tanah."
+          "html": "Fira sedang berdiri di dapur kecil yang lebarnya tak lebih dari dua langkah orang dewasa. Dia masih mengenakan kemeja kerja krem favoritnya—kemeja berbahan katun jatuh yang sudah kusut di bagian siku karena dipakai seharian mengetik di depan layar monitor kantor agensi. Rambut hitamnya dicepol asal-asalan dengan jepit gurita plastik hitam, menyisakan anak-anak rambut yang basah menempel di pelipisnya karena hawa pengap kompor minyak tanah."
         },
         {
           "type": "paragraph",
@@ -60,7 +60,7 @@ export const TIKET_PULANG_DATA: NovelData = {
         },
         {
           "type": "paragraph",
-          "html": "Fifa meraih tanganku, mencium punggung tanganku dengan takzim, lalu kedua tangannya yang mungil meraih tali ransel kameraku. \"Sini, Beb. Biar aku taruh di kamar. Pasti pundakmu remuk seharian kejar setoran video sama foto katalog event di kampus utara.\""
+          "html": "Fira meraih tanganku, mencium punggung tanganku dengan takzim, lalu kedua tangannya yang mungil meraih tali ransel kameraku. \"Sini, Beb. Biar aku taruh di kamar. Pasti pundakmu remuk seharian kejar setoran video sama foto katalog event di kampus utara.\""
         },
         {
           "type": "dialogue",
@@ -72,7 +72,7 @@ export const TIKET_PULANG_DATA: NovelData = {
         },
         {
           "type": "paragraph",
-          "html": "Kamar kontrakan ini murah. Sejuta dua ratus ribu setahun, dibayar patungan dari sisa honor produksi event kecil-kecilan dan gajinya Fifa di agensi digital marketing kawasan ruko kota. Letaknya di gang sempit yang hanya muat satu motor, di mana tetangga kanan-kiri bisa saling mendengar suara panci berdenting atau tangisan bayi di seberang dinding batako."
+          "html": "Kamar kontrakan ini murah. Sejuta dua ratus ribu setahun, dibayar patungan dari sisa honor produksi event kecil-kecilan dan gajinya Fira di agensi digital marketing kawasan ruko kota. Letaknya di gang sempit yang hanya muat satu motor, di mana tetangga kanan-kiri bisa saling mendengar suara panci berdenting atau tangisan bayi di seberang dinding batako."
         },
         {
           "type": "paragraph",
@@ -80,7 +80,7 @@ export const TIKET_PULANG_DATA: NovelData = {
         },
         {
           "type": "paragraph",
-          "html": "Aku duduk di kursi kayu berkaki pendek sambil memandangi punggung Fifa yang kembali sibuk di depan wajan. Pikiranku terlempar ke beberapa bulan silam, malam di mana ruang tamu rumah ibuku di kawasan pemukiman padat gang lima terasa sedingin liang lahat."
+          "html": "Aku duduk di kursi kayu berkaki pendek sambil memandangi punggung Fira yang kembali sibuk di depan wajan. Pikiranku terlempar ke beberapa bulan silam, malam di mana ruang tamu rumah ibuku di kawasan pemukiman padat gang lima terasa sedingin liang lahat."
         },
         {
           "type": "paragraph",
@@ -88,23 +88,23 @@ export const TIKET_PULANG_DATA: NovelData = {
         },
         {
           "type": "dialogue",
-          "html": "\"Kamu itu mikir pakai apa to, Arya?\" suara Ibu saat itu masih terngiang jelas di telingaku, tajam seperti sembilu yang membelah bambu. \"Kerjamu cuma bangun agensi kreatif gak jelas, ngaku-ngaku founder agensi foto video event, kadang dapat proyek, kadang sebulan cuma makan kerupuk sama kecap. Mau kamu kasih makan apa anak orang? Fifa itu sarjana, kerja di kantor agensi mentereng di ruko ber-AC. Keluarganya di Jember sana orang terpandang, bapaknya pensiunan guru madrasah. Kamu mau bikin Ibu malu kalau nanti kamu gak bisa bayar kontrakan?\""
+          "html": "\"Kamu itu mikir pakai apa to, Arga?\" suara Ibu saat itu masih terngiang jelas di telingaku, tajam seperti sembilu yang membelah bambu. \"Kerjamu cuma bangun agensi kreatif gak jelas, ngaku-ngaku founder agensi foto video event, kadang dapat proyek, kadang sebulan cuma makan kerupuk sama kecap. Mau kamu kasih makan apa anak orang? Fira itu sarjana, kerja di kantor agensi mentereng di ruko ber-AC. Keluarganya di Jember sana orang terpandang, bapaknya pensiunan guru madrasah. Kamu mau bikin Ibu malu kalau nanti kamu gak bisa bayar kontrakan?\""
         },
         {
           "type": "dialogue",
-          "html": "\"Arya punya tabungan, Bu,\" jawabku waktu itu, menatap lantai semen rumah Ibu tanpa berani mengangkat dagu. Urat-urat di tanganku menegang saat menggenggam buku tabungan bank daerah yang saldonya sudah kukumpulkan mati-matian dari hasil membanting tulang membangun agensi kreatif mandiri—mulai dari bikin foto komersial brand UMKM, syuting video profil korporat, sampai begadang garap dokumentasi pameran event. \"Dua puluh tiga juta, Bu. Ini hasil keringat Arya siang malam demi bisa halalin Fifa. Cukup buat sewa tempat setahun dan biaya akad di KUA. Arya gak minta bantuan pesta sepeser pun sama Ibu atau keluarga Fifa.\""
+          "html": "\"Arga punya tabungan, Bu,\" jawabku waktu itu, menatap lantai semen rumah Ibu tanpa berani mengangkat dagu. Urat-urat di tanganku menegang saat menggenggam buku tabungan bank daerah yang saldonya sudah kukumpulkan mati-matian dari hasil membanting tulang membangun agensi kreatif mandiri—mulai dari bikin foto komersial brand UMKM, syuting video profil korporat, sampai begadang garap dokumentasi pameran event. \"Dua puluh tiga juta, Bu. Ini hasil keringat Arga siang malam demi bisa halalin Fira. Cukup buat sewa tempat setahun dan biaya akad di KUA. Arga gak minta bantuan pesta sepeser pun sama Ibu atau keluarga Fira.\""
         },
         {
           "type": "dialogue",
-          "html": "\"Pernikahan itu bukan cuma urusan akad di depan penghulu, Arya Prasetya!\" bentak Ibu, suaranya bergetar hebat. \"Setelah akad itu ada beras, ada listrik, ada kebutuhan rumah tangga! Jangan mentang-mentang kamu ngerasa tabunganmu cukup terus kamu sepelekan nasihat orang tua!\""
+          "html": "\"Pernikahan itu bukan cuma urusan akad di depan penghulu, Arga Prasetya!\" bentak Ibu, suaranya bergetar hebat. \"Setelah akad itu ada beras, ada listrik, ada kebutuhan rumah tangga! Jangan mentang-mentang kamu ngerasa tabunganmu cukup terus kamu sepelekan nasihat orang tua!\""
         },
         {
           "type": "paragraph",
-          "html": "Hari itu, Ibu menolak memberi restu secara terang-terangan. Beliau bahkan sempat mengancam tidak akan hadir di KUA jika aku tetap bersikeras melamar Fifa di bulan Maulid. Tapi aku adalah pemuda keras kepala yang dibutakan oleh cinta dan tekad baja untuk membuktikan bahwa agensi kreatif yang kusiasati dari kamar kosan mampu menjadi tiang penyangga masa depan kami berdua."
+          "html": "Hari itu, Ibu menolak memberi restu secara terang-terangan. Beliau bahkan sempat mengancam tidak akan hadir di KUA jika aku tetap bersikeras melamar Fira di bulan Maulid. Tapi aku adalah pemuda keras kepala yang dibutakan oleh cinta dan tekad baja untuk membuktikan bahwa agensi kreatif yang kusiasati dari kamar kosan mampu menjadi tiang penyangga masa depan kami berdua."
         },
         {
           "type": "paragraph",
-          "html": "Fifa pun sama keras kepalanya denganku. Ketika diajak berbicara berdua di warung mie ayam dekat stasiun, perempuan berparas teduh itu hanya menggenggam jemariku yang gemetar."
+          "html": "Fira pun sama keras kepalanya denganku. Ketika diajak berbicara berdua di warung mie ayam dekat stasiun, perempuan berparas teduh itu hanya menggenggam jemariku yang gemetar."
         },
         {
           "type": "dialogue",
@@ -112,15 +112,15 @@ export const TIKET_PULANG_DATA: NovelData = {
         },
         {
           "type": "paragraph",
-          "html": "Akhirnya, pernikahan itu tetap terjadi. Sederhana, nyaris senyap. Ibu hadir dengan kebaya cokelat tua yang kaku dan mata yang menolak menatap kamera, sementara orang tua Fifa datang jauh-jauh dari Jember dengan membawa keranjang buah dan senyum pasrah yang berusaha terlihat tegar. Tidak ada panggung pelaminan mewah, tidak ada tenda tratak yang menutup jalan kampung, hanya ada nasi kotak rawon daging dan doa bersama sepuluh orang kerabat inti di balai nikah KUA."
+          "html": "Akhirnya, pernikahan itu tetap terjadi. Sederhana, nyaris senyap. Ibu hadir dengan kebaya cokelat tua yang kaku dan mata yang menolak menatap kamera, sementara orang tua Fira datang jauh-jauh dari Jember dengan membawa keranjang buah dan senyum pasrah yang berusaha terlihat tegar. Tidak ada panggung pelaminan mewah, tidak ada tenda tratak yang menutup jalan kampung, hanya ada nasi kotak rawon daging dan doa bersama sepuluh orang kerabat inti di balai nikah KUA."
         },
         {
           "type": "paragraph",
-          "html": "Dan sekarang, di kontrakan kecil ini, aroma oseng tempe kacang panjang dan sambal bawang buatan Fifa adalah bukti nyata bahwa kami bertahan."
+          "html": "Dan sekarang, di kontrakan kecil ini, aroma oseng tempe kacang panjang dan sambal bawang buatan Fira adalah bukti nyata bahwa kami bertahan."
         },
         {
           "type": "dialogue",
-          "html": "\"Melamun terus, Beb,\" tegur Fifa, membuyarkan lamunanku. Dia meletakkan sepiring nasi putih mengepul dan mangkok tempe oseng di hadapanku. Di sampingnya ada dua gelas teh manis hangat yang asapnya meliuk-liuk tipis."
+          "html": "\"Melamun terus, Beb,\" tegur Fira, membuyarkan lamunanku. Dia meletakkan sepiring nasi putih mengepul dan mangkok tempe oseng di hadapanku. Di sampingnya ada dua gelas teh manis hangat yang asapnya meliuk-liuk tipis."
         },
         {
           "type": "paragraph",
@@ -132,7 +132,7 @@ export const TIKET_PULANG_DATA: NovelData = {
         },
         {
           "type": "paragraph",
-          "html": "Fifa duduk di depanku, melipat kedua tangannya di atas meja lalu memandangiku makan. Ada lingkaran hitam tipis di bawah matanya, tanda bahwa pekerjaannya di agensi sebagai eksekutor konten dan pengelola akun klien mulai menyita waktu istirahatnya hingga larut malam. Namun senyumnya tidak pernah pudar."
+          "html": "Fira duduk di depanku, melipat kedua tangannya di atas meja lalu memandangiku makan. Ada lingkaran hitam tipis di bawah matanya, tanda bahwa pekerjaannya di agensi sebagai eksekutor konten dan pengelola akun klien mulai menyita waktu istirahatnya hingga larut malam. Namun senyumnya tidak pernah pudar."
         },
         {
           "type": "dialogue",
@@ -148,7 +148,7 @@ export const TIKET_PULANG_DATA: NovelData = {
         },
         {
           "type": "paragraph",
-          "html": "Kami berdua tertawa bersama di tengah temaram lampu pijar lima watt yang bergoyang ditiup angin petang dari ventilasi pintu. Saat itu, aku merasa duniaku sudah lengkap. Aku merasa segala penolakan Ibu, segala cibiran tetangga yang menganggap kami pasangan bocah nekat, telah lunas dibayar oleh semangkuk sayur tempe dan tawa renyah Fifa di ruang petak kami."
+          "html": "Kami berdua tertawa bersama di tengah temaram lampu pijar lima watt yang bergoyang ditiup angin petang dari ventilasi pintu. Saat itu, aku merasa duniaku sudah lengkap. Aku merasa segala penolakan Ibu, segala cibiran tetangga yang menganggap kami pasangan bocah nekat, telah lunas dibayar oleh semangkuk sayur tempe dan tawa renyah Fira di ruang petak kami."
         },
         {
           "type": "paragraph",
@@ -176,7 +176,7 @@ export const TIKET_PULANG_DATA: NovelData = {
         },
         {
           "type": "paragraph",
-          "html": "Bulan kelima setelah akad nikah, nama agensi kreatif yang kurintis dengan susah payah—<em>Arya Lensa Kreatif</em>, agensi brand visual yang melayani jasa fotografi, videografi komersial, dan produksi dokumentasi event—sempat mencicipi manisnya lonjakan order. Pintu rezeki seperti dibuka lebar-lebar tanpa peringatan. Lewat kenalan lama di kampus dan koneksi pameran, agensiku memenangkan kontrak dokumentasi visual untuk pameran properti akbar, festival musik kampus, dan kampanye pembukaan tiga cabang toko swalayan lokal di sepanjang jalan protokol Sidoarjo."
+          "html": "Bulan kelima setelah akad nikah, nama agensi kreatif yang kurintis dengan susah payah—<em>Arga Lensa Kreatif</em>, agensi brand visual yang melayani jasa fotografi, videografi komersial, dan produksi dokumentasi event—sempat mencicipi manisnya lonjakan order. Pintu rezeki seperti dibuka lebar-lebar tanpa peringatan. Lewat kenalan lama di kampus dan koneksi pameran, agensiku memenangkan kontrak dokumentasi visual untuk pameran properti akbar, festival musik kampus, dan kampanye pembukaan tiga cabang toko swalayan lokal di sepanjang jalan protokol Sidoarjo."
         },
         {
           "type": "paragraph",
@@ -184,7 +184,7 @@ export const TIKET_PULANG_DATA: NovelData = {
         },
         {
           "type": "paragraph",
-          "html": "Dengan dada membusung pongah, aku menyewa ruko kecil di pinggir jalan raya beraspal mulus sebagai kantor agensi, membeli bodi kamera sinema dan sensor penuh paling mutakhir, menambah dua set lampu panggung dan studio dengan <em>softbox</em> selebar payung taman, dan mempekerjakan dua adik tingkat sebagai videografer dan editor pembantu. Setiap akhir pekan, jadwal produksi event kami padat. Fifa tersenyum bangga setiap kali melihat jadwal di papan tulis kantor agensi kami terisi penuh coretan spidol merah. Kami bahkan sudah berani bermimpi mencicil tanah kaveling lima puluh meter persegi di daerah barat kota."
+          "html": "Dengan dada membusung pongah, aku menyewa ruko kecil di pinggir jalan raya beraspal mulus sebagai kantor agensi, membeli bodi kamera sinema dan sensor penuh paling mutakhir, menambah dua set lampu panggung dan studio dengan <em>softbox</em> selebar payung taman, dan mempekerjakan dua adik tingkat sebagai videografer dan editor pembantu. Setiap akhir pekan, jadwal produksi event kami padat. Fira tersenyum bangga setiap kali melihat jadwal di papan tulis kantor agensi kami terisi penuh coretan spidol merah. Kami bahkan sudah berani bermimpi mencicil tanah kaveling lima puluh meter persegi di daerah barat kota."
         },
         {
           "type": "paragraph",
@@ -236,15 +236,15 @@ export const TIKET_PULANG_DATA: NovelData = {
         },
         {
           "type": "dialogue",
-          "html": "\"Dasar bodoh... Arya goblok...\" umpatku pada diri sendiri, suaraku tercekat di antara tarikan napas yang patah-patah. \"Ibumu benar. Kamu itu cuma bocah kemarin sore yang sok jagoan bikin agensi. Kamu cuma fotografer jalanan yang gak tahu diri.\""
+          "html": "\"Dasar bodoh... Arga goblok...\" umpatku pada diri sendiri, suaraku tercekat di antara tarikan napas yang patah-patah. \"Ibumu benar. Kamu itu cuma bocah kemarin sore yang sok jagoan bikin agensi. Kamu cuma fotografer jalanan yang gak tahu diri.\""
         },
         {
           "type": "paragraph",
-          "html": "Kalimat-kalimat Ibu di masa lalu berputar di kepalaku seperti kaset rusak yang diputar berulang-ulang dengan pengeras suara: <em>Mau kamu kasih makan apa anak orang? Fifa itu sarjana... kamu mau bikin malu keluarga?</em>"
+          "html": "Kalimat-kalimat Ibu di masa lalu berputar di kepalaku seperti kaset rusak yang diputar berulang-ulang dengan pengeras suara: <em>Mau kamu kasih makan apa anak orang? Fira itu sarjana... kamu mau bikin malu keluarga?</em>"
         },
         {
           "type": "paragraph",
-          "html": "Rasa bersalah itu menjelma menjadi monster raksasa yang meremukkan tulang rusukku satu demi satu. Aku tidak takut lapar. Sejak bujang aku sudah terbiasa makan mie instan separuh dibagi dua untuk siang dan malam. Tapi melihat Fifa... perempuan anggun berhati bersih yang mau mempertaruhkan masa mudanya demi diriku... melihatnya harus ikut memikul utang agensiku, membuatku merasa menjadi manusia paling hina di muka bumi."
+          "html": "Rasa bersalah itu menjelma menjadi monster raksasa yang meremukkan tulang rusukku satu demi satu. Aku tidak takut lapar. Sejak bujang aku sudah terbiasa makan mie instan separuh dibagi dua untuk siang dan malam. Tapi melihat Fira... perempuan anggun berhati bersih yang mau mempertaruhkan masa mudanya demi diriku... melihatnya harus ikut memikul utang agensiku, membuatku merasa menjadi manusia paling hina di muka bumi."
         },
         {
           "type": "paragraph",
@@ -252,11 +252,11 @@ export const TIKET_PULANG_DATA: NovelData = {
         },
         {
           "type": "paragraph",
-          "html": "<em>Bagaimana kalau Fifa akhirnya sadar bahwa dia salah memilih suami?</em>"
+          "html": "<em>Bagaimana kalau Fira akhirnya sadar bahwa dia salah memilih suami?</em>"
         },
         {
           "type": "paragraph",
-          "html": "Ketakutan itu mencekik leherku lebih erat daripada jeratan tambang. Di kantor agensinya sendiri, Fifa dikelilingi oleh pria-pria mapan: manajer akun yang necis beraroma parfum mahal, klien-klien pengusaha muda yang mengendarai mobil sedan mulus, orang-orang yang bisa dengan mudah membelikannya gaun pesta atau mengajaknya makan malam di restoran hotel berbintang tanpa perlu menghitung recehan kembalian di saku celana."
+          "html": "Ketakutan itu mencekik leherku lebih erat daripada jeratan tambang. Di kantor agensinya sendiri, Fira dikelilingi oleh pria-pria mapan: manajer akun yang necis beraroma parfum mahal, klien-klien pengusaha muda yang mengendarai mobil sedan mulus, orang-orang yang bisa dengan mudah membelikannya gaun pesta atau mengajaknya makan malam di restoran hotel berbintang tanpa perlu menghitung recehan kembalian di saku celana."
         },
         {
           "type": "paragraph",
@@ -280,7 +280,7 @@ export const TIKET_PULANG_DATA: NovelData = {
         },
         {
           "type": "paragraph",
-          "html": "Di ambang pintu yang sedikit terbuka, Fifa berdiri di sana."
+          "html": "Di ambang pintu yang sedikit terbuka, Fira berdiri di sana."
         },
         {
           "type": "paragraph",
@@ -316,11 +316,11 @@ export const TIKET_PULANG_DATA: NovelData = {
       "paragraphs": [
         {
           "type": "paragraph",
-          "html": "Lantai kamar mandi itu basah oleh cipratan air ember, kotor oleh debu yang terbawa telapak kaki dari luar, dan berbau lumut lembap. Tempat itu adalah tempat terakhir di dunia yang pantas diinjak oleh seorang perempuan berhati selembut Fifa."
+          "html": "Lantai kamar mandi itu basah oleh cipratan air ember, kotor oleh debu yang terbawa telapak kaki dari luar, dan berbau lumut lembap. Tempat itu adalah tempat terakhir di dunia yang pantas diinjak oleh seorang perempuan berhati selembut Fira."
         },
         {
           "type": "paragraph",
-          "html": "Namun tanpa ragu sedikit pun, Fifa melangkah masuk."
+          "html": "Namun tanpa ragu sedikit pun, Fira melangkah masuk."
         },
         {
           "type": "paragraph",
@@ -336,7 +336,7 @@ export const TIKET_PULANG_DATA: NovelData = {
         },
         {
           "type": "paragraph",
-          "html": "Tapi Fifa tidak membiarkanku menjauh."
+          "html": "Tapi Fira tidak membiarkanku menjauh."
         },
         {
           "type": "paragraph",
@@ -364,11 +364,11 @@ export const TIKET_PULANG_DATA: NovelData = {
         },
         {
           "type": "paragraph",
-          "html": "Mendengar kalimat itu, napas Fifa tercekat. Bibir tipisnya bergetar hebat. Air matanya yang sedari tadi ditahan di pelupuk akhirnya luruh, membasahi pipinya yang mulus, menetes satu demi satu ke pangkuannya."
+          "html": "Mendengar kalimat itu, napas Fira tercekat. Bibir tipisnya bergetar hebat. Air matanya yang sedari tadi ditahan di pelupuk akhirnya luruh, membasahi pipinya yang mulus, menetes satu demi satu ke pangkuannya."
         },
         {
           "type": "paragraph",
-          "html": "Bukannya marah atau membantah dengan kata-kata kasar, Fifa justru memajukan badannya dan merengkuh kepalaku ke dalam pelukannya."
+          "html": "Bukannya marah atau membantah dengan kata-kata kasar, Fira justru memajukan badannya dan merengkuh kepalaku ke dalam pelukannya."
         },
         {
           "type": "paragraph",
@@ -380,11 +380,11 @@ export const TIKET_PULANG_DATA: NovelData = {
         },
         {
           "type": "paragraph",
-          "html": "Fifa mengusap punggungku yang berguncang oleh tangis. Air mata kami berdua mengalir deras, bercampur di bahunya yang basah."
+          "html": "Fira mengusap punggungku yang berguncang oleh tangis. Air mata kami berdua mengalir deras, bercampur di bahunya yang basah."
         },
         {
           "type": "dialogue",
-          "html": "\"Gak apa-apa, Beb... masih ada aku, aku bantuin kok,\" ulang Fifa dengan suara lirih berderai air mata, berusaha sekuat tenaga mengalirkan keyakinan ke seluruh persendianku yang lumpuh. \"Lagian aku juga masih ada kerjaan di agensi kok sekarang. Nanti aku bantu ya, Beb... Kita selesaikan bareng-bareng. Jangan takut...\""
+          "html": "\"Gak apa-apa, Beb... masih ada aku, aku bantuin kok,\" ulang Fira dengan suara lirih berderai air mata, berusaha sekuat tenaga mengalirkan keyakinan ke seluruh persendianku yang lumpuh. \"Lagian aku juga masih ada kerjaan di agensi kok sekarang. Nanti aku bantu ya, Beb... Kita selesaikan bareng-bareng. Jangan takut...\""
         },
         {
           "type": "paragraph",
@@ -392,11 +392,11 @@ export const TIKET_PULANG_DATA: NovelData = {
         },
         {
           "type": "dialogue",
-          "html": "\"Aku nikah sama kamu bukan cuma pas agensimu lagi jaya, Beb,\" lanjut Fifa di sela-sela isaknya. Tangan kanannya mengusap-usap rambutku, gerakannya begitu teratur, menenangkan denyut nadi di pelipisku yang berdetak terlampau kencang. \"Aku milih kamu karena aku tahu kamu laki-laki pekerja keras yang hatinya tulus. Aku tahu kamu orang jujur yang banting tulang dari nol demi impian kita.\""
+          "html": "\"Aku nikah sama kamu bukan cuma pas agensimu lagi jaya, Beb,\" lanjut Fira di sela-sela isaknya. Tangan kanannya mengusap-usap rambutku, gerakannya begitu teratur, menenangkan denyut nadi di pelipisku yang berdetak terlampau kencang. \"Aku milih kamu karena aku tahu kamu laki-laki pekerja keras yang hatinya tulus. Aku tahu kamu orang jujur yang banting tulang dari nol demi impian kita.\""
         },
         {
           "type": "paragraph",
-          "html": "Fifa menarik kepalaku sedikit ke belakang agar dia bisa kembali menatap wajahku yang sembap. Senyum kecil yang dipaksakan merekah di sela-sela pipinya yang basah oleh air mata."
+          "html": "Fira menarik kepalaku sedikit ke belakang agar dia bisa kembali menatap wajahku yang sembap. Senyum kecil yang dipaksakan merekah di sela-sela pipinya yang basah oleh air mata."
         },
         {
           "type": "dialogue",
@@ -412,7 +412,7 @@ export const TIKET_PULANG_DATA: NovelData = {
         },
         {
           "type": "paragraph",
-          "html": "Kata-kata Fifa menembus jantungku seperti peluru yang meruntuhkan dinding keputusasaan. Di satu sisi, ada rasa haru yang luar biasa dahsyat—melihat ketulusan seorang istri yang bersedia pasang badan menjadi benteng pertahanan terakhir ketika suaminya tersungkur. Di sisi lain, kata-katanya menyalakan kembali sepercik bara api di dalam dadaku yang sudah padam berlumur abu."
+          "html": "Kata-kata Fira menembus jantungku seperti peluru yang meruntuhkan dinding keputusasaan. Di satu sisi, ada rasa haru yang luar biasa dahsyat—melihat ketulusan seorang istri yang bersedia pasang badan menjadi benteng pertahanan terakhir ketika suaminya tersungkur. Di sisi lain, kata-katanya menyalakan kembali sepercik bara api di dalam dadaku yang sudah padam berlumur abu."
         },
         {
           "type": "dialogue",
@@ -420,7 +420,7 @@ export const TIKET_PULANG_DATA: NovelData = {
         },
         {
           "type": "paragraph",
-          "html": "Fifa tersenyum lagi, lalu menyandarkan keningnya ke keningku. Napasnya yang hangat menerpa hidungku."
+          "html": "Fira tersenyum lagi, lalu menyandarkan keningnya ke keningku. Napasnya yang hangat menerpa hidungku."
         },
         {
           "type": "dialogue",
@@ -428,7 +428,7 @@ export const TIKET_PULANG_DATA: NovelData = {
         },
         {
           "type": "paragraph",
-          "html": "Perlahan, Fifa menarik tanganku untuk berdiri. Kakiku sempat kesemutan parah karena terlalu lama bersila di lantai dingin, membuatku hampir terhuyung jika saja Fifa tidak sigap menahan pinggangku dengan kedua lengannya yang ramping."
+          "html": "Perlahan, Fira menarik tanganku untuk berdiri. Kakiku sempat kesemutan parah karena terlalu lama bersila di lantai dingin, membuatku hampir terhuyung jika saja Fira tidak sigap menahan pinggangku dengan kedua lengannya yang ramping."
         },
         {
           "type": "dialogue",
@@ -436,7 +436,7 @@ export const TIKET_PULANG_DATA: NovelData = {
         },
         {
           "type": "paragraph",
-          "html": "Malam itu, kami merebahkan diri di atas kasur busa tipis kami yang beralaskan sprei katun bergambar daun layu. Fifa memeluk tubuhku dari samping, menyusupkan wajahnya ke dadaku, sementara tanganku melingkari bahunya dengan erat seolah aku takut ia akan menguap menjadi embun di pagi hari."
+          "html": "Malam itu, kami merebahkan diri di atas kasur busa tipis kami yang beralaskan sprei katun bergambar daun layu. Fira memeluk tubuhku dari samping, menyusupkan wajahnya ke dadaku, sementara tanganku melingkari bahunya dengan erat seolah aku takut ia akan menguap menjadi embun di pagi hari."
         },
         {
           "type": "paragraph",
@@ -476,7 +476,7 @@ export const TIKET_PULANG_DATA: NovelData = {
         },
         {
           "type": "dialogue",
-          "html": "\"Arya! Syukurlah kamu langsung angkat,\" suara Mas Hendra terdengar terburu-buru di seberang sana, diiringi bunyi gesekan kertas dan ketukan tuts kibor komputer. \"Kamu lagi di mana sekarang? Lagi kosong jadwal gak sampai tiga hari ke depan?\""
+          "html": "\"Arga! Syukurlah kamu langsung angkat,\" suara Mas Hendra terdengar terburu-buru di seberang sana, diiringi bunyi gesekan kertas dan ketukan tuts kibor komputer. \"Kamu lagi di mana sekarang? Lagi kosong jadwal gak sampai tiga hari ke depan?\""
         },
         {
           "type": "dialogue",
@@ -484,7 +484,7 @@ export const TIKET_PULANG_DATA: NovelData = {
         },
         {
           "type": "dialogue",
-          "html": "\"Bagus. Begini, Arya. Klien lamaku yang punya perkebunan kopi dan resor ekowisata di daerah ujung timur Jawa—kawasan Lereng Ijen perbatasan Banyuwangi—butuh tim dokumentasi visual dan video profil kilat. Fotografer utamaku mendadak tipus, masuk rumah sakit semalam. Mereka butuh foto katalog panen, arsitektur vila kayu, sama video pendek suasana senja buat materi promosi akhir pekan besok lusa. Agensimu masih bisa handle, kan?\""
+          "html": "\"Bagus. Begini, Arga. Klien lamaku yang punya perkebunan kopi dan resor ekowisata di daerah ujung timur Jawa—kawasan Lereng Ijen perbatasan Banyuwangi—butuh tim dokumentasi visual dan video profil kilat. Fotografer utamaku mendadak tipus, masuk rumah sakit semalam. Mereka butuh foto katalog panen, arsitektur vila kayu, sama video pendek suasana senja buat materi promosi akhir pekan besok lusa. Agensimu masih bisa handle, kan?\""
         },
         {
           "type": "paragraph",
@@ -500,7 +500,7 @@ export const TIKET_PULANG_DATA: NovelData = {
         },
         {
           "type": "paragraph",
-          "html": "Di saat saldo tabunganku hanya menyisakan beberapa puluh ribu, angka itu laksana seember air zamzam yang ditumpahkan di tengah padang pasir Sahara yang membakar lidah. Uang itu lebih dari cukup untuk melunasi bunga utang agensiku yang jatuh tempo besok, membayar sewa kontrakan petak kami untuk tiga bulan ke depan, dan menyisakan sedikit modal beras untuk Fifa di rumah."
+          "html": "Di saat saldo tabunganku hanya menyisakan beberapa puluh ribu, angka itu laksana seember air zamzam yang ditumpahkan di tengah padang pasir Sahara yang membakar lidah. Uang itu lebih dari cukup untuk melunasi bunga utang agensiku yang jatuh tempo besok, membayar sewa kontrakan petak kami untuk tiga bulan ke depan, dan menyisakan sedikit modal beras untuk Fira di rumah."
         },
         {
           "type": "dialogue",
@@ -508,7 +508,7 @@ export const TIKET_PULANG_DATA: NovelData = {
         },
         {
           "type": "dialogue",
-          "html": "\"Oke, berkas brief dan kontak manajer resornya sudah kukirim ke email dan WhatsApp. Ingat ya, Arya, jangan sampai telat. Besok subuh mereka sudah mulai panen kopi pertama di blok perkebunan timur. Kamu harus sudah ada di sana malam ini.\""
+          "html": "\"Oke, berkas brief dan kontak manajer resornya sudah kukirim ke email dan WhatsApp. Ingat ya, Arga, jangan sampai telat. Besok subuh mereka sudah mulai panen kopi pertama di blok perkebunan timur. Kamu harus sudah ada di sana malam ini.\""
         },
         {
           "type": "paragraph",
@@ -516,7 +516,7 @@ export const TIKET_PULANG_DATA: NovelData = {
         },
         {
           "type": "paragraph",
-          "html": "Fifa yang baru saja selesai menyetrika kemeja kerjanya di sudut kasur menoleh dengan mata berbinar. Dia tadi mendengarkan seluruh percakapan itu dari balik punggungku."
+          "html": "Fira yang baru saja selesai menyetrika kemeja kerjanya di sudut kasur menoleh dengan mata berbinar. Dia tadi mendengarkan seluruh percakapan itu dari balik punggungku."
         },
         {
           "type": "dialogue",
@@ -528,7 +528,7 @@ export const TIKET_PULANG_DATA: NovelData = {
         },
         {
           "type": "paragraph",
-          "html": "Fifa tertawa lepas, tangannya mencengkeram bahuku erat-erat saat tubuhnya berputar. Untuk sesaat, seluruh bayang-bayang kelam tentang tagihan vendor dan lantai kamar mandi yang dingin menguap tak berbekas dari wajahnya. Wajahnya kembali berseri, memancarkan kecantikan murni yang dulu pertama kali membuatku jatuh cinta di kantin kampus."
+          "html": "Fira tertawa lepas, tangannya mencengkeram bahuku erat-erat saat tubuhnya berputar. Untuk sesaat, seluruh bayang-bayang kelam tentang tagihan vendor dan lantai kamar mandi yang dingin menguap tak berbekas dari wajahnya. Wajahnya kembali berseri, memancarkan kecantikan murni yang dulu pertama kali membuatku jatuh cinta di kantin kampus."
         },
         {
           "type": "paragraph",
@@ -544,7 +544,7 @@ export const TIKET_PULANG_DATA: NovelData = {
         },
         {
           "type": "dialogue",
-          "html": "\"Kamu naik apa ke sananya, Beb?\" tanya Fifa cemas setelah menurunkan kakinya ke lantai."
+          "html": "\"Kamu naik apa ke sananya, Beb?\" tanya Fira cemas setelah menurunkan kakinya ke lantai."
         },
         {
           "type": "dialogue",
@@ -556,7 +556,7 @@ export const TIKET_PULANG_DATA: NovelData = {
         },
         {
           "type": "dialogue",
-          "html": "\"Aku pengin ikut nemenin kamu, Beb...\" rajuk Fifa pelan, suaranya tiba-tiba melirih. Jemarinya memainkan kancing kemejaku, kepalanya bersandar di dadaku. \"Aku gak tega bayangin kamu sendirian desak-desakan di bis bumel sambil manggul tas seberat ini.\""
+          "html": "\"Aku pengin ikut nemenin kamu, Beb...\" rajuk Fira pelan, suaranya tiba-tiba melirih. Jemarinya memainkan kancing kemejaku, kepalanya bersandar di dadaku. \"Aku gak tega bayangin kamu sendirian desak-desakan di bis bumel sambil manggul tas seberat ini.\""
         },
         {
           "type": "dialogue",
@@ -564,7 +564,7 @@ export const TIKET_PULANG_DATA: NovelData = {
         },
         {
           "type": "paragraph",
-          "html": "Fifa menghela napas panjang, bibirnya mengerucut sedikit, tanda bahwa dia sebenarnya menolak keras keputusanku namun logikanya memahami situasi yang menghimpit kami."
+          "html": "Fira menghela napas panjang, bibirnya mengerucut sedikit, tanda bahwa dia sebenarnya menolak keras keputusanku namun logikanya memahami situasi yang menghimpit kami."
         },
         {
           "type": "dialogue",
@@ -596,7 +596,7 @@ export const TIKET_PULANG_DATA: NovelData = {
         },
         {
           "type": "dialogue",
-          "html": "\"Arya mau pamit, Bu. Arya dapat panggilan garap dokumentasi brand di perkebunan daerah timur. Berangkat siang ini naik bis, pulangnya hari Minggu.\""
+          "html": "\"Arga mau pamit, Bu. Arga dapat panggilan garap dokumentasi brand di perkebunan daerah timur. Berangkat siang ini naik bis, pulangnya hari Minggu.\""
         },
         {
           "type": "paragraph",
@@ -612,7 +612,7 @@ export const TIKET_PULANG_DATA: NovelData = {
         },
         {
           "type": "dialogue",
-          "html": "\"Arya tetap anak Ibu,\" ucapku pelan, meraih tangan kanan Ibu yang berbau getah sayuran, lalu mencium punggung tangannya yang kasar dengan takzim. \"Arya minta doa restu Ibu biar kerjaan Arya lancar, selamat di jalan, dan bawa rezeki berkah buat bayar utang-utang agensi Arya.\""
+          "html": "\"Arga tetap anak Ibu,\" ucapku pelan, meraih tangan kanan Ibu yang berbau getah sayuran, lalu mencium punggung tangannya yang kasar dengan takzim. \"Arga minta doa restu Ibu biar kerjaan Arga lancar, selamat di jalan, dan bawa rezeki berkah buat bayar utang-utang agensi Arga.\""
         },
         {
           "type": "paragraph",
@@ -708,7 +708,7 @@ export const TIKET_PULANG_DATA: NovelData = {
         },
         {
           "type": "paragraph",
-          "html": "Aku merogoh saku celanaku, mengeluarkan ponsel pintarku yang layarnya retak, lalu mengetik pesan singkat untuk Fifa lewat aplikasi percakapan:"
+          "html": "Aku merogoh saku celanaku, mengeluarkan ponsel pintarku yang layarnya retak, lalu mengetik pesan singkat untuk Fira lewat aplikasi percakapan:"
         },
         {
           "type": "paragraph",
@@ -716,7 +716,7 @@ export const TIKET_PULANG_DATA: NovelData = {
         },
         {
           "type": "paragraph",
-          "html": "Kutekan tombol kirim. Tanda centang satu abu-abu berubah menjadi centang dua biru. Fifa sedang daring, namun tidak ada balasan teks yang masuk. Hanya ada status <em>sedang mengetik...</em> yang muncul dan menghilang beberapa kali sebelum layarku mati sendiri."
+          "html": "Kutekan tombol kirim. Tanda centang satu abu-abu berubah menjadi centang dua biru. Fira sedang daring, namun tidak ada balasan teks yang masuk. Hanya ada status <em>sedang mengetik...</em> yang muncul dan menghilang beberapa kali sebelum layarku mati sendiri."
         },
         {
           "type": "paragraph",
@@ -748,7 +748,7 @@ export const TIKET_PULANG_DATA: NovelData = {
         },
         {
           "type": "dialogue",
-          "html": "\"BEB ARYA! BEB ARYAAA!\""
+          "html": "\"BEB ARGA! BEB ARGAAA!\""
         },
         {
           "type": "paragraph",
@@ -764,7 +764,7 @@ export const TIKET_PULANG_DATA: NovelData = {
         },
         {
           "type": "paragraph",
-          "html": "Itu Fifa!"
+          "html": "Itu Fira!"
         },
         {
           "type": "paragraph",
@@ -800,7 +800,7 @@ export const TIKET_PULANG_DATA: NovelData = {
         },
         {
           "type": "paragraph",
-          "html": "Fifa melompat naik ke atas tangga dengan napas yang memburu liar seperti orang yang baru saja lolos dari kejaran maut. Dadanya kembang kempis hebat, keringat membasahi leher dan kemejanya hingga tembus pandang, dan air matanya mengalir deras tanpa bisa dibendung lagi."
+          "html": "Fira melompat naik ke atas tangga dengan napas yang memburu liar seperti orang yang baru saja lolos dari kejaran maut. Dadanya kembang kempis hebat, keringat membasahi leher dan kemejanya hingga tembus pandang, dan air matanya mengalir deras tanpa bisa dibendung lagi."
         },
         {
           "type": "dialogue",
@@ -808,7 +808,7 @@ export const TIKET_PULANG_DATA: NovelData = {
         },
         {
           "type": "paragraph",
-          "html": "Bukannya menjawab, Fifa langsung menubrukkan tubuhnya ke dadaku. Kedua tangannya melingkar erat di leherku, mencengkeram kain kemejaku dengan kuku-kukunya yang gemetar. Tangisannya meledak begitu keras di lorong bis, mengabaikan tatapan heran dari puluhan pasang mata penumpang lain."
+          "html": "Bukannya menjawab, Fira langsung menubrukkan tubuhnya ke dadaku. Kedua tangannya melingkar erat di leherku, mencengkeram kain kemejaku dengan kuku-kukunya yang gemetar. Tangisannya meledak begitu keras di lorong bis, mengabaikan tatapan heran dari puluhan pasang mata penumpang lain."
         },
         {
           "type": "dialogue",
@@ -820,7 +820,7 @@ export const TIKET_PULANG_DATA: NovelData = {
         },
         {
           "type": "paragraph",
-          "html": "Fifa mendongakkan wajahnya yang basah oleh air mata dan keringat. Matanya merah, namun ada kilat kelegaan yang luar biasa di sana."
+          "html": "Fira mendongakkan wajahnya yang basah oleh air mata dan keringat. Matanya merah, namun ada kilat kelegaan yang luar biasa di sana."
         },
         {
           "type": "dialogue",
@@ -832,7 +832,7 @@ export const TIKET_PULANG_DATA: NovelData = {
         },
         {
           "type": "paragraph",
-          "html": "Tuhan... perempuan macam apa yang telah Kau titipkan di dalam hidupku ini? Di saat perempuan lain mungkin akan menuntut liburan mewah atau memaki suami yang agensinya bangkrut, Fifa justru nekat mempertaruhkan pekerjaannya di agensi, berlari menembus debu terminal yang kejam, hanya demi duduk di atas jok bus reyot berdebu bersamaku."
+          "html": "Tuhan... perempuan macam apa yang telah Kau titipkan di dalam hidupku ini? Di saat perempuan lain mungkin akan menuntut liburan mewah atau memaki suami yang agensinya bangkrut, Fira justru nekat mempertaruhkan pekerjaannya di agensi, berlari menembus debu terminal yang kejam, hanya demi duduk di atas jok bus reyot berdebu bersamaku."
         },
         {
           "type": "paragraph",
@@ -844,11 +844,11 @@ export const TIKET_PULANG_DATA: NovelData = {
         },
         {
           "type": "paragraph",
-          "html": "Aku menggandeng tangan Fifa yang basah oleh keringat, membawanya melangkah ke deretan kursi nomor dua belas. Dia duduk di sisi jendela, sementara aku duduk di sampingnya, merapatkan tubuhku ke tubuhnya."
+          "html": "Aku menggandeng tangan Fira yang basah oleh keringat, membawanya melangkah ke deretan kursi nomor dua belas. Dia duduk di sisi jendela, sementara aku duduk di sampingnya, merapatkan tubuhku ke tubuhnya."
         },
         {
           "type": "paragraph",
-          "html": "Begitu bis kembali melaju kencang meninggalkan Terminal Purabaya Bungurasih menuju jalan raya lingkar timur, Fifa menyandarkan kepalanya yang lelah ke bahu kananku. Jemari tangannya yang mungil menyusup ke sela-sela jemariku, menggenggamnya begitu erat seolah-olah jika genggaman itu terlepas, bumi akan berhenti berputar."
+          "html": "Begitu bis kembali melaju kencang meninggalkan Terminal Purabaya Bungurasih menuju jalan raya lingkar timur, Fira menyandarkan kepalanya yang lelah ke bahu kananku. Jemari tangannya yang mungil menyusup ke sela-sela jemariku, menggenggamnya begitu erat seolah-olah jika genggaman itu terlepas, bumi akan berhenti berputar."
         },
         {
           "type": "dialogue",
@@ -856,7 +856,7 @@ export const TIKET_PULANG_DATA: NovelData = {
         },
         {
           "type": "paragraph",
-          "html": "Fifa menoleh sedikit, tersenyum melalui sisa-sisa air mata di pipinya. \"Jangan pernah jalan sendirian lagi ya, Beb. Ke mana pun kamu pergi cari nafkah buat agensi kita, aku bakal selalu ada di sampingmu.\""
+          "html": "Fira menoleh sedikit, tersenyum melalui sisa-sisa air mata di pipinya. \"Jangan pernah jalan sendirian lagi ya, Beb. Ke mana pun kamu pergi cari nafkah buat agensi kita, aku bakal selalu ada di sampingmu.\""
         },
         {
           "type": "paragraph",
@@ -888,7 +888,7 @@ export const TIKET_PULANG_DATA: NovelData = {
         },
         {
           "type": "paragraph",
-          "html": "Fifa memang perempuan yang luar biasa keras kepala. Begitu bis berhasil meloloskan diri dari kemacetan jalur lingkar luar, dia langsung membuka ritsleting tas kanvasnya, mengeluarkan laptop kerjanya yang sudutnya sudah lecet, lalu meletakkannya di atas pangkuannya yang beralaskan jaket jeans milikku."
+          "html": "Fira memang perempuan yang luar biasa keras kepala. Begitu bis berhasil meloloskan diri dari kemacetan jalur lingkar luar, dia langsung membuka ritsleting tas kanvasnya, mengeluarkan laptop kerjanya yang sudutnya sudah lecet, lalu meletakkannya di atas pangkuannya yang beralaskan jaket jeans milikku."
         },
         {
           "type": "dialogue",
@@ -896,7 +896,7 @@ export const TIKET_PULANG_DATA: NovelData = {
         },
         {
           "type": "paragraph",
-          "html": "Fifa menggeleng pelan, jemarinya terus menari lincah di atas papan ketik. \"Gak apa-apa, Beb. Aku harus selesaiin draf kalender konten sama naskah iklan buat tiga klien agensi sebelum jam enam sore. Biar Mas Bos di kantor gak punya alasan buat negur aku karena ambil izin dadakan.\""
+          "html": "Fira menggeleng pelan, jemarinya terus menari lincah di atas papan ketik. \"Gak apa-apa, Beb. Aku harus selesaiin draf kalender konten sama naskah iklan buat tiga klien agensi sebelum jam enam sore. Biar Mas Bos di kantor gak punya alasan buat negur aku karena ambil izin dadakan.\""
         },
         {
           "type": "paragraph",
@@ -912,11 +912,11 @@ export const TIKET_PULANG_DATA: NovelData = {
         },
         {
           "type": "paragraph",
-          "html": "Kota ini adalah tempat di mana aroma daun tembakau basah dan tanah perkebunan menyatu dengan hembusan angin pegunungan dari Lereng Argopuro. Di sepanjang tepi jalan pedesaan, gudang-gudang tembakau raksasa beratap daun ilalang dan berdinding anyaman bambu berdiri kokoh seperti raksasa tidur. Kota ini juga merupakan tanah kelahiran Fifa, tempat di mana masa kecilnya dihabiskan sebelum ia merantau ke Sidoarjo untuk kuliah dan akhirnya bertemu denganku."
+          "html": "Kota ini adalah tempat di mana aroma daun tembakau basah dan tanah perkebunan menyatu dengan hembusan angin pegunungan dari Lereng Argopuro. Di sepanjang tepi jalan pedesaan, gudang-gudang tembakau raksasa beratap daun ilalang dan berdinding anyaman bambu berdiri kokoh seperti raksasa tidur. Kota ini juga merupakan tanah kelahiran Fira, tempat di mana masa kecilnya dihabiskan sebelum ia merantau ke Sidoarjo untuk kuliah dan akhirnya bertemu denganku."
         },
         {
           "type": "paragraph",
-          "html": "Tiba-tiba, Fifa menutup layar laptopnya perlahan. Dia menoleh ke arahku, menggigit bibir bawahnya dengan tatapan ragu-ragu."
+          "html": "Tiba-tiba, Fira menutup layar laptopnya perlahan. Dia menoleh ke arahku, menggigit bibir bawahnya dengan tatapan ragu-ragu."
         },
         {
           "type": "dialogue",
@@ -940,7 +940,7 @@ export const TIKET_PULANG_DATA: NovelData = {
         },
         {
           "type": "paragraph",
-          "html": "Wajah Fifa langsung merekah gembira. Dia memeluk lenganku erat-erat, lalu melambai ke arah kondektur yang sedang duduk di kursi cadangan. \"Cak, nanti turun di pertigaan gudang tembakau barat ya!\""
+          "html": "Wajah Fira langsung merekah gembira. Dia memeluk lenganku erat-erat, lalu melambai ke arah kondektur yang sedang duduk di kursi cadangan. \"Cak, nanti turun di pertigaan gudang tembakau barat ya!\""
         },
         {
           "type": "paragraph",
@@ -948,7 +948,7 @@ export const TIKET_PULANG_DATA: NovelData = {
         },
         {
           "type": "paragraph",
-          "html": "Rumah orang tua Fifa terletak sekitar dua ratus meter dari jalan utama, melewati pematang sawah dan deretan rumpun bambu yang mendesir pelan disapu angin senja. Itu adalah rumah pedesaan sederhana bertembok kapur putih dengan pelataran tanah liat yang disapu bersih setiap pagi. Di teras depan, pot-pot bunga sri rejeki dan tanaman sirih merah tersusun rapi di atas undakan bambu."
+          "html": "Rumah orang tua Fira terletak sekitar dua ratus meter dari jalan utama, melewati pematang sawah dan deretan rumpun bambu yang mendesir pelan disapu angin senja. Itu adalah rumah pedesaan sederhana bertembok kapur putih dengan pelataran tanah liat yang disapu bersih setiap pagi. Di teras depan, pot-pot bunga sri rejeki dan tanaman sirih merah tersusun rapi di atas undakan bambu."
         },
         {
           "type": "paragraph",
@@ -956,15 +956,15 @@ export const TIKET_PULANG_DATA: NovelData = {
         },
         {
           "type": "dialogue",
-          "html": "\"Assalamu’alaikum, Bapak...\" suara Fifa bergetar haru."
+          "html": "\"Assalamu’alaikum, Bapak...\" suara Fira bergetar haru."
         },
         {
           "type": "dialogue",
-          "html": "\"Wa’alaikumsalam... Ya Allah, Fifa? Arya?\" mata Bapak yang sudah rabun menyipit kaget, lalu senyum keriput merekah tulus di wajah sepuhnya. \"Ibu! Ibune! Iki loh anakmu muleh!\""
+          "html": "\"Wa’alaikumsalam... Ya Allah, Fira? Arga?\" mata Bapak yang sudah rabun menyipit kaget, lalu senyum keriput merekah tulus di wajah sepuhnya. \"Ibu! Ibune! Iki loh anakmu muleh!\""
         },
         {
           "type": "paragraph",
-          "html": "Ibu mertuaku tergopoh-gopoh keluar dari dapur dengan tangan yang masih berlumur tepung terigu. Detik berikutnya, Fifa sudah menubrukkan badannya ke pelukan ibunya, menangis tersedu-sedu meluapkan kerinduan seorang anak perempuan yang lama terpisah dari sarangnya."
+          "html": "Ibu mertuaku tergopoh-gopoh keluar dari dapur dengan tangan yang masih berlumur tepung terigu. Detik berikutnya, Fira sudah menubrukkan badannya ke pelukan ibunya, menangis tersedu-sedu meluapkan kerinduan seorang anak perempuan yang lama terpisah dari sarangnya."
         },
         {
           "type": "paragraph",
@@ -992,11 +992,11 @@ export const TIKET_PULANG_DATA: NovelData = {
         },
         {
           "type": "paragraph",
-          "html": "Namun sebelum aku sempat membuka mulut untuk berbohong atau mengaku kalah, Fifa yang duduk di sampingku langsung memotong seraya menggenggam jemariku erat-erat."
+          "html": "Namun sebelum aku sempat membuka mulut untuk berbohong atau mengaku kalah, Fira yang duduk di sampingku langsung memotong seraya menggenggam jemariku erat-erat."
         },
         {
           "type": "dialogue",
-          "html": "\"Lagi banyak proyek luar kota, Pak,\" kata Fifa dengan senyum bangga yang begitu tulus, tidak membiarkan harga diri suaminya tercoreng sedikit pun di depan orang tuanya. \"Ini Arya lagi dipercaya pegang dokumentasi katalog sama video resor besar di perbatasan timur. Agensinya Arya lagi garap proyek penting di sana, makanya kami harus berangkat bareng sekarang.\""
+          "html": "\"Lagi banyak proyek luar kota, Pak,\" kata Fira dengan senyum bangga yang begitu tulus, tidak membiarkan harga diri suaminya tercoreng sedikit pun di depan orang tuanya. \"Ini Arga lagi dipercaya pegang dokumentasi katalog sama video resor besar di perbatasan timur. Agensinya Arga lagi garap proyek penting di sana, makanya kami harus berangkat bareng sekarang.\""
         },
         {
           "type": "paragraph",
@@ -1004,7 +1004,7 @@ export const TIKET_PULANG_DATA: NovelData = {
         },
         {
           "type": "dialogue",
-          "html": "\"Alhamdulillah kalau begitu, Arya,\" ucap Bapak lirih, sarat akan petuah hidup seorang tua yang kenyang makan asam garam. \"Merintis usaha sendiri itu memang jalan yang terjal, Le. Tirakatnya berat. Kadang di atas, kadang di bawah sampai kepala jadi kaki, kaki jadi kepala. Tapi yang paling penting dalam hidup berumah tangga itu cuma satu: kamu jaga Fifa baik-baik. Jangan pernah sakiti hatinya. Dan jangan pernah tinggalkan sholat lima waktu di mana pun kamu berada.\""
+          "html": "\"Alhamdulillah kalau begitu, Arga,\" ucap Bapak lirih, sarat akan petuah hidup seorang tua yang kenyang makan asam garam. \"Merintis usaha sendiri itu memang jalan yang terjal, Le. Tirakatnya berat. Kadang di atas, kadang di bawah sampai kepala jadi kaki, kaki jadi kepala. Tapi yang paling penting dalam hidup berumah tangga itu cuma satu: kamu jaga Fira baik-baik. Jangan pernah sakiti hatinya. Dan jangan pernah tinggalkan sholat lima waktu di mana pun kamu berada.\""
         },
         {
           "type": "paragraph",
@@ -1012,7 +1012,7 @@ export const TIKET_PULANG_DATA: NovelData = {
         },
         {
           "type": "dialogue",
-          "html": "\"Inggih, Bapak. Matur nuwun sanget petuahe. Arya janji bakal selalu jaga Fifa sampai akhir hayat Arya,\" jawabku dengan suara bergetar mantap."
+          "html": "\"Inggih, Bapak. Matur nuwun sanget petuahe. Arga janji bakal selalu jaga Fira sampai akhir hayat Arga,\" jawabku dengan suara bergetar mantap."
         },
         {
           "type": "paragraph",
@@ -1020,15 +1020,15 @@ export const TIKET_PULANG_DATA: NovelData = {
         },
         {
           "type": "paragraph",
-          "html": "Di ambang pintu, Ibu membekali kami sebungkus rantang nasi bertingkat berisi sayur lodeh nangka muda dan rempeyek kacang buatan tangannya. Fifa kembali memeluk kedua orang tuanya dengan air mata yang menetes pelan di pipinya, seolah ada firasat ganjil yang membuat pelukannya malam itu terasa jauh lebih erat dan enggan untuk dilepaskan."
+          "html": "Di ambang pintu, Ibu membekali kami sebungkus rantang nasi bertingkat berisi sayur lodeh nangka muda dan rempeyek kacang buatan tangannya. Fira kembali memeluk kedua orang tuanya dengan air mata yang menetes pelan di pipinya, seolah ada firasat ganjil yang membuat pelukannya malam itu terasa jauh lebih erat dan enggan untuk dilepaskan."
         },
         {
           "type": "dialogue",
-          "html": "\"Hati-hati di jalan ya, Nak. Jalur lereng gunung itu kalau malam sering berkabut dan licin sehabis hujan,\" pesan Ibu mertua seraya mengusap air mata di sudut mata Fifa."
+          "html": "\"Hati-hati di jalan ya, Nak. Jalur lereng gunung itu kalau malam sering berkabut dan licin sehabis hujan,\" pesan Ibu mertua seraya mengusap air mata di sudut mata Fira."
         },
         {
           "type": "dialogue",
-          "html": "\"Iya, Bu. Doakan kami ya,\" bisik Fifa lirih."
+          "html": "\"Iya, Bu. Doakan kami ya,\" bisik Fira lirih."
         },
         {
           "type": "paragraph",
@@ -1068,11 +1068,11 @@ export const TIKET_PULANG_DATA: NovelData = {
         },
         {
           "type": "dialogue",
-          "html": "\"Duduk di dekat jendela ya, Beb,\" kataku seraya meletakkan ransel kamera di bawah lututku dan menaruh tas laptop Fifa di atas pangkuanku."
+          "html": "\"Duduk di dekat jendela ya, Beb,\" kataku seraya meletakkan ransel kamera di bawah lututku dan menaruh tas laptop Fira di atas pangkuanku."
         },
         {
           "type": "paragraph",
-          "html": "Fifa mengangguk menurut. Tubuhnya tampak sangat lelah setelah seharian membagi pikiran antara mengetik pekerjaan agensi dan menahan guncangan perjalanan. Begitu bokongnya menyentuh jok kulit imitasi yang dingin, kepalanya langsung bersandar di pundak kiriku. Tangannya menyusup ke dalam saku jaketku, mencari kehangatan jemariku yang beku."
+          "html": "Fira mengangguk menurut. Tubuhnya tampak sangat lelah setelah seharian membagi pikiran antara mengetik pekerjaan agensi dan menahan guncangan perjalanan. Begitu bokongnya menyentuh jok kulit imitasi yang dingin, kepalanya langsung bersandar di pundak kiriku. Tangannya menyusup ke dalam saku jaketku, mencari kehangatan jemariku yang beku."
         },
         {
           "type": "paragraph",
@@ -1144,7 +1144,7 @@ export const TIKET_PULANG_DATA: NovelData = {
         },
         {
           "type": "dialogue",
-          "html": "\"Beb! BEB ARYA!\" jerit Fifa histeris, tubuhnya gemetar hebat laksana daun kering yang diterpa badai topan. Kedua tangannya mencengkeram kerah jaketku dengan kekuatan keputusasaan yang luar biasa. Air matanya membanjiri pipinya, matanya menatap mataku dengan tatapan ketakutan yang meremukkan seluruh jiwaku."
+          "html": "\"Beb! BEB ARGA!\" jerit Fira histeris, tubuhnya gemetar hebat laksana daun kering yang diterpa badai topan. Kedua tangannya mencengkeram kerah jaketku dengan kekuatan keputusasaan yang luar biasa. Air matanya membanjiri pipinya, matanya menatap mataku dengan tatapan ketakutan yang meremukkan seluruh jiwaku."
         },
         {
           "type": "dialogue",
@@ -1152,11 +1152,11 @@ export const TIKET_PULANG_DATA: NovelData = {
         },
         {
           "type": "paragraph",
-          "html": "Aku tidak berpikir dua kali. Di detik-detik paling menentukan dalam hidup seorang manusia, seluruh naluri bertahan hidupku runtuh dan digantikan oleh satu mandat mutlak: keselamatan Fifa di atas segalanya."
+          "html": "Aku tidak berpikir dua kali. Di detik-detik paling menentukan dalam hidup seorang manusia, seluruh naluri bertahan hidupku runtuh dan digantikan oleh satu mandat mutlak: keselamatan Fira di atas segalanya."
         },
         {
           "type": "paragraph",
-          "html": "Kutarik tubuh mungil Fifa ke dalam dekapanku. Kurebahkan kepalanya di dadaku, lalu kulipat seluruh tubuhku di atasnya, menjadikannya perisai hidup. Kedua tanganku melingkari kepala dan lehernya, punggungku kubungkukkan selebar mungkin untuk menutupi seluruh bidang tubuhnya dari ancaman pecahan kaca dan benturan besi."
+          "html": "Kutarik tubuh mungil Fira ke dalam dekapanku. Kurebahkan kepalanya di dadaku, lalu kulipat seluruh tubuhku di atasnya, menjadikannya perisai hidup. Kedua tanganku melingkari kepala dan lehernya, punggungku kubungkukkan selebar mungkin untuk menutupi seluruh bidang tubuhnya dari ancaman pecahan kaca dan benturan besi."
         },
         {
           "type": "paragraph",
@@ -1168,7 +1168,7 @@ export const TIKET_PULANG_DATA: NovelData = {
         },
         {
           "type": "paragraph",
-          "html": "<em>\"La ilaha illa Anta subhanaka inni kuntu minadzolimin! Ya Allah! Ya Allah selamatkan istri hamba... selamatkan Fifa...!\"</em> teriakku menembus kegelapan."
+          "html": "<em>\"La ilaha illa Anta subhanaka inni kuntu minadzolimin! Ya Allah! Ya Allah selamatkan istri hamba... selamatkan Fira...!\"</em> teriakku menembus kegelapan."
         },
         {
           "type": "paragraph",
@@ -1264,7 +1264,7 @@ export const TIKET_PULANG_DATA: NovelData = {
         },
         {
           "type": "dialogue",
-          "html": "\"Fifa!\""
+          "html": "\"Fira!\""
         },
         {
           "type": "paragraph",
@@ -1276,7 +1276,7 @@ export const TIKET_PULANG_DATA: NovelData = {
         },
         {
           "type": "dialogue",
-          "html": "\"Fifa! Beb! Kamu di mana, Beb?!\" teriakku panik, suaraku menggema di antara dinding-dinding tebing cadas yang curam."
+          "html": "\"Fira! Beb! Kamu di mana, Beb?!\" teriakku panik, suaraku menggema di antara dinding-dinding tebing cadas yang curam."
         },
         {
           "type": "paragraph",
@@ -1292,7 +1292,7 @@ export const TIKET_PULANG_DATA: NovelData = {
         },
         {
           "type": "dialogue",
-          "html": "\"Fifa!\""
+          "html": "\"Fira!\""
         },
         {
           "type": "paragraph",
@@ -1300,7 +1300,7 @@ export const TIKET_PULANG_DATA: NovelData = {
         },
         {
           "type": "paragraph",
-          "html": "Fifa terbaring miring di sana. Tubuh mungilnya terjepit di sudut sempit antara rangka kursi nomor dua belas dan pilar baja bodi samping bis. Wajahnya yang biasa berseri kini pucat pasi seperti lilin putih. Dari pelipis kanannya, darah segar mengalir pekat, merembes menuruni pipinya yang mulus dan membasahi kerah kemeja krem kesayangannya. Matanya terpejam rapat, dan bibir tipisnya membiru kedinginan."
+          "html": "Fira terbaring miring di sana. Tubuh mungilnya terjepit di sudut sempit antara rangka kursi nomor dua belas dan pilar baja bodi samping bis. Wajahnya yang biasa berseri kini pucat pasi seperti lilin putih. Dari pelipis kanannya, darah segar mengalir pekat, merembes menuruni pipinya yang mulus dan membasahi kerah kemeja krem kesayangannya. Matanya terpejam rapat, dan bibir tipisnya membiru kedinginan."
         },
         {
           "type": "dialogue",
@@ -1308,7 +1308,7 @@ export const TIKET_PULANG_DATA: NovelData = {
         },
         {
           "type": "paragraph",
-          "html": "Kedua tanganku gemetar hebat saat meraih pundaknya. Aku berusaha menarik sebatang pipa besi sandaran tangan yang menindih kakinya. Anehnya, pipa besi yang tampak sangat berat itu terangkat begitu mudahnya dari tubuh Fifa, seolah-olah beratnya tak lebih dari sebatang ranting kering."
+          "html": "Kedua tanganku gemetar hebat saat meraih pundaknya. Aku berusaha menarik sebatang pipa besi sandaran tangan yang menindih kakinya. Anehnya, pipa besi yang tampak sangat berat itu terangkat begitu mudahnya dari tubuh Fira, seolah-olah beratnya tak lebih dari sebatang ranting kering."
         },
         {
           "type": "paragraph",
@@ -1328,11 +1328,11 @@ export const TIKET_PULANG_DATA: NovelData = {
         },
         {
           "type": "paragraph",
-          "html": "Tiba-tiba, kelopak mata Fifa yang basah oleh air mata dan darah bergetar pelan."
+          "html": "Tiba-tiba, kelopak mata Fira yang basah oleh air mata dan darah bergetar pelan."
         },
         {
           "type": "paragraph",
-          "html": "Dada Fifa menarik napas panjang yang tersentak ke dalam, laksana seorang penyelam yang baru saja berhasil menyembul ke permukaan air setelah kehabisan oksigen di kedalaman palung laut."
+          "html": "Dada Fira menarik napas panjang yang tersentak ke dalam, laksana seorang penyelam yang baru saja berhasil menyembul ke permukaan air setelah kehabisan oksigen di kedalaman palung laut."
         },
         {
           "type": "paragraph",
@@ -1349,14 +1349,14 @@ export const TIKET_PULANG_DATA: NovelData = {
       "number": "Bab 9",
       "title": "Di Ambang Bawah Sadar",
       "fullTitle": "BAB 9: Di Ambang Bawah Sadar",
-      "excerpt": "Pandangan mata Fifa mula-mula kosong dan berkabut, menatap lurus ke arah dedaunan pakis liar di atas kepalanya tanpa fokus. Namun ...",
+      "excerpt": "Pandangan mata Fira mula-mula kosong dan berkabut, menatap lurus ke arah dedaunan pakis liar di atas kepalanya tanpa fokus. Namun ...",
       "wordCount": 1021,
       "readTimeMinutes": 5,
       "isFinal": false,
       "paragraphs": [
         {
           "type": "paragraph",
-          "html": "Pandangan mata Fifa mula-mula kosong dan berkabut, menatap lurus ke arah dedaunan pakis liar di atas kepalanya tanpa fokus. Namun detik berikutnya, manik matanya yang cokelat gelap bergerak perlahan, mencari sumber suara yang terus-menerus memanggil namanya dalam ratapan putus asa."
+          "html": "Pandangan mata Fira mula-mula kosong dan berkabut, menatap lurus ke arah dedaunan pakis liar di atas kepalanya tanpa fokus. Namun detik berikutnya, manik matanya yang cokelat gelap bergerak perlahan, mencari sumber suara yang terus-menerus memanggil namanya dalam ratapan putus asa."
         },
         {
           "type": "paragraph",
@@ -1364,7 +1364,7 @@ export const TIKET_PULANG_DATA: NovelData = {
         },
         {
           "type": "dialogue",
-          "html": "\"Beb... Arya...?\" bisiknya teramat lirih, suaranya seperti desau angin malam yang rapuh menyentuh ranting kering."
+          "html": "\"Beb... Arga...?\" bisiknya teramat lirih, suaranya seperti desau angin malam yang rapuh menyentuh ranting kering."
         },
         {
           "type": "dialogue",
@@ -1376,11 +1376,11 @@ export const TIKET_PULANG_DATA: NovelData = {
         },
         {
           "type": "paragraph",
-          "html": "Namun... reaksi Fifa sama sekali bukan rasa lega."
+          "html": "Namun... reaksi Fira sama sekali bukan rasa lega."
         },
         {
           "type": "paragraph",
-          "html": "Alih-alih tersenyum atau membalas genggaman tanganku, pupil mata Fifa mendadak membesar. Binar matanya berubah drastis menjadi tatapan horor yang belum pernah kulihat seumur hidupku. Tubuhnya yang lemah tiba-tiba kejang kaku, dan napasnya kembali memburu liar penuh ketakutan yang mencekam."
+          "html": "Alih-alih tersenyum atau membalas genggaman tanganku, pupil mata Fira mendadak membesar. Binar matanya berubah drastis menjadi tatapan horor yang belum pernah kulihat seumur hidupku. Tubuhnya yang lemah tiba-tiba kejang kaku, dan napasnya kembali memburu liar penuh ketakutan yang mencekam."
         },
         {
           "type": "dialogue",
@@ -1392,7 +1392,7 @@ export const TIKET_PULANG_DATA: NovelData = {
         },
         {
           "type": "dialogue",
-          "html": "\"Nggak... Nggak mungkin...\" Fifa mulai menggelengkan kepalanya dengan gerakan histeris, air matanya tumpah ruah membasahi darah di pipinya. Tangan kanannya yang bersimbah lumpur terangkat dengan susah payah, jari telunjuknya yang gemetar menunjuk lurus ke arah belakang punggungku."
+          "html": "\"Nggak... Nggak mungkin...\" Fira mulai menggelengkan kepalanya dengan gerakan histeris, air matanya tumpah ruah membasahi darah di pipinya. Tangan kanannya yang bersimbah lumpur terangkat dengan susah payah, jari telunjuknya yang gemetar menunjuk lurus ke arah belakang punggungku."
         },
         {
           "type": "paragraph",
@@ -1400,7 +1400,7 @@ export const TIKET_PULANG_DATA: NovelData = {
         },
         {
           "type": "dialogue",
-          "html": "\"Beb... lihat ke belakangmu... LIHAT KE BAWAH SANA, BEB ARYA!\" jeritnya dengan sisa tenaga terakhirnya, sebuah jeritan pilu yang membelah kesunyian dasar lembah."
+          "html": "\"Beb... lihat ke belakangmu... LIHAT KE BAWAH SANA, BEB ARGA!\" jeritnya dengan sisa tenaga terakhirnya, sebuah jeritan pilu yang membelah kesunyian dasar lembah."
         },
         {
           "type": "paragraph",
@@ -1408,7 +1408,7 @@ export const TIKET_PULANG_DATA: NovelData = {
         },
         {
           "type": "paragraph",
-          "html": "Dengan gerakan lambat yang diiringi firasat buruk yang mencekik napas, aku memutar kepalaku menoleh ke arah yang ditunjuk oleh telunjuk Fifa."
+          "html": "Dengan gerakan lambat yang diiringi firasat buruk yang mencekik napas, aku memutar kepalaku menoleh ke arah yang ditunjuk oleh telunjuk Fira."
         },
         {
           "type": "paragraph",
@@ -1432,7 +1432,7 @@ export const TIKET_PULANG_DATA: NovelData = {
         },
         {
           "type": "paragraph",
-          "html": "Tubuh laki-laki itu... posisinya tepat melengkung di atas tempat di mana Fifa tadi terbaring."
+          "html": "Tubuh laki-laki itu... posisinya tepat melengkung di atas tempat di mana Fira tadi terbaring."
         },
         {
           "type": "paragraph",
@@ -1440,7 +1440,7 @@ export const TIKET_PULANG_DATA: NovelData = {
         },
         {
           "type": "paragraph",
-          "html": "Arya Prasetya."
+          "html": "Arga Prasetya."
         },
         {
           "type": "paragraph",
@@ -1448,7 +1448,7 @@ export const TIKET_PULANG_DATA: NovelData = {
         },
         {
           "type": "paragraph",
-          "html": "Kutarik tanganku dari wajah Fifa. Kutatap kedua telapak tanganku sendiri di bawah temaram cahaya bulan yang menerobos sela-sela kabut."
+          "html": "Kutarik tanganku dari wajah Fira. Kutatap kedua telapak tanganku sendiri di bawah temaram cahaya bulan yang menerobos sela-sela kabut."
         },
         {
           "type": "paragraph",
@@ -1468,7 +1468,7 @@ export const TIKET_PULANG_DATA: NovelData = {
         },
         {
           "type": "paragraph",
-          "html": "Tubuh fisikku telah mati seketika di detik pertama bis menghantam batu cadas jurang. Tulang belakang dan kepalaku remuk seketika saat aku melompat dan mengunci tubuh Fifa di bawah dekapanku, menyerap seluruh daya hancur logam baja agar tidak menyentuh tengkorak istriku."
+          "html": "Tubuh fisikku telah mati seketika di detik pertama bis menghantam batu cadas jurang. Tulang belakang dan kepalaku remuk seketika saat aku melompat dan mengunci tubuh Fira di bawah dekapanku, menyerap seluruh daya hancur logam baja agar tidak menyentuh tengkorak istriku."
         },
         {
           "type": "paragraph",
@@ -1480,7 +1480,7 @@ export const TIKET_PULANG_DATA: NovelData = {
         },
         {
           "type": "paragraph",
-          "html": "Dan alasan mengapa Fifa bisa melihatku, mengapa dia bisa mendengar suaraku... adalah karena saat ini tubuhnya sedang pingsan sekarat di ambang pintu kematian. Di titik perbatasan antara hidup dan mati, di alam bawah sadar manusia yang sedang meregang nyawa, batas antara dunia kasar dan dunia gaib menipis menjadi selembar sutra."
+          "html": "Dan alasan mengapa Fira bisa melihatku, mengapa dia bisa mendengar suaraku... adalah karena saat ini tubuhnya sedang pingsan sekarat di ambang pintu kematian. Di titik perbatasan antara hidup dan mati, di alam bawah sadar manusia yang sedang meregang nyawa, batas antara dunia kasar dan dunia gaib menipis menjadi selembar sutra."
         },
         {
           "type": "dialogue",
@@ -1488,7 +1488,7 @@ export const TIKET_PULANG_DATA: NovelData = {
         },
         {
           "type": "paragraph",
-          "html": "Tangisan Fifa meledak menjadi raungan yang paling memilukan yang pernah terdengar di muka bumi."
+          "html": "Tangisan Fira meledak menjadi raungan yang paling memilukan yang pernah terdengar di muka bumi."
         },
         {
           "type": "paragraph",
@@ -1508,7 +1508,7 @@ export const TIKET_PULANG_DATA: NovelData = {
         },
         {
           "type": "dialogue",
-          "html": "\"Bawa aku, Beb...\" rintih Fifa, matanya mulai sayu kembali, kesadarannya mulai tersedot kembali oleh tarikan maut. \"Bawa aku ikut sama kamu... Aku gak mau pulang ke Sidoarjo sendirian... Aku gak mau tidur di kontrakan itu tanpa kamu...\""
+          "html": "\"Bawa aku, Beb...\" rintih Fira, matanya mulai sayu kembali, kesadarannya mulai tersedot kembali oleh tarikan maut. \"Bawa aku ikut sama kamu... Aku gak mau pulang ke Sidoarjo sendirian... Aku gak mau tidur di kontrakan itu tanpa kamu...\""
         },
         {
           "type": "dialogue",
@@ -1548,11 +1548,11 @@ export const TIKET_PULANG_DATA: NovelData = {
         },
         {
           "type": "dialogue",
-          "html": "\"Cepat! Perempuan ini nadinya masih ada tapi sangat lemah! Pasang penyangga leher sekarang!\" perintah seorang dokter lapangan dengan suara bergetar panik seraya menempelkan stetoskop ke dada Fifa."
+          "html": "\"Cepat! Perempuan ini nadinya masih ada tapi sangat lemah! Pasang penyangga leher sekarang!\" perintah seorang dokter lapangan dengan suara bergetar panik seraya menempelkan stetoskop ke dada Fira."
         },
         {
           "type": "paragraph",
-          "html": "Begitu jarum suntik darurat menusuk lengan Fifa dan masker oksigen plastik ditempelkan ke hidungnya, gelombang kesadaran biologis menyengat tubuhnya kembali. Detak jantung fisiknya dipaksa berpacu kembali ke frekuensi dunia nyata."
+          "html": "Begitu jarum suntik darurat menusuk lengan Fira dan masker oksigen plastik ditempelkan ke hidungnya, gelombang kesadaran biologis menyengat tubuhnya kembali. Detak jantung fisiknya dipaksa berpacu kembali ke frekuensi dunia nyata."
         },
         {
           "type": "paragraph",
@@ -1560,7 +1560,7 @@ export const TIKET_PULANG_DATA: NovelData = {
         },
         {
           "type": "paragraph",
-          "html": "Mata Fifa yang sayu berkedip perlahan di balik masker oksigen. Ketika ia menatap ke arah tempatku berdiri, manik matanya tidak lagi menangkap sosok wujudku. Bagi matanya yang kini telah sepenuhnya kembali menjadi mata manusia fana, aku hanyalah udara kosong di tengah kabut malam yang dingin."
+          "html": "Mata Fira yang sayu berkedip perlahan di balik masker oksigen. Ketika ia menatap ke arah tempatku berdiri, manik matanya tidak lagi menangkap sosok wujudku. Bagi matanya yang kini telah sepenuhnya kembali menjadi mata manusia fana, aku hanyalah udara kosong di tengah kabut malam yang dingin."
         },
         {
           "type": "dialogue",
@@ -1584,7 +1584,7 @@ export const TIKET_PULANG_DATA: NovelData = {
         },
         {
           "type": "paragraph",
-          "html": "Mendengar kata-kata petugas itu dan melihat sebuah kantung kain terpal hitam dibentangkan di samping tubuhku, Fifa yang sedang diangkat ke atas tandu mendadak berontak liar."
+          "html": "Mendengar kata-kata petugas itu dan melihat sebuah kantung kain terpal hitam dibentangkan di samping tubuhku, Fira yang sedang diangkat ke atas tandu mendadak berontak liar."
         },
         {
           "type": "paragraph",
@@ -1592,7 +1592,7 @@ export const TIKET_PULANG_DATA: NovelData = {
         },
         {
           "type": "dialogue",
-          "html": "\"LEPASIN! JANGAN BAWA SUAMI SAYA!\" jerit Fifa histeris, suaranya tercekat dan menyayat hati, membuat para relawan yang memegang tandunya tertegun menahan air mata. \"MAS ARYA MASIH DI SINI TADI! DIA TADI NGOBROL SAMA SAYA! BEB ARYAAAA! JANGAN TINGGALIN AKU, BEB!\""
+          "html": "\"LEPASIN! JANGAN BAWA SUAMI SAYA!\" jerit Fira histeris, suaranya tercekat dan menyayat hati, membuat para relawan yang memegang tandunya tertegun menahan air mata. \"MAS ARGA MASIH DI SINI TADI! DIA TADI NGOBROL SAMA SAYA! BEB ARGAAAA! JANGAN TINGGALIN AKU, BEB!\""
         },
         {
           "type": "paragraph",
@@ -1600,11 +1600,11 @@ export const TIKET_PULANG_DATA: NovelData = {
         },
         {
           "type": "dialogue",
-          "html": "\"Mbak, istirahat Mbak... Tenang, Mbak... Suami Mbak sudah tenang... Mbak harus selamat demi suami Mbak...\" bujuk seorang perawat wanita dengan suara tercekat seraya menahan pundak Fifa agar tidak memperparah luka di tulang rusuknya."
+          "html": "\"Mbak, istirahat Mbak... Tenang, Mbak... Suami Mbak sudah tenang... Mbak harus selamat demi suami Mbak...\" bujuk seorang perawat wanita dengan suara tercekat seraya menahan pundak Fira agar tidak memperparah luka di tulang rusuknya."
         },
         {
           "type": "paragraph",
-          "html": "Tandu yang membawa Fifa perlahan-lahan diangkat menaiki tebing jurang yang terjal, meninggalkan dasar lembah yang sunyi."
+          "html": "Tandu yang membawa Fira perlahan-lahan diangkat menaiki tebing jurang yang terjal, meninggalkan dasar lembah yang sunyi."
         },
         {
           "type": "paragraph",
@@ -1620,7 +1620,7 @@ export const TIKET_PULANG_DATA: NovelData = {
         },
         {
           "type": "paragraph",
-          "html": "Ketika tandu akhirnya sampai di tepi jalan raya, Fifa segera dimasukkan ke dalam kabin mobil ambulans yang lampu rotator merahnya berputar menyapu gelapnya pepohonan hutan."
+          "html": "Ketika tandu akhirnya sampai di tepi jalan raya, Fira segera dimasukkan ke dalam kabin mobil ambulans yang lampu rotator merahnya berputar menyapu gelapnya pepohonan hutan."
         },
         {
           "type": "paragraph",
@@ -1632,15 +1632,15 @@ export const TIKET_PULANG_DATA: NovelData = {
         },
         {
           "type": "paragraph",
-          "html": "Di dalam ruang kabin ambulans yang sempit dan berbau tajam alkohol medis, suasana berubah menjadi medan pertempuran antara hidup dan mati. Dua orang perawat gawat darurat bergerak sigap di sisi brankar Fifa, memasang selang infus ringer laktat dan menempelkan bantalan elektroda EKG ke dadanya yang dipenuhi memar."
+          "html": "Di dalam ruang kabin ambulans yang sempit dan berbau tajam alkohol medis, suasana berubah menjadi medan pertempuran antara hidup dan mati. Dua orang perawat gawat darurat bergerak sigap di sisi brankar Fira, memasang selang infus ringer laktat dan menempelkan bantalan elektroda EKG ke dadanya yang dipenuhi memar."
         },
         {
           "type": "paragraph",
-          "html": "Di atas selimut perak darurat yang membungkus tubuh Fifa, tersampir jaket denim biru pudar milikku—jaket yang diselamatkan tim SAR dari bawah tumpukan pilar besi sebelum jasad fisikku dievakuasi. Jaket itu masih lembap oleh air hujan pegunungan, bernoda jelaga aspal, dan menguarkan aroma sisa parfum kopi murah yang selalu kuingat."
+          "html": "Di atas selimut perak darurat yang membungkus tubuh Fira, tersampir jaket denim biru pudar milikku—jaket yang diselamatkan tim SAR dari bawah tumpukan pilar besi sebelum jasad fisikku dievakuasi. Jaket itu masih lembap oleh air hujan pegunungan, bernoda jelaga aspal, dan menguarkan aroma sisa parfum kopi murah yang selalu kuingat."
         },
         {
           "type": "paragraph",
-          "html": "Jemari Fifa yang gemetar hebat, dengan kuku-kuku yang berdarah dan patah, meraba permukaan kasar kain denim itu. Dengan sisa-sisa kesadarannya yang rapuh di balik sungkup masker oksigen, ia menyusupkan tangannya ke saku dada sebelah kiri."
+          "html": "Jemari Fira yang gemetar hebat, dengan kuku-kuku yang berdarah dan patah, meraba permukaan kasar kain denim itu. Dengan sisa-sisa kesadarannya yang rapuh di balik sungkup masker oksigen, ia menyusupkan tangannya ke saku dada sebelah kiri."
         },
         {
           "type": "paragraph",
@@ -1648,15 +1648,15 @@ export const TIKET_PULANG_DATA: NovelData = {
         },
         {
           "type": "paragraph",
-          "html": "Belum reda guncangan di dadanya, jemari Fifa meraba saku kecil di dekat jahitan kelim. Ada sebuah benda pipih berukuran kecil berbahan plastik merah: kartu memori SD card dari event akbar di Jatim Expo. Di permukaannya yang lecet tertempel lakban kertas dengan coretan spidol putih permanen bertuliskan tanganku: <em>BACKUP MASTER EVENT JATIM EXPO (FINAL)</em>. Benda keramat yang telah kupertaruhkan dengan nyawa dan keringat siang-malam agar kami berdua terbebas dari jeratan utang empat puluh dua juta vendor."
+          "html": "Belum reda guncangan di dadanya, jemari Fira meraba saku kecil di dekat jahitan kelim. Ada sebuah benda pipih berukuran kecil berbahan plastik merah: kartu memori SD card dari event akbar di Jatim Expo. Di permukaannya yang lecet tertempel lakban kertas dengan coretan spidol putih permanen bertuliskan tanganku: <em>BACKUP MASTER EVENT JATIM EXPO (FINAL)</em>. Benda keramat yang telah kupertaruhkan dengan nyawa dan keringat siang-malam agar kami berdua terbebas dari jeratan utang empat puluh dua juta vendor."
         },
         {
           "type": "paragraph",
-          "html": "Dan di bagian saku paling dalam jaket denim itu—saku rahasia di balik dada kiri yang selama ini menempel persis di atas denyut jantungku—ujung jari Fifa membentur sebuah kotak bersegi kokoh berbalut kain beludru hitam pekat."
+          "html": "Dan di bagian saku paling dalam jaket denim itu—saku rahasia di balik dada kiri yang selama ini menempel persis di atas denyut jantungku—ujung jari Fira membentur sebuah kotak bersegi kokoh berbalut kain beludru hitam pekat."
         },
         {
           "type": "paragraph",
-          "html": "Napas Fifa tercekat hebat. Dengan tangan yang menggigil tak terkendali, ia mengangkat kotak kecil itu setinggi dada. Jempolnya membuka pengait kuningan kecil di sisi kotak."
+          "html": "Napas Fira tercekat hebat. Dengan tangan yang menggigil tak terkendali, ia mengangkat kotak kecil itu setinggi dada. Jempolnya membuka pengait kuningan kecil di sisi kotak."
         },
         {
           "type": "paragraph",
@@ -1668,15 +1668,15 @@ export const TIKET_PULANG_DATA: NovelData = {
         },
         {
           "type": "dialogue",
-          "html": "\"Tunggu wisudaku, Fifa.\""
+          "html": "\"Tunggu wisudaku, Fira.\""
         },
         {
           "type": "paragraph",
-          "html": "Runtuh sudah seluruh pertahanan jiwa perempuan itu. Tangisan histeris yang teramat pedih meledak dari balik sungkup oksigennya, tersengal-sengal menembus raungan mesin diesel mobil ambulans: <em>\"Beb... kamu selalu nepati janjimu... kamu simpan ini buat aku, Beb...? Kenapa kamu tinggalin aku sendiri?! BEB ARYAAAA!\"</em>"
+          "html": "Runtuh sudah seluruh pertahanan jiwa perempuan itu. Tangisan histeris yang teramat pedih meledak dari balik sungkup oksigennya, tersengal-sengal menembus raungan mesin diesel mobil ambulans: <em>\"Beb... kamu selalu nepati janjimu... kamu simpan ini buat aku, Beb...? Kenapa kamu tinggalin aku sendiri?! BEB ARGAAAA!\"</em>"
         },
         {
           "type": "paragraph",
-          "html": "Fifa mendekap kotak beludru hitam, kartu memori merah, dan sobekan tiket basah itu erat-erat ke dadanya, seolah-olah ingin menarik kembali nyawaku ke dalam raganya melalui benda-benda peninggalan tersebut."
+          "html": "Fira mendekap kotak beludru hitam, kartu memori merah, dan sobekan tiket basah itu erat-erat ke dadanya, seolah-olah ingin menarik kembali nyawaku ke dalam raganya melalui benda-benda peninggalan tersebut."
         },
         {
           "type": "paragraph",
@@ -1700,7 +1700,7 @@ export const TIKET_PULANG_DATA: NovelData = {
         },
         {
           "type": "paragraph",
-          "html": "<em>DUBBB!</em> Tubuh Fifa tersentak melenting ke atas akibat sengatan arus listrik berkekuatan tinggi, lalu terbanting lemas kembali ke atas kasur busa brankar."
+          "html": "<em>DUBBB!</em> Tubuh Fira tersentak melenting ke atas akibat sengatan arus listrik berkekuatan tinggi, lalu terbanting lemas kembali ke atas kasur busa brankar."
         },
         {
           "type": "dialogue",
@@ -1708,7 +1708,7 @@ export const TIKET_PULANG_DATA: NovelData = {
         },
         {
           "type": "paragraph",
-          "html": "Di tengah jeritan instruksi medis darurat, dentuman kompresi jantung beruntun, dan raungan sirine yang melesat kencang membelah kabut malam pegunungan, pandangan mata Fifa perlahan meredup. Suara hiruk-pikuk di dalam kabin ambulans melarut menjadi sunyi yang hampa, sebelum akhirnya seluruh dunia menggelap gulita menjadi satu titik hitam tanpa dasar."
+          "html": "Di tengah jeritan instruksi medis darurat, dentuman kompresi jantung beruntun, dan raungan sirine yang melesat kencang membelah kabut malam pegunungan, pandangan mata Fira perlahan meredup. Suara hiruk-pikuk di dalam kabin ambulans melarut menjadi sunyi yang hampa, sebelum akhirnya seluruh dunia menggelap gulita menjadi satu titik hitam tanpa dasar."
         },
         {
           "type": "divider",
@@ -1728,7 +1728,7 @@ export const TIKET_PULANG_DATA: NovelData = {
         },
         {
           "type": "paragraph",
-          "html": "Namun di atas segalanya, aku tahu aku telah menunaikan sumpah suciku sebagai seorang suami. Aku telah menjaganya sampai helaan napas terakhirku. Dan di suatu tempat di masa depan, ketika saatnya telah tiba bagi Fifa untuk melintasi jembatan takdir ini—atau entah apakah malam ini detak jantungnya yang terhenti akan segera menyusulku ke alam keabadian—aku akan tetap berdiri di sini. Menunggunya dengan cinta yang sama, cinta yang tak akan pernah mampu dibinasakan oleh maut."
+          "html": "Namun di atas segalanya, aku tahu aku telah menunaikan sumpah suciku sebagai seorang suami. Aku telah menjaganya sampai helaan napas terakhirku. Dan di suatu tempat di masa depan, ketika saatnya telah tiba bagi Fira untuk melintasi jembatan takdir ini—atau entah apakah malam ini detak jantungnya yang terhenti akan segera menyusulku ke alam keabadian—aku akan tetap berdiri di sini. Menunggunya dengan cinta yang sama, cinta yang tak akan pernah mampu dibinasakan oleh maut."
         },
         {
           "type": "paragraph",

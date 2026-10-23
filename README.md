@@ -1,6 +1,6 @@
 # 📖 Tiket Pulang Paling Sunyi — Next.js Reader
 
-Aplikasi Web Reader modern, cepat, dan responsif berbasis **Next.js (App Router)** dan **Tailwind CSS** untuk novel *"Tiket Pulang Paling Sunyi"* karya **Arya Prasetya** (10 Bab Lengkap, 11.082 kata).
+Aplikasi Web Reader modern, cepat, dan responsif berbasis **Next.js (App Router)** dan **Tailwind CSS** untuk novel *"Tiket Pulang Paling Sunyi"* karya **Arga Prasetya** (10 Bab Lengkap, 11.082 kata).
 
 ---
 

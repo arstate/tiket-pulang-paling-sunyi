@@ -16,7 +16,7 @@ export const BAB_3: Chapter = {
     },
     {
       type: "paragraph",
-      html: "Bulan-bulan itu menjadi masa-masa paling melelahkan bagi kami berdua. Di Jember, Fifa sedang berada di garis depan pertempuran akademiknya: menyelesaikan bab-bab akhir skripsi jurusan Komunikasi dan Penyiaran Islam. Dosen pembimbingnya yang perfeksionis mencoret draf tulisannya berulang kali dengan tinta merah, memaksanya begadang di kamar kos hingga matanya cekung dan kepalanya berdenyut hebat karena kurang tidur."
+      html: "Bulan-bulan itu menjadi masa-masa paling melelahkan bagi kami berdua. Di Jember, Fira sedang berada di garis depan pertempuran akademiknya: menyelesaikan bab-bab akhir skripsi jurusan Komunikasi dan Penyiaran Islam. Dosen pembimbingnya yang perfeksionis mencoret draf tulisannya berulang kali dengan tinta merah, memaksanya begadang di kamar kos hingga matanya cekung dan kepalanya berdenyut hebat karena kurang tidur."
     },
     {
       type: "paragraph",
@@ -28,11 +28,11 @@ export const BAB_3: Chapter = {
     },
     {
       type: "paragraph",
-      html: "Pernah suatu malam di hari Selasa, tepat pukul satu dini hari, ponselku berdering histeris. Ketika kuangkat, suara tangis Fifa meledak tanpa kata pembuka:"
+      html: "Pernah suatu malam di hari Selasa, tepat pukul satu dini hari, ponselku berdering histeris. Ketika kuangkat, suara tangis Fira meledak tanpa kata pembuka:"
     },
     {
       type: "dialogue",
-      html: "\"Aryaaa... laptopku tiba-tiba blue screen!\" isaknya tersengal-sengal, panik setengah mati. \"Draf bab empat sama hasil transkrip wawancara narasumber belum sempat tak simpan ke flashdisk! Besok pagi jam delapan dosenku minta draf fisiknya diprint, aku harus gimana Ga... aku capek banget... pengen nyerah aja rasanya!\""
+      html: "\"Argaaa... laptopku tiba-tiba blue screen!\" isaknya tersengal-sengal, panik setengah mati. \"Draf bab empat sama hasil transkrip wawancara narasumber belum sempat tak simpan ke flashdisk! Besok pagi jam delapan dosenku minta draf fisiknya diprint, aku harus gimana Ga... aku capek banget... pengen nyerah aja rasanya!\""
     },
     {
       type: "paragraph",
@@ -44,27 +44,27 @@ export const BAB_3: Chapter = {
     },
     {
       type: "paragraph",
-      html: "Selama hampir dua jam di tengah malam buta itu, aku memandu jemari Fifa melalui telepon langkah demi langkah: memeriksa partisi harddisk, memulihkan file cadangan darurat, hingga akhirnya seluruh dokumen draf bab empatnya berhasil diselamatkan seutuhnya."
+      html: "Selama hampir dua jam di tengah malam buta itu, aku memandu jemari Fira melalui telepon langkah demi langkah: memeriksa partisi harddisk, memulihkan file cadangan darurat, hingga akhirnya seluruh dokumen draf bab empatnya berhasil diselamatkan seutuhnya."
     },
     {
       type: "paragraph",
-      html: "Ketika dokumen itu berhasil terbuka kembali di layarnya, suara helaan napas panjang Fifa terdengar begitu lega di seberang pulau kabel sinyal, disusul suara tawa kecil yang bercampur isak haru."
+      html: "Ketika dokumen itu berhasil terbuka kembali di layarnya, suara helaan napas panjang Fira terdengar begitu lega di seberang pulau kabel sinyal, disusul suara tawa kecil yang bercampur isak haru."
     },
     {
       type: "dialogue",
-      html: "\"Beb Arya... kamu kok hebat banget sih jadi teknisi? Kalau gak ada kamu malam ini, mungkin aku udah pingsan nangis di pojokan kamar kos,\" bisiknya manja."
+      html: "\"Beb Arga... kamu kok hebat banget sih jadi teknisi? Kalau gak ada kamu malam ini, mungkin aku udah pingsan nangis di pojokan kamar kos,\" bisiknya manja."
     },
     {
       type: "dialogue",
-      html: "\"Kan udah dibilang, aku bakal selalu ada buat kamu, Fifa. Besok print drafnya yang rapi, temui dosenmu dengan kepala tegak. Kamu itu perempuan cerdas, skripsimu pasti lolos sidang. Aku bangga banget sama kamu, calon sarjana.\""
+      html: "\"Kan udah dibilang, aku bakal selalu ada buat kamu, Fira. Besok print drafnya yang rapi, temui dosenmu dengan kepala tegak. Kamu itu perempuan cerdas, skripsimu pasti lolos sidang. Aku bangga banget sama kamu, calon sarjana.\""
     },
     {
       type: "paragraph",
-      html: "Kata-kata 'calon sarjana' itu membuat Fifa terdiam sejenak. Di ujung sana, nada bicaranya melembut menjadi bisikan yang sarat rindu:"
+      html: "Kata-kata 'calon sarjana' itu membuat Fira terdiam sejenak. Di ujung sana, nada bicaranya melembut menjadi bisikan yang sarat rindu:"
     },
     {
       type: "dialogue",
-      html: "\"Kamu gak capek nemenin aku yang drama gini, Arya? Kamu sendiri kan lagi pusing ujian akhir sekolah...\""
+      html: "\"Kamu gak capek nemenin aku yang drama gini, Arga? Kamu sendiri kan lagi pusing ujian akhir sekolah...\""
     },
     {
       type: "dialogue",
@@ -72,7 +72,7 @@ export const BAB_3: Chapter = {
     },
     {
       type: "paragraph",
-      html: "Fifa memekik tertahan gembira di telepon. Janji temu di kota kelahirannya itu seketika menjadi lentera paling terang yang menyapu kabut tebal pemisah dua kota, memberi kami berdua tenaga ekstra untuk menuntaskan tanggung jawab masing-masing sebelum saatnya bertemu kembali."
+      html: "Fira memekik tertahan gembira di telepon. Janji temu di kota kelahirannya itu seketika menjadi lentera paling terang yang menyapu kabut tebal pemisah dua kota, memberi kami berdua tenaga ekstra untuk menuntaskan tanggung jawab masing-masing sebelum saatnya bertemu kembali."
     }
   ]
 };

@@ -20,15 +20,15 @@ export const BAB_5: Chapter = {
     },
     {
       type: "paragraph",
-      html: "Begitu standar motor diturunkan di bawah naungan pohon pandan laut, Fifa langsung melepas sandal gunungnya. Dengan tawa riang yang membuncah lepas, ia berlari tanpa alas kaki menyeberangi pasir putih yang hangat, menyongsong buih-buih ombak yang membasahi ujung celana kulotnya."
+      html: "Begitu standar motor diturunkan di bawah naungan pohon pandan laut, Fira langsung melepas sandal gunungnya. Dengan tawa riang yang membuncah lepas, ia berlari tanpa alas kaki menyeberangi pasir putih yang hangat, menyongsong buih-buih ombak yang membasahi ujung celana kulotnya."
     },
     {
       type: "dialogue",
-      html: "\"Aryaaa! Sini cepetan! Seger banget airnya!\" teriaknya seraya melambai-lambaikan kedua tangannya ke arahku, kerudung cokelatnya berkibar liar dipermainkan angin samudra."
+      html: "\"Argaaa! Sini cepetan! Seger banget airnya!\" teriaknya seraya melambai-lambaikan kedua tangannya ke arahku, kerudung cokelatnya berkibar liar dipermainkan angin samudra."
     },
     {
       type: "paragraph",
-      html: "Aku membuka tutup lensa kameraku, menempelkan jendela bidik ke mata kananku seraya memutar cincin fokus secara manual. Melalui lensa 85mm itu, aku menangkap siluet Fifa dalam komposisi terbaik yang pernah ada di dunia: wajahnya yang tertawa lepas menghadap matahari siang, butiran air laut yang memercik berkilau di sekitar kakinya, dan binar matanya yang begitu hidup dan merdeka dari segala beban skripsi kampusnya."
+      html: "Aku membuka tutup lensa kameraku, menempelkan jendela bidik ke mata kananku seraya memutar cincin fokus secara manual. Melalui lensa 85mm itu, aku menangkap siluet Fira dalam komposisi terbaik yang pernah ada di dunia: wajahnya yang tertawa lepas menghadap matahari siang, butiran air laut yang memercik berkilau di sekitar kakinya, dan binar matanya yang begitu hidup dan merdeka dari segala beban skripsi kampusnya."
     },
     {
       type: "paragraph",
@@ -40,11 +40,11 @@ export const BAB_5: Chapter = {
     },
     {
       type: "paragraph",
-      html: "Fifa menyandarkan kepalanya ke pundak jaketku seraya memandangi garis cakrawala laut yang tak berujung."
+      html: "Fira menyandarkan kepalanya ke pundak jaketku seraya memandangi garis cakrawala laut yang tak berujung."
     },
     {
       type: "dialogue",
-      html: "\"Indah banget ya, Arya? Dari kecil aku sering diajak Bapak ke sini kalau lagi suntuk. Tapi rasanya gak pernah sebahagia hari ini... karena ada kamu di sampingku,\" bisiknya lembut."
+      html: "\"Indah banget ya, Arga? Dari kecil aku sering diajak Bapak ke sini kalau lagi suntuk. Tapi rasanya gak pernah sebahagia hari ini... karena ada kamu di sampingku,\" bisiknya lembut."
     },
     {
       type: "dialogue",
@@ -52,11 +52,11 @@ export const BAB_5: Chapter = {
     },
     {
       type: "paragraph",
-      html: "Fifa menggeser tubuhnya sedikit, menatap wajahku dari samping seraya memainkan jemari tanganku di atas pangkuannya."
+      html: "Fira menggeser tubuhnya sedikit, menatap wajahku dari samping seraya memainkan jemari tanganku di atas pangkuannya."
     },
     {
       type: "dialogue",
-      html: "\"Arya... nanti kalau aku udah wisuda, aku mau cari kerja di agensi kreatif Surabaya lagi,\" katanya dengan nada sungguh-sungguh. \"Biar aku bisa deket sama kamu. Biar kita gak perlu lagi LDR nahan kangen ratusan kilometer kayak gini.\""
+      html: "\"Arga... nanti kalau aku udah wisuda, aku mau cari kerja di agensi kreatif Surabaya lagi,\" katanya dengan nada sungguh-sungguh. \"Biar aku bisa deket sama kamu. Biar kita gak perlu lagi LDR nahan kangen ratusan kilometer kayak gini.\""
     },
     {
       type: "dialogue",

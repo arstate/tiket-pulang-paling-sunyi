@@ -134,7 +134,7 @@ export default function HeroCover({
         <blockquote className="border-l-4 border-accent pl-4 py-2 bg-[var(--bg-surface)]/70 rounded-r-xl italic text-[var(--text-primary)] text-sm sm:text-base font-serif leading-relaxed">
           &ldquo;{novel.quote}&rdquo;
           <footer className="text-xs text-[var(--text-muted)] font-sans not-italic mt-2">
-            — Arya Prasetya, Tiket Pulang Paling Sunyi
+            — Arga Prasetya, {novel.title}
           </footer>
         </blockquote>
       </section>

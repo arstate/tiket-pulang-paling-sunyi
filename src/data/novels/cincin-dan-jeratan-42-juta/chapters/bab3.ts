@@ -16,7 +16,7 @@ export const BAB_3: Chapter = {
     },
     {
       type: "paragraph",
-      html: "Pak Teguh melangkah maju, mencengkeram kerah jaket denimku dengan mata merah menyala: \"Mas Arya! Jangan lari kamu! Panitia bangsat itu udah kabur bawa uang sponsor! Sekarang kamu yang harus tanggung jawab!\""
+      html: "Pak Teguh melangkah maju, mencengkeram kerah jaket denimku dengan mata merah menyala: \"Mas Arga! Jangan lari kamu! Panitia bangsat itu udah kabur bawa uang sponsor! Sekarang kamu yang harus tanggung jawab!\""
     },
     {
       type: "dialogue",
@@ -28,7 +28,7 @@ export const BAB_3: Chapter = {
     },
     {
       type: "quote",
-      html: "\"Baca pasal empat ayat dua, Saudara Arya Prasetya!\" bentak pria berbaju safari itu dingin. \"'Apabila pihak pertama penyelenggara melakukan wanprestasi, maka pihak kedua sebagai penjamin teknis operasional lapangan bertanggung jawab mutlak secara hukum perdata dan pidana atas seluruh kerugian dan sisa biaya sewa peralatan vendor pihak ketiga!' Tanda tanganmu di atas meterai sah di mata hukum Republik Indonesia!\""
+      html: "\"Baca pasal empat ayat dua, Saudara Arga Prasetya!\" bentak pria berbaju safari itu dingin. \"'Apabila pihak pertama penyelenggara melakukan wanprestasi, maka pihak kedua sebagai penjamin teknis operasional lapangan bertanggung jawab mutlak secara hukum perdata dan pidana atas seluruh kerugian dan sisa biaya sewa peralatan vendor pihak ketiga!' Tanda tanganmu di atas meterai sah di mata hukum Republik Indonesia!\""
     },
     {
       type: "paragraph",

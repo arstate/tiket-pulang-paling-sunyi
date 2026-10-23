@@ -40,15 +40,15 @@ export const BAB_4: Chapter = {
     },
     {
       type: "paragraph",
-      html: "Fifa berdiri di samping sepeda motor matic hitamnya. Ia mengenakan jaket rajut warna marun tebal dan pashmina abu-abu yang disematkan rapi. Hidungnya sedikit memerah karena dinginnya udara subuh, namun matanya yang bulat bersinar terang benderang saat tatapan kami saling bertemu."
+      html: "Fira berdiri di samping sepeda motor matic hitamnya. Ia mengenakan jaket rajut warna marun tebal dan pashmina abu-abu yang disematkan rapi. Hidungnya sedikit memerah karena dinginnya udara subuh, namun matanya yang bulat bersinar terang benderang saat tatapan kami saling bertemu."
     },
     {
       type: "dialogue",
-      html: "\"Arya!\" teriaknya seraya melambai gembira, tak mempedulikan beberapa tukang ojek pangkalan yang tersenyum geli melihat tingkahnya."
+      html: "\"Arga!\" teriaknya seraya melambai gembira, tak mempedulikan beberapa tukang ojek pangkalan yang tersenyum geli melihat tingkahnya."
     },
     {
       type: "paragraph",
-      html: "Aku berjalan setengah berlari menghampirinya. Tanpa banyak bicara, Fifa langsung merengkuh tubuhku dalam pelukan hangat yang begitu erat. Tangannya yang mungil menepuk-nepuk punggung jaketku seraya menyandarkan pipinya ke dadaku."
+      html: "Aku berjalan setengah berlari menghampirinya. Tanpa banyak bicara, Fira langsung merengkuh tubuhku dalam pelukan hangat yang begitu erat. Tangannya yang mungil menepuk-nepuk punggung jaketku seraya menyandarkan pipinya ke dadaku."
     },
     {
       type: "dialogue",
@@ -56,11 +56,11 @@ export const BAB_4: Chapter = {
     },
     {
       type: "dialogue",
-      html: "\"Kan udah janji, Fifa. Mana mungkin aku ingkar sama calon sarjana kebanggaanku ini,\" jawabku seraya tersenyum mengusap ujung kerudungnya."
+      html: "\"Kan udah janji, Fira. Mana mungkin aku ingkar sama calon sarjana kebanggaanku ini,\" jawabku seraya tersenyum mengusap ujung kerudungnya."
     },
     {
       type: "paragraph",
-      html: "Fifa melepaskan pelukannya seraya menyeka air mata bahagianya, lalu tersenyum lebar menampilkan deretan giginya yang rapi."
+      html: "Fira melepaskan pelukannya seraya menyeka air mata bahagianya, lalu tersenyum lebar menampilkan deretan giginya yang rapi."
     },
     {
       type: "dialogue",

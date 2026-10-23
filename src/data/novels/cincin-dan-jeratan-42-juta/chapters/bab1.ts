@@ -28,15 +28,15 @@ export const BAB_1: Chapter = {
     },
     {
       type: "paragraph",
-      html: "Pukul satu dini hari, aku duduk bersandar di atas flight case besi speaker panggung seraya merogoh ponsel pintarku. Sebuah pesan singkat kukirimkan kepada Fifa:"
+      html: "Pukul satu dini hari, aku duduk bersandar di atas flight case besi speaker panggung seraya merogoh ponsel pintarku. Sebuah pesan singkat kukirimkan kepada Fira:"
     },
     {
       type: "quote",
-      html: "\"Fifa, panggung utamanya udah berdiri megah seratus persen. Visual video yang tak bikin tampil jernih banget di LED screen raksasa. Dua hari lagi proyek ini beres, Beb. Tunggu aku ya...\""
+      html: "\"Fira, panggung utamanya udah berdiri megah seratus persen. Visual video yang tak bikin tampil jernih banget di LED screen raksasa. Dua hari lagi proyek ini beres, Beb. Tunggu aku ya...\""
     },
     {
       type: "paragraph",
-      html: "Fifa membalas seketika dengan stiker hati dan doa tulus: *\"Alhamdulillah Beb Arya... jaga kesehatan ya, jangan lupa makan. Aku bangga banget sama kamu. Pulang dari Jatim Expo nanti langsung istirahat ya, Sayang.\"*"
+      html: "Fira membalas seketika dengan stiker hati dan doa tulus: *\"Alhamdulillah Beb Arga... jaga kesehatan ya, jangan lupa makan. Aku bangga banget sama kamu. Pulang dari Jatim Expo nanti langsung istirahat ya, Sayang.\"*"
     },
     {
       type: "paragraph",

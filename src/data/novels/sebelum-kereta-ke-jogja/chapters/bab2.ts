@@ -24,7 +24,7 @@ export const BAB_2: Chapter = {
     },
     {
       type: "quote",
-      html: "\"Kamu kok gak bales chat aku dari siang sih Arya?! Sibuk apa emang anak magang sok penting banget?! Tadi aku pulang sekolah dibonceng Kak Dimas anak kelas dua belas, jangan salahin aku kalau aku makin deket sama dia ya, lagian kamu cuek banget jadi cowok!\""
+      html: "\"Kamu kok gak bales chat aku dari siang sih Arga?! Sibuk apa emang anak magang sok penting banget?! Tadi aku pulang sekolah dibonceng Kak Dimas anak kelas dua belas, jangan salahin aku kalau aku makin deket sama dia ya, lagian kamu cuek banget jadi cowok!\""
     },
     {
       type: "paragraph",
@@ -40,7 +40,7 @@ export const BAB_2: Chapter = {
     },
     {
       type: "paragraph",
-      html: "Tepat di saat yang sama, pintu darurat menuju tangga keluar darurat di ujung lorong berderit pelan. Langkah kaki tergesa-gesa terdengar menjauh ke arah bordes tangga beton yang gelap. Aku mengenali siluet pashmina cokelat karamel itu: Fifa."
+      html: "Tepat di saat yang sama, pintu darurat menuju tangga keluar darurat di ujung lorong berderit pelan. Langkah kaki tergesa-gesa terdengar menjauh ke arah bordes tangga beton yang gelap. Aku mengenali siluet pashmina cokelat karamel itu: Fira."
     },
     {
       type: "paragraph",
@@ -48,7 +48,7 @@ export const BAB_2: Chapter = {
     },
     {
       type: "paragraph",
-      html: "Di anak tangga ketiga dari atas, Fifa sedang duduk meringkuk sendirian. Lututnya ditarik ke dada, menyembunyikan wajahnya di balik lipatan kedua tangan. Bahunya berguncang pelan, menahan agar suaranya tidak lolos terdengar ke seisi kantor."
+      html: "Di anak tangga ketiga dari atas, Fira sedang duduk meringkuk sendirian. Lututnya ditarik ke dada, menyembunyikan wajahnya di balik lipatan kedua tangan. Bahunya berguncang pelan, menahan agar suaranya tidak lolos terdengar ke seisi kantor."
     },
     {
       type: "paragraph",
@@ -56,7 +56,7 @@ export const BAB_2: Chapter = {
     },
     {
       type: "paragraph",
-      html: "Fifa rupanya sedang terperangkap dalam lingkaran neraka yang sama persis denganku. Satria, pacar toxic yang sudah bertahun-tahun menjerat hidupnya dengan siklus putus-nyambung yang memuakkan. Cowok manipulatif yang gemar bersikap ramah berlebihan ke semua wanita, mempermainkan komitmen Fifa, dan selalu berhasil membuat mahasiswi cerdas itu merasa bersalah atas kesalahan yang bukan miliknya."
+      html: "Fira rupanya sedang terperangkap dalam lingkaran neraka yang sama persis denganku. Satria, pacar toxic yang sudah bertahun-tahun menjerat hidupnya dengan siklus putus-nyambung yang memuakkan. Cowok manipulatif yang gemar bersikap ramah berlebihan ke semua wanita, mempermainkan komitmen Fira, dan selalu berhasil membuat mahasiswi cerdas itu merasa bersalah atas kesalahan yang bukan miliknya."
     },
     {
       type: "paragraph",
@@ -72,11 +72,11 @@ export const BAB_2: Chapter = {
     },
     {
       type: "paragraph",
-      html: "Suara langkah sepatuku membuat Fifa tersentak kaget. Dengan panik, kedua tangannya bergerak cepat menyeka pipinya yang basah, buru-buru meraih ponselnya dari lantai, dan membalikkan wajah ke arah dinding seolah sedang memeriksa debu."
+      html: "Suara langkah sepatuku membuat Fira tersentak kaget. Dengan panik, kedua tangannya bergerak cepat menyeka pipinya yang basah, buru-buru meraih ponselnya dari lantai, dan membalikkan wajah ke arah dinding seolah sedang memeriksa debu."
     },
     {
       type: "dialogue",
-      html: "\"Ngapain kamu ke sini? Mau ngetawain aku?\" ketus Fifa, suaranya parau dan bergetar karena sisa tangis yang belum tuntas."
+      html: "\"Ngapain kamu ke sini? Mau ngetawain aku?\" ketus Fira, suaranya parau dan bergetar karena sisa tangis yang belum tuntas."
     },
     {
       type: "paragraph",
@@ -88,7 +88,7 @@ export const BAB_2: Chapter = {
     },
     {
       type: "paragraph",
-      html: "Fifa menatap botol teh berembun itu dengan mata sembap yang memerah, lalu mendongak menatapku dengan tatapan tak percaya. Di wajahnya, rasa sebal yang selama ini ia pelihara bercampur aduk dengan kebingungan yang nyata."
+      html: "Fira menatap botol teh berembun itu dengan mata sembap yang memerah, lalu mendongak menatapku dengan tatapan tak percaya. Di wajahnya, rasa sebal yang selama ini ia pelihara bercampur aduk dengan kebingungan yang nyata."
     },
     {
       type: "dialogue",
@@ -96,11 +96,11 @@ export const BAB_2: Chapter = {
     },
     {
       type: "paragraph",
-      html: "Tepat saat tanganku menyentuh handel pintu darurat, suara lirih Fifa terdengar dari bawah:"
+      html: "Tepat saat tanganku menyentuh handel pintu darurat, suara lirih Fira terdengar dari bawah:"
     },
     {
       type: "dialogue",
-      html: "\"Arya... makasih ya.\""
+      html: "\"Arga... makasih ya.\""
     },
     {
       type: "paragraph",

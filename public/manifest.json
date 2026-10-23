@@ -1,7 +1,7 @@
 {
   "name": "Tiket Pulang Paling Sunyi",
   "short_name": "Tiket Pulang",
-  "description": "Sebuah Novel Karya Arya Prasetya - Web Reader Responsif Tema Krem",
+  "description": "Sebuah Novel Karya Arga Prasetya - Web Reader Responsif Tema Krem",
   "start_url": "./index.html",
   "display": "standalone",
   "background_color": "#FAF6EE",

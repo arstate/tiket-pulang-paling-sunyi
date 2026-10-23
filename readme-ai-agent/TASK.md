@@ -30,7 +30,7 @@
 ## Fase 6: Ekspansi Pentalogi Semesta Tiket Pulang & Epilog Cliffhanger
 - [x] Integrasi metadata 5 buku Pentalogi di `src/data/novelRegistry.ts` (Buku 1-4 Segera Terbit, Buku 5 Lengkap 10 Bab).
 - [x] Update antarmuka katalog `src/app/page.tsx` dengan badge `seriesPart` dan status "Segera Hadir".
-- [x] Polish Bab 10 (Epilog Cliffhanger di ambulans: tiket basah Banyuwangi, SD card Jatim Expo, cincin safir "Tunggu wisudaku, Fifa", dan alarm asistol EKG "TIIIIIIIIIT!") di `index.ts` dan markdown source.
+- [x] Polish Bab 10 (Epilog Cliffhanger di ambulans: tiket basah Banyuwangi, SD card Jatim Expo, cincin safir "Tunggu wisudaku, Fira", dan alarm asistol EKG "TIIIIIIIIIT!") di `index.ts` dan markdown source.
 - [x] Verifikasi zero build error via `npm run build` static export.
 
 ## Fase 7: Publikasi Naskah Lengkap Buku 1 (Sebelum Kereta ke Jogja)
@@ -56,9 +56,20 @@
 - [x] Verifikasi build statis Next.js (10/10 static routes lolos tanpa error).
 - [x] Git commit dan push ke remote repository.
 
-## Fase 10: Seamless Chapter Autoplay, Kompresi BGM 5.8MB & Standardisasi Karakter Arya & Fifa
-- [x] Standardisasi seluruh nama tokoh Arga -> Arya dan Fira -> Fifa (termasuk panggilan dialog vokal) di seluruh 5 buku naskah dan file komponen TS/TSX.
+## Fase 10: Seamless Chapter Autoplay, Kompresi BGM 5.8MB & Standardisasi Karakter Arga & Fira
+- [x] Standardisasi seluruh nama tokoh Arga -> Arga dan Fira -> Fira (termasuk panggilan dialog vokal) di seluruh 5 buku naskah dan file komponen TS/TSX.
 - [x] Kompresi seluruh 13 track audio BGM ke 64kbps CBR (~400KB-600KB/file, total 5.8MB) untuk performa loading kilat.
 - [x] Implementasi seamless autoplay background soundscape saat pembaca mulai membaca bab (`activeChapterId > 0`, tombol "Mulai Membaca", switcher bab) dengan fallback gesture listeners (`pointerdown`, `pointerup`, `touchstart`, `touchend`, `click`, `keydown`, `scroll`, `wheel`), in-flight start deduplication mutex, dan audio context state guard.
 - [x] Verifikasi build statis Next.js (10/10 routes lolos tanpa error).
 - [x] Git commit dan push ke remote repository.
+
+## Fase 11: Rilis Buku 6 (Garis Detak Kedua) & Reversi Nama Arga & Fira
+- [x] Reversi seluruh penyebutan protagonis dan heroine kembali ke nama kanonik "Arga" dan "Fira" di seluruh 5 buku novel, registri, metadata, manifest, dan file markdown parent.
+- [x] Tulis dan rilis 10 Bab lengkap naskah Buku Keenam: "Garis Detak Kedua" (Miracle Survival 200J di ambulans, 9 hari koma di ICU Dr. Soetomo, amnesia disosiatif, SD card Jatim Expo, solidaritas komunitas, dan lamaran cincin safir di peron 2 Stasiun Gubeng Surabaya).
+- [x] Daftarkan novel ke `src/data/novelRegistry.ts` sebagai Buku Keenam resmi.
+- [x] Perbarui navigasi `SeriesSwitcher.tsx` untuk 6 episode secara dinamis dan responsif (`lg:grid-cols-6`).
+- [x] Hubungkan navigasi akhir Bab 10 Buku 5 ("Tiket Pulang Paling Sunyi") agar tombol "Lanjut Buku 6" otomatis mengarahkan ke `/garis-detak-kedua/#bab-1`.
+- [x] Sinkronkan master file markdown naskah lengkap di `NOVEL_GARIS_DETAK_KEDUA.md` (di nextjs-reader dan parent folder).
+- [x] Verifikasi 0 error TypeScript (`npx tsc --noEmit`) dan static build lolos sempurna (11/11 static routes via `npm run build`).
+- [x] Git commit dan push ke remote repository (`origin main`).
+

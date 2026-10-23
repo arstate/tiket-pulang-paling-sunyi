@@ -16,7 +16,7 @@ export const BAB_2: Chapter = {
     },
     {
       type: "paragraph",
-      html: "Mendengar suara denting pintu, Fifa yang sedang menatap layar ponselnya mendongakkan kepala. Pandangan mata kami langsung bertubrukan."
+      html: "Mendengar suara denting pintu, Fira yang sedang menatap layar ponselnya mendongakkan kepala. Pandangan mata kami langsung bertubrukan."
     },
     {
       type: "paragraph",
@@ -24,7 +24,7 @@ export const BAB_2: Chapter = {
     },
     {
       type: "dialogue",
-      html: "\"Arya! Kamu beneran langsung ke sini sepulang sekolah?! Masih seragam putih abu-abu gini astaga...\" tawanya pecah tertahan di balik telapak tangannya yang halus."
+      html: "\"Arga! Kamu beneran langsung ke sini sepulang sekolah?! Masih seragam putih abu-abu gini astaga...\" tawanya pecah tertahan di balik telapak tangannya yang halus."
     },
     {
       type: "paragraph",
@@ -36,19 +36,19 @@ export const BAB_2: Chapter = {
     },
     {
       type: "dialogue",
-      html: "\"Buat kamu, Fifa. Selamat datang di Sidoarjo,\" ucapku pelan, suaraku sedikit tercekat oleh debaran jantung yang tak terkendali."
+      html: "\"Buat kamu, Fira. Selamat datang di Sidoarjo,\" ucapku pelan, suaraku sedikit tercekat oleh debaran jantung yang tak terkendali."
     },
     {
       type: "paragraph",
-      html: "Tawa Fifa seketika lenyap di udara. Perempuan berkerudung putih susu itu terpaku di kursinya, kedua tangannya terangkat menutupi mulutnya yang setengah terbuka. Matanya berkedip cepat beberapa kali, menatap buket mawar itu dan wajahku bergantian dengan ekspresi yang tak mampu ia sembunyikan lagi."
+      html: "Tawa Fira seketika lenyap di udara. Perempuan berkerudung putih susu itu terpaku di kursinya, kedua tangannya terangkat menutupi mulutnya yang setengah terbuka. Matanya berkedip cepat beberapa kali, menatap buket mawar itu dan wajahku bergantian dengan ekspresi yang tak mampu ia sembunyikan lagi."
     },
     {
       type: "paragraph",
-      html: "Detik berikutnya, rona merah muda merekah cerah di kedua pipinya yang putih, menjalar cepat hingga ke ujung cuping telinganya di balik kain kerudung. Fifa salting parah. Seluruh tubuhnya tampak kaku karena rasa malu dan debaran jantung yang melonjak drastis dalam satu hentakan."
+      html: "Detik berikutnya, rona merah muda merekah cerah di kedua pipinya yang putih, menjalar cepat hingga ke ujung cuping telinganya di balik kain kerudung. Fira salting parah. Seluruh tubuhnya tampak kaku karena rasa malu dan debaran jantung yang melonjak drastis dalam satu hentakan."
     },
     {
       type: "dialogue",
-      html: "\"Aryaaa... kamu apa-apaan sih?!\" pekiknya manja seraya menundukkan kepala menyembunyikan wajahnya yang memerah padam ke atas meja. \"Bikin salting banget sumpah! Jantungku rasanya mau lompat keluar ini!\""
+      html: "\"Argaaa... kamu apa-apaan sih?!\" pekiknya manja seraya menundukkan kepala menyembunyikan wajahnya yang memerah padam ke atas meja. \"Bikin salting banget sumpah! Jantungku rasanya mau lompat keluar ini!\""
     },
     {
       type: "paragraph",
@@ -56,11 +56,11 @@ export const BAB_2: Chapter = {
     },
     {
       type: "paragraph",
-      html: "Fifa mendongak pelan, menggigit bibir bawahnya seraya meraih buket bunga itu dengan kedua tangannya yang sedikit gemetar. Ia membenamkan hidungnya ke sela-sela kelopak mawar merah itu, menghirup aromanya dalam-dalam dengan mata terpejam penuh haru."
+      html: "Fira mendongak pelan, menggigit bibir bawahnya seraya meraih buket bunga itu dengan kedua tangannya yang sedikit gemetar. Ia membenamkan hidungnya ke sela-sela kelopak mawar merah itu, menghirup aromanya dalam-dalam dengan mata terpejam penuh haru."
     },
     {
       type: "dialogue",
-      html: "\"Wangi banget, Ga...\" bisiknya lirih saat membuka mata kembali. Ada genangan air bening yang berkilau di sudut pelupuk matanya. \"Seumur hidupku... dari zaman pacaran sama mantan yang gak jelas itu sampai sekarang, belum pernah ada satu pun laki-laki yang ngasih aku buket bunga segar seromantis ini. Makasih banyak ya, Beb Arya...\""
+      html: "\"Wangi banget, Ga...\" bisiknya lirih saat membuka mata kembali. Ada genangan air bening yang berkilau di sudut pelupuk matanya. \"Seumur hidupku... dari zaman pacaran sama mantan yang gak jelas itu sampai sekarang, belum pernah ada satu pun laki-laki yang ngasih aku buket bunga segar seromantis ini. Makasih banyak ya, Beb Arga...\""
     },
     {
       type: "paragraph",
@@ -72,11 +72,11 @@ export const BAB_2: Chapter = {
     },
     {
       type: "paragraph",
-      html: "Namun ketika senja mulai luruh dan jam dinding kafe menunjuk pukul enam petang, keheningan yang pedih perlahan merayap di antara kami. Jadwal mobil travel Fifa yang akan membawanya kembali ke Jember sudah menunggu di pangkalan terminal pukul tujuh malam."
+      html: "Namun ketika senja mulai luruh dan jam dinding kafe menunjuk pukul enam petang, keheningan yang pedih perlahan merayap di antara kami. Jadwal mobil travel Fira yang akan membawanya kembali ke Jember sudah menunggu di pangkalan terminal pukul tujuh malam."
     },
     {
       type: "paragraph",
-      html: "Fifa menatap buket mawar merah di pangkuannya seraya menghela napas panjang. Genggaman tangannya di jemariku mengerat kuat, seolah ia takut jika genggaman itu terlepas sedetik saja, sosokku akan lenyap menjadi asap."
+      html: "Fira menatap buket mawar merah di pangkuannya seraya menghela napas panjang. Genggaman tangannya di jemariku mengerat kuat, seolah ia takut jika genggaman itu terlepas sedetik saja, sosokku akan lenyap menjadi asap."
     },
     {
       type: "dialogue",
@@ -84,11 +84,11 @@ export const BAB_2: Chapter = {
     },
     {
       type: "dialogue",
-      html: "\"Bunga mawar itu mungkin bisa layu dalam seminggu, Fifa,\" kataku seraya menatap dalam-dalam kedua bola matanya. \"Tapi cintaku ke kamu gak akan pernah berkurang satu mili pun. Jarak Sidoarjo ke Jember cuma jalanan aspal. Kalau kamu kangen, aku bakal cari cara buat nyusul kamu ke sana.\""
+      html: "\"Bunga mawar itu mungkin bisa layu dalam seminggu, Fira,\" kataku seraya menatap dalam-dalam kedua bola matanya. \"Tapi cintaku ke kamu gak akan pernah berkurang satu mili pun. Jarak Sidoarjo ke Jember cuma jalanan aspal. Kalau kamu kangen, aku bakal cari cara buat nyusul kamu ke sana.\""
     },
     {
       type: "paragraph",
-      html: "Fifa tersenyum haru seraya mengangguk mantap. Di bawah temaram lampu senja Sidoarjo yang mulai menyala satu per satu di luar jendela kaca, pertemuan singkat beraroma mawar merah itu menanamkan sebutir janji yang semakin mengokohkan cinta kami berdua di ambang perpisahan jarak."
+      html: "Fira tersenyum haru seraya mengangguk mantap. Di bawah temaram lampu senja Sidoarjo yang mulai menyala satu per satu di luar jendela kaca, pertemuan singkat beraroma mawar merah itu menanamkan sebutir janji yang semakin mengokohkan cinta kami berdua di ambang perpisahan jarak."
     }
   ]
 };

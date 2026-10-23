@@ -32,11 +32,11 @@ export const BAB_1: Chapter = {
     },
     {
       type: "paragraph",
-      html: "Di antara ketiganya, ada seorang perempuan berkerudung pashmina plisket warna cokelat karamel yang langsung mencuri perhatian ruangan. Tubuhnya ramping dengan tinggi sedang, langkah kakinya mantap tanpa ragu, dan sorot matanya yang berbinar bulat menyapu seisi studio dengan ekspresi penuh rasa ingin tahu yang tak disembunyikan. Fifa. Nama itu sempat kulihat sekilas tertera pada map berkas proposal magang di meja resepsionis."
+      html: "Di antara ketiganya, ada seorang perempuan berkerudung pashmina plisket warna cokelat karamel yang langsung mencuri perhatian ruangan. Tubuhnya ramping dengan tinggi sedang, langkah kakinya mantap tanpa ragu, dan sorot matanya yang berbinar bulat menyapu seisi studio dengan ekspresi penuh rasa ingin tahu yang tak disembunyikan. Fira. Nama itu sempat kulihat sekilas tertera pada map berkas proposal magang di meja resepsionis."
     },
     {
       type: "paragraph",
-      html: "\"Nah, teman-teman dari KPI nanti posisinya bantu tim media sosial dan dokumentasi lapangan,\" suara Mas Doni memecah keheningan ruang produksi. Tangannya mengayun ke arah sudut mejaku. \"Di pojok sana ada Arya. Dia anak DKV yang megang inventaris kamera sama editing awal. Kalau ada yang bingung soal letak aset grafis atau folder footage, bisa tanya dia dulu.\""
+      html: "\"Nah, teman-teman dari KPI nanti posisinya bantu tim media sosial dan dokumentasi lapangan,\" suara Mas Doni memecah keheningan ruang produksi. Tangannya mengayun ke arah sudut mejaku. \"Di pojok sana ada Arga. Dia anak DKV yang megang inventaris kamera sama editing awal. Kalau ada yang bingung soal letak aset grafis atau folder footage, bisa tanya dia dulu.\""
     },
     {
       type: "paragraph",
@@ -48,7 +48,7 @@ export const BAB_1: Chapter = {
     },
     {
       type: "dialogue",
-      html: "\"Permisi... dek Arya ya?\" suara perempuan itu terdengar lembut, tapi ada nada canggung yang kentara."
+      html: "\"Permisi... dek Arga ya?\" suara perempuan itu terdengar lembut, tapi ada nada canggung yang kentara."
     },
     {
       type: "paragraph",
@@ -60,11 +60,11 @@ export const BAB_1: Chapter = {
     },
     {
       type: "paragraph",
-      html: "Fifa mengerjapkan mata dua kali. Tampak jelas di raut wajahnya bahwa respons dinginku barusan sama sekali bukan apa yang ia harapkan dari seorang anak magang junior."
+      html: "Fira mengerjapkan mata dua kali. Tampak jelas di raut wajahnya bahwa respons dinginku barusan sama sekali bukan apa yang ia harapkan dari seorang anak magang junior."
     },
     {
       type: "dialogue",
-      html: "\"Aku Fifa, anak KPI yang baru masuk hari ini,\" katanya mencoba mempertahankan keramahan formalnya. \"Kata Mas Doni tadi, aku disuruh minta data folder template feed Instagram sama logo-logo sponsor acara akhir pekan besok. Katanya foldernya ada di server lokal komputermu?\""
+      html: "\"Aku Fira, anak KPI yang baru masuk hari ini,\" katanya mencoba mempertahankan keramahan formalnya. \"Kata Mas Doni tadi, aku disuruh minta data folder template feed Instagram sama logo-logo sponsor acara akhir pekan besok. Katanya foldernya ada di server lokal komputermu?\""
     },
     {
       type: "paragraph",
@@ -76,15 +76,15 @@ export const BAB_1: Chapter = {
     },
     {
       type: "paragraph",
-      html: "Fifa terdiam sejenak. Matanya melotot tipis, menatapku dari ujung kepala hingga ujung kaki. Di matanya, aku mungkin tampak seperti bocah SMK paling menyebalkan dan kurang ajar yang pernah ia temui: duduk merosot di kursi putar kantor, memakai hoodie hitam kebesaran, rambut gondrong tanggung yang belum dicukur, dan menjawab pertanyaan anak kuliahan tingkat akhir seperti sedang mengusir sales panci keliling."
+      html: "Fira terdiam sejenak. Matanya melotot tipis, menatapku dari ujung kepala hingga ujung kaki. Di matanya, aku mungkin tampak seperti bocah SMK paling menyebalkan dan kurang ajar yang pernah ia temui: duduk merosot di kursi putar kantor, memakai hoodie hitam kebesaran, rambut gondrong tanggung yang belum dicukur, dan menjawab pertanyaan anak kuliahan tingkat akhir seperti sedang mengusir sales panci keliling."
     },
     {
       type: "dialogue",
-      html: "\"Oh... gitu ya. Oke, makasih ya,\" cetus Fifa ketus seraya membalikkan badan dengan hentakan kaki yang sengaja dipertegas."
+      html: "\"Oh... gitu ya. Oke, makasih ya,\" cetus Fira ketus seraya membalikkan badan dengan hentakan kaki yang sengaja dipertegas."
     },
     {
       type: "paragraph",
-      html: "Saat Fifa kembali ke mejanya di seberang ruangan, aku sempat mendengar samar bisik-bisik kesalnya kepada Rini, teman magang sekampusnya:"
+      html: "Saat Fira kembali ke mejanya di seberang ruangan, aku sempat mendengar samar bisik-bisik kesalnya kepada Rini, teman magang sekampusnya:"
     },
     {
       type: "quote",
@@ -104,7 +104,7 @@ export const BAB_1: Chapter = {
     },
     {
       type: "paragraph",
-      html: "Dan di ujung seberang meja sana, Fifa masih menatapku dengan pandangan sengit penuh kekesalan, sama sekali tidak menyadari bahwa di bawah atap studio agensi yang bising ini, benang takdir kami yang kusut baru saja mulai saling terikat."
+      html: "Dan di ujung seberang meja sana, Fira masih menatapku dengan pandangan sengit penuh kekesalan, sama sekali tidak menyadari bahwa di bawah atap studio agensi yang bising ini, benang takdir kami yang kusut baru saja mulai saling terikat."
     }
   ]
 };

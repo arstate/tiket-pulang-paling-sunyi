@@ -4,6 +4,7 @@ import { SEBELUM_KERETA_KE_JOGJA_DATA } from "./novels/sebelum-kereta-ke-jogja";
 import { BUKET_BUNGA_DAN_TOGA_DATA } from "./novels/buket-bunga-dan-toga";
 import { DI_BALIK_PINTU_AGENSI_DATA } from "./novels/di-balik-pintu-agensi";
 import { CINCIN_DAN_JERATAN_42_JUTA_DATA } from "./novels/cincin-dan-jeratan-42-juta";
+import { GARIS_DETAK_KEDUA_DATA } from "./novels/garis-detak-kedua";
 
 // Central Novel Registry
 const NOVELS_DB: Record<string, NovelData> = {
@@ -12,9 +13,10 @@ const NOVELS_DB: Record<string, NovelData> = {
   "di-balik-pintu-agensi": DI_BALIK_PINTU_AGENSI_DATA,
   "cincin-dan-jeratan-42-juta": CINCIN_DAN_JERATAN_42_JUTA_DATA,
   "tiket-pulang-paling-sunyi": TIKET_PULANG_DATA,
+  "garis-detak-kedua": GARIS_DETAK_KEDUA_DATA,
 };
 
-// Pentalogi Semesta Tiket Pulang Catalog (Urutan Kronologis Buku 1 s/d Buku 5)
+// Semesta Tiket Pulang Catalog (Urutan Kronologis Buku 1 s/d Buku 6)
 const CATALOG_METADATA: NovelMetadata[] = [
   {
     slug: SEBELUM_KERETA_KE_JOGJA_DATA.slug,
@@ -110,6 +112,25 @@ const CATALOG_METADATA: NovelMetadata[] = [
     publishDate: TIKET_PULANG_DATA.publishDate,
     coverAccent: TIKET_PULANG_DATA.coverAccent,
     featured: true,
+  },
+  {
+    slug: GARIS_DETAK_KEDUA_DATA.slug,
+    title: GARIS_DETAK_KEDUA_DATA.title,
+    subtitle: GARIS_DETAK_KEDUA_DATA.subtitle,
+    seriesName: GARIS_DETAK_KEDUA_DATA.seriesName,
+    seriesPart: GARIS_DETAK_KEDUA_DATA.seriesPart,
+    tagline: GARIS_DETAK_KEDUA_DATA.tagline,
+    author: GARIS_DETAK_KEDUA_DATA.author,
+    genre: GARIS_DETAK_KEDUA_DATA.genre,
+    totalChapters: GARIS_DETAK_KEDUA_DATA.totalChapters,
+    totalWords: GARIS_DETAK_KEDUA_DATA.totalWords,
+    totalReadTimeMinutes: GARIS_DETAK_KEDUA_DATA.totalReadTimeMinutes,
+    synopsis: GARIS_DETAK_KEDUA_DATA.synopsis,
+    quote: GARIS_DETAK_KEDUA_DATA.quote,
+    status: GARIS_DETAK_KEDUA_DATA.status,
+    publishDate: GARIS_DETAK_KEDUA_DATA.publishDate,
+    coverAccent: GARIS_DETAK_KEDUA_DATA.coverAccent,
+    featured: false,
   },
 ];
 

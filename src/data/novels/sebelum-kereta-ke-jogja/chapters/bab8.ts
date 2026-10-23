@@ -16,11 +16,11 @@ export const BAB_8: Chapter = {
     },
     {
       type: "paragraph",
-      html: "Malam itu jam di dinding kamarku sudah menunjuk angka sepuluh lewat dua puluh. Aku sedang berbaring menatap langit-langit kamar yang kusam di Sidoarjo, memegang ponsel pintarku tanpa gairah untuk memejamkan mata. Kamarku terasa begitu sunyi dan hampa. Setiap sudut ruangan seolah memutar ulang bayangan senyum Fifa, tawa renyahnya saat belepotan saus pentol di Kodam, dan hangatnya genggaman jemarinya di bioskop."
+      html: "Malam itu jam di dinding kamarku sudah menunjuk angka sepuluh lewat dua puluh. Aku sedang berbaring menatap langit-langit kamar yang kusam di Sidoarjo, memegang ponsel pintarku tanpa gairah untuk memejamkan mata. Kamarku terasa begitu sunyi dan hampa. Setiap sudut ruangan seolah memutar ulang bayangan senyum Fira, tawa renyahnya saat belepotan saus pentol di Kodam, dan hangatnya genggaman jemarinya di bioskop."
     },
     {
       type: "paragraph",
-      html: "Tiba-tiba ponsel di genggamanku bergetar kencang dua kali berturut-turut. Sebuah pesan WhatsApp masuk dari kontak 'Fifa'."
+      html: "Tiba-tiba ponsel di genggamanku bergetar kencang dua kali berturut-turut. Sebuah pesan WhatsApp masuk dari kontak 'Fira'."
     },
     {
       type: "paragraph",
@@ -28,7 +28,7 @@ export const BAB_8: Chapter = {
     },
     {
       type: "paragraph",
-      html: "Itu adalah foto potret diri (PAP) yang diambil dari sudut sempit kursi kereta api. Di foto itu, Fifa sedang duduk bersandar di dekat kaca jendela gerbong. Kerudung cokelatnya sedikit berantakan, kedua matanya yang bulat tampak begitu sembab dan memerah basah, sementara pipinya dibasahi jejak air mata yang masih mengalir menderas. Bibirnya yang mungil terkatup rapat menahan kepedihan yang teramat sangat."
+      html: "Itu adalah foto potret diri (PAP) yang diambil dari sudut sempit kursi kereta api. Di foto itu, Fira sedang duduk bersandar di dekat kaca jendela gerbong. Kerudung cokelatnya sedikit berantakan, kedua matanya yang bulat tampak begitu sembab dan memerah basah, sementara pipinya dibasahi jejak air mata yang masih mengalir menderas. Bibirnya yang mungil terkatup rapat menahan kepedihan yang teramat sangat."
     },
     {
       type: "paragraph",
@@ -36,7 +36,7 @@ export const BAB_8: Chapter = {
     },
     {
       type: "quote",
-      html: "\"Arya... aku bener-bener gak sanggup buat berpisah sama kamu 😭 Di kereta ini aku ngerasa kosong banget... hatiku kayak ketinggalan di Surabaya. Tiap liat keluar jendela aku cuma mikirin kamu, aku takut banget kehilangan kamu Ga...\""
+      html: "\"Arga... aku bener-bener gak sanggup buat berpisah sama kamu 😭 Di kereta ini aku ngerasa kosong banget... hatiku kayak ketinggalan di Surabaya. Tiap liat keluar jendela aku cuma mikirin kamu, aku takut banget kehilangan kamu Ga...\""
     },
     {
       type: "paragraph",
@@ -52,15 +52,15 @@ export const BAB_8: Chapter = {
     },
     {
       type: "dialogue",
-      html: "\"Arya...\" bisik Fifa tersengal-sengal, suaranya tercekat di tenggorokan."
+      html: "\"Arga...\" bisik Fira tersengal-sengal, suaranya tercekat di tenggorokan."
     },
     {
       type: "dialogue",
-      html: "\"Fifa... jangan nangis, Beb,\" suaraku meluncur begitu saja, kata panggilan sayang yang tak sengaja terucap dari lubuk hatiku yang terdalam tanpa sempat kusaring oleh logika. \"Aku di sini... dengerin suaraku ya. Tarik napas pelan-pelan.\""
+      html: "\"Fira... jangan nangis, Beb,\" suaraku meluncur begitu saja, kata panggilan sayang yang tak sengaja terucap dari lubuk hatiku yang terdalam tanpa sempat kusaring oleh logika. \"Aku di sini... dengerin suaraku ya. Tarik napas pelan-pelan.\""
     },
     {
       type: "paragraph",
-      html: "Di ujung sana, Fifa menarik napas panjang seraya menyeka air matanya. Panggilan 'Beb' yang meluncur dari bibirku barusan seolah menjadi oase penenang yang meredakan badai histeria di dadanya."
+      html: "Di ujung sana, Fira menarik napas panjang seraya menyeka air matanya. Panggilan 'Beb' yang meluncur dari bibirku barusan seolah menjadi oase penenang yang meredakan badai histeria di dadanya."
     },
     {
       type: "dialogue",
@@ -68,15 +68,15 @@ export const BAB_8: Chapter = {
     },
     {
       type: "dialogue",
-      html: "\"Beb...\" jawabku dengan nada mantap dan tulus. \"Fifa, dengerin aku baik-baik. Jarak Surabaya ke Jogja atau ke Jember itu cuma soal angka di atas peta. Hatiku udah ada di kamu sejak hari kamu kirim lukisan burung hantu itu. Jangan pernah ngerasa sendirian atau takut kehilangan aku. Aku janji, sejauh apa pun kamu pergi, aku bakal selalu jadi tempat kepulanganmu.\""
+      html: "\"Beb...\" jawabku dengan nada mantap dan tulus. \"Fira, dengerin aku baik-baik. Jarak Surabaya ke Jogja atau ke Jember itu cuma soal angka di atas peta. Hatiku udah ada di kamu sejak hari kamu kirim lukisan burung hantu itu. Jangan pernah ngerasa sendirian atau takut kehilangan aku. Aku janji, sejauh apa pun kamu pergi, aku bakal selalu jadi tempat kepulanganmu.\""
     },
     {
       type: "paragraph",
-      html: "Air mata Fifa kembali tumpah, namun kali ini bukan lagi karena rasa putus asa, melainkan kelegaan yang luar biasa besar karena mengetahui perasaannya terbalas seutuhnya."
+      html: "Air mata Fira kembali tumpah, namun kali ini bukan lagi karena rasa putus asa, melainkan kelegaan yang luar biasa besar karena mengetahui perasaannya terbalas seutuhnya."
     },
     {
       type: "dialogue",
-      html: "\"Makasih ya Beb Arya... maafin aku yang cengeng banget malam ini. Aku cuma... aku udah sayang banget sama kamu, sampai-sampai aku gak tahu harus gimana kalau kamu ninggalin aku.\""
+      html: "\"Makasih ya Beb Arga... maafin aku yang cengeng banget malam ini. Aku cuma... aku udah sayang banget sama kamu, sampai-sampai aku gak tahu harus gimana kalau kamu ninggalin aku.\""
     },
     {
       type: "dialogue",
@@ -84,7 +84,7 @@ export const BAB_8: Chapter = {
     },
     {
       type: "paragraph",
-      html: "Malam itu, di antara kabel sinyal menara BTS yang menghubungkan Sidoarjo dan gerbong kereta yang melintasi Madiun hingga Solo, kami berdua tenggelam dalam obrolan sleepcall pertama kami. Kami bercerita tentang masa kecil, tentang ketakutan kami di masa depan, tentang impian sederhana memiliki rumah kecil berpagar kayu, hingga suara Fifa perlahan melambat, berganti menjadi hembusan napas yang tenang dan teratur."
+      html: "Malam itu, di antara kabel sinyal menara BTS yang menghubungkan Sidoarjo dan gerbong kereta yang melintasi Madiun hingga Solo, kami berdua tenggelam dalam obrolan sleepcall pertama kami. Kami bercerita tentang masa kecil, tentang ketakutan kami di masa depan, tentang impian sederhana memiliki rumah kecil berpagar kayu, hingga suara Fira perlahan melambat, berganti menjadi hembusan napas yang tenang dan teratur."
     },
     {
       type: "paragraph",

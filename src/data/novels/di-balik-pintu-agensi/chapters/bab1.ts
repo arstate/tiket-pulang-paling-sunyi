@@ -16,11 +16,11 @@ export const BAB_1: Chapter = {
     },
     {
       type: "paragraph",
-      html: "Di salah satu meja kerja berpartisi kayu pinus, Fifa duduk tegak seraya mengetik cepat di atas keyboard mekaniknya. Tiga bulan setelah kelulusan sarjananya di Jember, perempuan itu telah bertransformasi seutuhnya menjadi seorang Junior Copywriter & Content Strategist yang disegani di agensi tersebut. Ia mengenakan kemeja linen warna sage green yang dipadukan dengan celana kulot hitam rapi dan kerudung pashmina plisket senada."
+      html: "Di salah satu meja kerja berpartisi kayu pinus, Fira duduk tegak seraya mengetik cepat di atas keyboard mekaniknya. Tiga bulan setelah kelulusan sarjananya di Jember, perempuan itu telah bertransformasi seutuhnya menjadi seorang Junior Copywriter & Content Strategist yang disegani di agensi tersebut. Ia mengenakan kemeja linen warna sage green yang dipadukan dengan celana kulot hitam rapi dan kerudung pashmina plisket senada."
     },
     {
       type: "paragraph",
-      html: "Di atas mejanya, sebuah tumbler kopi stainless steel dan map dokumen strategi kampanye digital untuk produk kecantikan nasional bersanding rapi. Fifa membaca ulang baris-baris copywriting yang baru ia susun dengan teliti, memastikan pesan emosionalnya mampu menyentuh target pasar wanita muda urban."
+      html: "Di atas mejanya, sebuah tumbler kopi stainless steel dan map dokumen strategi kampanye digital untuk produk kecantikan nasional bersanding rapi. Fira membaca ulang baris-baris copywriting yang baru ia susun dengan teliti, memastikan pesan emosionalnya mampu menyentuh target pasar wanita muda urban."
     },
     {
       type: "dialogue",
@@ -28,23 +28,23 @@ export const BAB_1: Chapter = {
     },
     {
       type: "dialogue",
-      html: "\"Terima kasih banyak, Mas Edwin. Saya masih banyak belajar dari tim juga,\" jawab Fifa sopan seraya mengulas senyum profesional."
+      html: "\"Terima kasih banyak, Mas Edwin. Saya masih banyak belajar dari tim juga,\" jawab Fira sopan seraya mengulas senyum profesional."
     },
     {
       type: "paragraph",
-      html: "Dunia profesional agensi ini menawarkan masa depan yang cerah dan prestisius: gaji tetap yang masuk tepat tanggal dua puluh lima setiap bulan, bonus performa, serta pergaulan dengan kalangan eksekutif muda yang mapan. Namun setiap kali jam kantor menunjukkan pukul setengah enam sore, pikiran Fifa selalu melayang jauh meninggalkan tumpukan brief kampanye itu."
+      html: "Dunia profesional agensi ini menawarkan masa depan yang cerah dan prestisius: gaji tetap yang masuk tepat tanggal dua puluh lima setiap bulan, bonus performa, serta pergaulan dengan kalangan eksekutif muda yang mapan. Namun setiap kali jam kantor menunjukkan pukul setengah enam sore, pikiran Fira selalu melayang jauh meninggalkan tumpukan brief kampanye itu."
     },
     {
       type: "paragraph",
-      html: "Ponsel pintarnya di atas meja bergetar pelan. Ada satu pesan WhatsApp masuk dari kontak 'Beb Arya':"
+      html: "Ponsel pintarnya di atas meja bergetar pelan. Ada satu pesan WhatsApp masuk dari kontak 'Beb Arga':"
     },
     {
       type: "quote",
-      html: "\"Fifa, aku udah di depan lobi bawah ruko ya. Parkir motorku di samping pos satpam barat. Selesaiin kerjaanmu santai aja, gak usah buru-buru, aku tunggu di sini.\""
+      html: "\"Fira, aku udah di depan lobi bawah ruko ya. Parkir motorku di samping pos satpam barat. Selesaiin kerjaanmu santai aja, gak usah buru-buru, aku tunggu di sini.\""
     },
     {
       type: "paragraph",
-      html: "Membaca pesan itu, senyuman lelah di bibir Fifa seketika berubah menjadi senyuman hangat yang teramat manis. Ia buru-buru mematikan komputer kantornya, menyampirkan tas jinjingnya ke bahu, lalu bergegas melangkah menuju lift seraya mengabaikan ajakan beberapa rekan kantornya yang hendak nongkrong di kedai kopi mahal lantai dasar."
+      html: "Membaca pesan itu, senyuman lelah di bibir Fira seketika berubah menjadi senyuman hangat yang teramat manis. Ia buru-buru mematikan komputer kantornya, menyampirkan tas jinjingnya ke bahu, lalu bergegas melangkah menuju lift seraya mengabaikan ajakan beberapa rekan kantornya yang hendak nongkrong di kedai kopi mahal lantai dasar."
     }
   ]
 };

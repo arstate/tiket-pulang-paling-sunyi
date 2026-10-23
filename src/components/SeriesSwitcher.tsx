@@ -24,11 +24,11 @@ export default function SeriesSwitcher({
           </span>
         </div>
         <span className="text-[11px] text-[var(--text-muted)] font-medium">
-          5 Episode Lengkap
+          {allNovels.length} Episode Lengkap
         </span>
       </div>
 
-      <div className="grid grid-cols-2 sm:grid-cols-5 gap-2">
+      <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-2">
         {allNovels.map((novel, index) => {
           const episodeNumber = index + 1;
           const isActive = novel.slug === currentSlug;

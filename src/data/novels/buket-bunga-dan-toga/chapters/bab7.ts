@@ -12,11 +12,11 @@ export const BAB_7: Chapter = {
   paragraphs: [
     {
       type: "paragraph",
-      html: "Kabar gembira itu datang di suatu sore pertengahan bulan melalui dering panggilan video yang bergetar kencang di meja kerjaku. Di layar ponsel, wajah Fifa muncul dengan mata yang berbinar-binar luar biasa. Di tangannya, selembar map berkas bertanda tangan basah ketua jurusan berkibar bangga di depan kamera."
+      html: "Kabar gembira itu datang di suatu sore pertengahan bulan melalui dering panggilan video yang bergetar kencang di meja kerjaku. Di layar ponsel, wajah Fira muncul dengan mata yang berbinar-binar luar biasa. Di tangannya, selembar map berkas bertanda tangan basah ketua jurusan berkibar bangga di depan kamera."
     },
     {
       type: "dialogue",
-      html: "\"Aryaaa! Aku lulus sidang skripsiii!!\" jeritnya histeris di seberang sana, mengabaikan beberapa mahasiswa lain di lorong gedung dekanat yang menoleh heran. \"Alhamdulillah revisiku di-ACC tanpa catatan berat! Tanggal wisudaku udah resmi keluar, Beb! Sabtu tanggal dua puluh empat bulan depan di gedung auditorium utama kampus!\""
+      html: "\"Argaaa! Aku lulus sidang skripsiii!!\" jeritnya histeris di seberang sana, mengabaikan beberapa mahasiswa lain di lorong gedung dekanat yang menoleh heran. \"Alhamdulillah revisiku di-ACC tanpa catatan berat! Tanggal wisudaku udah resmi keluar, Beb! Sabtu tanggal dua puluh empat bulan depan di gedung auditorium utama kampus!\""
     },
     {
       type: "paragraph",
@@ -24,15 +24,15 @@ export const BAB_7: Chapter = {
     },
     {
       type: "dialogue",
-      html: "\"Alhamdulillah ya Allah... selamat ya, Sayang! Fifa, S.Sos! Aku bangga banget sama kamu!\" seruku tulus dari lubuk hatiku yang terdalam."
+      html: "\"Alhamdulillah ya Allah... selamat ya, Sayang! Fira, S.Sos! Aku bangga banget sama kamu!\" seruku tulus dari lubuk hatiku yang terdalam."
     },
     {
       type: "paragraph",
-      html: "Fifa tersenyum lebar seraya mencondongkan wajahnya ke layar, matanya menatapku penuh harap dan antusiasme yang membuncah:"
+      html: "Fira tersenyum lebar seraya mencondongkan wajahnya ke layar, matanya menatapku penuh harap dan antusiasme yang membuncah:"
     },
     {
       type: "dialogue",
-      html: "\"Pokoknya tanggal dua puluh empat nanti kamu wajib dateng ke Jember ya, Arya! Gak boleh ada alasan apa pun! Aku pengen kamu jadi orang pertama yang ngeliat aku pakai baju toga, dan kamu yang harus fotoin aku di depan gedung kampus! Janji ya dateng?\""
+      html: "\"Pokoknya tanggal dua puluh empat nanti kamu wajib dateng ke Jember ya, Arga! Gak boleh ada alasan apa pun! Aku pengen kamu jadi orang pertama yang ngeliat aku pakai baju toga, dan kamu yang harus fotoin aku di depan gedung kampus! Janji ya dateng?\""
     },
     {
       type: "paragraph",
@@ -44,15 +44,15 @@ export const BAB_7: Chapter = {
     },
     {
       type: "dialogue",
-      html: "\"Fifa... tanggal dua puluh empat ya?\" suaraku tersendat kaku."
+      html: "\"Fira... tanggal dua puluh empat ya?\" suaraku tersendat kaku."
     },
     {
       type: "paragraph",
-      html: "Senyum Fifa seketika memudar di layar, digantikan oleh kerutan cemas di dahinya. \"Iya... kenapa emang, Arya? Ada apa?\""
+      html: "Senyum Fira seketika memudar di layar, digantikan oleh kerutan cemas di dahinya. \"Iya... kenapa emang, Arga? Ada apa?\""
     },
     {
       type: "dialogue",
-      html: "\"Aduh... gimana ya ngomongnya, Beb...\" kataku seraya menggaruk tengkuk dengan wajah lesu. \"Di tanggal yang sama, kantor agensiku dapet job dokumentasi wedding keluarga pejabat di Grand City Surabaya. Nilai kontraknya gede banget, dan Mas Doni nunjuk aku jadi penanggung jawab kamera utama. Aku udah coba minta izin tukar jadwal sama staf lain, tapi Mas Doni ngancem kalau aku gak masuk, honor freelance-ku dipotong dan sertifikat magangku ditahan... Maafin aku ya Fifa, kayaknya aku bener-bener gak bisa dateng ke wisudamu...\""
+      html: "\"Aduh... gimana ya ngomongnya, Beb...\" kataku seraya menggaruk tengkuk dengan wajah lesu. \"Di tanggal yang sama, kantor agensiku dapet job dokumentasi wedding keluarga pejabat di Grand City Surabaya. Nilai kontraknya gede banget, dan Mas Doni nunjuk aku jadi penanggung jawab kamera utama. Aku udah coba minta izin tukar jadwal sama staf lain, tapi Mas Doni ngancem kalau aku gak masuk, honor freelance-ku dipotong dan sertifikat magangku ditahan... Maafin aku ya Fira, kayaknya aku bener-bener gak bisa dateng ke wisudamu...\""
     },
     {
       type: "paragraph",
@@ -60,19 +60,19 @@ export const BAB_7: Chapter = {
     },
     {
       type: "paragraph",
-      html: "Wajah bahagia Fifa seketika runtuh total. Binar terang di matanya padam seketika, digantikan oleh genangan air mata yang langsung merebak basah di pelupuk matanya. Bibirnya bergetar hebat menahan kecewa yang teramat dalam."
+      html: "Wajah bahagia Fira seketika runtuh total. Binar terang di matanya padam seketika, digantikan oleh genangan air mata yang langsung merebak basah di pelupuk matanya. Bibirnya bergetar hebat menahan kecewa yang teramat dalam."
     },
     {
       type: "dialogue",
-      html: "\"Kamu jahat banget, Arya...\" bisiknya dengan suara yang tercekat di tenggorokan. Air matanya menetes satu per satu membasahi pipinya. \"Ini wisudaku, Arya... momen sekali seumur hidupku yang udah aku perjuangin bertahun-tahun. Masa job nikahan orang lain lebih penting daripada wisudaku?!\""
+      html: "\"Kamu jahat banget, Arga...\" bisiknya dengan suara yang tercekat di tenggorokan. Air matanya menetes satu per satu membasahi pipinya. \"Ini wisudaku, Arga... momen sekali seumur hidupku yang udah aku perjuangin bertahun-tahun. Masa job nikahan orang lain lebih penting daripada wisudaku?!\""
     },
     {
       type: "dialogue",
-      html: "\"Bukan gitu, Fifa... aku juga serba salah di sini—\""
+      html: "\"Bukan gitu, Fira... aku juga serba salah di sini—\""
     },
     {
       type: "dialogue",
-      html: "\"Udah, gak usah banyak alasan! Gak usah dateng sekalian!\" potong Fifa tajam."
+      html: "\"Udah, gak usah banyak alasan! Gak usah dateng sekalian!\" potong Fira tajam."
     },
     {
       type: "paragraph",
@@ -80,15 +80,15 @@ export const BAB_7: Chapter = {
     },
     {
       type: "paragraph",
-      html: "Di kamarku di Sidoarjo, aku menatap layar ponselku yang kembali gelap dengan rasa perih yang menggelayut di ulu hati. Mendengar tangis kekecewaan perempuan yang paling kucintai rasanya seperti menyayat kulitku sendiri. Namun ketika jemariku membuka aplikasi perpesanan lain dan melihat percakapan rahasiaku dengan Mbak Rika—kakak kandung perempuan Fifa di Jember—seulas senyum penuh keyakinan kembali terbit di wajahku."
+      html: "Di kamarku di Sidoarjo, aku menatap layar ponselku yang kembali gelap dengan rasa perih yang menggelayut di ulu hati. Mendengar tangis kekecewaan perempuan yang paling kucintai rasanya seperti menyayat kulitku sendiri. Namun ketika jemariku membuka aplikasi perpesanan lain dan melihat percakapan rahasiaku dengan Mbak Rika—kakak kandung perempuan Fira di Jember—seulas senyum penuh keyakinan kembali terbit di wajahku."
     },
     {
       type: "quote",
-      html: "\"Mbak Rika, skenario prank-nya udah jalan. Fifa ngambek berat ke Arya. Tiket kereta subuh Arya ke Jember udah aman di tangan. Titip pantau terus live location GPS ponsel Fifa pas hari-H wisuda ya, Mbak.\""
+      html: "\"Mbak Rika, skenario prank-nya udah jalan. Fira ngambek berat ke Arga. Tiket kereta subuh Arga ke Jember udah aman di tangan. Titip pantau terus live location GPS ponsel Fira pas hari-H wisuda ya, Mbak.\""
     },
     {
       type: "paragraph",
-      html: "Balasan Mbak Rika masuk dengan emotikon tertawa geli: *\"Beres Arya! Kamu pinter banget aktingnya, Fifa di kamar lagi nangis sesenggukan ngomel-ngomelin namamu. Nanti pas wisuda kita bikin dia kaget setengah mati! Sampai ketemu di Jember!\"*"
+      html: "Balasan Mbak Rika masuk dengan emotikon tertawa geli: *\"Beres Arga! Kamu pinter banget aktingnya, Fira di kamar lagi nangis sesenggukan ngomel-ngomelin namamu. Nanti pas wisuda kita bikin dia kaget setengah mati! Sampai ketemu di Jember!\"*"
     },
     {
       type: "paragraph",

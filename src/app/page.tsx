@@ -185,14 +185,14 @@ export default function CatalogHomePage() {
           <div className="flex items-center justify-between mb-6">
             <div>
               <h2 className="text-2xl font-bold tracking-tight text-[var(--text-primary)]">
-                Pentalogi Semesta Tiket Pulang
+                Semesta Tiket Pulang
               </h2>
               <p className="text-xs sm:text-sm text-[var(--text-muted)] mt-0.5">
-                Koleksi kronologi 5 buku perjalanan cinta, agensi kreatif, hingga puncak kepulangan paling sunyi
+                Koleksi 6 buku perjalanan cinta, agensi kreatif, kepulangan paling sunyi, hingga keajaiban detak kedua
               </p>
             </div>
             <span className="text-xs text-[var(--text-muted)] px-3 py-1 rounded-full bg-[var(--bg-surface)] border border-[var(--border-subtle)] font-medium">
-              5 Buku Terdaftar
+              {novels.length} Buku Terdaftar
             </span>
           </div>
 

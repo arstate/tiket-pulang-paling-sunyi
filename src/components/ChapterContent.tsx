@@ -37,9 +37,14 @@ const NEXT_BOOK_MAP: Record<string, { slug: string; title: string; label: string
   "cincin-dan-jeratan-42-juta": {
     slug: "tiket-pulang-paling-sunyi",
     title: "Lanjut Buku 5: Tiket Pulang Paling Sunyi",
-    label: "Puncak Tragedi (Master Piece)",
+    label: "Episode 5 Berikutnya",
   },
   "tiket-pulang-paling-sunyi": {
+    slug: "garis-detak-kedua",
+    title: "Lanjut Buku 6: Garis Detak Kedua",
+    label: "Episode 6: Miracle Survival",
+  },
+  "garis-detak-kedua": {
     slug: "sebelum-kereta-ke-jogja",
     title: "Kembali ke Buku 1: Sebelum Kereta ke Jogja",
     label: "Awal Mula Pertemuan",
@@ -282,7 +287,7 @@ export default function ChapterContent({
             </button>
           ) : (
             <a
-              href={`/${nextBookInfo.slug}/`}
+              href={`/${nextBookInfo.slug}/#bab-1`}
               className="group flex flex-col items-end p-4 rounded-xl border border-accent/40 bg-accent/10 hover:bg-accent hover:text-white transition-all text-right sm:col-start-2 shadow-sm"
             >
               <span className="text-[11px] uppercase tracking-wider text-accent group-hover:text-white flex items-center gap-1 font-semibold">

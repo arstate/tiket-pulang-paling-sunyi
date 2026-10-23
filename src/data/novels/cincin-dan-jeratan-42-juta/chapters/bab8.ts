@@ -16,7 +16,7 @@ export const BAB_8: Chapter = {
     },
     {
       type: "paragraph",
-      html: "Aku duduk di bangku besi halte yang dingin, mengenakan jaket denim biruku dengan ransel kanvas lusuh di pangkuanku. Di dalam saku dada kiriku, kotak beludru cincin safir menempel di atas detak jantungku yang berpacu liar tak beraturan. Pukul lima lewat empat puluh menit, Fifa melangkah keluar dari lobi kaca kantor agensinya seraya merapatkan kardigan rajutnya dari terpaan angin gerimis."
+      html: "Aku duduk di bangku besi halte yang dingin, mengenakan jaket denim biruku dengan ransel kanvas lusuh di pangkuanku. Di dalam saku dada kiriku, kotak beludru cincin safir menempel di atas detak jantungku yang berpacu liar tak beraturan. Pukul lima lewat empat puluh menit, Fira melangkah keluar dari lobi kaca kantor agensinya seraya merapatkan kardigan rajutnya dari terpaan angin gerimis."
     },
     {
       type: "paragraph",
@@ -24,7 +24,7 @@ export const BAB_8: Chapter = {
     },
     {
       type: "dialogue",
-      html: "\"Arya! Kok tumben gak nunggu di pos satpam kayak biasanya?\" sapanya seraya duduk di sampingku di bangku halte."
+      html: "\"Arga! Kok tumben gak nunggu di pos satpam kayak biasanya?\" sapanya seraya duduk di sampingku di bangku halte."
     },
     {
       type: "paragraph",
@@ -36,15 +36,15 @@ export const BAB_8: Chapter = {
     },
     {
       type: "paragraph",
-      html: "Senyum di wajah Fifa lenyap seketika. Tatapan matanya yang tajam dan peka turun menatap kedua tanganku yang bergetar hebat, lalu beralih menatap wajahku yang layu pasi."
+      html: "Senyum di wajah Fira lenyap seketika. Tatapan matanya yang tajam dan peka turun menatap kedua tanganku yang bergetar hebat, lalu beralih menatap wajahku yang layu pasi."
     },
     {
       type: "paragraph",
-      html: "Tanpa ragu sedetik pun, Fifa mencengkeram pergelangan tanganku dengan kuat. Kedua bola matanya membelalak dipenuhi kecemasan yang luar biasa:"
+      html: "Tanpa ragu sedetik pun, Fira mencengkeram pergelangan tanganku dengan kuat. Kedua bola matanya membelalak dipenuhi kecemasan yang luar biasa:"
     },
     {
       type: "dialogue",
-      html: "\"Arya! Ada apa sebenernya?!\" suaranya bergetar tajam, menatap lurus ke dalam manik mataku. \"Kenapa tanganmu gemetar hebat kayak gini?! Kamu sakit?! Atau ada masalah besar yang kamu sembunyiin dari aku?! Jangan bohong sama aku, Arya!\""
+      html: "\"Arga! Ada apa sebenernya?!\" suaranya bergetar tajam, menatap lurus ke dalam manik mataku. \"Kenapa tanganmu gemetar hebat kayak gini?! Kamu sakit?! Atau ada masalah besar yang kamu sembunyiin dari aku?! Jangan bohong sama aku, Arga!\""
     },
     {
       type: "dialogue",
@@ -52,19 +52,19 @@ export const BAB_8: Chapter = {
     },
     {
       type: "dialogue",
-      html: "\"BOHONG!\" potong Fifa seraya menarik saku celanaku yang sedikit tersembul kertas terlipat."
+      html: "\"BOHONG!\" potong Fira seraya menarik saku celanaku yang sedikit tersembul kertas terlipat."
     },
     {
       type: "paragraph",
-      html: "Sebelum aku sempat mencegahnya, Fifa telah membuka lipatan kertas ancaman bertuliskan spidol merah darah yang semalam diselipkan para penagih utang di bawah pintu kosanku."
+      html: "Sebelum aku sempat mencegahnya, Fira telah membuka lipatan kertas ancaman bertuliskan spidol merah darah yang semalam diselipkan para penagih utang di bawah pintu kosanku."
     },
     {
       type: "paragraph",
-      html: "Mata Fifa membaca baris demi baris ancaman kekerasan itu, angka empat puluh dua juta rupiah yang tertulis tebal di sana, dan namanya yang dijadikan sasaran teror di kantor agensinya besok pagi."
+      html: "Mata Fira membaca baris demi baris ancaman kekerasan itu, angka empat puluh dua juta rupiah yang tertulis tebal di sana, dan namanya yang dijadikan sasaran teror di kantor agensinya besok pagi."
     },
     {
       type: "paragraph",
-      html: "Map berkas di tangan Fifa seketika terlepas jatuh ke lantai halte yang basah. Tubuhnya terpaku kaku, kedua tangannya menutup mulutnya yang bergetar hebat, seraya air mata syok dan kepedihan yang teramat dahsyat meledak membasahi paras ayunya di bawah derai gerimis senja Surabaya."
+      html: "Map berkas di tangan Fira seketika terlepas jatuh ke lantai halte yang basah. Tubuhnya terpaku kaku, kedua tangannya menutup mulutnya yang bergetar hebat, seraya air mata syok dan kepedihan yang teramat dahsyat meledak membasahi paras ayunya di bawah derai gerimis senja Surabaya."
     }
   ]
 };

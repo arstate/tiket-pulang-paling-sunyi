@@ -32,11 +32,11 @@ export const BAB_5: Chapter = {
     },
     {
       type: "quote",
-      html: "\"Tunggu wisudaku, Fifa.\""
+      html: "\"Tunggu wisudaku, Fira.\""
     },
     {
       type: "paragraph",
-      html: "Air mataku menetes jatuh tepat di atas permukaan batu safir biru itu. Di tengah kehancuran duniaku, di tengah ancaman penjara dan kekerasan fisik para penagih utang, cincin ini adalah lambang kehormatan tertinggiku sebagai seorang laki-laki. Aku membelinya bukan untuk menyombongkan kemewahan, melainkan sebagai bukti sumpah suci bahwa cintaku kepada Fifa adalah sebuah janji keabadian yang ingin kubawa hingga ke liang lahat."
+      html: "Air mataku menetes jatuh tepat di atas permukaan batu safir biru itu. Di tengah kehancuran duniaku, di tengah ancaman penjara dan kekerasan fisik para penagih utang, cincin ini adalah lambang kehormatan tertinggiku sebagai seorang laki-laki. Aku membelinya bukan untuk menyombongkan kemewahan, melainkan sebagai bukti sumpah suci bahwa cintaku kepada Fira adalah sebuah janji keabadian yang ingin kubawa hingga ke liang lahat."
     },
     {
       type: "paragraph",

@@ -36,7 +36,7 @@ export const BAB_4: Chapter = {
     },
     {
       type: "paragraph",
-      html: "Itu balasan dari Fifa:"
+      html: "Itu balasan dari Fira:"
     },
     {
       type: "quote",
@@ -44,7 +44,7 @@ export const BAB_4: Chapter = {
     },
     {
       type: "paragraph",
-      html: "Aku mengerutkan dahi, menatap layar ponselku dengan rasa heran yang tak tertutupi. Setahuku, Fifa tinggal di rumah kos mahasiswi di dekat kampus. Mana mungkin ibu kosnya mengizinkan anak kos memelihara unggas nokturnal pemakan jangkrik dan daging mentah di dalam kamar?"
+      html: "Aku mengerutkan dahi, menatap layar ponselku dengan rasa heran yang tak tertutupi. Setahuku, Fira tinggal di rumah kos mahasiswi di dekat kampus. Mana mungkin ibu kosnya mengizinkan anak kos memelihara unggas nokturnal pemakan jangkrik dan daging mentah di dalam kamar?"
     },
     {
       type: "paragraph",
@@ -52,15 +52,15 @@ export const BAB_4: Chapter = {
     },
     {
       type: "quote",
-      html: "\"Hah? Seriusan Mbak Fifa melihara burung hantu juga di kosan? Burung hantu apa emang? Celepuk juga?\""
+      html: "\"Hah? Seriusan Mbak Fira melihara burung hantu juga di kosan? Burung hantu apa emang? Celepuk juga?\""
     },
     {
       type: "paragraph",
-      html: "Fifa membalas seketika:"
+      html: "Fira membalas seketika:"
     },
     {
       type: "quote",
-      html: "\"Iya beneran punya! Jangan panggil 'Mbak' napa, panggil Fifa aja biar gak kayak di kantor kelurahan hehe. Nih kalau gak percaya, tak kirim fotonya sekarang. Tapi awas ya kalau kamu ketawa!\""
+      html: "\"Iya beneran punya! Jangan panggil 'Mbak' napa, panggil Fira aja biar gak kayak di kantor kelurahan hehe. Nih kalau gak percaya, tak kirim fotonya sekarang. Tapi awas ya kalau kamu ketawa!\""
     },
     {
       type: "paragraph",
@@ -72,7 +72,7 @@ export const BAB_4: Chapter = {
     },
     {
       type: "paragraph",
-      html: "Di sudut kanan bawah kertas lukisan itu, ada tanda tangan kecil bertinta emas dengan tulisan tangan yang rapi: *Karya Fifa*."
+      html: "Di sudut kanan bawah kertas lukisan itu, ada tanda tangan kecil bertinta emas dengan tulisan tangan yang rapi: *Karya Fira*."
     },
     {
       type: "paragraph",
@@ -88,27 +88,27 @@ export const BAB_4: Chapter = {
     },
     {
       type: "quote",
-      html: "\"Bagus banget, Fifa. Serius. Komposisi warnanya dapet, gradasi sayapnya halus banget. Anak DKV kayak aku aja belum tentu bisa bikin tekstur cat air sehidup itu.\""
+      html: "\"Bagus banget, Fira. Serius. Komposisi warnanya dapet, gradasi sayapnya halus banget. Anak DKV kayak aku aja belum tentu bisa bikin tekstur cat air sehidup itu.\""
     },
     {
       type: "paragraph",
-      html: "Balasan Fifa muncul dengan stiker kucing yang tersipu malu:"
+      html: "Balasan Fira muncul dengan stiker kucing yang tersipu malu:"
     },
     {
       type: "quote",
-      html: "\"Wah, dipuji sama anak desain langsung berasa dapet validasi dewa nih! Makasih ya Arya... dari kemarin rasanya suntuk banget gara-gara urusan skripsi sama... ya gitulah, urusan hati yang bikin capek. Liat burung hantumu tadi langsung berasa terhibur.\""
+      html: "\"Wah, dipuji sama anak desain langsung berasa dapet validasi dewa nih! Makasih ya Arga... dari kemarin rasanya suntuk banget gara-gara urusan skripsi sama... ya gitulah, urusan hati yang bikin capek. Liat burung hantumu tadi langsung berasa terhibur.\""
     },
     {
       type: "paragraph",
-      html: "Malam itu, burung hantu di tenggeran kamarku dan burung hantu di atas kertas sketsa Fifa menjadi jembatan penghubung yang meruntuhkan segala sekat keraguan. Kami bertukar cerita tentang banyak hal: tentang kecintaannya melukis saat suasana hatinya sedang hancur, tentang cita-citaku menjadi videografer profesional, hingga tentang keputusan kami masing-masing yang akhirnya berani melepaskan hubungan beracun di masa lalu."
+      html: "Malam itu, burung hantu di tenggeran kamarku dan burung hantu di atas kertas sketsa Fira menjadi jembatan penghubung yang meruntuhkan segala sekat keraguan. Kami bertukar cerita tentang banyak hal: tentang kecintaannya melukis saat suasana hatinya sedang hancur, tentang cita-citaku menjadi videografer profesional, hingga tentang keputusan kami masing-masing yang akhirnya berani melepaskan hubungan beracun di masa lalu."
     },
     {
       type: "paragraph",
-      html: "Lia resmi kuhapus dari hidupku, membiarkannya mencari validasi murah dari cowok-cowok lain tanpa perlu kubebani pikiran lagi. Begitu pun Fifa, yang akhirnya memblokir nomor Satria untuk mengakhiri lingkaran setan patah hati yang menyiksanya bertahun-tahun."
+      html: "Lia resmi kuhapus dari hidupku, membiarkannya mencari validasi murah dari cowok-cowok lain tanpa perlu kubebani pikiran lagi. Begitu pun Fira, yang akhirnya memblokir nomor Satria untuk mengakhiri lingkaran setan patah hati yang menyiksanya bertahun-tahun."
     },
     {
       type: "paragraph",
-      html: "Di tengah obrolan larut malam yang mengalir hangat hingga jarum jam menunjuk angka satu dini hari, aku menyadari satu hal yang pasti: cara Fifa membalas setiap pesanku, kehangatan kalimatnya, dan perhatian kecil yang ia selipkan bukan lagi sekadar sikap ramah seorang rekan kerja. Ada perasaan yang mulai tumbuh di antara kami berdua, perasaan yang tak lagi mampu disembunyikan oleh kata-kata."
+      html: "Di tengah obrolan larut malam yang mengalir hangat hingga jarum jam menunjuk angka satu dini hari, aku menyadari satu hal yang pasti: cara Fira membalas setiap pesanku, kehangatan kalimatnya, dan perhatian kecil yang ia selipkan bukan lagi sekadar sikap ramah seorang rekan kerja. Ada perasaan yang mulai tumbuh di antara kami berdua, perasaan yang tak lagi mampu disembunyikan oleh kata-kata."
     }
   ]
 };
