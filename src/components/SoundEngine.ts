@@ -25,7 +25,7 @@ export interface TrackInfo {
   src: string;
 }
 
-export const AUDIO_CACHE_VERSION = "20261023_v4";
+export const AUDIO_CACHE_VERSION = "20261023_v5";
 
 export const TRACK_REGISTRY: Record<TrackId, TrackInfo> = {
   "bgm-cover": {
@@ -218,6 +218,41 @@ class SoundEngine {
     }
   }
 
+  // True equal-power audio dissolve (cosine/sine power-preserving crossfade)
+  private executeEqualPowerDissolve(
+    outgoingGain: GainNode,
+    incomingGain: GainNode,
+    durationSec: number
+  ) {
+    if (!this.audioCtx) return;
+    const now = this.audioCtx.currentTime;
+    const steps = 48;
+    const fadeOut = new Float32Array(steps);
+    const fadeIn = new Float32Array(steps);
+    const startVal = Math.max(0.0001, outgoingGain.gain.value);
+
+    for (let i = 0; i < steps; i++) {
+      const t = i / (steps - 1);
+      // Cosine / Sine equal-power law: cos^2(t) + sin^2(t) === 1.0 (zero volume dip)
+      fadeOut[i] = startVal * Math.cos(0.5 * Math.PI * t);
+      fadeIn[i] = Math.sin(0.5 * Math.PI * t);
+    }
+
+    try {
+      outgoingGain.gain.cancelScheduledValues(now);
+      outgoingGain.gain.setValueCurveAtTime(fadeOut, now, durationSec);
+
+      incomingGain.gain.cancelScheduledValues(now);
+      incomingGain.gain.setValueCurveAtTime(fadeIn, now, durationSec);
+    } catch {
+      // Fallback in case of strict audioContext timing clamp
+      outgoingGain.gain.cancelScheduledValues(now);
+      outgoingGain.gain.setValueAtTime(startVal, now);
+      outgoingGain.gain.linearRampToValueAtTime(0.0001, now + durationSec);
+      incomingGain.gain.linearRampToValueAtTime(1.0, now + durationSec);
+    }
+  }
+
   // Periodic monitor checking if active track is nearing its end
   private startLoopMonitor() {
     this.stopLoopMonitor();
@@ -283,12 +318,8 @@ class SoundEngine {
 
       await targetAudio.play();
 
-      // Equal-power crossfade ramp over CROSSFADE_DURATION
-      sourceGain.gain.cancelScheduledValues(now);
-      sourceGain.gain.setValueAtTime(sourceGain.gain.value, now);
-      sourceGain.gain.linearRampToValueAtTime(0.0001, now + this.CROSSFADE_DURATION);
-
-      targetGain.gain.linearRampToValueAtTime(1.0, now + this.CROSSFADE_DURATION);
+      // True equal-power audio dissolve over CROSSFADE_DURATION
+      this.executeEqualPowerDissolve(sourceGain, targetGain, this.CROSSFADE_DURATION);
 
       // Switch active deck immediately to target so monitor watches targetDeck
       this.activeDeck = targetDeck;
@@ -436,12 +467,8 @@ class SoundEngine {
 
       await nextAudio.play();
 
-      // Equal-power crossfade ramp over durationSec
-      currentGain.gain.cancelScheduledValues(now);
-      currentGain.gain.setValueAtTime(currentGain.gain.value, now);
-      currentGain.gain.linearRampToValueAtTime(0.0001, now + durationSec);
-
-      nextGain.gain.linearRampToValueAtTime(1.0, now + durationSec);
+      // True equal-power audio dissolve over durationSec
+      this.executeEqualPowerDissolve(currentGain, nextGain, durationSec);
 
       this.activeDeck = nextDeck;
       this.currentTrackId = targetTrackId;
