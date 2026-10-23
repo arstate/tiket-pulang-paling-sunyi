@@ -48,14 +48,9 @@ export default function Header({
               <path d="M6 10h10"></path>
             </svg>
           </div>
-          <div>
-            <span className="font-semibold text-sm tracking-tight text-[var(--text-primary)] block leading-tight">
-              Tiket Pulang Paling Sunyi
-            </span>
-            <span className="text-[10px] text-[var(--text-muted)] tracking-wider uppercase block -mt-0.5">
-              Bachtiar Aryansyah Putra
-            </span>
-          </div>
+          <span className="font-semibold text-sm tracking-tight text-[var(--text-primary)]">
+            Tiket Pulang Paling Sunyi
+          </span>
         </button>
 
         {/* Right Actions: 3 Clean, Non-Duplicated Controls */}
