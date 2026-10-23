@@ -73,13 +73,13 @@ Enam kabel elektroda menempel di dada bidangnya yang kian kurus, menghubungkan j
 
 Fira menolak dipindahkan ke bangsal rawat inap biasa meskipun tulang selangka kanannya masih dibebat gips tebal dan luka robek di pelipisnya dijahit delapan simpul oleh dokter bedah plastik. Berbekal kursi lipat plastik hijau kusam di lorong tunggu ICU yang berjarak hanya lima meter dari pintu kaca buram, wanita itu memilih bertahan di sana siang dan malam.
 
-Ibu Arga datang setiap sore dari Sidoarjo menumpang bus kota bersama Bapak mertuanya. Wajah wanita paruh baya itu tampak layu oleh duka, matanya bengkak dan merah karena menangis tanpa henti sejak mendengar kabar tragedi di Gumitir. Ia selalu membawakan rantang susun berisi sayur bayam bening, tempe goreng hangat, dan sambal tomat kesukaan Arga, namun makanan itu nyaris tak pernah disentuh oleh Fira.
+Ibu Arga datang setiap sore dari Sidoarjo menumpang bus kota bersama suaminya—ayah Arga. Wajah wanita paruh baya itu tampak layu oleh duka, matanya bengkak dan merah karena menangis tanpa henti sejak mendengar kabar tragedi di Gumitir. Ia selalu membawakan rantang susun berisi sayur bayam bening, tempe goreng hangat, dan sambal tomat kesukaan Arga, namun makanan itu nyaris tak pernah disentuh oleh Fira.
 
-"Fira, Nduk... makan sesuap saja ya? Demi Ibu, demi Arga..." bujuk Ibu mertuanya seraya mengusap pundak Fira dengan tangan yang bergetar. "Kalau kamu jatuh sakit, siapa yang bakal nyambut Arga waktu dia buka mata nanti? Arga itu anak tunggal kami, tapi kamu adalah seluruh napas hidupnya sekarang."
+"Fira, Nduk... makan sesuap saja ya? Demi Ibu, demi Arga..." bujuk ibu mertuanya seraya mengusap pundak Fira dengan tangan yang bergetar. "Kalau kamu jatuh sakit, siapa yang bakal nyambut Arga waktu dia buka mata nanti? Arga itu anak tunggal kami, tapi kamu adalah seluruh napas hidupnya sekarang."
 
 "Fira masih kenyang, Bu... beneran, perut Fira nggak lapar sama sekali," bisik Fira dengan bibir pucat pasi seraya menatap nanar pintu ganda kaca buram ruang ICU. "Fira cuma mau nemenin Arga di sini. Dari dulu zaman merintis studio magang, Arga paling nggak suka ditinggal sendirian di ruangan dingin. Waktu lembur di kantor agensi dulu pun, dia selalu minta Fira duduk di dekat mejanya sampai jam empat pagi, cuma biar dia bisa dengar suara napas Fira."
 
-Bapak mertuanya hanya bisa terdiam menyandarkan punggungnya di dinding lorong, meremas tasbih kayu di tangannya dengan bibir yang terus berkomat-kamit merapalkan doa keselamatan bagi anak semata wayangnya.
+Ayah mertuanya hanya bisa terdiam menyandarkan punggungnya di dinding lorong, meremas tasbih kayu di tangannya dengan bibir yang terus berkomat-kamit merapalkan doa keselamatan bagi anak semata wayangnya.
 
 Setiap pukul lima subuh, ketika bel pergantian shift perawat berbunyi dan izin kunjungan steril dibuka selama lima belas menit, Fira melangkah masuk ke dalam ruangan dingin itu mengenakan gaun pelindung hijau steril, masker bedah, dan penutup kepala kain.
 

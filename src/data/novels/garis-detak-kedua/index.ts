@@ -26,6 +26,7 @@ export const GARIS_DETAK_KEDUA_DATA: NovelData = {
         "title": "Dua Ratus Joule di Tikungan Maut",
         "fullTitle": "BAB 1: Dua Ratus Joule di Tikungan Maut",
         "excerpt": "Sirene ambulans melolong membelah malam yang pekat di jalur berliku lereng timur Gunung Gumitir...",
+        "bgmId": "bgm-ch1a",
         "paragraphs": [
             {
                 "type": "paragraph",
@@ -134,6 +135,7 @@ export const GARIS_DETAK_KEDUA_DATA: NovelData = {
         "title": "Sembilan Hari di Ruang ICU Anggrek",
         "fullTitle": "BAB 2: Sembilan Hari di Ruang ICU Anggrek",
         "excerpt": "Ruang Intensive Care Unit Anggrek di RSUD Dr. Soetomo selalu diselimuti dingin yang ganjil...",
+        "bgmId": "bgm-ch2a",
         "paragraphs": [
             {
                 "type": "paragraph",
@@ -153,11 +155,11 @@ export const GARIS_DETAK_KEDUA_DATA: NovelData = {
             },
             {
                 "type": "paragraph",
-                "html": "Ibu Arga datang setiap sore dari Sidoarjo menumpang bus kota bersama Bapak mertuanya. Wajah wanita paruh baya itu tampak layu oleh duka, matanya bengkak dan merah karena menangis tanpa henti sejak mendengar kabar tragedi di Gumitir. Ia selalu membawakan rantang susun berisi sayur bayam bening, tempe goreng hangat, dan sambal tomat kesukaan Arga, namun makanan itu nyaris tak pernah disentuh oleh Fira."
+                "html": "Ibu Arga datang setiap sore dari Sidoarjo menumpang bus kota bersama suaminya—ayah Arga. Wajah wanita paruh baya itu tampak layu oleh duka, matanya bengkak dan merah karena menangis tanpa henti sejak mendengar kabar tragedi di Gumitir. Ia selalu membawakan rantang susun berisi sayur bayam bening, tempe goreng hangat, dan sambal tomat kesukaan Arga, namun makanan itu nyaris tak pernah disentuh oleh Fira."
             },
             {
                 "type": "dialogue",
-                "html": "\"Fira, Nduk... makan sesuap saja ya? Demi Ibu, demi Arga...\" bujuk Ibu mertuanya seraya mengusap pundak Fira dengan tangan yang bergetar. \"Kalau kamu jatuh sakit, siapa yang bakal nyambut Arga waktu dia buka mata nanti? Arga itu anak tunggal kami, tapi kamu adalah seluruh napas hidupnya sekarang.\""
+                "html": "\"Fira, Nduk... makan sesuap saja ya? Demi Ibu, demi Arga...\" bujuk ibu mertuanya seraya mengusap pundak Fira dengan tangan yang bergetar. \"Kalau kamu jatuh sakit, siapa yang bakal nyambut Arga waktu dia buka mata nanti? Arga itu anak tunggal kami, tapi kamu adalah seluruh napas hidupnya sekarang.\""
             },
             {
                 "type": "dialogue",
@@ -165,7 +167,7 @@ export const GARIS_DETAK_KEDUA_DATA: NovelData = {
             },
             {
                 "type": "paragraph",
-                "html": "Bapak mertuanya hanya bisa terdiam menyandarkan punggungnya di dinding lorong, meremas tasbih kayu di tangannya dengan bibir yang terus berkomat-kamit merapalkan doa keselamatan bagi anak semata wayangnya."
+                "html": "Ayah mertuanya hanya bisa terdiam menyandarkan punggungnya di dinding lorong, meremas tasbih kayu di tangannya dengan bibir yang terus berkomat-kamit merapalkan doa keselamatan bagi anak semata wayangnya."
             },
             {
                 "type": "paragraph",
@@ -206,6 +208,7 @@ export const GARIS_DETAK_KEDUA_DATA: NovelData = {
         "title": "Tatapan Asing dan Memori yang Tertinggal di SMK",
         "fullTitle": "BAB 3: Tatapan Asing dan Memori yang Tertinggal di SMK",
         "excerpt": "Hari kesembilan di ruang HCU, keajaiban yang dinanti itu akhirnya tiba...",
+        "bgmId": "bgm-ch3",
         "paragraphs": [
             {
                 "type": "paragraph",
@@ -290,6 +293,7 @@ export const GARIS_DETAK_KEDUA_DATA: NovelData = {
         "title": "Surat Tagihan di Bawah Bantal",
         "fullTitle": "BAB 4: Surat Tagihan di Bawah Bantal",
         "excerpt": "Ponsel di saku celana Fira bergetar tanpa henti bagai jam pasir kematian...",
+        "bgmId": "bgm-ch4",
         "paragraphs": [
             {
                 "type": "paragraph",
@@ -366,6 +370,7 @@ export const GARIS_DETAK_KEDUA_DATA: NovelData = {
         "title": "Kartu Memori Merah dan Fragmen Nostalgia",
         "fullTitle": "BAB 5: Kartu Memori Merah dan Fragmen Nostalgia",
         "excerpt": "Dari balik dompet kecilnya, Fira mengeluarkan kartu SD merah SanDisk Extreme...",
+        "bgmId": "bgm-ch5",
         "paragraphs": [
             {
                 "type": "paragraph",
@@ -450,6 +455,7 @@ export const GARIS_DETAK_KEDUA_DATA: NovelData = {
         "title": "Goresan Pertama di Atas Kertas Rumah Sakit",
         "fullTitle": "BAB 6: Goresan Pertama di Atas Kertas Rumah Sakit",
         "excerpt": "Dokter saraf menyarankan terapi motorik halus untuk memulihkan tremor tangan Arga...",
+        "bgmId": "bgm-ch6",
         "paragraphs": [
             {
                 "type": "paragraph",
@@ -522,6 +528,7 @@ export const GARIS_DETAK_KEDUA_DATA: NovelData = {
         "title": "Dana Gotong Royong dan Royalti Desain",
         "fullTitle": "BAB 7: Dana Gotong Royong dan Royalti Desain",
         "excerpt": "Pekan ketiga, Arga akhirnya diizinkan pulang ke kontrakan Sidoarjo...",
+        "bgmId": "bgm-ch7",
         "paragraphs": [
             {
                 "type": "paragraph",
@@ -586,6 +593,7 @@ export const GARIS_DETAK_KEDUA_DATA: NovelData = {
         "title": "Bayangan Menara Lampu Gumitir yang Pecah",
         "fullTitle": "BAB 8: Bayangan Menara Lampu Gumitir yang Pecah",
         "excerpt": "Hujan deras mengguyur beranda depan rumah kontrakan Sidoarjo sore itu...",
+        "bgmId": "bgm-ch8",
         "paragraphs": [
             {
                 "type": "paragraph",
@@ -666,6 +674,7 @@ export const GARIS_DETAK_KEDUA_DATA: NovelData = {
         "title": "Kotak Beludru yang Kembali Utuh",
         "fullTitle": "BAB 9: Kotak Beludru yang Kembali Utuh",
         "excerpt": "Di balik pintu kamar kontrakan, tergantung jaket denim biru pudar milik Arga...",
+        "bgmId": "bgm-ch9",
         "paragraphs": [
             {
                 "type": "paragraph",
@@ -742,6 +751,7 @@ export const GARIS_DETAK_KEDUA_DATA: NovelData = {
         "title": "Fajar di Peron Dua Stasiun Gubeng",
         "fullTitle": "BAB 10: Fajar di Peron Dua Stasiun Gubeng",
         "excerpt": "Subuh pukul setengah lima di peron dua Stasiun Surabaya Gubeng...",
+        "bgmId": "bgm-ch10",
         "paragraphs": [
             {
                 "type": "paragraph",

@@ -15,6 +15,7 @@ export interface Chapter {
   wordCount: number;
   readTimeMinutes: number;
   isFinal: boolean;
+  bgmId?: string;
   paragraphs: ParagraphItem[];
 }
 

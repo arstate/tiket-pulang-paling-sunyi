@@ -71,7 +71,8 @@ export default function ChapterContent({
     if (!onSceneChange) return;
 
     // Immediately sync to default track for chapter on mount / chapter change
-    onSceneChange(getDefaultTrackForChapter(chapter.id));
+    const initialTrack = (chapter.bgmId as TrackId) || getDefaultTrackForChapter(chapter.id);
+    onSceneChange(initialTrack);
 
     const observer = new IntersectionObserver(
       (entries) => {
@@ -142,6 +143,7 @@ export default function ChapterContent({
   return (
     <article
       ref={containerRef}
+      id={`bab-${chapter.id}`}
       className={`mx-auto px-4 sm:px-6 py-8 sm:py-12 transition-all duration-200 ${getMaxWidthClass()}`}
     >
       {/* Chapter Title & Meta Header (Clean, distraction-free) */}
@@ -169,7 +171,7 @@ export default function ChapterContent({
         {/* Initial Chapter Waypoint */}
         <div
           className="scene-waypoint h-0 w-full pointer-events-none opacity-0"
-          data-track-id={getDefaultTrackForChapter(chapter.id)}
+          data-track-id={chapter.bgmId || getDefaultTrackForChapter(chapter.id)}
         />
 
         {chapter.paragraphs.map((item: ParagraphItem, index: number) => {

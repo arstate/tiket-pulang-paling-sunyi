@@ -184,6 +184,13 @@ export default function NovelReader({ novel, soundscape }: NovelReaderProps) {
     }
   }, [settings, isMounted, novel.slug]);
 
+  // Resolve track for a given chapter, honoring custom chapter.bgmId if specified
+  const getChapterTrack = (chId: number): TrackId => {
+    if (chId <= 0) return "bgm-cover";
+    const ch = novel.chapters.find((c) => c.id === chId);
+    return (ch?.bgmId as TrackId) || soundEngine.getDefaultTrack(chId);
+  };
+
   // 5. Track Contextual BGM & Chapter Transition (Seamless Autoplay + Equal-Power Dissolve)
   useEffect(() => {
     if (!isMounted) return;
@@ -194,7 +201,7 @@ export default function NovelReader({ novel, soundscape }: NovelReaderProps) {
     }
     prevChapterIdRef.current = activeChapterId;
 
-    const defaultTrack = soundEngine.getDefaultTrack(activeChapterId);
+    const defaultTrack = getChapterTrack(activeChapterId);
     setBgmTitle(soundEngine.getTrack(defaultTrack).title);
 
     if (activeChapterId > 0 && !userMutedRef.current) {
@@ -259,7 +266,7 @@ export default function NovelReader({ novel, soundscape }: NovelReaderProps) {
       window.location.hash = `#bab-${id}`;
 
       // Seamless autoplay on user click gesture
-      const targetTrack = soundEngine.getDefaultTrack(id);
+      const targetTrack = getChapterTrack(id);
       if (soundEngine.getIsPlaying()) {
         soundEngine.transitionToTrack(targetTrack, 4.0);
         setAudioPlaying(true);
@@ -326,7 +333,7 @@ export default function NovelReader({ novel, soundscape }: NovelReaderProps) {
 
   // 10. Audio Toggle with Contextual Track
   const handleToggleAudio = async () => {
-    const defaultTrack = soundEngine.getDefaultTrack(activeChapterId);
+    const defaultTrack = getChapterTrack(activeChapterId);
     if (audioPlaying) {
       soundEngine.stop();
       soundEngine.removeUnlockListeners();
@@ -350,7 +357,7 @@ export default function NovelReader({ novel, soundscape }: NovelReaderProps) {
       // ignore
     }
     setIsAudioModalOpen(false);
-    const defaultTrack = soundEngine.getDefaultTrack(activeChapterId);
+    const defaultTrack = getChapterTrack(activeChapterId);
     const isPlaying = await soundEngine.start(defaultTrack);
     setAudioPlaying(isPlaying);
     if (isPlaying) {
