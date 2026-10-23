@@ -1,30 +1,32 @@
 import { NovelData, NovelMetadata } from "../types/novel";
 import { TIKET_PULANG_DATA } from "./novels/tiket-pulang-paling-sunyi";
+import { SEBELUM_KERETA_KE_JOGJA_DATA } from "./novels/sebelum-kereta-ke-jogja";
 
 // Central Novel Registry
 const NOVELS_DB: Record<string, NovelData> = {
   "tiket-pulang-paling-sunyi": TIKET_PULANG_DATA,
+  "sebelum-kereta-ke-jogja": SEBELUM_KERETA_KE_JOGJA_DATA,
 };
 
 // Pentalogi Semesta Tiket Pulang Catalog
 const CATALOG_METADATA: NovelMetadata[] = [
   {
-    slug: "sebelum-kereta-ke-jogja",
-    title: "Sebelum Kereta ke Jogja",
-    subtitle: "Sebuah Novel Karya Bachtiar Aryansyah Putra",
-    seriesName: "Pentalogi Semesta Tiket Pulang",
-    seriesPart: "Buku Kesatu: Awal Magang & Ujian Jogja",
-    tagline: "Tentang gerbong kelas ekonomi, tugas studio desain, dan rasa yang tak pernah selesai diucap",
-    author: "Bachtiar Aryansyah Putra",
-    genre: "Romansa Kampus / Perjalanan Mahasiswa",
-    totalChapters: 8,
-    totalWords: 9400,
-    totalReadTimeMinutes: 45,
-    synopsis: "Kisah bermula di studio desain grafis kampus Surabaya. Arga yang pendiam dan Fira yang enerjik dipertemukan dalam kelompok magang ke Yogyakarta. Di tengah gerbong kereta ekonomi Sri Tanjung yang berderak malam hari, secangkir teh nasgitel stasiun, dan lembaran sketsa tugas akhir yang berantakan, benih-benih cinta pertama kali tumbuh dalam diam.",
-    quote: "Sebelum peluit kondektur kereta berbunyi membelah malam, aku sudah tahu: ke mana pun langkah kakiku berkelana, matamulah stasiun akhir tempat hatiku ingin pulang.",
-    status: "Segera Terbit",
-    publishDate: "Segera Hadir",
-    coverAccent: "#2E5C6E",
+    slug: SEBELUM_KERETA_KE_JOGJA_DATA.slug,
+    title: SEBELUM_KERETA_KE_JOGJA_DATA.title,
+    subtitle: SEBELUM_KERETA_KE_JOGJA_DATA.subtitle,
+    seriesName: SEBELUM_KERETA_KE_JOGJA_DATA.seriesName,
+    seriesPart: SEBELUM_KERETA_KE_JOGJA_DATA.seriesPart,
+    tagline: SEBELUM_KERETA_KE_JOGJA_DATA.tagline,
+    author: SEBELUM_KERETA_KE_JOGJA_DATA.author,
+    genre: SEBELUM_KERETA_KE_JOGJA_DATA.genre,
+    totalChapters: SEBELUM_KERETA_KE_JOGJA_DATA.totalChapters,
+    totalWords: SEBELUM_KERETA_KE_JOGJA_DATA.totalWords,
+    totalReadTimeMinutes: SEBELUM_KERETA_KE_JOGJA_DATA.totalReadTimeMinutes,
+    synopsis: SEBELUM_KERETA_KE_JOGJA_DATA.synopsis,
+    quote: SEBELUM_KERETA_KE_JOGJA_DATA.quote,
+    status: SEBELUM_KERETA_KE_JOGJA_DATA.status,
+    publishDate: SEBELUM_KERETA_KE_JOGJA_DATA.publishDate,
+    coverAccent: SEBELUM_KERETA_KE_JOGJA_DATA.coverAccent,
     featured: false,
   },
   {
