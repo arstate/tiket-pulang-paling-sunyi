@@ -46,3 +46,12 @@
 - [x] Sinkronkan master file markdown naskah lengkap di `NOVEL_BUKET_BUNGA_DAN_TOGA.md`.
 - [x] Verifikasi build statis Next.js (8/8 static routes: `/buket-bunga-dan-toga` aktif dan responsif).
 - [x] Git commit dan push ke remote repository.
+
+## Fase 9: Rilis Penuh Seluruh Pentalogi (Buku 1 - Buku 5) & Series/Episode Switcher
+- [x] Tulis dan integrasikan 10 Bab lengkap Buku 3 (*Di Balik Pintu Agensi*, 13.385 kata) dan Buku 4 (*Cincin & Jeratan 42 Juta*, 13.640 kata).
+- [x] Rilis seluruh 5 novel ke `src/data/novelRegistry.ts` dengan status "Tamat" (Lengkap 10 Bab).
+- [x] Bangun komponen interaktif `src/components/SeriesSwitcher.tsx` untuk navigasi cepat Episode 1 s/d 5.
+- [x] Integrasikan switcher episode di `HeroCover.tsx`, `TocDrawer.tsx`, dan smart next-episode navigator di akhir Bab 10 `ChapterContent.tsx`.
+- [x] Sinkronkan master markdown `NOVEL_DI_BALIK_PINTU_AGENSI.md` dan `NOVEL_CINCIN_DAN_JERATAN_42_JUTA.md`.
+- [x] Verifikasi build statis Next.js (10/10 static routes lolos tanpa error).
+- [x] Git commit dan push ke remote repository.
