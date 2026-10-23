@@ -16,7 +16,7 @@ export const BAB_3: Chapter = {
     },
     {
       type: "paragraph",
-      html: "Di kantor agensinya, Fira sedang menjalani malam lembur pertamanya menghadapi tender korporat berskala nasional. Tumpukan kertas catatan revisi, cangkir kopi dingin, dan sisa kotak pizza berserakan di meja panjang ruang rapat. Sebagai copywriter junior, ia harus menyusun tiga puluh variasi slogan periklanan dan narasi video profil sebelum rapat presentasi dewan direksi pukul sembilan pagi nanti."
+      html: "Di kantor agensinya, Fifa sedang menjalani malam lembur pertamanya menghadapi tender korporat berskala nasional. Tumpukan kertas catatan revisi, cangkir kopi dingin, dan sisa kotak pizza berserakan di meja panjang ruang rapat. Sebagai copywriter junior, ia harus menyusun tiga puluh variasi slogan periklanan dan narasi video profil sebelum rapat presentasi dewan direksi pukul sembilan pagi nanti."
     },
     {
       type: "paragraph",
@@ -28,11 +28,11 @@ export const BAB_3: Chapter = {
     },
     {
       type: "paragraph",
-      html: "Di layar ponsel, Fira tampak mengenakan kacamata berbingkai bulat dengan rambut yang dicepol asal-asalan. Dahinya berkerut serius menatap dokumen di layar laptopnya, sesekali jemarinya memijat pelipisnya yang berdenyut pening."
+      html: "Di layar ponsel, Fifa tampak mengenakan kacamata berbingkai bulat dengan rambut yang dicepol asal-asalan. Dahinya berkerut serius menatap dokumen di layar laptopnya, sesekali jemarinya memijat pelipisnya yang berdenyut pening."
     },
     {
       type: "dialogue",
-      html: "\"Ga... masih berapa persen renderan tugasmu?\" suaranya berbisik serak melalui speaker ponsel, berusaha tidak mengganggu rekan kantornya yang tertidur pulas di sofa belakang."
+      html: "\"Arya... masih berapa persen renderan tugasmu?\" suaranya berbisik serak melalui speaker ponsel, berusaha tidak mengganggu rekan kantornya yang tertidur pulas di sofa belakang."
     },
     {
       type: "dialogue",
@@ -40,7 +40,7 @@ export const BAB_3: Chapter = {
     },
     {
       type: "paragraph",
-      html: "Fira menghela napas panjang seraya menyandarkan kepalanya ke meja rapat, menatapku lurus melalui lensa kamera depan ponselnya."
+      html: "Fifa menghela napas panjang seraya menyandarkan kepalanya ke meja rapat, menatapku lurus melalui lensa kamera depan ponselnya."
     },
     {
       type: "dialogue",
@@ -48,11 +48,11 @@ export const BAB_3: Chapter = {
     },
     {
       type: "dialogue",
-      html: "\"Kita berdua lagi berjuang di medan masing-masing, Fira. Kamu lagi bangun pondasi karirmu di agensi, aku lagi babat alas di kampus DKV. Nanti kalau tugas sama kerjaan ini beres, subuh nanti tak jemput ya? Kita sarapan bubur ayam panas di depan kampus IAIN.\""
+      html: "\"Kita berdua lagi berjuang di medan masing-masing, Fifa. Kamu lagi bangun pondasi karirmu di agensi, aku lagi babat alas di kampus DKV. Nanti kalau tugas sama kerjaan ini beres, subuh nanti tak jemput ya? Kita sarapan bubur ayam panas di depan kampus IAIN.\""
     },
     {
       type: "paragraph",
-      html: "Binar di mata Fira seketika menyala kembali. Janji sederhana semangkuk bubur ayam panas di pagi buta itu menjadi jimat penyemangat yang mengusir seluruh kantuk di kelopak matanya."
+      html: "Binar di mata Fifa seketika menyala kembali. Janji sederhana semangkuk bubur ayam panas di pagi buta itu menjadi jimat penyemangat yang mengusir seluruh kantuk di kelopak matanya."
     },
     {
       type: "dialogue",

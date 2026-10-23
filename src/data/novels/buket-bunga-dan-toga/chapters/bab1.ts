@@ -20,11 +20,11 @@ export const BAB_1: Chapter = {
     },
     {
       type: "quote",
-      html: "\"Beb Arga, aku udah sampai di Sidoarjo nih! Nanti sekitar jam tiga sore aku udah selesai nemenin tanteku di daerah Gading Fajar. Kita bisa ketemu kan hari ini? Aku kangen banget sama kamu... 🥺\""
+      html: "\"Beb Arya, aku udah sampai di Sidoarjo nih! Nanti sekitar jam tiga sore aku udah selesai nemenin tanteku di daerah Gading Fajar. Kita bisa ketemu kan hari ini? Aku kangen banget sama kamu... 🥺\""
     },
     {
       type: "paragraph",
-      html: "Jantungku berdegup kencang membaca kata-kata sederhana itu. Sejak pelukan perpisahan tiga puluh menit di Stasiun Gubeng beberapa minggu silam, hari-hariku di Surabaya terasa seperti selembar kanvas kosong tanpa warna. Membayangkan Fira benar-benar sedang berada di kota yang sama, menghirup udara berdebu jalanan Sidoarjo yang sama denganku, membuat seluruh rasa penat sehabis ujian praktik kejuruan sirna seketika."
+      html: "Jantungku berdegup kencang membaca kata-kata sederhana itu. Sejak pelukan perpisahan tiga puluh menit di Stasiun Gubeng beberapa minggu silam, hari-hariku di Surabaya terasa seperti selembar kanvas kosong tanpa warna. Membayangkan Fifa benar-benar sedang berada di kota yang sama, menghirup udara berdebu jalanan Sidoarjo yang sama denganku, membuat seluruh rasa penat sehabis ujian praktik kejuruan sirna seketika."
     },
     {
       type: "paragraph",
@@ -52,7 +52,7 @@ export const BAB_1: Chapter = {
     },
     {
       type: "paragraph",
-      html: "Kupacu motor bebekku menembus deru lalu lintas lingkar barat Sidoarjo menuju kafe kecil berhalaman rindang yang telah kami sepakati. Di balik kaca etalase kedai kopi berlantai bata merah itu, aku melihat siluet tubuh yang teramat kukenal sedang duduk di dekat jendela kaca besar. Fira."
+      html: "Kupacu motor bebekku menembus deru lalu lintas lingkar barat Sidoarjo menuju kafe kecil berhalaman rindang yang telah kami sepakati. Di balik kaca etalase kedai kopi berlantai bata merah itu, aku melihat siluet tubuh yang teramat kukenal sedang duduk di dekat jendela kaca besar. Fifa."
     },
     {
       type: "paragraph",

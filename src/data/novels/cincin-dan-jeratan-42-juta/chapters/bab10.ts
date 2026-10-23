@@ -20,7 +20,7 @@ export const BAB_10: Chapter = {
     },
     {
       type: "paragraph",
-      html: "Di sampingku, Fira tertidur lelap karena kelelahan emosional yang teramat luar biasa seharian ini. Kepalanya yang berbalut kerudung cokelat rebah pasrah di atas bahu kananku. Jemari tangan kirinya masih menggenggam erat telapak tangan kananku, mengunci jemari kami dalam ikatan yang tak pernah terlepas bahkan di dalam tidurnya."
+      html: "Di sampingku, Fifa tertidur lelap karena kelelahan emosional yang teramat luar biasa seharian ini. Kepalanya yang berbalut kerudung cokelat rebah pasrah di atas bahu kananku. Jemari tangan kirinya masih menggenggam erat telapak tangan kananku, mengunci jemari kami dalam ikatan yang tak pernah terlepas bahkan di dalam tidurnya."
     },
     {
       type: "paragraph",
@@ -36,7 +36,7 @@ export const BAB_10: Chapter = {
     },
     {
       type: "paragraph",
-      html: "Dan di bagian saku paling dalam jaket denim itu—saku rahasia di balik dada sebelah kiri yang menempel persis di atas denyut jantungku—ujung jariku menyentuh permukaan kain beludru hitam pekat dari sebuah kotak cincin berukir nama: *\"Tunggu wisudaku, Fira.\"*"
+      html: "Dan di bagian saku paling dalam jaket denim itu—saku rahasia di balik dada sebelah kiri yang menempel persis di atas denyut jantungku—ujung jariku menyentuh permukaan kain beludru hitam pekat dari sebuah kotak cincin berukir nama: *\"Tunggu wisudaku, Fifa.\"*"
     },
     {
       type: "paragraph",
@@ -48,11 +48,11 @@ export const BAB_10: Chapter = {
     },
     {
       type: "paragraph",
-      html: "Kupandangi wajah Fira yang tidur begitu tenang di bahuku. Kuusap pelipisnya yang halus dengan punggung jemariku seraya berbisik lirih di antara derak roda rel yang bergemuruh menembus badai malam:"
+      html: "Kupandangi wajah Fifa yang tidur begitu tenang di bahuku. Kuusap pelipisnya yang halus dengan punggung jemariku seraya berbisik lirih di antara derak roda rel yang bergemuruh menembus badai malam:"
     },
     {
       type: "quote",
-      html: "\"Malam ini kita selesaikan semuanya, Fira. Demi Allah, setelah malam ini... aku gak akan pernah bikin kamu cemas, takut, atau menangis lagi. Bertahanlah di sampingku ya, Sayang...\""
+      html: "\"Malam ini kita selesaikan semuanya, Fifa. Demi Allah, setelah malam ini... aku gak akan pernah bikin kamu cemas, takut, atau menangis lagi. Bertahanlah di sampingku ya, Sayang...\""
     },
     {
       type: "paragraph",

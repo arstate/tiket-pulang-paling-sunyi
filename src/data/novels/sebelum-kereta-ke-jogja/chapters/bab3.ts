@@ -16,7 +16,7 @@ export const BAB_3: Chapter = {
     },
     {
       type: "paragraph",
-      html: "Sebagai anak magang, kami berlarian seperti semut pekerja di bawah kaki gajah. Aku bertugas di bibir panggung, memanggul bodi kamera dengan lensa prime 85mm f/1.4, memastikan ekspresi wajah vokalis dan petikan dawai gitar terekam dalam ketajaman maksimal. Di sisi lain area VIP dan booth sponsor, Fira dan teman-teman magang KPI-nya mondar-mandir membawa kamera mirrorless cadangan, mendokumentasikan kedatangan para pejabat daerah dan klien korporat agensi kami."
+      html: "Sebagai anak magang, kami berlarian seperti semut pekerja di bawah kaki gajah. Aku bertugas di bibir panggung, memanggul bodi kamera dengan lensa prime 85mm f/1.4, memastikan ekspresi wajah vokalis dan petikan dawai gitar terekam dalam ketajaman maksimal. Di sisi lain area VIP dan booth sponsor, Fifa dan teman-teman magang KPI-nya mondar-mandir membawa kamera mirrorless cadangan, mendokumentasikan kedatangan para pejabat daerah dan klien korporat agensi kami."
     },
     {
       type: "paragraph",
@@ -28,19 +28,19 @@ export const BAB_3: Chapter = {
     },
     {
       type: "paragraph",
-      html: "Aku baru saja menyeduh kopi hitam saset di pantry ketika mendengar suara langkah panik bolak-balik di ruang produksi. Fira sedang membongkar seisi tas kamera kanvas warna zaitun miliknya di atas meja. Baterai, lens cap, tali strap, dan lap mikrofiber berserakan di mana-mana. Wajah perempuan itu pucat pasi, kedua tangannya yang gemetar meraba saku-saku kecil tas dengan napas memburu."
+      html: "Aku baru saja menyeduh kopi hitam saset di pantry ketika mendengar suara langkah panik bolak-balik di ruang produksi. Fifa sedang membongkar seisi tas kamera kanvas warna zaitun miliknya di atas meja. Baterai, lens cap, tali strap, dan lap mikrofiber berserakan di mana-mana. Wajah perempuan itu pucat pasi, kedua tangannya yang gemetar meraba saku-saku kecil tas dengan napas memburu."
     },
     {
       type: "dialogue",
-      html: "\"Rin, kamu liat dompet case kartu memori warna hitam gak? Yang semalem tak pake pas sesi foto booth sponsor sama wawancara kepala dinas?\" suara Fira tercekat, nyaris menangis di samping Rini."
+      html: "\"Rin, kamu liat dompet case kartu memori warna hitam gak? Yang semalem tak pake pas sesi foto booth sponsor sama wawancara kepala dinas?\" suara Fifa tercekat, nyaris menangis di samping Rini."
     },
     {
       type: "dialogue",
-      html: "\"Aduh Fir, kan semalem kamu yang megang tas itu pas masukin barang ke mobil pikap! Coba inget-inget lagi, jangan-jangan ketinggalan di meja registrasi venue?! Kalau file sponsor ilang, Mas Doni bisa ngamuk besar lho! Nilai magang kita taruhannya!\" balas Rini dengan nada cemas yang kian membakar kepanikan Fira."
+      html: "\"Aduh Fir, kan semalem kamu yang megang tas itu pas masukin barang ke mobil pikap! Coba inget-inget lagi, jangan-jangan ketinggalan di meja registrasi venue?! Kalau file sponsor ilang, Mas Doni bisa ngamuk besar lho! Nilai magang kita taruhannya!\" balas Rini dengan nada cemas yang kian membakar kepanikan Fifa."
     },
     {
       type: "paragraph",
-      html: "Fira terduduk lemas di kursinya, memegangi kepalanya yang pening. Kehilangan aset liputan dari event sebesar konser Jatim Expo adalah mimpi buruk nomor satu bagi siapa pun di industri ini. Jika kartu memori itu benar-benar lenyap, Fira bukan hanya terancam disidang oleh manajer operasional, tapi juga terancam gagal dalam evaluasi magang kampusnya."
+      html: "Fifa terduduk lemas di kursinya, memegangi kepalanya yang pening. Kehilangan aset liputan dari event sebesar konser Jatim Expo adalah mimpi buruk nomor satu bagi siapa pun di industri ini. Jika kartu memori itu benar-benar lenyap, Fifa bukan hanya terancam disidang oleh manajer operasional, tapi juga terancam gagal dalam evaluasi magang kampusnya."
     },
     {
       type: "paragraph",
@@ -48,11 +48,11 @@ export const BAB_3: Chapter = {
     },
     {
       type: "quote",
-      html: "\"Arga, maaf banget ganggu waktu istirahatmu. Mau nanya, memory card kamera yang kemarin habis dibuat shooting event konser di Jatim Expo ada di kamu gak ya? Aku cari di tas sama di meja kantor kok gak ada sama sekali, aku bener-bener panik banget Ga... please kalau kamu tau kabarin ya 😭\""
+      html: "\"Arya, maaf banget ganggu waktu istirahatmu. Mau nanya, memory card kamera yang kemarin habis dibuat shooting event konser di Jatim Expo ada di kamu gak ya? Aku cari di tas sama di meja kantor kok gak ada sama sekali, aku bener-bener panik banget Arya... please kalau kamu tau kabarin ya 😭\""
     },
     {
       type: "paragraph",
-      html: "Aku melirik ke arah Fira di seberang ruangan. Perempuan itu sedang menggigit bibir bawahnya rapat-rapat, menatap layar ponselnya dengan harap-harap cemas menanti balasan."
+      html: "Aku melirik ke arah Fifa di seberang ruangan. Perempuan itu sedang menggigit bibir bawahnya rapat-rapat, menatap layar ponselnya dengan harap-harap cemas menanti balasan."
     },
     {
       type: "paragraph",
@@ -68,7 +68,7 @@ export const BAB_3: Chapter = {
     },
     {
       type: "quote",
-      html: "\"IYA ARGA! BENER BANGET! Kartu merah itu! Ada di kamu?! Demi apa ada di kamu Ga?!\""
+      html: "\"IYA ARYA! BENER BANGET! Kartu merah itu! Ada di kamu?! Demi apa ada di kamu Arya?!\""
     },
     {
       type: "paragraph",
@@ -80,11 +80,11 @@ export const BAB_3: Chapter = {
     },
     {
       type: "paragraph",
-      html: "Di seberang ruangan, aku melihat Fira membaca pesanku. Detik berikutnya, kedua tangannya terangkat menutupi mulutnya sendiri. Tubuhnya merosot di sandaran kursi kantor seraya mengembuskan napas lega yang amat panjang, seolah seluruh beban dunia yang menindih pundaknya baru saja diangkat dalam satu kedipan mata."
+      html: "Di seberang ruangan, aku melihat Fifa membaca pesanku. Detik berikutnya, kedua tangannya terangkat menutupi mulutnya sendiri. Tubuhnya merosot di sandaran kursi kantor seraya mengembuskan napas lega yang amat panjang, seolah seluruh beban dunia yang menindih pundaknya baru saja diangkat dalam satu kedipan mata."
     },
     {
       type: "paragraph",
-      html: "Fira mengangkat kepalanya, memandang lurus menyeberangi ruangan ke arah mejaku. Di sana, matanya yang bulat bersinar menatapku dengan binar haru yang tak mampu ia sembunyikan. Tak ada lagi tatapan judes atau rasa sebal seperti hari pertama kami bertemu."
+      html: "Fifa mengangkat kepalanya, memandang lurus menyeberangi ruangan ke arah mejaku. Di sana, matanya yang bulat bersinar menatapku dengan binar haru yang tak mampu ia sembunyikan. Tak ada lagi tatapan judes atau rasa sebal seperti hari pertama kami bertemu."
     },
     {
       type: "paragraph",
@@ -92,7 +92,7 @@ export const BAB_3: Chapter = {
     },
     {
       type: "quote",
-      html: "\"Argaaaa ya Allah... makasih banyaaak banget ya! Kamu bener-bener penyelamat hidupku hari ini! Sumpah tadi jantungku rasanya udah mau copot copot copot! Makasih udah se-inisiatif dan se-teliti itu backup-in fotoku... makasih ya Ga! 🙏✨\""
+      html: "\"Aryaaaa ya Allah... makasih banyaaak banget ya! Kamu bener-bener penyelamat hidupku hari ini! Sumpah tadi jantungku rasanya udah mau copot copot copot! Makasih udah se-inisiatif dan se-teliti itu backup-in fotoku... makasih ya Ga! 🙏✨\""
     },
     {
       type: "paragraph",
@@ -100,11 +100,11 @@ export const BAB_3: Chapter = {
     },
     {
       type: "quote",
-      html: "\"Sama-sama Mbak Fira. Lain kali tasnya jangan lupa diresleting ya. Kalau hilang beneran, aku yang repot harus nemenin Mas Doni ngamuk-ngamuk di studio.\""
+      html: "\"Sama-sama Mbak Fifa. Lain kali tasnya jangan lupa diresleting ya. Kalau hilang beneran, aku yang repot harus nemenin Mas Doni ngamuk-ngamuk di studio.\""
     },
     {
       type: "paragraph",
-      html: "Fira tertawa kecil di seberang sana, lalu membalas:"
+      html: "Fifa tertawa kecil di seberang sana, lalu membalas:"
     },
     {
       type: "quote",

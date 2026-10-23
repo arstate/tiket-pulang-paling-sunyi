@@ -12,11 +12,11 @@ export const BAB_9: Chapter = {
   paragraphs: [
     {
       type: "paragraph",
-      html: "Titik biru koordinat GPS di layar ponselku perlahan bergerak mendekati gapura gerbang utama universitas. Di balik bayang-bayang pohon palem kipas di dekat pos satpam gerbang, aku berdiri merapikan kerah kemeja hitam lengan panjangku yang terlipat rapi di siku. Di tangan kananku, sebuket bunga wisuda berukuran besar—rangkaian mawar merah segar, bunga baby's breath putih salju, dan pita kain satin emas bertuliskan *'Proud of You, Fira Azzahra, S.Sos'*—menguarkan keharuman yang memikat."
+      html: "Titik biru koordinat GPS di layar ponselku perlahan bergerak mendekati gapura gerbang utama universitas. Di balik bayang-bayang pohon palem kipas di dekat pos satpam gerbang, aku berdiri merapikan kerah kemeja hitam lengan panjangku yang terlipat rapi di siku. Di tangan kananku, sebuket bunga wisuda berukuran besar—rangkaian mawar merah segar, bunga baby's breath putih salju, dan pita kain satin emas bertuliskan *'Proud of You, Fifa Azzahra, S.Sos'*—menguarkan keharuman yang memikat."
     },
     {
       type: "paragraph",
-      html: "Tak ada orang yang tahu bahwa sejak pukul tiga dini hari tadi, aku sudah berada di atas kereta api pertama dari Stasiun Gubeng. Foto panggung wedding megah yang kukirimkan kemarin hanyalah foto dokumentasi arsip lama kantor dari acara bulan lalu. Semua sandiwara dan kebohongan itu kurancang matang-matang bersama Mbak Rika, kakak kandung Fira, demi satu tujuan tunggal: memberikan kejutan terindah yang tak akan pernah bisa ia lupakan seumur hidupnya."
+      html: "Tak ada orang yang tahu bahwa sejak pukul tiga dini hari tadi, aku sudah berada di atas kereta api pertama dari Stasiun Gubeng. Foto panggung wedding megah yang kukirimkan kemarin hanyalah foto dokumentasi arsip lama kantor dari acara bulan lalu. Semua sandiwara dan kebohongan itu kurancang matang-matang bersama Mbak Rika, kakak kandung Fifa, demi satu tujuan tunggal: memberikan kejutan terindah yang tak akan pernah bisa ia lupakan seumur hidupnya."
     },
     {
       type: "paragraph",
@@ -24,7 +24,7 @@ export const BAB_9: Chapter = {
     },
     {
       type: "quote",
-      html: "\"Arga, Fira lagi jalan keluar lewat gerbang utama. Mukanya cemberut abis dari tadi kayak baju belum disetrika, gak ada semangatnya sama sekali. Stand by sekarang di samping plang nama kampus ya!\""
+      html: "\"Arya, Fifa lagi jalan keluar lewat gerbang utama. Mukanya cemberut abis dari tadi kayak baju belum disetrika, gak ada semangatnya sama sekali. Stand by sekarang di samping plang nama kampus ya!\""
     },
     {
       type: "paragraph",
@@ -32,15 +32,15 @@ export const BAB_9: Chapter = {
     },
     {
       type: "paragraph",
-      html: "Di trotoar gerbang keluar yang ramai oleh kerumunan para sarjana baru, sosok perempuan berjubah toga hitam itu perlahan terlihat melangkah mendekat. Fira berjalan gontai di samping ibunya, kepalanya tertunduk menatap paving jalan seraya mendekap map ijazah hijaunya tanpa senyuman. Wajahnya begitu datar dan hampa, seolah prosesi wisuda yang baru dijalaninya hanyalah sebuah kewajiban administratif biasa."
+      html: "Di trotoar gerbang keluar yang ramai oleh kerumunan para sarjana baru, sosok perempuan berjubah toga hitam itu perlahan terlihat melangkah mendekat. Fifa berjalan gontai di samping ibunya, kepalanya tertunduk menatap paving jalan seraya mendekap map ijazah hijaunya tanpa senyuman. Wajahnya begitu datar dan hampa, seolah prosesi wisuda yang baru dijalaninya hanyalah sebuah kewajiban administratif biasa."
     },
     {
       type: "paragraph",
-      html: "Mbak Rika yang berjalan di belakangnya sengaja menghentikan langkah dan memegang pundak Fira: \"Fir, tunggu bentar deh. Coba liat ke depan gerbang situ, kayaknya ada yang nungguin kamu.\""
+      html: "Mbak Rika yang berjalan di belakangnya sengaja menghentikan langkah dan memegang pundak Fifa: \"Fifa, tunggu bentar deh. Coba liat ke depan gerbang situ, kayaknya ada yang nungguin kamu.\""
     },
     {
       type: "paragraph",
-      html: "Fira menghela napas pelan dengan alis berkerut kesal: \"Nungguin siapa sih Mbak? Gak ada yang nungguin aku, udah ayo cepetan ke mobil—\""
+      html: "Fifa menghela napas pelan dengan alis berkerut kesal: \"Nungguin siapa sih Mbak? Gak ada yang nungguin aku, udah ayo cepetan ke mobil—\""
     },
     {
       type: "paragraph",
@@ -52,11 +52,11 @@ export const BAB_9: Chapter = {
     },
     {
       type: "dialogue",
-      html: "\"Happy Graduation ya, Fira Azzahra, Sarjana Sosial tercantik se-Jember,\" suaraku memecah keheningan di antara kami."
+      html: "\"Happy Graduation ya, Fifa Azzahra, Sarjana Sosial tercantik se-Jember,\" suaraku memecah keheningan di antara kami."
     },
     {
       type: "paragraph",
-      html: "Waktu seolah membeku seketika bagi Fira."
+      html: "Waktu seolah membeku seketika bagi Fifa."
     },
     {
       type: "paragraph",
@@ -64,7 +64,7 @@ export const BAB_9: Chapter = {
     },
     {
       type: "dialogue",
-      html: "\"Ar... ARGA?!\" jeritnya dengan suara melengking tinggi, memecah perhatian puluhan wisudawan lain di sekitar gerbang."
+      html: "\"Ar... ARYA?!\" jeritnya dengan suara melengking tinggi, memecah perhatian puluhan wisudawan lain di sekitar gerbang."
     },
     {
       type: "paragraph",
@@ -72,15 +72,15 @@ export const BAB_9: Chapter = {
     },
     {
       type: "paragraph",
-      html: "Tanpa mempedulikan lagi jubah toganya yang berkibar atau tatapan heran para dosen dan orang tuanya, Fira berlari sekencang-kencangnya menubrukkan tubuhnya ke dalam dekapanku. *BUUUUK!*"
+      html: "Tanpa mempedulikan lagi jubah toganya yang berkibar atau tatapan heran para dosen dan orang tuanya, Fifa berlari sekencang-kencangnya menubrukkan tubuhnya ke dalam dekapanku. *BUUUUK!*"
     },
     {
       type: "paragraph",
-      html: "Kedua lengannya melingkari leherku dengan kekuatan yang luar biasa erat. Fira menangis histeris di dada kemeja hitamku, pundaknya berguncang hebat oleh ledakan rasa bahagia yang meluap tak terbendung:"
+      html: "Kedua lengannya melingkari leherku dengan kekuatan yang luar biasa erat. Fifa menangis histeris di dada kemeja hitamku, pundaknya berguncang hebat oleh ledakan rasa bahagia yang meluap tak terbendung:"
     },
     {
       type: "dialogue",
-      html: "\"ARGA JAHAT BANGEEET! KAMU BOHONGIN AKU!! KAMU NGE-PRANK AKU YA ALLAH!!\" pekiknya di antara isak tangis yang bahagia seraya memukuli pundakku pelan dengan tangannya yang bebas. \"Katanya job wedding di Surabaya?! Kenapa kamu bisa ada di siniii?!\""
+      html: "\"ARYA JAHAT BANGEEET! KAMU BOHONGIN AKU!! KAMU NGE-PRANK AKU YA ALLAH!!\" pekiknya di antara isak tangis yang bahagia seraya memukuli pundakku pelan dengan tangannya yang bebas. \"Katanya job wedding di Surabaya?! Kenapa kamu bisa ada di siniii?!\""
     },
     {
       type: "dialogue",
@@ -88,15 +88,15 @@ export const BAB_9: Chapter = {
     },
     {
       type: "paragraph",
-      html: "Fira melepaskan dekapannya sedikit, menatap wajahku dengan mata yang basah oleh air mata haru tapi bibirnya merekah dalam tawa paling bahagia di dunia. Ia meraih buket bunga mawar raksasa itu ke pelukannya, lalu menatap Mbak Rika yang sedang tertawa terbahak-bahak bersama kedua orang tuanya."
+      html: "Fifa melepaskan dekapannya sedikit, menatap wajahku dengan mata yang basah oleh air mata haru tapi bibirnya merekah dalam tawa paling bahagia di dunia. Ia meraih buket bunga mawar raksasa itu ke pelukannya, lalu menatap Mbak Rika yang sedang tertawa terbahak-bahak bersama kedua orang tuanya."
     },
     {
       type: "dialogue",
-      html: "\"Mbak Rika juga sekongkol ya?! Pantesan dari tadi maksa-maksa lewat gerbang depan!\" seru Fira seraya menyeka air matanya yang terus mengalir deras."
+      html: "\"Mbak Rika juga sekongkol ya?! Pantesan dari tadi maksa-maksa lewat gerbang depan!\" seru Fifa seraya menyeka air matanya yang terus mengalir deras."
     },
     {
       type: "paragraph",
-      html: "Ayah Fira—seorang pensiunan guru berwajah teduh berkopiah hitam—melangkah mendekat seraya menepuk bahuku dengan senyuman hangat penuh rasa hormat. \"Terima kasih ya, Nak Arga. Jauh-jauh dari Surabaya demi Fira. Ayah bangga sama ketulusanmu.\""
+      html: "Ayah Fifa—seorang pensiunan guru berwajah teduh berkopiah hitam—melangkah mendekat seraya menepuk bahuku dengan senyuman hangat penuh rasa hormat. \"Terima kasih ya, Nak Arya. Jauh-jauh dari Surabaya demi Fifa. Ayah bangga sama ketulusanmu.\""
     },
     {
       type: "paragraph",

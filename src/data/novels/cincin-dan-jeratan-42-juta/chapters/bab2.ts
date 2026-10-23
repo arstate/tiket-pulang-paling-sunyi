@@ -20,7 +20,7 @@ export const BAB_2: Chapter = {
     },
     {
       type: "dialogue",
-      html: "\"Mas Arga! Mana Mas Bram sama tim bendahara konsorsium?!\" suaranya bergetar tajam menahan amarah. \"Sesuai perjanjian sebelum gladi resik subuh, sisa pelunasan sewa alat panggung lima puluh persen harus dicairkan tunai sekarang! Sopir truk dan kru gensetku udah mau mogok kerja kalau belum ada uang muka!\""
+      html: "\"Mas Arya! Mana Mas Bram sama tim bendahara konsorsium?!\" suaranya bergetar tajam menahan amarah. \"Sesuai perjanjian sebelum gladi resik subuh, sisa pelunasan sewa alat panggung lima puluh persen harus dicairkan tunai sekarang! Sopir truk dan kru gensetku udah mau mogok kerja kalau belum ada uang muka!\""
     },
     {
       type: "paragraph",

@@ -30,7 +30,7 @@
 ## Fase 6: Ekspansi Pentalogi Semesta Tiket Pulang & Epilog Cliffhanger
 - [x] Integrasi metadata 5 buku Pentalogi di `src/data/novelRegistry.ts` (Buku 1-4 Segera Terbit, Buku 5 Lengkap 10 Bab).
 - [x] Update antarmuka katalog `src/app/page.tsx` dengan badge `seriesPart` dan status "Segera Hadir".
-- [x] Polish Bab 10 (Epilog Cliffhanger di ambulans: tiket basah Banyuwangi, SD card Jatim Expo, cincin safir "Tunggu wisudaku, Fira", dan alarm asistol EKG "TIIIIIIIIIT!") di `index.ts` dan markdown source.
+- [x] Polish Bab 10 (Epilog Cliffhanger di ambulans: tiket basah Banyuwangi, SD card Jatim Expo, cincin safir "Tunggu wisudaku, Fifa", dan alarm asistol EKG "TIIIIIIIIIT!") di `index.ts` dan markdown source.
 - [x] Verifikasi zero build error via `npm run build` static export.
 
 ## Fase 7: Publikasi Naskah Lengkap Buku 1 (Sebelum Kereta ke Jogja)
@@ -54,4 +54,11 @@
 - [x] Integrasikan switcher episode di `HeroCover.tsx`, `TocDrawer.tsx`, dan smart next-episode navigator di akhir Bab 10 `ChapterContent.tsx`.
 - [x] Sinkronkan master markdown `NOVEL_DI_BALIK_PINTU_AGENSI.md` dan `NOVEL_CINCIN_DAN_JERATAN_42_JUTA.md`.
 - [x] Verifikasi build statis Next.js (10/10 static routes lolos tanpa error).
+- [x] Git commit dan push ke remote repository.
+
+## Fase 10: Seamless Chapter Autoplay, Kompresi BGM 5.8MB & Standardisasi Karakter Arya & Fifa
+- [x] Standardisasi seluruh nama tokoh Arga -> Arya dan Fira -> Fifa (termasuk panggilan dialog vokal) di seluruh 5 buku naskah dan file komponen TS/TSX.
+- [x] Kompresi seluruh 13 track audio BGM ke 64kbps CBR (~400KB-600KB/file, total 5.8MB) untuk performa loading kilat.
+- [x] Implementasi seamless autoplay background soundscape saat pembaca mulai membaca bab (`activeChapterId > 0`, tombol "Mulai Membaca", switcher bab) dengan fallback one-time user gesture listeners (`pointerdown`, `touchstart`, `scroll`, `keydown`, `wheel`) untuk membypass browser autoplay policy.
+- [x] Verifikasi build statis Next.js (10/10 routes lolos tanpa error).
 - [x] Git commit dan push ke remote repository.

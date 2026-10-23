@@ -16,7 +16,7 @@ export const BAB_7: Chapter = {
     },
     {
       type: "dialogue",
-      html: "\"Arga! Aku dapet info A1 soal orang konsorsium Mas Bram yang kabur bawa uang Jatim Expo!\" serunya di seberang sana."
+      html: "\"Arya! Aku dapet info A1 soal orang konsorsium Mas Bram yang kabur bawa uang Jatim Expo!\" serunya di seberang sana."
     },
     {
       type: "paragraph",
@@ -36,7 +36,7 @@ export const BAB_7: Chapter = {
     },
     {
       type: "paragraph",
-      html: "Ini adalah satu-satunya kesempatan terakhirku untuk membersihkan namaku, melunasi jeratan utang empat puluh dua juta rupiah, dan menyelamatkan Fira dari ancaman teror para lintah darat. Malam ini, aku harus menembus jalur kereta api timur Pulau Jawa, apa pun taruhan nyawa yang menantiku di ujung perjalanan."
+      html: "Ini adalah satu-satunya kesempatan terakhirku untuk membersihkan namaku, melunasi jeratan utang empat puluh dua juta rupiah, dan menyelamatkan Fifa dari ancaman teror para lintah darat. Malam ini, aku harus menembus jalur kereta api timur Pulau Jawa, apa pun taruhan nyawa yang menantiku di ujung perjalanan."
     }
   ]
 };

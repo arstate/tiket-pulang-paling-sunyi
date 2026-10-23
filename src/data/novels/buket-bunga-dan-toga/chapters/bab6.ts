@@ -16,7 +16,7 @@ export const BAB_6: Chapter = {
     },
     {
       type: "paragraph",
-      html: "Tujuan kami hari itu adalah Air Terjun Tancak—air terjun tertinggi di Kabupaten Jember yang tersembunyi rapat di balik dinding ngarai purba. Dari area parkir perkebunan, kami harus melanjutkan perjalanan dengan berjalan kaki menembus jalan setapak tanah merah sejauh dua kilometer. Fira melangkah gesit di depanku, kedua tangannya memegang tongkat bambu kecil seraya sesekali menoleh ke belakang untuk memastikan aku tidak tertinggal."
+      html: "Tujuan kami hari itu adalah Air Terjun Tancak—air terjun tertinggi di Kabupaten Jember yang tersembunyi rapat di balik dinding ngarai purba. Dari area parkir perkebunan, kami harus melanjutkan perjalanan dengan berjalan kaki menembus jalan setapak tanah merah sejauh dua kilometer. Fifa melangkah gesit di depanku, kedua tangannya memegang tongkat bambu kecil seraya sesekali menoleh ke belakang untuk memastikan aku tidak tertinggal."
     },
     {
       type: "dialogue",
@@ -32,11 +32,11 @@ export const BAB_6: Chapter = {
     },
     {
       type: "paragraph",
-      html: "Embusan angin air terjun menerpa tubuh kami, seketika membasahi jaket dan ujung kerudung Fira dengan butiran air sedingin es batu. Fira menjerit gembira seraya merentangkan kedua tangannya menyongsong hujan kabut air terjun itu."
+      html: "Embusan angin air terjun menerpa tubuh kami, seketika membasahi jaket dan ujung kerudung Fifa dengan butiran air sedingin es batu. Fifa menjerit gembira seraya merentangkan kedua tangannya menyongsong hujan kabut air terjun itu."
     },
     {
       type: "dialogue",
-      html: "\"Seger bangeeet, Ga!! Ya Allah, semua pusing revisi skripsiku rasanya langsung hanyut kebawa arus air!\" pekiknya di antara gemuruh air yang memekakkan."
+      html: "\"Seger bangeeet, Arya!! Ya Allah, semua pusing revisi skripsiku rasanya langsung hanyut kebawa arus air!\" pekiknya di antara gemuruh air yang memekakkan."
     },
     {
       type: "paragraph",
@@ -44,11 +44,11 @@ export const BAB_6: Chapter = {
     },
     {
       type: "paragraph",
-      html: "Di bawah guyuran air terjun megah itu, Fira tiba-tiba menoleh dan menatapku dengan mata yang berbinar jernih. Tangannya yang basah dan dingin meraih kedua pipiku, menatapku lurus dengan segenap ketulusan jiwanya."
+      html: "Di bawah guyuran air terjun megah itu, Fifa tiba-tiba menoleh dan menatapku dengan mata yang berbinar jernih. Tangannya yang basah dan dingin meraih kedua pipiku, menatapku lurus dengan segenap ketulusan jiwanya."
     },
     {
       type: "dialogue",
-      html: "\"Arga... janji sama aku ya?\" bisiknya, suaranya berusaha mengimbangi gemuruh alam di sekitar kami."
+      html: "\"Arya... janji sama aku ya?\" bisiknya, suaranya berusaha mengimbangi gemuruh alam di sekitar kami."
     },
     {
       type: "dialogue",
@@ -64,15 +64,15 @@ export const BAB_6: Chapter = {
     },
     {
       type: "dialogue",
-      html: "\"Janji, Fira. Demi air terjun ini dan gunung di belakang kita, aku gak akan pernah ngelepasin kamu. Aku bakal terus berjuang sampai aku pantas bersanding di sampingmu.\""
+      html: "\"Janji, Fifa. Demi air terjun ini dan gunung di belakang kita, aku gak akan pernah ngelepasin kamu. Aku bakal terus berjuang sampai aku pantas bersanding di sampingmu.\""
     },
     {
       type: "paragraph",
-      html: "Senyum Fira merekah di balik tetesan air pegunungan yang membasahi bibirnya. Hari itu di Air Terjun Tancak, cinta kami dibaptis oleh kemurnian alam Jember, mengikat dua hati yang tak lagi takut menghadapi badai kehidupan apa pun."
+      html: "Senyum Fifa merekah di balik tetesan air pegunungan yang membasahi bibirnya. Hari itu di Air Terjun Tancak, cinta kami dibaptis oleh kemurnian alam Jember, mengikat dua hati yang tak lagi takut menghadapi badai kehidupan apa pun."
     },
     {
       type: "paragraph",
-      html: "Sore harinya di Stasiun Jember, saat peluit kereta api Sri Tanjung kembali berbunyi memanggilku pulang ke Surabaya, perpisahan kami tidak lagi diwarnai air mata keputusasaan seperti dulu. Ada keyakinan kokoh yang terpancar di mata kami berdua: sebuah janji bahwa dalam waktu dekat, aku akan kembali menjejakkan kaki di kota ini untuk menyaksikan Fira mengenakan toga sarjananya."
+      html: "Sore harinya di Stasiun Jember, saat peluit kereta api Sri Tanjung kembali berbunyi memanggilku pulang ke Surabaya, perpisahan kami tidak lagi diwarnai air mata keputusasaan seperti dulu. Ada keyakinan kokoh yang terpancar di mata kami berdua: sebuah janji bahwa dalam waktu dekat, aku akan kembali menjejakkan kaki di kota ini untuk menyaksikan Fifa mengenakan toga sarjananya."
     }
   ]
 };

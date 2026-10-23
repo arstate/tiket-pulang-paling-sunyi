@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect, useState, useRef } from "react";
 import { NovelData, ReaderSettings } from "@/types/novel";
 import Header from "@/components/Header";
 import ReadingProgressBar from "@/components/ReadingProgressBar";
@@ -39,6 +39,14 @@ export default function NovelReader({ novel, soundscape }: NovelReaderProps) {
   const [bgmTitle, setBgmTitle] = useState<string>("BGM Novel");
   const [settings, setSettings] = useState<ReaderSettings>(DEFAULT_SETTINGS);
   const [isMounted, setIsMounted] = useState<boolean>(false);
+  const userMutedRef = useRef<boolean>(false);
+
+  // Clean up any pending unlock listeners on unmount
+  useEffect(() => {
+    return () => {
+      soundEngine.removeUnlockListeners();
+    };
+  }, []);
 
   // Configure soundscape on mount / novel change
   useEffect(() => {
@@ -76,12 +84,10 @@ export default function NovelReader({ novel, soundscape }: NovelReaderProps) {
       console.warn("Could not load last chapter:", e);
     }
 
-    // Check First-Visit Audio Prompt
+    // Mark audio prompted in localStorage without modal popup to keep reading flow unobstructed
     try {
-      const audioPrompted = localStorage.getItem(`${storagePrefix}_audio_prompted`) || localStorage.getItem("tiket_pulang_audio_prompted");
-      if (!audioPrompted) {
-        setIsAudioModalOpen(true);
-      }
+      localStorage.setItem(`${storagePrefix}_audio_prompted`, "true");
+      localStorage.setItem("tiket_pulang_audio_prompted", "true");
     } catch {
       // ignore
     }
@@ -176,15 +182,26 @@ export default function NovelReader({ novel, soundscape }: NovelReaderProps) {
     }
   }, [settings, isMounted, novel.slug]);
 
-  // 5. Track Contextual BGM & Chapter Transition (Equal-Power Dissolve)
+  // 5. Track Contextual BGM & Chapter Transition (Seamless Autoplay + Equal-Power Dissolve)
   useEffect(() => {
     if (!isMounted) return;
     const defaultTrack = soundEngine.getDefaultTrack(activeChapterId);
     setBgmTitle(soundEngine.getTrack(defaultTrack).title);
-    if (audioPlaying) {
-      soundEngine.transitionToTrack(defaultTrack, 4.5);
+
+    if (activeChapterId > 0 && !userMutedRef.current) {
+      if (soundEngine.getIsPlaying()) {
+        soundEngine.transitionToTrack(defaultTrack, 4.0);
+        setAudioPlaying(true);
+      } else {
+        soundEngine.playWithAutoplayFallback(defaultTrack, (track) => {
+          setAudioPlaying(true);
+          setBgmTitle(track.title);
+        });
+      }
+    } else if (activeChapterId === 0 && soundEngine.getIsPlaying()) {
+      soundEngine.transitionToTrack(defaultTrack, 4.0);
     }
-  }, [activeChapterId, audioPlaying, isMounted]);
+  }, [activeChapterId, isMounted]);
 
   // 6. Track Scroll Progress
   useEffect(() => {
@@ -209,12 +226,13 @@ export default function NovelReader({ novel, soundscape }: NovelReaderProps) {
     return () => window.removeEventListener("scroll", handleScroll);
   }, [activeChapterId]);
 
-  // 7. Select Chapter Handler
+  // 7. Select Chapter Handler (Seamless Autoplay on Chapter Selection & Mulai Baca)
   const handleSelectChapter = (id: number) => {
     setActiveChapterId(id);
     setScrollProgress(0);
     const storagePrefix = novel.slug === "tiket-pulang-paling-sunyi" ? "tiket_pulang" : `novel_${novel.slug}`;
     if (id > 0) {
+      userMutedRef.current = false; // Reset mute when user explicitly chooses to read
       setLastReadChapterId(id);
       try {
         localStorage.setItem(`${storagePrefix}_last_chapter`, id.toString());
@@ -230,6 +248,19 @@ export default function NovelReader({ novel, soundscape }: NovelReaderProps) {
         console.warn("Could not save last chapter:", e);
       }
       window.location.hash = `#bab-${id}`;
+
+      // Seamless autoplay on user click gesture
+      const targetTrack = soundEngine.getDefaultTrack(id);
+      if (soundEngine.getIsPlaying()) {
+        soundEngine.transitionToTrack(targetTrack, 4.0);
+        setAudioPlaying(true);
+        setBgmTitle(soundEngine.getTrack(targetTrack).title);
+      } else {
+        soundEngine.playWithAutoplayFallback(targetTrack, (track) => {
+          setAudioPlaying(true);
+          setBgmTitle(track.title);
+        });
+      }
     } else {
       window.location.hash = "";
     }
@@ -287,9 +318,17 @@ export default function NovelReader({ novel, soundscape }: NovelReaderProps) {
   // 10. Audio Toggle with Contextual Track
   const handleToggleAudio = async () => {
     const defaultTrack = soundEngine.getDefaultTrack(activeChapterId);
-    const isPlaying = await soundEngine.toggle(activeChapterId, defaultTrack);
-    setAudioPlaying(isPlaying);
-    setBgmTitle(soundEngine.getCurrentTrackInfo().title);
+    if (audioPlaying) {
+      soundEngine.stop();
+      soundEngine.removeUnlockListeners();
+      setAudioPlaying(false);
+      userMutedRef.current = true;
+    } else {
+      userMutedRef.current = false;
+      const isPlaying = await soundEngine.start(defaultTrack);
+      setAudioPlaying(isPlaying);
+      setBgmTitle(soundEngine.getCurrentTrackInfo().title);
+    }
   };
 
   // 11. Modal Audio Handlers (Autoplay unlock)

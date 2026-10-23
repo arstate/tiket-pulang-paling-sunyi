@@ -25,8 +25,8 @@ export const BUKET_BUNGA_DAN_TOGA_DATA: NovelData = {
   coverAccent: "#6B4C7D",
   featured: false,
   totalChapters: 10,
-  synopsis: "Fira kembali ke Jember untuk menyelesaikan skripsi sarjana, sementara Arga berjuang menamatkan SMK DKV di Surabaya. Pertemuan singkat di Sidoarjo saat Arga masih berseragam sekolah membawa buket mawar segar membuat Fira tersipu malu dan mengunci komitmen mereka. Menjelang hari wisuda Fira, Arga melancarkan prank pura-pura tak bisa hadir karena terikat job wedding di Surabaya. Diam-diam menaiki kereta subuh dan berkomplot dengan kakak perempuan Fira via pelacak GPS ponsel, Arga muncul di gerbang kampus membawa buket bunga raksasa. Wajah datar Fira di balik jubah toga meledak menjadi senyuman paling bahagia, sebelum realitas baru dunia kerja agensi dan kuliah DKV mulai menguji cinta mereka.",
-  quote: "Toga itu mungkin tanda kelulusanmu dari universitas, Fira. Tapi bagiku, senyummu di balik jubah wisuda adalah awal dari sumpah baktiku seumur hidup.",
+  synopsis: "Fifa kembali ke Jember untuk menyelesaikan skripsi sarjana, sementara Arya berjuang menamatkan SMK DKV di Surabaya. Pertemuan singkat di Sidoarjo saat Arya masih berseragam sekolah membawa buket mawar segar membuat Fifa tersipu malu dan mengunci komitmen mereka. Menjelang hari wisuda Fifa, Arya melancarkan prank pura-pura tak bisa hadir karena terikat job wedding di Surabaya. Diam-diam menaiki kereta subuh dan berkomplot dengan kakak perempuan Fifa via pelacak GPS ponsel, Arya muncul di gerbang kampus membawa buket bunga raksasa. Wajah datar Fifa di balik jubah toga meledak menjadi senyuman paling bahagia, sebelum realitas baru dunia kerja agensi dan kuliah DKV mulai menguji cinta mereka.",
+  quote: "Toga itu mungkin tanda kelulusanmu dari universitas, Fifa. Tapi bagiku, senyummu di balik jubah wisuda adalah awal dari sumpah baktiku seumur hidup.",
   totalWords: 13550,
   totalReadTimeMinutes: 68,
   chapters: [

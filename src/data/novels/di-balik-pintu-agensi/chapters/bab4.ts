@@ -16,11 +16,11 @@ export const BAB_4: Chapter = {
     },
     {
       type: "paragraph",
-      html: "Malam itu adalah perayaan ulang tahun ke-35 Mas Edwin, Associate Creative Director agensi tempat Fira bekerja. Seluruh staf inti agensi diundang hadir bersama pasangan masing-masing. Fira bersikeras mengajakku mendampinginya, ingin memperkenalkanku secara resmi kepada lingkaran rekan kerjanya."
+      html: "Malam itu adalah perayaan ulang tahun ke-35 Mas Edwin, Associate Creative Director agensi tempat Fifa bekerja. Seluruh staf inti agensi diundang hadir bersama pasangan masing-masing. Fifa bersikeras mengajakku mendampinginya, ingin memperkenalkanku secara resmi kepada lingkaran rekan kerjanya."
     },
     {
       type: "paragraph",
-      html: "Aku mengenakan pakaian terbaik yang kupunya: kemeja hitam polos lengan panjang yang kusetrika licin berulang kali, celana chino abu-abu gelap, dan sepatu kulit pantofel milik almarhum ayahku yang sudah kuberi semir mengilap. Di sampingku, Fira tampak begitu mempesona dalam balutan gaun tunik satin warna krem dan kerudung pashmina hitam bertepi renda halus."
+      html: "Aku mengenakan pakaian terbaik yang kupunya: kemeja hitam polos lengan panjang yang kusetrika licin berulang kali, celana chino abu-abu gelap, dan sepatu kulit pantofel milik almarhum ayahku yang sudah kuberi semir mengilap. Di sampingku, Fifa tampak begitu mempesona dalam balutan gaun tunik satin warna krem dan kerudung pashmina hitam bertepi renda halus."
     },
     {
       type: "paragraph",
@@ -36,7 +36,7 @@ export const BAB_4: Chapter = {
     },
     {
       type: "dialogue",
-      html: "\"Btw Mas Arga, sekarang lagi sibuk apa ya? Denger-denger dari Fira masih kuliah DKV di kampus selatan ya? Semester berapa sekarang?\" tanyanya dengan nada suara santai yang sengaja dikeraskan agar didengar seisi meja."
+      html: "\"Btw Mas Arya, sekarang lagi sibuk apa ya? Denger-denger dari Fifa masih kuliah DKV di kampus selatan ya? Semester berapa sekarang?\" tanyanya dengan nada suara santai yang sengaja dikeraskan agar didengar seisi meja."
     },
     {
       type: "dialogue",
@@ -48,7 +48,7 @@ export const BAB_4: Chapter = {
     },
     {
       type: "quote",
-      html: "\"Wah, asyik banget ya masih jadi mahasiswa... dunianya masih santai, belum pusing mikirin cicilan properti, pajak tahunan, atau portofolio investasi. Nanti kalau lulus sarjana, rencana mau ngelamar magang di agensi kita juga Mas? Bisa saya bantu rekomendasikan ke bagian HRD lho, hitung-hitung bantu pasangannya Fira.\""
+      html: "\"Wah, asyik banget ya masih jadi mahasiswa... dunianya masih santai, belum pusing mikirin cicilan properti, pajak tahunan, atau portofolio investasi. Nanti kalau lulus sarjana, rencana mau ngelamar magang di agensi kita juga Mas? Bisa saya bantu rekomendasikan ke bagian HRD lho, hitung-hitung bantu pasangannya Fifa.\""
     },
     {
       type: "paragraph",
@@ -56,19 +56,19 @@ export const BAB_4: Chapter = {
     },
     {
       type: "paragraph",
-      html: "Darahku berdesir panas di pelipis. Tanganku yang berada di bawah meja mengepal kuat di atas paha celanaku. Namun sebelum aku sempat mengeluarkan sepatah kata pun untuk membalas, Fira telah meletakkan garpu peraknya ke atas piring dengan ketukan tegas: *KLIK!*"
+      html: "Darahku berdesir panas di pelipis. Tanganku yang berada di bawah meja mengepal kuat di atas paha celanaku. Namun sebelum aku sempat mengeluarkan sepatah kata pun untuk membalas, Fifa telah meletakkan garpu peraknya ke atas piring dengan ketukan tegas: *KLIK!*"
     },
     {
       type: "paragraph",
-      html: "Kedua mata bulat Fira menatap tajam lurus ke dalam bola mata Kevin. Raut wajah manisnya berubah dingin tanpa senyum sedikit pun:"
+      html: "Kedua mata bulat Fifa menatap tajam lurus ke dalam bola mata Kevin. Raut wajah manisnya berubah dingin tanpa senyum sedikit pun:"
     },
     {
       type: "dialogue",
-      html: "\"Terima kasih tawarannya Mas Kevin, tapi Arga sama sekali gak butuh bantuan HRD agensi ini,\" suaranya begitu lugas dan tajam, memecah alunan musik jaz restoran."
+      html: "\"Terima kasih tawarannya Mas Kevin, tapi Arya sama sekali gak butuh bantuan HRD agensi ini,\" suaranya begitu lugas dan tajam, memecah alunan musik jaz restoran."
     },
     {
       type: "dialogue",
-      html: "\"Arga mahasiswa berprestasi dengan IPK tertinggi di jurusannya. Karya video profil komersial yang dia bikin bareng tim produksinya udah dipakai sama brand korporat nasional di Jawa Timur. Dan yang paling penting: Arga bayar uang kuliahnya sendiri dari hasil keringat kerja kerasnya dari subuh ke subuh, tanpa pernah minta uang sepeser pun ke orang tuanya atau nyombongin harta warisan keluarga!\""
+      html: "\"Arya mahasiswa berprestasi dengan IPK tertinggi di jurusannya. Karya video profil komersial yang dia bikin bareng tim produksinya udah dipakai sama brand korporat nasional di Jawa Timur. Dan yang paling penting: Arya bayar uang kuliahnya sendiri dari hasil keringat kerja kerasnya dari subuh ke subuh, tanpa pernah minta uang sepeser pun ke orang tuanya atau nyombongin harta warisan keluarga!\""
     },
     {
       type: "paragraph",
@@ -76,7 +76,7 @@ export const BAB_4: Chapter = {
     },
     {
       type: "paragraph",
-      html: "Fira meraih jemari tanganku di atas meja, menggenggamnya erat-erat di hadapan semua pasang mata yang menyaksikan. Di detik itu, rasa minder yang sempat menghimpit dadaku lumer tak bersisa: perempuan berpendidikan di sampingku ini adalah benteng pertahanan terhebat yang tak akan pernah membiarkan kehormatan pasangannya diinjak-injak oleh siapa pun."
+      html: "Fifa meraih jemari tanganku di atas meja, menggenggamnya erat-erat di hadapan semua pasang mata yang menyaksikan. Di detik itu, rasa minder yang sempat menghimpit dadaku lumer tak bersisa: perempuan berpendidikan di sampingku ini adalah benteng pertahanan terhebat yang tak akan pernah membiarkan kehormatan pasangannya diinjak-injak oleh siapa pun."
     }
   ]
 };

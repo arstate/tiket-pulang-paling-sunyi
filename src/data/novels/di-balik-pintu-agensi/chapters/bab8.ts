@@ -16,7 +16,7 @@ export const BAB_8: Chapter = {
     },
     {
       type: "paragraph",
-      html: "Malam itu di meja belajarku yang penuh lembaran kertas sketsa dan buku catatan kalkulasi, aku duduk termenung memegang kalkulator saku. Di depanku, selembar kertas putih bergaris memuat coretan rincian estimasi biaya yang kubutuhkan untuk mewujudkan sumpah suciku kepada Fira dan keluarganya di Jember."
+      html: "Malam itu di meja belajarku yang penuh lembaran kertas sketsa dan buku catatan kalkulasi, aku duduk termenung memegang kalkulator saku. Di depanku, selembar kertas putih bergaris memuat coretan rincian estimasi biaya yang kubutuhkan untuk mewujudkan sumpah suciku kepada Fifa dan keluarganya di Jember."
     },
     {
       type: "quote",
@@ -32,11 +32,11 @@ export const BAB_8: Chapter = {
     },
     {
       type: "paragraph",
-      html: "Ibuku di rumah sebenarnya sempat menawarkan untuk menjual sepetak tanah warisan di desa pinggiran Sidoarjo demi membantuku. Namun harga diriku sebagai seorang anak laki-laki dan calon kepala keluarga menolak keras jalan pintas itu. Aku ingin meminang Fira dengan hasil keringat dan jerih payahku sendiri yang mandiri, bukan dengan menggadaikan sisa masa tua orang tuaku."
+      html: "Ibuku di rumah sebenarnya sempat menawarkan untuk menjual sepetak tanah warisan di desa pinggiran Sidoarjo demi membantuku. Namun harga diriku sebagai seorang anak laki-laki dan calon kepala keluarga menolak keras jalan pintas itu. Aku ingin meminang Fifa dengan hasil keringat dan jerih payahku sendiri yang mandiri, bukan dengan menggadaikan sisa masa tua orang tuaku."
     },
     {
       type: "paragraph",
-      html: "Di atas meja belajarku, aku mengepalkan kedua tanganku seraya menatap foto polaroid Fira yang terselip di sudut bingkai cermin kamarku. Tekadku sudah bulat seratus persen: aku harus menemukan lompatan besar sebelum hari wisuda tiba, apa pun risikonya."
+      html: "Di atas meja belajarku, aku mengepalkan kedua tanganku seraya menatap foto polaroid Fifa yang terselip di sudut bingkai cermin kamarku. Tekadku sudah bulat seratus persen: aku harus menemukan lompatan besar sebelum hari wisuda tiba, apa pun risikonya."
     }
   ]
 };

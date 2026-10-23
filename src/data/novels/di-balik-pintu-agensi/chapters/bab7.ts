@@ -20,11 +20,11 @@ export const BAB_7: Chapter = {
     },
     {
       type: "paragraph",
-      html: "Pukul empat sore, kerumunan pengunjung galeri mendadak terbelah saat Fira melangkah masuk. Ia mengenakan kemeja putih gading berbalut blazer abu-abu kasual dan kerudung pashmina hitam yang elegan. Di tangannya ada sebuket bunga anggrek putih kecil. Yang membuatku terkejut, di belakangnya melangkah Mas Edwin, Associate Creative Director agensinya, yang sengaja datang untuk melihat pameran seni kampus."
+      html: "Pukul empat sore, kerumunan pengunjung galeri mendadak terbelah saat Fifa melangkah masuk. Ia mengenakan kemeja putih gading berbalut blazer abu-abu kasual dan kerudung pashmina hitam yang elegan. Di tangannya ada sebuket bunga anggrek putih kecil. Yang membuatku terkejut, di belakangnya melangkah Mas Edwin, Associate Creative Director agensinya, yang sengaja datang untuk melihat pameran seni kampus."
     },
     {
       type: "dialogue",
-      html: "\"Arga! Karyamu keren banget!\" seru Fira seraya memeluk lenganku bangga di depan instalasi videoku."
+      html: "\"Arya! Karyamu keren banget!\" seru Fifa seraya memeluk lenganku bangga di depan instalasi videoku."
     },
     {
       type: "paragraph",
@@ -32,11 +32,11 @@ export const BAB_7: Chapter = {
     },
     {
       type: "dialogue",
-      html: "\"Luar biasa, Mas Arga,\" Mas Edwin mengulurkan tangannya seraya tersenyum kagum. \"Sentuhan warna sama framing sinematografinya sangat matang untuk ukuran mahasiswa sarjana muda. Fira sering cerita soal etos kerjamu di studio, tapi melihat karyamu langsung sore ini... saya yakin kamu punya masa depan yang sangat besar di industri audio-visual tanah air.\""
+      html: "\"Luar biasa, Mas Arya,\" Mas Edwin mengulurkan tangannya seraya tersenyum kagum. \"Sentuhan warna sama framing sinematografinya sangat matang untuk ukuran mahasiswa sarjana muda. Fifa sering cerita soal etos kerjamu di studio, tapi melihat karyamu langsung sore ini... saya yakin kamu punya masa depan yang sangat besar di industri audio-visual tanah air.\""
     },
     {
       type: "paragraph",
-      html: "Mendengar pujian dari seorang direktur kreatif agensi ternama itu, dadaku bergemuruh oleh rasa syukur yang luar biasa. Di sampingku, Fira tersenyum lebar dengan mata berbinar-binar penuh kebanggaan. Sore itu di lantai galeri seni, keraguan atas masa depanku perlahan terkikis oleh pengakuan nyata atas karyaku."
+      html: "Mendengar pujian dari seorang direktur kreatif agensi ternama itu, dadaku bergemuruh oleh rasa syukur yang luar biasa. Di sampingku, Fifa tersenyum lebar dengan mata berbinar-binar penuh kebanggaan. Sore itu di lantai galeri seni, keraguan atas masa depanku perlahan terkikis oleh pengakuan nyata atas karyaku."
     }
   ]
 };

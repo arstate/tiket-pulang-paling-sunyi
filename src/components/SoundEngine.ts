@@ -371,16 +371,95 @@ class SoundEngine {
     }
   }
 
+  // Autoplay Unlock Gesture Listeners for mobile & desktop browser policies
+  private pendingUnlockHandler: (() => void) | null = null;
+  private readonly unlockEvents = [
+    "pointerdown",
+    "touchstart",
+    "mousedown",
+    "keydown",
+    "scroll",
+    "wheel",
+  ] as const;
+
+  public removeUnlockListeners() {
+    if (typeof window === "undefined" || !this.pendingUnlockHandler) return;
+    const handler = this.pendingUnlockHandler;
+    this.unlockEvents.forEach((evt) => {
+      try {
+        window.removeEventListener(evt, handler, { capture: true } as any);
+        window.removeEventListener(evt, handler);
+        document.removeEventListener(evt, handler, { capture: true } as any);
+        document.removeEventListener(evt, handler);
+      } catch {
+        // ignore
+      }
+    });
+    this.pendingUnlockHandler = null;
+  }
+
+  public async playWithAutoplayFallback(
+    trackId?: TrackId,
+    onSuccess?: (track: TrackInfo) => void
+  ): Promise<boolean> {
+    const targetTrackId = trackId || this.currentTrackId;
+
+    // Attempt direct unmuted .play()
+    const started = await this.start(targetTrackId);
+    if (started) {
+      if (onSuccess) onSuccess(this.getCurrentTrackInfo());
+      return true;
+    }
+
+    // Direct play was blocked by browser policy (NotAllowedError)
+    // Attach one-time interaction listeners to immediately start as soon as user touches/scrolls/taps
+    if (typeof window === "undefined") return false;
+
+    this.removeUnlockListeners();
+
+    const unlockHandler = async () => {
+      this.removeUnlockListeners();
+      const ok = await this.start(targetTrackId);
+      if (ok && onSuccess) {
+        onSuccess(this.getCurrentTrackInfo());
+      }
+    };
+
+    this.pendingUnlockHandler = unlockHandler;
+    this.unlockEvents.forEach((evt) => {
+      try {
+        window.addEventListener(evt, unlockHandler, { once: true, passive: true, capture: true });
+        document.addEventListener(evt, unlockHandler, { once: true, passive: true, capture: true });
+      } catch {
+        // ignore
+      }
+    });
+
+    return false;
+  }
+
   public async start(initialTrackId?: TrackId): Promise<boolean> {
     try {
       this.init();
       if (!this.audioCtx) return false;
 
+      const targetId = initialTrackId || this.currentTrackId;
+
+      // If already playing the exact track, do not restart
+      if (this.isRunning && targetId === this.currentTrackId) {
+        return true;
+      }
+
+      // If already running a different track, crossfade smoothly
+      if (this.isRunning && targetId !== this.currentTrackId) {
+        await this.transitionToTrack(targetId, 4.0);
+        return true;
+      }
+
       if (this.audioCtx.state === "suspended") {
         await this.audioCtx.resume();
       }
 
-      const targetId = initialTrackId || this.currentTrackId;
       this.currentTrackId = targetId;
 
       const track = this.getTrack(targetId);
@@ -417,6 +496,7 @@ class SoundEngine {
   }
 
   public stop() {
+    this.removeUnlockListeners();
     this.stopLoopMonitor();
     try {
       if (this.audioA) {

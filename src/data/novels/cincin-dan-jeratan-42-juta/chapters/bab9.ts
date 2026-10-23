@@ -5,26 +5,26 @@ export const BAB_9: Chapter = {
   number: "Bab 9",
   title: "Dua Tiket Menembus Malam",
   fullTitle: "BAB 9: Dua Tiket Menembus Malam",
-  excerpt: "Tangis Fira meledak di pundak jaket denimku di bawah gemericik hujan halte bus...",
+  excerpt: "Tangis Fifa meledak di pundak jaket denimku di bawah gemericik hujan halte bus...",
   wordCount: 1360,
   readTimeMinutes: 7,
   isFinal: false,
   paragraphs: [
     {
       type: "paragraph",
-      html: "Tangis Fira meledak di pundak jaket denimku di bawah gemericik hujan halte bus Jalan Darmo yang kian menderas. Di antara isak tangisnya yang pedih, aku menceritakan seluruh kronologi malapetaka yang menimpaku: jebakan SPK Mas Bram di Jatim Expo, kaburnya panitia dengan dana miliaran, tagihan utang vendor empat puluh dua juta rupiah, hingga rencanaku untuk mengejar bendahara konsorsium ke Banyuwangi malam ini juga."
+      html: "Tangis Fifa meledak di pundak jaket denimku di bawah gemericik hujan halte bus Jalan Darmo yang kian menderas. Di antara isak tangisnya yang pedih, aku menceritakan seluruh kronologi malapetaka yang menimpaku: jebakan SPK Mas Bram di Jatim Expo, kaburnya panitia dengan dana miliaran, tagihan utang vendor empat puluh dua juta rupiah, hingga rencanaku untuk mengejar bendahara konsorsium ke Banyuwangi malam ini juga."
     },
     {
       type: "dialogue",
-      html: "\"Fira, tolong dengerin aku...\" bisikku seraya menatap kedua matanya yang memerah basah. \"Malam ini kamu pulang ke kosan, kemasi barangmu, dan langsung naik travel pulang ke rumah orang tuamu di Jember. Kamu gak boleh ada di Surabaya besok pagi. Biar urusan utang ini aku selesaikan sendiri di Banyuwangi. Aku gak akan pernah maafin diriku kalau sampai ada satu helai rambutmu yang tersakiti gara-gara kebodohanku!\""
+      html: "\"Fifa, tolong dengerin aku...\" bisikku seraya menatap kedua matanya yang memerah basah. \"Malam ini kamu pulang ke kosan, kemasi barangmu, dan langsung naik travel pulang ke rumah orang tuamu di Jember. Kamu gak boleh ada di Surabaya besok pagi. Biar urusan utang ini aku selesaikan sendiri di Banyuwangi. Aku gak akan pernah maafin diriku kalau sampai ada satu helai rambutmu yang tersakiti gara-gara kebodohanku!\""
     },
     {
       type: "paragraph",
-      html: "Mendengar permohonanku, Fira justru menggelengkan kepalanya kuat-kuat. Tangannya yang mungil mencengkeram kerah jaketku dengan kekuatan yang luar biasa dahsyat:"
+      html: "Mendengar permohonanku, Fifa justru menggelengkan kepalanya kuat-kuat. Tangannya yang mungil mencengkeram kerah jaketku dengan kekuatan yang luar biasa dahsyat:"
     },
     {
       type: "dialogue",
-      html: "\"Kamu pikir aku perempuan macam apa, Arga?!\" teriaknya di sela tangis yang membelah deru hujan. \"Kamu pikir aku cuma mau nemenin kamu pas kamu sukses dan bangga di pameran seni kampus?! Dari hari pertama kita di Air Terjun Tancak, kita udah sumpah buat gak pernah ngelepasin tangan satu sama lain dalam badai apa pun! Kalau malam ini kamu harus ke ujung timur Jawa buat bertaruh nyawa... aku bakal ikut di sampingmu! Ke mana pun kamu melangkah, aku ikut! Paham kamu?!\""
+      html: "\"Kamu pikir aku perempuan macam apa, Arya?!\" teriaknya di sela tangis yang membelah deru hujan. \"Kamu pikir aku cuma mau nemenin kamu pas kamu sukses dan bangga di pameran seni kampus?! Dari hari pertama kita di Air Terjun Tancak, kita udah sumpah buat gak pernah ngelepasin tangan satu sama lain dalam badai apa pun! Kalau malam ini kamu harus ke ujung timur Jawa buat bertaruh nyawa... aku bakal ikut di sampingmu! Ke mana pun kamu melangkah, aku ikut! Paham kamu?!\""
     },
     {
       type: "paragraph",

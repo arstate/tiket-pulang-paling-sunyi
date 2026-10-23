@@ -20,7 +20,7 @@ export const BAB_6: Chapter = {
     },
     {
       type: "dialogue",
-      html: "\"Halo, Arga Prasetya. Kamu pikir kamu bisa sembunyi dari kami?\" tawa dingin pria itu menyayat gendang telingaku."
+      html: "\"Halo, Arya Prasetya. Kamu pikir kamu bisa sembunyi dari kami?\" tawa dingin pria itu menyayat gendang telingaku."
     },
     {
       type: "dialogue",
@@ -28,15 +28,15 @@ export const BAB_6: Chapter = {
     },
     {
       type: "dialogue",
-      html: "\"Gak ada waktu lagi, bocah!\" potong pria itu dengan nada mengancam yang membekukan darah. \"Tahu gak sekarang kami lagi ada di mana? Kami lagi duduk di warung kopi seberang ruko agensi periklanan di Jalan Darmo. Pacarmu yang namanya Fira Azzahra itu... manis juga ya kalau dilihat dari jauh pakai pashmina cokelat. Kebetulan banget ruang kerjanya di lantai tiga keliatan jelas dari sini!\""
+      html: "\"Gak ada waktu lagi, bocah!\" potong pria itu dengan nada mengancam yang membekukan darah. \"Tahu gak sekarang kami lagi ada di mana? Kami lagi duduk di warung kopi seberang ruko agensi periklanan di Jalan Darmo. Pacarmu yang namanya Fifa Azzahra itu... manis juga ya kalau dilihat dari jauh pakai pashmina cokelat. Kebetulan banget ruang kerjanya di lantai tiga keliatan jelas dari sini!\""
     },
     {
       type: "paragraph",
-      html: "Mendengar nama Fira disebut dengan nada serendah itu, jantungku rasanya berhenti berdetak seketika. Seluruh sendi kakiku mendadak kehilangan tenaga hingga aku harus bersandar ke dinding tembok gang."
+      html: "Mendengar nama Fifa disebut dengan nada serendah itu, jantungku rasanya berhenti berdetak seketika. Seluruh sendi kakiku mendadak kehilangan tenaga hingga aku harus bersandar ke dinding tembok gang."
     },
     {
       type: "dialogue",
-      html: "\"Jangan sentuh Fira! Demi Allah jangan bawa-bawa dia! Dia gak tahu apa-apa soal utang ini!\" jeritku histeris dengan suara tercekat menahan tangis."
+      html: "\"Jangan sentuh Fifa! Demi Allah jangan bawa-bawa dia! Dia gak tahu apa-apa soal utang ini!\" jeritku histeris dengan suara tercekat menahan tangis."
     },
     {
       type: "dialogue",

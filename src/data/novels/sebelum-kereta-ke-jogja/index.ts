@@ -25,7 +25,7 @@ export const SEBELUM_KERETA_KE_JOGJA_DATA: NovelData = {
   coverAccent: "#2E5C6E",
   featured: false,
   totalChapters: 10,
-  synopsis: "Pertemuan tak sengaja di studio event organizer Surabaya mempertemukan Arga, siswa SMK DKV yang dingin dan pendiam, dengan Fira, mahasiswi KPI asal Jember yang empat tahun lebih tua. Berawal dari kartu memori konser Jatim Expo dan balasan story lukisan burung hantu, benih cinta tumbuh di tengah retaknya hubungan masa lalu masing-masing. Diuji oleh gunjingan selisih usia, keterbatasan status, dan godaan mantan di Yogyakarta, Fira dan Arga mengikat janji suci tanpa nama di peron Stasiun Gubeng sebelum kereta membawanya pulang.",
+  synopsis: "Pertemuan tak sengaja di studio event organizer Surabaya mempertemukan Arya, siswa SMK DKV yang dingin dan pendiam, dengan Fifa, mahasiswi KPI asal Jember yang empat tahun lebih tua. Berawal dari kartu memori konser Jatim Expo dan balasan story lukisan burung hantu, benih cinta tumbuh di tengah retaknya hubungan masa lalu masing-masing. Diuji oleh gunjingan selisih usia, keterbatasan status, dan godaan mantan di Yogyakarta, Fifa dan Arya mengikat janji suci tanpa nama di peron Stasiun Gubeng sebelum kereta membawanya pulang.",
   quote: "Sebelum peluit kondektur kereta berbunyi membelah malam, aku sudah tahu: ke mana pun langkah kakiku berkelana, matamulah stasiun akhir tempat hatiku ingin pulang.",
   totalWords: 13295,
   totalReadTimeMinutes: 66,

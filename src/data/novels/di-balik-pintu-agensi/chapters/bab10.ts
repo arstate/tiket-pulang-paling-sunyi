@@ -12,11 +12,11 @@ export const BAB_10: Chapter = {
   paragraphs: [
     {
       type: "paragraph",
-      html: "Ujung pena bertinta hitam itu menyentuh permukaan kertas berkop resmi bermeterai sepuluh ribu dengan sedikit getaran di ujung jariku. Di bawah tatapan mata Mas Bram yang tersenyum ramah dan kepulan asap rokok warkop kampus, sebuah goresan tanda tangan dengan nama terangnya terpatri resmi di sudut kanan bawah: *Arga Prasetya — Penjamin Teknis & Pelaksana Produksi Lapangan*."
+      html: "Ujung pena bertinta hitam itu menyentuh permukaan kertas berkop resmi bermeterai sepuluh ribu dengan sedikit getaran di ujung jariku. Di bawah tatapan mata Mas Bram yang tersenyum ramah dan kepulan asap rokok warkop kampus, sebuah goresan tanda tangan dengan nama terangnya terpatri resmi di sudut kanan bawah: *Arya Prasetya — Penjamin Teknis & Pelaksana Produksi Lapangan*."
     },
     {
       type: "paragraph",
-      html: "Mas Bram menarik lembaran dokumen itu dengan cepat, meniup tinta yang masih basah, lalu menjabat tanganku erat-erat seraya menepuk bahuku keras: \"Selamat bergabung di proyek raksasa, Arga. Minggu depan seluruh peralatan LED screen sama rig panggung mulai masuk ke Jatim Expo. Fokus siapin konsep visualmu yang terbaik. Setelah acara ini beres, hidupmu bakal berubah total!\""
+      html: "Mas Bram menarik lembaran dokumen itu dengan cepat, meniup tinta yang masih basah, lalu menjabat tanganku erat-erat seraya menepuk bahuku keras: \"Selamat bergabung di proyek raksasa, Arya. Minggu depan seluruh peralatan LED screen sama rig panggung mulai masuk ke Jatim Expo. Fokus siapin konsep visualmu yang terbaik. Setelah acara ini beres, hidupmu bakal berubah total!\""
     },
     {
       type: "paragraph",
@@ -24,27 +24,27 @@ export const BAB_10: Chapter = {
     },
     {
       type: "paragraph",
-      html: "Di depan lobi kaca ruko agensi, Fira melangkah keluar dengan senyuman manisnya yang khas. Sore itu ia mengenakan kemeja katun bergaris lembut dan kerudung cokelat muda. Melihat sosokku yang berdiri bersandar di motorku dengan senyuman lebar yang tak mampu kusembunyikan, kedua alisnya terangkat heran."
+      html: "Di depan lobi kaca ruko agensi, Fifa melangkah keluar dengan senyuman manisnya yang khas. Sore itu ia mengenakan kemeja katun bergaris lembut dan kerudung cokelat muda. Melihat sosokku yang berdiri bersandar di motorku dengan senyuman lebar yang tak mampu kusembunyikan, kedua alisnya terangkat heran."
     },
     {
       type: "dialogue",
-      html: "\"Beb Arga... kamu kenapa senyum-senyum sendiri dari tadi?\" godanya seraya menerima helm bogo merah mudanya. \"Ada kabar gembira apa emang dari kampus?\""
+      html: "\"Beb Arya... kamu kenapa senyum-senyum sendiri dari tadi?\" godanya seraya menerima helm bogo merah mudanya. \"Ada kabar gembira apa emang dari kampus?\""
     },
     {
       type: "paragraph",
-      html: "Kami berhenti di sebuah warung tenda bakso urat di tepi jalan Dinoyo untuk makan malam. Di bawah pendaran lampu bohlam kuning tenda kaki lima itu, aku menggenggam kedua tangan Fira di atas meja kayu."
+      html: "Kami berhenti di sebuah warung tenda bakso urat di tepi jalan Dinoyo untuk makan malam. Di bawah pendaran lampu bohlam kuning tenda kaki lima itu, aku menggenggam kedua tangan Fifa di atas meja kayu."
     },
     {
       type: "dialogue",
-      html: "\"Fira... sebulan lagi, setelah proyek pameran akbar di Jatim Expo selesai dan sidang tugas akhirku beres... aku bakal bawa kabar paling membahagiakan buat kamu dan orang tuamu di Jember,\" bisikku dengan mata yang menatapnya penuh cinta dan keyakinan mutlak."
+      html: "\"Fifa... sebulan lagi, setelah proyek pameran akbar di Jatim Expo selesai dan sidang tugas akhirku beres... aku bakal bawa kabar paling membahagiakan buat kamu dan orang tuamu di Jember,\" bisikku dengan mata yang menatapnya penuh cinta dan keyakinan mutlak."
     },
     {
       type: "paragraph",
-      html: "Mendengar ucapanku, Fira tertegun sejenak. Matanya yang bulat memancarkan binar kebahagiaan yang teramat dalam, lalu senyum haru merekah di paras cantiknya. Tangannya meremas balik jemariku dengan erat:"
+      html: "Mendengar ucapanku, Fifa tertegun sejenak. Matanya yang bulat memancarkan binar kebahagiaan yang teramat dalam, lalu senyum haru merekah di paras cantiknya. Tangannya meremas balik jemariku dengan erat:"
     },
     {
       type: "dialogue",
-      html: "\"Aku selalu percaya sama kamu, Arga. Sejak hari pertama kamu kasih aku teh di tangga darurat, aku tahu kamu laki-laki yang gak akan pernah ingkar janji. Aku tunggu kamu ya, Beb...\""
+      html: "\"Aku selalu percaya sama kamu, Arya. Sejak hari pertama kamu kasih aku teh di tangga darurat, aku tahu kamu laki-laki yang gak akan pernah ingkar janji. Aku tunggu kamu ya, Beb...\""
     },
     {
       type: "paragraph",
