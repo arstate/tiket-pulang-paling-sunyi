@@ -1,11 +1,13 @@
 import { NovelData, NovelMetadata } from "../types/novel";
 import { TIKET_PULANG_DATA } from "./novels/tiket-pulang-paling-sunyi";
 import { SEBELUM_KERETA_KE_JOGJA_DATA } from "./novels/sebelum-kereta-ke-jogja";
+import { BUKET_BUNGA_DAN_TOGA_DATA } from "./novels/buket-bunga-dan-toga";
 
 // Central Novel Registry
 const NOVELS_DB: Record<string, NovelData> = {
   "tiket-pulang-paling-sunyi": TIKET_PULANG_DATA,
   "sebelum-kereta-ke-jogja": SEBELUM_KERETA_KE_JOGJA_DATA,
+  "buket-bunga-dan-toga": BUKET_BUNGA_DAN_TOGA_DATA,
 };
 
 // Pentalogi Semesta Tiket Pulang Catalog
@@ -30,22 +32,22 @@ const CATALOG_METADATA: NovelMetadata[] = [
     featured: false,
   },
   {
-    slug: "buket-bunga-dan-toga",
-    title: "Buket Bunga dan Toga",
-    subtitle: "Sebuah Novel Karya Bachtiar Aryansyah Putra",
-    seriesName: "Pentalogi Semesta Tiket Pulang",
-    seriesPart: "Buku Kedua: Sidoarjo, Jember & Surprise Wisuda",
-    tagline: "Menempuh ratusan kilometer aspal malam demi lima belas menit senyuman di hari wisuda",
-    author: "Bachtiar Aryansyah Putra",
-    genre: "Drama Realis / Perjuangan Cinta LDR",
-    totalChapters: 10,
-    totalWords: 11200,
-    totalReadTimeMinutes: 52,
-    synopsis: "Jarak ratusan kilometer antara Sidoarjo dan Jember menjadi saksi perjuangan Arga. Dengan sepeda motor bebek tua dan saku celana yang nyaris kosong, ia menembus dinginnya jalur Gumitir di tengah malam hanya demi mengantarkan sebuket bunga edelweis dan menyaksikan Fira mengenakan toga wisuda.",
-    quote: "Toga itu mungkin tanda kelulusanmu dari universitas, Fira. Tapi bagiku, senyummu di bawah terik podium wisuda adalah awal dari sumpah baktiku seumur hidup.",
-    status: "Segera Terbit",
-    publishDate: "Segera Hadir",
-    coverAccent: "#6B4C7D",
+    slug: BUKET_BUNGA_DAN_TOGA_DATA.slug,
+    title: BUKET_BUNGA_DAN_TOGA_DATA.title,
+    subtitle: BUKET_BUNGA_DAN_TOGA_DATA.subtitle,
+    seriesName: BUKET_BUNGA_DAN_TOGA_DATA.seriesName,
+    seriesPart: BUKET_BUNGA_DAN_TOGA_DATA.seriesPart,
+    tagline: BUKET_BUNGA_DAN_TOGA_DATA.tagline,
+    author: BUKET_BUNGA_DAN_TOGA_DATA.author,
+    genre: BUKET_BUNGA_DAN_TOGA_DATA.genre,
+    totalChapters: BUKET_BUNGA_DAN_TOGA_DATA.totalChapters,
+    totalWords: BUKET_BUNGA_DAN_TOGA_DATA.totalWords,
+    totalReadTimeMinutes: BUKET_BUNGA_DAN_TOGA_DATA.totalReadTimeMinutes,
+    synopsis: BUKET_BUNGA_DAN_TOGA_DATA.synopsis,
+    quote: BUKET_BUNGA_DAN_TOGA_DATA.quote,
+    status: BUKET_BUNGA_DAN_TOGA_DATA.status,
+    publishDate: BUKET_BUNGA_DAN_TOGA_DATA.publishDate,
+    coverAccent: BUKET_BUNGA_DAN_TOGA_DATA.coverAccent,
     featured: false,
   },
   {
