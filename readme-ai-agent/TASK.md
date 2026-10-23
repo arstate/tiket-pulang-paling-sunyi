@@ -39,3 +39,10 @@
 - [x] Sinkronkan master file markdown naskah lengkap di `NOVEL_SEBELUM_KERETA_KE_JOGJA.md`.
 - [x] Verifikasi build statis Next.js (7/7 static routes: `/sebelum-kereta-ke-jogja` aktif dan responsif).
 - [x] Git commit dan push ke remote repository.
+
+## Fase 8: Publikasi Naskah Lengkap Buku 2 (Buket Bunga dan Toga)
+- [x] Tulis dan integrasikan 10 Bab lengkap (13.550 kata) di `src/data/novels/buket-bunga-dan-toga/chapters/` (Bab 1 s/d Bab 10).
+- [x] Rilis data novel di `src/data/novels/buket-bunga-dan-toga/index.ts` dan registrasikan di `src/data/novelRegistry.ts` dengan status "Tamat".
+- [x] Sinkronkan master file markdown naskah lengkap di `NOVEL_BUKET_BUNGA_DAN_TOGA.md`.
+- [x] Verifikasi build statis Next.js (8/8 static routes: `/buket-bunga-dan-toga` aktif dan responsif).
+- [x] Git commit dan push ke remote repository.
