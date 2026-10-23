@@ -2,6 +2,7 @@
 
 import { Chapter } from "@/types/novel";
 import { useEffect } from "react";
+import SeriesSwitcher from "@/components/SeriesSwitcher";
 
 interface TocDrawerProps {
   isOpen: boolean;
@@ -10,6 +11,7 @@ interface TocDrawerProps {
   activeChapterId: number;
   onSelectChapter: (id: number) => void;
   onSelectHome: () => void;
+  novelSlug?: string;
 }
 
 export default function TocDrawer({
@@ -19,6 +21,7 @@ export default function TocDrawer({
   activeChapterId,
   onSelectChapter,
   onSelectHome,
+  novelSlug = "tiket-pulang-paling-sunyi",
 }: TocDrawerProps) {
   // Close on Escape key
   useEffect(() => {
@@ -88,6 +91,11 @@ export default function TocDrawer({
 
         {/* Chapter List */}
         <div className="flex-1 overflow-y-auto p-4 space-y-2.5">
+          {/* Episode Switcher in Drawer */}
+          <div className="pb-3 border-b border-[var(--border-subtle)]">
+            <SeriesSwitcher currentSlug={novelSlug} compact={true} />
+          </div>
+
           {/* Catalog Link */}
           <a
             href="/"

@@ -1,6 +1,7 @@
 "use client";
 
 import { Chapter, NovelData } from "@/types/novel";
+import SeriesSwitcher from "@/components/SeriesSwitcher";
 
 interface HeroCoverProps {
   novel: NovelData;
@@ -18,7 +19,10 @@ export default function HeroCover({
   const continueChapter = novel.chapters.find((c) => c.id === lastReadChapterId);
 
   return (
-    <main className="max-w-4xl mx-auto px-4 py-8 sm:py-14 animate-fadeIn">
+    <main className="max-w-4xl mx-auto px-4 py-6 sm:py-10 animate-fadeIn">
+      {/* 0. Episode / Series Switcher */}
+      <SeriesSwitcher currentSlug={novel.slug} className="mb-6 sm:mb-8" />
+
       {/* Cover Card */}
       <article className="bg-[var(--bg-card)] border border-[var(--border-subtle)] rounded-2xl p-6 sm:p-10 shadow-card transition-colors duration-200">
         <div className="flex flex-wrap items-center gap-2 mb-4">

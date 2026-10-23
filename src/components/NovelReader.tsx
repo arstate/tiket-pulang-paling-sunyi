@@ -362,6 +362,7 @@ export default function NovelReader({ novel, soundscape }: NovelReaderProps) {
           totalChapters={novel.chapters.length}
           settings={settings}
           progress={scrollProgress}
+          novelSlug={novel.slug}
           onPrevChapter={handlePrevChapter}
           onNextChapter={handleNextChapter}
           onOpenToc={() => setIsTocOpen(true)}
@@ -376,6 +377,7 @@ export default function NovelReader({ novel, soundscape }: NovelReaderProps) {
         onClose={() => setIsTocOpen(false)}
         chapters={novel.chapters}
         activeChapterId={activeChapterId}
+        novelSlug={novel.slug}
         onSelectChapter={handleSelectChapter}
         onSelectHome={handleGoHome}
       />

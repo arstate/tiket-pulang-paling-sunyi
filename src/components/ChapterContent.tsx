@@ -10,6 +10,7 @@ interface ChapterContentProps {
   totalChapters: number;
   settings: ReaderSettings;
   progress: number;
+  novelSlug?: string;
   onPrevChapter: () => void;
   onNextChapter: () => void;
   onOpenToc: () => void;
@@ -17,17 +18,47 @@ interface ChapterContentProps {
   onSceneChange?: (trackId: TrackId) => void;
 }
 
+const NEXT_BOOK_MAP: Record<string, { slug: string; title: string; label: string }> = {
+  "sebelum-kereta-ke-jogja": {
+    slug: "buket-bunga-dan-toga",
+    title: "Lanjut Buku 2: Buket Bunga dan Toga",
+    label: "Episode 2 Berikutnya",
+  },
+  "buket-bunga-dan-toga": {
+    slug: "di-balik-pintu-agensi",
+    title: "Lanjut Buku 3: Di Balik Pintu Agensi",
+    label: "Episode 3 Berikutnya",
+  },
+  "di-balik-pintu-agensi": {
+    slug: "cincin-dan-jeratan-42-juta",
+    title: "Lanjut Buku 4: Cincin & Jeratan 42 Juta",
+    label: "Episode 4 Berikutnya",
+  },
+  "cincin-dan-jeratan-42-juta": {
+    slug: "tiket-pulang-paling-sunyi",
+    title: "Lanjut Buku 5: Tiket Pulang Paling Sunyi",
+    label: "Puncak Tragedi (Master Piece)",
+  },
+  "tiket-pulang-paling-sunyi": {
+    slug: "sebelum-kereta-ke-jogja",
+    title: "Kembali ke Buku 1: Sebelum Kereta ke Jogja",
+    label: "Awal Mula Pertemuan",
+  },
+};
+
 export default function ChapterContent({
   chapter,
   totalChapters,
   settings,
   progress,
+  novelSlug = "tiket-pulang-paling-sunyi",
   onPrevChapter,
   onNextChapter,
   onOpenToc,
   onGoHome,
   onSceneChange,
 }: ChapterContentProps) {
+  const nextBookInfo = NEXT_BOOK_MAP[novelSlug] || NEXT_BOOK_MAP["tiket-pulang-paling-sunyi"];
   const containerRef = useRef<HTMLDivElement>(null);
 
   // In-Chapter Scene Waypoint Observer for Adaptive BGM
@@ -251,18 +282,18 @@ export default function ChapterContent({
             </button>
           ) : (
             <a
-              href="/"
-              className="group flex flex-col items-end p-4 rounded-xl border border-accent/40 bg-accent/10 hover:bg-accent hover:text-white transition-all text-right sm:col-start-2"
+              href={`/${nextBookInfo.slug}/`}
+              className="group flex flex-col items-end p-4 rounded-xl border border-accent/40 bg-accent/10 hover:bg-accent hover:text-white transition-all text-right sm:col-start-2 shadow-sm"
             >
-              <span className="text-[11px] uppercase tracking-wider text-accent group-hover:text-white flex items-center gap-1">
-                Pentalogi Semesta
+              <span className="text-[11px] uppercase tracking-wider text-accent group-hover:text-white flex items-center gap-1 font-semibold">
+                {nextBookInfo.label}
                 <svg className="w-3.5 h-3.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                   <path d="M5 12h14"></path>
                   <path d="m12 5 7 7-7 7"></path>
                 </svg>
               </span>
               <span className="font-semibold text-sm text-[var(--text-primary)] group-hover:text-white mt-1">
-                Jelajahi 4 Prekuel di Katalog
+                {nextBookInfo.title}
               </span>
             </a>
           )}

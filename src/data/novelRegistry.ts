@@ -2,15 +2,19 @@ import { NovelData, NovelMetadata } from "../types/novel";
 import { TIKET_PULANG_DATA } from "./novels/tiket-pulang-paling-sunyi";
 import { SEBELUM_KERETA_KE_JOGJA_DATA } from "./novels/sebelum-kereta-ke-jogja";
 import { BUKET_BUNGA_DAN_TOGA_DATA } from "./novels/buket-bunga-dan-toga";
+import { DI_BALIK_PINTU_AGENSI_DATA } from "./novels/di-balik-pintu-agensi";
+import { CINCIN_DAN_JERATAN_42_JUTA_DATA } from "./novels/cincin-dan-jeratan-42-juta";
 
 // Central Novel Registry
 const NOVELS_DB: Record<string, NovelData> = {
-  "tiket-pulang-paling-sunyi": TIKET_PULANG_DATA,
   "sebelum-kereta-ke-jogja": SEBELUM_KERETA_KE_JOGJA_DATA,
   "buket-bunga-dan-toga": BUKET_BUNGA_DAN_TOGA_DATA,
+  "di-balik-pintu-agensi": DI_BALIK_PINTU_AGENSI_DATA,
+  "cincin-dan-jeratan-42-juta": CINCIN_DAN_JERATAN_42_JUTA_DATA,
+  "tiket-pulang-paling-sunyi": TIKET_PULANG_DATA,
 };
 
-// Pentalogi Semesta Tiket Pulang Catalog
+// Pentalogi Semesta Tiket Pulang Catalog (Urutan Kronologis Buku 1 s/d Buku 5)
 const CATALOG_METADATA: NovelMetadata[] = [
   {
     slug: SEBELUM_KERETA_KE_JOGJA_DATA.slug,
@@ -51,41 +55,41 @@ const CATALOG_METADATA: NovelMetadata[] = [
     featured: false,
   },
   {
-    slug: "di-balik-pintu-agensi",
-    title: "Di Balik Pintu Agensi",
-    subtitle: "Sebuah Novel Karya Bachtiar Aryansyah Putra",
-    seriesName: "Pentalogi Semesta Tiket Pulang",
-    seriesPart: "Buku Ketiga: Dunia Agensi & Kuliah DKV",
-    tagline: "Begadang demi revisi klien ke-14, lembur demi tabungan masa depan bersama",
-    author: "Bachtiar Aryansyah Putra",
-    genre: "Drama Karir / Realitas Kreatif & Cinta Urban",
-    totalChapters: 10,
-    totalWords: 12500,
-    totalReadTimeMinutes: 58,
-    synopsis: "Memasuki babak baru kehidupan profesional di Surabaya. Arga dan Fira berjuang merintis karir di industri kreatif periklanan seraya menyelesaikan kuliah DKV. Menghadapi klien korporat yang kejam, deadline tender yang mencekik, monitor komputer yang hang saat rendering tengah malam, serta mimpi nekat mendirikan studio agensi independen mereka sendiri.",
-    quote: "Layar monitor boleh menyala sampai subuh dan klien boleh mencaci, tapi alasan aku tak pernah melempar handuk adalah secangkir kopi hitam yang kau letakkan di samping keyboard-ku.",
-    status: "Segera Terbit",
-    publishDate: "Segera Hadir",
-    coverAccent: "#1E5E4E",
+    slug: DI_BALIK_PINTU_AGENSI_DATA.slug,
+    title: DI_BALIK_PINTU_AGENSI_DATA.title,
+    subtitle: DI_BALIK_PINTU_AGENSI_DATA.subtitle,
+    seriesName: DI_BALIK_PINTU_AGENSI_DATA.seriesName,
+    seriesPart: DI_BALIK_PINTU_AGENSI_DATA.seriesPart,
+    tagline: DI_BALIK_PINTU_AGENSI_DATA.tagline,
+    author: DI_BALIK_PINTU_AGENSI_DATA.author,
+    genre: DI_BALIK_PINTU_AGENSI_DATA.genre,
+    totalChapters: DI_BALIK_PINTU_AGENSI_DATA.totalChapters,
+    totalWords: DI_BALIK_PINTU_AGENSI_DATA.totalWords,
+    totalReadTimeMinutes: DI_BALIK_PINTU_AGENSI_DATA.totalReadTimeMinutes,
+    synopsis: DI_BALIK_PINTU_AGENSI_DATA.synopsis,
+    quote: DI_BALIK_PINTU_AGENSI_DATA.quote,
+    status: DI_BALIK_PINTU_AGENSI_DATA.status,
+    publishDate: DI_BALIK_PINTU_AGENSI_DATA.publishDate,
+    coverAccent: DI_BALIK_PINTU_AGENSI_DATA.coverAccent,
     featured: false,
   },
   {
-    slug: "cincin-dan-jeratan-42-juta",
-    title: "Cincin & Jeratan 42 Juta",
-    subtitle: "Sebuah Novel Karya Bachtiar Aryansyah Putra",
-    seriesName: "Pentalogi Semesta Tiket Pulang",
-    seriesPart: "Buku Keempat: Semester Akhir & Utang Vendor",
-    tagline: "Ketika cinta harus bertarung melawan jeratan tagihan vendor dan sebuah janji cincin safir",
-    author: "Bachtiar Aryansyah Putra",
-    genre: "Drama Finansial / Ujian Pranikah / Tragedi",
-    totalChapters: 10,
-    totalWords: 13100,
-    totalReadTimeMinutes: 60,
-    synopsis: "Prequel paling krusial sebelum Tiket Pulang Paling Sunyi. Demi mewujudkan pernikahan impian dan modal agensi, Arga mengambil proyek pameran raksasa di Jatim Expo Surabaya. Malapetaka terjadi saat vendor kabur dan EO wanprestasi, meninggalkan tanggungan utang Rp 42 juta di pundak Arga. Di tengah teror penagih utang, Arga diam-diam memesan cincin safir dengan gravir rahasia yang kelak ditemukan di saku jaketnya.",
-    quote: "Bukan uang empat puluh dua juta yang meremukkan dadaku, Fira. Yang membuatku gemetar adalah ketakutan jika nafasku habis sebelum aku sempat menyematkan cincin ini di jari manismu.",
-    status: "Segera Terbit",
-    publishDate: "Segera Hadir",
-    coverAccent: "#8C4A2E",
+    slug: CINCIN_DAN_JERATAN_42_JUTA_DATA.slug,
+    title: CINCIN_DAN_JERATAN_42_JUTA_DATA.title,
+    subtitle: CINCIN_DAN_JERATAN_42_JUTA_DATA.subtitle,
+    seriesName: CINCIN_DAN_JERATAN_42_JUTA_DATA.seriesName,
+    seriesPart: CINCIN_DAN_JERATAN_42_JUTA_DATA.seriesPart,
+    tagline: CINCIN_DAN_JERATAN_42_JUTA_DATA.tagline,
+    author: CINCIN_DAN_JERATAN_42_JUTA_DATA.author,
+    genre: CINCIN_DAN_JERATAN_42_JUTA_DATA.genre,
+    totalChapters: CINCIN_DAN_JERATAN_42_JUTA_DATA.totalChapters,
+    totalWords: CINCIN_DAN_JERATAN_42_JUTA_DATA.totalWords,
+    totalReadTimeMinutes: CINCIN_DAN_JERATAN_42_JUTA_DATA.totalReadTimeMinutes,
+    synopsis: CINCIN_DAN_JERATAN_42_JUTA_DATA.synopsis,
+    quote: CINCIN_DAN_JERATAN_42_JUTA_DATA.quote,
+    status: CINCIN_DAN_JERATAN_42_JUTA_DATA.status,
+    publishDate: CINCIN_DAN_JERATAN_42_JUTA_DATA.publishDate,
+    coverAccent: CINCIN_DAN_JERATAN_42_JUTA_DATA.coverAccent,
     featured: false,
   },
   {
