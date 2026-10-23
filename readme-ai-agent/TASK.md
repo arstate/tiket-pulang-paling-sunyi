@@ -32,3 +32,10 @@
 - [x] Update antarmuka katalog `src/app/page.tsx` dengan badge `seriesPart` dan status "Segera Hadir".
 - [x] Polish Bab 10 (Epilog Cliffhanger di ambulans: tiket basah Banyuwangi, SD card Jatim Expo, cincin safir "Tunggu wisudaku, Fira", dan alarm asistol EKG "TIIIIIIIIIT!") di `index.ts` dan markdown source.
 - [x] Verifikasi zero build error via `npm run build` static export.
+
+## Fase 7: Publikasi Naskah Lengkap Buku 1 (Sebelum Kereta ke Jogja)
+- [x] Tulis dan integrasikan 10 Bab lengkap (13.295 kata) di `src/data/novels/sebelum-kereta-ke-jogja/chapters/` (Bab 1 s/d Bab 10).
+- [x] Rilis data novel di `src/data/novels/sebelum-kereta-ke-jogja/index.ts` dan registrasikan di `src/data/novelRegistry.ts` dengan status "Tamat".
+- [x] Sinkronkan master file markdown naskah lengkap di `NOVEL_SEBELUM_KERETA_KE_JOGJA.md`.
+- [x] Verifikasi build statis Next.js (7/7 static routes: `/sebelum-kereta-ke-jogja` aktif dan responsif).
+- [x] Git commit dan push ke remote repository.
