@@ -19,7 +19,7 @@ export default function HeroCover({
   const continueChapter = novel.chapters.find((c) => c.id === lastReadChapterId);
 
   return (
-    <main className="max-w-4xl mx-auto px-4 py-6 sm:py-10 animate-fadeIn">
+    <main className="max-w-5xl mx-auto px-4 py-6 sm:py-10 animate-fadeIn">
       {/* 0. Episode / Series Switcher */}
       <SeriesSwitcher currentSlug={novel.slug} className="mb-6 sm:mb-8" />
 

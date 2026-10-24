@@ -42,12 +42,32 @@ const NEXT_BOOK_MAP: Record<string, { slug: string; title: string; label: string
   "tiket-pulang-paling-sunyi": {
     slug: "garis-detak-kedua",
     title: "Lanjut Buku 6: Garis Detak Kedua",
-    label: "Episode 6: Miracle Survival",
+    label: "Episode 6 Berikutnya",
   },
   "garis-detak-kedua": {
+    slug: "adaptasi-desa",
+    title: "Lanjut Buku 7: Adaptasi Desa",
+    label: "Episode 7 Berikutnya",
+  },
+  "adaptasi-desa": {
+    slug: "misteri-mv-ibukota",
+    title: "Lanjut Buku 8: Misteri MV Ibukota",
+    label: "Episode 8 Berikutnya",
+  },
+  "misteri-mv-ibukota": {
+    slug: "keputusan-di-stasiun-gambir",
+    title: "Lanjut Buku 9: Keputusan di Stasiun Gambir",
+    label: "Episode 9 Berikutnya",
+  },
+  "keputusan-di-stasiun-gambir": {
+    slug: "ujian-puncak-kesadaran",
+    title: "Lanjut Buku 10: Ujian Puncak Kesadaran",
+    label: "Episode 10 Berikutnya",
+  },
+  "ujian-puncak-kesadaran": {
     slug: "",
-    title: "Koleksi Lengkap 6 Buku • Kembali ke Katalog",
-    label: "Tamat • Semesta Tiket Pulang",
+    title: "Koleksi Lengkap 10 Buku • Kembali ke Katalog",
+    label: "Tamat • Puncak Resolusi Semesta Tiket Pulang",
   },
 };
 

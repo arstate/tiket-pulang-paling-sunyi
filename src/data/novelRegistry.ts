@@ -8,6 +8,7 @@ import { GARIS_DETAK_KEDUA_DATA } from "./novels/garis-detak-kedua";
 import { ADAPTASI_DESA_DATA } from "./novels/adaptasi-desa";
 import { MISTERI_MV_IBUKOTA_DATA } from "./novels/misteri-mv-ibukota";
 import { KEPUTUSAN_DI_STASIUN_GAMBIR_DATA } from "./novels/keputusan-di-stasiun-gambir";
+import { UJIAN_PUNCAK_KESADARAN_DATA } from "./novels/ujian-puncak-kesadaran";
 
 // Central Novel Registry
 const NOVELS_DB: Record<string, NovelData> = {
@@ -20,9 +21,10 @@ const NOVELS_DB: Record<string, NovelData> = {
   "adaptasi-desa": ADAPTASI_DESA_DATA,
   "misteri-mv-ibukota": MISTERI_MV_IBUKOTA_DATA,
   "keputusan-di-stasiun-gambir": KEPUTUSAN_DI_STASIUN_GAMBIR_DATA,
+  "ujian-puncak-kesadaran": UJIAN_PUNCAK_KESADARAN_DATA,
 };
 
-// Semesta Tiket Pulang Catalog (Urutan Kronologis Buku 1 s/d Buku 7)
+// Semesta Tiket Pulang Catalog (Urutan Kronologis Buku 1 s/d Buku 10)
 const CATALOG_METADATA: NovelMetadata[] = [
   {
     slug: SEBELUM_KERETA_KE_JOGJA_DATA.slug,
@@ -117,7 +119,7 @@ const CATALOG_METADATA: NovelMetadata[] = [
     status: TIKET_PULANG_DATA.status,
     publishDate: TIKET_PULANG_DATA.publishDate,
     coverAccent: TIKET_PULANG_DATA.coverAccent,
-    featured: true,
+    featured: false,
   },
   {
     slug: GARIS_DETAK_KEDUA_DATA.slug,
@@ -194,6 +196,25 @@ const CATALOG_METADATA: NovelMetadata[] = [
     publishDate: KEPUTUSAN_DI_STASIUN_GAMBIR_DATA.publishDate,
     coverAccent: KEPUTUSAN_DI_STASIUN_GAMBIR_DATA.coverAccent,
     featured: false,
+  },
+  {
+    slug: UJIAN_PUNCAK_KESADARAN_DATA.slug,
+    title: UJIAN_PUNCAK_KESADARAN_DATA.title,
+    subtitle: UJIAN_PUNCAK_KESADARAN_DATA.subtitle,
+    seriesName: UJIAN_PUNCAK_KESADARAN_DATA.seriesName,
+    seriesPart: UJIAN_PUNCAK_KESADARAN_DATA.seriesPart,
+    tagline: UJIAN_PUNCAK_KESADARAN_DATA.tagline,
+    author: UJIAN_PUNCAK_KESADARAN_DATA.author,
+    genre: UJIAN_PUNCAK_KESADARAN_DATA.genre,
+    totalChapters: UJIAN_PUNCAK_KESADARAN_DATA.totalChapters,
+    totalWords: UJIAN_PUNCAK_KESADARAN_DATA.totalWords,
+    totalReadTimeMinutes: UJIAN_PUNCAK_KESADARAN_DATA.totalReadTimeMinutes,
+    synopsis: UJIAN_PUNCAK_KESADARAN_DATA.synopsis,
+    quote: UJIAN_PUNCAK_KESADARAN_DATA.quote,
+    status: UJIAN_PUNCAK_KESADARAN_DATA.status,
+    publishDate: UJIAN_PUNCAK_KESADARAN_DATA.publishDate,
+    coverAccent: UJIAN_PUNCAK_KESADARAN_DATA.coverAccent,
+    featured: true,
   },
 ];
 

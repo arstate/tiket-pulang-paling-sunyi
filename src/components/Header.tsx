@@ -35,7 +35,7 @@ export default function Header({
 }: HeaderProps) {
   return (
     <header className="sticky top-0 z-40 w-full backdrop-blur-md bg-[var(--bg-primary)]/90 border-b border-[var(--border-subtle)] transition-colors duration-200">
-      <div className="max-w-4xl mx-auto px-4 h-14 flex items-center justify-between gap-3">
+      <div className="max-w-5xl mx-auto px-4 h-14 flex items-center justify-between gap-3">
         {/* Left: Brand / Home */}
         <div className="flex items-center gap-1.5 -ml-2">
           <a

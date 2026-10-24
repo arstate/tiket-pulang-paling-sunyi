@@ -471,7 +471,7 @@ export default function NovelReader({ novel, soundscape }: NovelReaderProps) {
 
       {/* 8. Minimalist Literary Footer */}
       <footer className="mt-20 border-t border-[var(--border-subtle)] bg-[var(--bg-surface)]/60 py-10 transition-colors duration-200">
-        <div className="max-w-4xl mx-auto px-4 text-center">
+        <div className="max-w-5xl mx-auto px-4 text-center">
           <p className="font-serif italic text-sm sm:text-base text-[var(--text-secondary)] max-w-xl mx-auto mb-4 leading-relaxed">
             &ldquo;{novel.quote}&rdquo;
           </p>
