@@ -6,6 +6,7 @@ import { DI_BALIK_PINTU_AGENSI_DATA } from "./novels/di-balik-pintu-agensi";
 import { CINCIN_DAN_JERATAN_42_JUTA_DATA } from "./novels/cincin-dan-jeratan-42-juta";
 import { GARIS_DETAK_KEDUA_DATA } from "./novels/garis-detak-kedua";
 import { ADAPTASI_DESA_DATA } from "./novels/adaptasi-desa";
+import { MISTERI_MV_IBUKOTA_DATA } from "./novels/misteri-mv-ibukota";
 
 // Central Novel Registry
 const NOVELS_DB: Record<string, NovelData> = {
@@ -16,6 +17,7 @@ const NOVELS_DB: Record<string, NovelData> = {
   "tiket-pulang-paling-sunyi": TIKET_PULANG_DATA,
   "garis-detak-kedua": GARIS_DETAK_KEDUA_DATA,
   "adaptasi-desa": ADAPTASI_DESA_DATA,
+  "misteri-mv-ibukota": MISTERI_MV_IBUKOTA_DATA,
 };
 
 // Semesta Tiket Pulang Catalog (Urutan Kronologis Buku 1 s/d Buku 7)
@@ -151,6 +153,25 @@ const CATALOG_METADATA: NovelMetadata[] = [
     status: ADAPTASI_DESA_DATA.status,
     publishDate: ADAPTASI_DESA_DATA.publishDate,
     coverAccent: ADAPTASI_DESA_DATA.coverAccent,
+    featured: false,
+  },
+  {
+    slug: MISTERI_MV_IBUKOTA_DATA.slug,
+    title: MISTERI_MV_IBUKOTA_DATA.title,
+    subtitle: MISTERI_MV_IBUKOTA_DATA.subtitle,
+    seriesName: MISTERI_MV_IBUKOTA_DATA.seriesName,
+    seriesPart: MISTERI_MV_IBUKOTA_DATA.seriesPart,
+    tagline: MISTERI_MV_IBUKOTA_DATA.tagline,
+    author: MISTERI_MV_IBUKOTA_DATA.author,
+    genre: MISTERI_MV_IBUKOTA_DATA.genre,
+    totalChapters: MISTERI_MV_IBUKOTA_DATA.totalChapters,
+    totalWords: MISTERI_MV_IBUKOTA_DATA.totalWords,
+    totalReadTimeMinutes: MISTERI_MV_IBUKOTA_DATA.totalReadTimeMinutes,
+    synopsis: MISTERI_MV_IBUKOTA_DATA.synopsis,
+    quote: MISTERI_MV_IBUKOTA_DATA.quote,
+    status: MISTERI_MV_IBUKOTA_DATA.status,
+    publishDate: MISTERI_MV_IBUKOTA_DATA.publishDate,
+    coverAccent: MISTERI_MV_IBUKOTA_DATA.coverAccent,
     featured: false,
   },
 ];
