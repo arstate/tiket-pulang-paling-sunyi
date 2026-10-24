@@ -7,6 +7,7 @@ import { CINCIN_DAN_JERATAN_42_JUTA_DATA } from "./novels/cincin-dan-jeratan-42-
 import { GARIS_DETAK_KEDUA_DATA } from "./novels/garis-detak-kedua";
 import { ADAPTASI_DESA_DATA } from "./novels/adaptasi-desa";
 import { MISTERI_MV_IBUKOTA_DATA } from "./novels/misteri-mv-ibukota";
+import { KEPUTUSAN_DI_STASIUN_GAMBIR_DATA } from "./novels/keputusan-di-stasiun-gambir";
 
 // Central Novel Registry
 const NOVELS_DB: Record<string, NovelData> = {
@@ -18,6 +19,7 @@ const NOVELS_DB: Record<string, NovelData> = {
   "garis-detak-kedua": GARIS_DETAK_KEDUA_DATA,
   "adaptasi-desa": ADAPTASI_DESA_DATA,
   "misteri-mv-ibukota": MISTERI_MV_IBUKOTA_DATA,
+  "keputusan-di-stasiun-gambir": KEPUTUSAN_DI_STASIUN_GAMBIR_DATA,
 };
 
 // Semesta Tiket Pulang Catalog (Urutan Kronologis Buku 1 s/d Buku 7)
@@ -172,6 +174,25 @@ const CATALOG_METADATA: NovelMetadata[] = [
     status: MISTERI_MV_IBUKOTA_DATA.status,
     publishDate: MISTERI_MV_IBUKOTA_DATA.publishDate,
     coverAccent: MISTERI_MV_IBUKOTA_DATA.coverAccent,
+    featured: false,
+  },
+  {
+    slug: KEPUTUSAN_DI_STASIUN_GAMBIR_DATA.slug,
+    title: KEPUTUSAN_DI_STASIUN_GAMBIR_DATA.title,
+    subtitle: KEPUTUSAN_DI_STASIUN_GAMBIR_DATA.subtitle,
+    seriesName: KEPUTUSAN_DI_STASIUN_GAMBIR_DATA.seriesName,
+    seriesPart: KEPUTUSAN_DI_STASIUN_GAMBIR_DATA.seriesPart,
+    tagline: KEPUTUSAN_DI_STASIUN_GAMBIR_DATA.tagline,
+    author: KEPUTUSAN_DI_STASIUN_GAMBIR_DATA.author,
+    genre: KEPUTUSAN_DI_STASIUN_GAMBIR_DATA.genre,
+    totalChapters: KEPUTUSAN_DI_STASIUN_GAMBIR_DATA.totalChapters,
+    totalWords: KEPUTUSAN_DI_STASIUN_GAMBIR_DATA.totalWords,
+    totalReadTimeMinutes: KEPUTUSAN_DI_STASIUN_GAMBIR_DATA.totalReadTimeMinutes,
+    synopsis: KEPUTUSAN_DI_STASIUN_GAMBIR_DATA.synopsis,
+    quote: KEPUTUSAN_DI_STASIUN_GAMBIR_DATA.quote,
+    status: KEPUTUSAN_DI_STASIUN_GAMBIR_DATA.status,
+    publishDate: KEPUTUSAN_DI_STASIUN_GAMBIR_DATA.publishDate,
+    coverAccent: KEPUTUSAN_DI_STASIUN_GAMBIR_DATA.coverAccent,
     featured: false,
   },
 ];
