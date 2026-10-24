@@ -5,6 +5,7 @@ import { BUKET_BUNGA_DAN_TOGA_DATA } from "./novels/buket-bunga-dan-toga";
 import { DI_BALIK_PINTU_AGENSI_DATA } from "./novels/di-balik-pintu-agensi";
 import { CINCIN_DAN_JERATAN_42_JUTA_DATA } from "./novels/cincin-dan-jeratan-42-juta";
 import { GARIS_DETAK_KEDUA_DATA } from "./novels/garis-detak-kedua";
+import { ADAPTASI_DESA_DATA } from "./novels/adaptasi-desa";
 
 // Central Novel Registry
 const NOVELS_DB: Record<string, NovelData> = {
@@ -14,9 +15,10 @@ const NOVELS_DB: Record<string, NovelData> = {
   "cincin-dan-jeratan-42-juta": CINCIN_DAN_JERATAN_42_JUTA_DATA,
   "tiket-pulang-paling-sunyi": TIKET_PULANG_DATA,
   "garis-detak-kedua": GARIS_DETAK_KEDUA_DATA,
+  "adaptasi-desa": ADAPTASI_DESA_DATA,
 };
 
-// Semesta Tiket Pulang Catalog (Urutan Kronologis Buku 1 s/d Buku 6)
+// Semesta Tiket Pulang Catalog (Urutan Kronologis Buku 1 s/d Buku 7)
 const CATALOG_METADATA: NovelMetadata[] = [
   {
     slug: SEBELUM_KERETA_KE_JOGJA_DATA.slug,
@@ -130,6 +132,25 @@ const CATALOG_METADATA: NovelMetadata[] = [
     status: GARIS_DETAK_KEDUA_DATA.status,
     publishDate: GARIS_DETAK_KEDUA_DATA.publishDate,
     coverAccent: GARIS_DETAK_KEDUA_DATA.coverAccent,
+    featured: false,
+  },
+  {
+    slug: ADAPTASI_DESA_DATA.slug,
+    title: ADAPTASI_DESA_DATA.title,
+    subtitle: ADAPTASI_DESA_DATA.subtitle,
+    seriesName: ADAPTASI_DESA_DATA.seriesName,
+    seriesPart: ADAPTASI_DESA_DATA.seriesPart,
+    tagline: ADAPTASI_DESA_DATA.tagline,
+    author: ADAPTASI_DESA_DATA.author,
+    genre: ADAPTASI_DESA_DATA.genre,
+    totalChapters: ADAPTASI_DESA_DATA.totalChapters,
+    totalWords: ADAPTASI_DESA_DATA.totalWords,
+    totalReadTimeMinutes: ADAPTASI_DESA_DATA.totalReadTimeMinutes,
+    synopsis: ADAPTASI_DESA_DATA.synopsis,
+    quote: ADAPTASI_DESA_DATA.quote,
+    status: ADAPTASI_DESA_DATA.status,
+    publishDate: ADAPTASI_DESA_DATA.publishDate,
+    coverAccent: ADAPTASI_DESA_DATA.coverAccent,
     featured: false,
   },
 ];
